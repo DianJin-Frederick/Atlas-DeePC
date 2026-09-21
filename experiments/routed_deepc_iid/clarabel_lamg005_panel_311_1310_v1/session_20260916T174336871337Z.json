@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-09-16T17:43:36.871216+00:00",
+  "workers": 1,
+  "numerical_threads": 1,
+  "warmup_seed": 210,
+  "warmup_steps": 10,
+  "discard_initial_steps_per_rollout": 5,
+  "new": {
+    "graph": 100,
+    "terminal": 100
+  },
+  "reused": {
+    "graph": 900,
+    "terminal": 900
+  },
+  "timing_caveat": "Overlapping seeds reuse historical measurements; timings span different sessions.",
+  "completed_utc": "2026-09-16T18:20:55.923286+00:00"
+}

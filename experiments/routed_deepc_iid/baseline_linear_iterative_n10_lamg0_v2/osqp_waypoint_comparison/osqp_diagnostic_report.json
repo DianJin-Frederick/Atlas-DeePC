@@ -1,0 +1,22 @@
+{
+  "Without":{
+    "Total QPs":320000,
+    "Optimal":319993,
+    "Optimal inaccurate":7,
+    "Exceptions":0,
+    "Steps with iteration stats":320000,
+    "Median iterations":1425.0,
+    "P99 iterations":7625.0,
+    "Median backend-reported time (ms)":44.521436
+  },
+  "With":{
+    "Total QPs":320000,
+    "Optimal":319999,
+    "Optimal inaccurate":1,
+    "Exceptions":0,
+    "Steps with iteration stats":320000,
+    "Median iterations":1375.0,
+    "P99 iterations":7700.0,
+    "Median backend-reported time (ms)":43.509291
+  }
+}

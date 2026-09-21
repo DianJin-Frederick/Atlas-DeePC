@@ -1,0 +1,811 @@
+{
+  "data_seed_range": [
+    2026,
+    2225
+  ],
+  "offline_stabilized_episode_count": 0,
+  "offline_transient_within_1cm_count": 62,
+  "offline_best_tail_mean": 0.02933142624102928,
+  "held_out_targets": {
+    "111": {
+      "target": [
+        0.10703235080972223,
+        -0.15630901644765785
+      ],
+      "nearest_offline_target_distance": 0.022360146204122328,
+      "nearest_offline_seed": 2161
+    },
+    "112": {
+      "target": [
+        -0.16922131260011858,
+        -0.0014174616805381623
+      ],
+      "nearest_offline_target_distance": 0.021299270604490345,
+      "nearest_offline_seed": 2060
+    },
+    "113": {
+      "target": [
+        -0.001308200326038511,
+        -0.1318164834565878
+      ],
+      "nearest_offline_target_distance": 0.00904953587337985,
+      "nearest_offline_seed": 2056
+    },
+    "114": {
+      "target": [
+        0.04332185963888366,
+        0.058118515123993464
+      ],
+      "nearest_offline_target_distance": 0.024102956977820764,
+      "nearest_offline_seed": 2077
+    },
+    "115": {
+      "target": [
+        0.05025552992003646,
+        -0.03610456781515975
+      ],
+      "nearest_offline_target_distance": 0.008270497813300979,
+      "nearest_offline_seed": 2125
+    },
+    "116": {
+      "target": [
+        0.003073944453078653,
+        0.03933192688155826
+      ],
+      "nearest_offline_target_distance": 0.016396341401659322,
+      "nearest_offline_seed": 2047
+    },
+    "117": {
+      "target": [
+        0.005341358728144924,
+        -0.07902157817808991
+      ],
+      "nearest_offline_target_distance": 0.010012036562355484,
+      "nearest_offline_seed": 2029
+    },
+    "118": {
+      "target": [
+        0.012153679292791042,
+        -0.18532912516448047
+      ],
+      "nearest_offline_target_distance": 0.013038308218112511,
+      "nearest_offline_seed": 2180
+    },
+    "119": {
+      "target": [
+        0.025358554700842,
+        -0.19332865567971527
+      ],
+      "nearest_offline_target_distance": 0.001750242431820224,
+      "nearest_offline_seed": 2081
+    },
+    "120": {
+      "target": [
+        0.031090993937394534,
+        0.025042392812121006
+      ],
+      "nearest_offline_target_distance": 0.023063995982617297,
+      "nearest_offline_seed": 2082
+    },
+    "121": {
+      "target": [
+        0.03742471257492469,
+        0.11722527759907381
+      ],
+      "nearest_offline_target_distance": 0.004563219761849625,
+      "nearest_offline_seed": 2133
+    },
+    "122": {
+      "target": [
+        0.12901686971491927,
+        0.0021775121933165775
+      ],
+      "nearest_offline_target_distance": 0.00971775643418992,
+      "nearest_offline_seed": 2095
+    },
+    "123": {
+      "target": [
+        -0.12963763956598787,
+        0.12483780266230948
+      ],
+      "nearest_offline_target_distance": 0.015297958562628762,
+      "nearest_offline_seed": 2216
+    },
+    "124": {
+      "target": [
+        0.062220323716443815,
+        0.1755538176668765
+      ],
+      "nearest_offline_target_distance": 0.008394029952870382,
+      "nearest_offline_seed": 2144
+    },
+    "125": {
+      "target": [
+        -0.15970148187954783,
+        0.11209599787606739
+      ],
+      "nearest_offline_target_distance": 0.0025627365360029746,
+      "nearest_offline_seed": 2096
+    },
+    "126": {
+      "target": [
+        0.012218366332891722,
+        -0.1498255699127431
+      ],
+      "nearest_offline_target_distance": 0.01328297077209567,
+      "nearest_offline_seed": 2196
+    },
+    "127": {
+      "target": [
+        -0.07337963891239277,
+        0.034209772422121754
+      ],
+      "nearest_offline_target_distance": 0.012041078951842591,
+      "nearest_offline_seed": 2155
+    },
+    "128": {
+      "target": [
+        -0.16811906811882285,
+        0.034598921449811554
+      ],
+      "nearest_offline_target_distance": 0.015230471084228215,
+      "nearest_offline_seed": 2115
+    },
+    "129": {
+      "target": [
+        0.11047477818603813,
+        0.11702982254444383
+      ],
+      "nearest_offline_target_distance": 0.003838051769536629,
+      "nearest_offline_seed": 2057
+    },
+    "130": {
+      "target": [
+        0.10132986575933528,
+        -0.017434903796467255
+      ],
+      "nearest_offline_target_distance": 0.017932211935471183,
+      "nearest_offline_seed": 2080
+    },
+    "131": {
+      "target": [
+        0.15700263906597106,
+        0.031022069872552432
+      ],
+      "nearest_offline_target_distance": 0.003721080409036769,
+      "nearest_offline_seed": 2165
+    },
+    "132": {
+      "target": [
+        0.1344079714386761,
+        0.04395596292585885
+      ],
+      "nearest_offline_target_distance": 0.014874244179036968,
+      "nearest_offline_seed": 2187
+    },
+    "133": {
+      "target": [
+        0.03924921422361516,
+        -0.10482278537171906
+      ],
+      "nearest_offline_target_distance": 0.009857566585608386,
+      "nearest_offline_seed": 2179
+    },
+    "134": {
+      "target": [
+        -0.07895919021001428,
+        0.11874090567883522
+      ],
+      "nearest_offline_target_distance": 0.003695065770489196,
+      "nearest_offline_seed": 2039
+    },
+    "135": {
+      "target": [
+        -0.1106350875241632,
+        -0.12625660472241035
+      ],
+      "nearest_offline_target_distance": 0.00528212052149231,
+      "nearest_offline_seed": 2033
+    },
+    "136": {
+      "target": [
+        0.13439257285642597,
+        0.002468040460420845
+      ],
+      "nearest_offline_target_distance": 0.010305253606031867,
+      "nearest_offline_seed": 2095
+    },
+    "137": {
+      "target": [
+        -0.013041449562687768,
+        -0.009780210224009822
+      ],
+      "nearest_offline_target_distance": 0.01537728313319157,
+      "nearest_offline_seed": 2072
+    },
+    "138": {
+      "target": [
+        0.1454380212264645,
+        0.03691946726271386
+      ],
+      "nearest_offline_target_distance": 0.011805881787472416,
+      "nearest_offline_seed": 2165
+    },
+    "139": {
+      "target": [
+        0.1081005024766643,
+        -0.10798023264426765
+      ],
+      "nearest_offline_target_distance": 0.021180880794383496,
+      "nearest_offline_seed": 2172
+    },
+    "140": {
+      "target": [
+        0.04214187435470912,
+        0.02349044647053175
+      ],
+      "nearest_offline_target_distance": 0.015903661390435763,
+      "nearest_offline_seed": 2082
+    },
+    "141": {
+      "target": [
+        0.01586184913878555,
+        0.04014476387391763
+      ],
+      "nearest_offline_target_distance": 0.02211128215689095,
+      "nearest_offline_seed": 2137
+    },
+    "142": {
+      "target": [
+        0.1081196877324041,
+        0.16330104381247584
+      ],
+      "nearest_offline_target_distance": 0.020084454544307087,
+      "nearest_offline_seed": 2154
+    },
+    "143": {
+      "target": [
+        0.0831113929700491,
+        0.15281257304270157
+      ],
+      "nearest_offline_target_distance": 0.006546937773731764,
+      "nearest_offline_seed": 2201
+    },
+    "144": {
+      "target": [
+        -0.08172359890568055,
+        -0.17107679098585937
+      ],
+      "nearest_offline_target_distance": 0.018840730865127244,
+      "nearest_offline_seed": 2068
+    },
+    "145": {
+      "target": [
+        0.15227452533078334,
+        0.07254804670562465
+      ],
+      "nearest_offline_target_distance": 0.010234809538543688,
+      "nearest_offline_seed": 2044
+    },
+    "146": {
+      "target": [
+        -0.15507336567995852,
+        0.089474327730449
+      ],
+      "nearest_offline_target_distance": 0.024288876473123902,
+      "nearest_offline_seed": 2096
+    },
+    "147": {
+      "target": [
+        0.11015159053578599,
+        -0.08689772198294828
+      ],
+      "nearest_offline_target_distance": 0.005966785522983316,
+      "nearest_offline_seed": 2079
+    },
+    "148": {
+      "target": [
+        -0.04546613433894248,
+        0.1776631071700973
+      ],
+      "nearest_offline_target_distance": 0.01480364239658476,
+      "nearest_offline_seed": 2183
+    },
+    "149": {
+      "target": [
+        -0.017012793242813823,
+        -0.12061600037331113
+      ],
+      "nearest_offline_target_distance": 0.021819683980772445,
+      "nearest_offline_seed": 2176
+    },
+    "150": {
+      "target": [
+        0.07450756707447231,
+        0.0929050243691234
+      ],
+      "nearest_offline_target_distance": 0.0052277474687074076,
+      "nearest_offline_seed": 2089
+    },
+    "151": {
+      "target": [
+        -0.011047299432159458,
+        -0.008380576307697035
+      ],
+      "nearest_offline_target_distance": 0.01432338055680219,
+      "nearest_offline_seed": 2072
+    },
+    "152": {
+      "target": [
+        0.016828256266613467,
+        0.1156214687019872
+      ],
+      "nearest_offline_target_distance": 0.008321232678903247,
+      "nearest_offline_seed": 2190
+    },
+    "153": {
+      "target": [
+        -0.047137114336867875,
+        0.17996157193343432
+      ],
+      "nearest_offline_target_distance": 0.0142774639159158,
+      "nearest_offline_seed": 2183
+    },
+    "154": {
+      "target": [
+        0.01036329260186189,
+        0.1502175107740792
+      ],
+      "nearest_offline_target_distance": 0.010497058091871002,
+      "nearest_offline_seed": 2202
+    },
+    "155": {
+      "target": [
+        -0.10110782033105972,
+        0.08980021379985242
+      ],
+      "nearest_offline_target_distance": 0.01846352627995461,
+      "nearest_offline_seed": 2053
+    },
+    "156": {
+      "target": [
+        -0.09770258958708476,
+        0.10223553911086414
+      ],
+      "nearest_offline_target_distance": 0.006900219869087327,
+      "nearest_offline_seed": 2205
+    },
+    "157": {
+      "target": [
+        -0.0676855237937227,
+        0.16110335080350874
+      ],
+      "nearest_offline_target_distance": 0.006007057539913049,
+      "nearest_offline_seed": 2102
+    },
+    "158": {
+      "target": [
+        0.00883670332800185,
+        -0.15599756912136448
+      ],
+      "nearest_offline_target_distance": 0.017742169508070355,
+      "nearest_offline_seed": 2056
+    },
+    "159": {
+      "target": [
+        -0.13530932657244593,
+        -0.06493227738462917
+      ],
+      "nearest_offline_target_distance": 0.017742800149828583,
+      "nearest_offline_seed": 2140
+    },
+    "160": {
+      "target": [
+        0.05330692776238949,
+        -0.054768331104260576
+      ],
+      "nearest_offline_target_distance": 0.00799380521650503,
+      "nearest_offline_seed": 2160
+    },
+    "161": {
+      "target": [
+        0.0350163765473647,
+        -0.13075416186503264
+      ],
+      "nearest_offline_target_distance": 0.01449749675147759,
+      "nearest_offline_seed": 2073
+    },
+    "162": {
+      "target": [
+        -0.10340187773713737,
+        -0.11501795871368717
+      ],
+      "nearest_offline_target_distance": 0.013586167574956252,
+      "nearest_offline_seed": 2033
+    },
+    "163": {
+      "target": [
+        -0.10053497101665276,
+        0.0012247819733527954
+      ],
+      "nearest_offline_target_distance": 0.008282601160678195,
+      "nearest_offline_seed": 2156
+    },
+    "164": {
+      "target": [
+        0.013789455452965005,
+        -0.1873189138852089
+      ],
+      "nearest_offline_target_distance": 0.014116333036623054,
+      "nearest_offline_seed": 2180
+    },
+    "165": {
+      "target": [
+        0.07381241025709184,
+        0.017063197508725786
+      ],
+      "nearest_offline_target_distance": 0.024932127041532803,
+      "nearest_offline_seed": 2035
+    },
+    "166": {
+      "target": [
+        0.17694008167950942,
+        0.06913628414509382
+      ],
+      "nearest_offline_target_distance": 0.008699491583166493,
+      "nearest_offline_seed": 2173
+    },
+    "167": {
+      "target": [
+        0.11856883739464213,
+        -0.049076426774784215
+      ],
+      "nearest_offline_target_distance": 0.02037966357585963,
+      "nearest_offline_seed": 2028
+    },
+    "168": {
+      "target": [
+        0.040809934353448846,
+        -0.060862572956603384
+      ],
+      "nearest_offline_target_distance": 0.014433728656083918,
+      "nearest_offline_seed": 2109
+    },
+    "169": {
+      "target": [
+        -0.11999705708688624,
+        -0.11831923870635111
+      ],
+      "nearest_offline_target_distance": 0.017089446191291605,
+      "nearest_offline_seed": 2046
+    },
+    "170": {
+      "target": [
+        0.06363154707948976,
+        0.06966313394937279
+      ],
+      "nearest_offline_target_distance": 0.020776712738935454,
+      "nearest_offline_seed": 2089
+    },
+    "171": {
+      "target": [
+        0.12856928078067753,
+        0.01963083169389357
+      ],
+      "nearest_offline_target_distance": 0.00794390770785175,
+      "nearest_offline_seed": 2095
+    },
+    "172": {
+      "target": [
+        -0.009953859055251701,
+        -0.052080296996686926
+      ],
+      "nearest_offline_target_distance": 0.006808163008499624,
+      "nearest_offline_seed": 2138
+    },
+    "173": {
+      "target": [
+        -0.06494074048113882,
+        0.05351064459044719
+      ],
+      "nearest_offline_target_distance": 0.011890262057820167,
+      "nearest_offline_seed": 2103
+    },
+    "174": {
+      "target": [
+        -0.15484004878997407,
+        0.01586500441962188
+      ],
+      "nearest_offline_target_distance": 0.026009224533281184,
+      "nearest_offline_seed": 2115
+    },
+    "175": {
+      "target": [
+        -0.15533541804198547,
+        -0.07402652300658494
+      ],
+      "nearest_offline_target_distance": 0.011599475725616655,
+      "nearest_offline_seed": 2112
+    },
+    "176": {
+      "target": [
+        0.12874893090854395,
+        -0.056073045866105675
+      ],
+      "nearest_offline_target_distance": 0.017871430714381277,
+      "nearest_offline_seed": 2028
+    },
+    "177": {
+      "target": [
+        0.12832889553193644,
+        -0.13273200254136108
+      ],
+      "nearest_offline_target_distance": 0.01606365026444445,
+      "nearest_offline_seed": 2110
+    },
+    "178": {
+      "target": [
+        -0.08921872766644512,
+        0.03782013774698437
+      ],
+      "nearest_offline_target_distance": 0.003193003877333222,
+      "nearest_offline_seed": 2128
+    },
+    "179": {
+      "target": [
+        0.0937541792954456,
+        -0.14325849810003774
+      ],
+      "nearest_offline_target_distance": 0.003994938609072004,
+      "nearest_offline_seed": 2161
+    },
+    "180": {
+      "target": [
+        -0.1288946399053501,
+        0.01091750887981785
+      ],
+      "nearest_offline_target_distance": 0.019594481784746494,
+      "nearest_offline_seed": 2108
+    },
+    "181": {
+      "target": [
+        0.15418648418690156,
+        0.017507424022267182
+      ],
+      "nearest_offline_target_distance": 0.009413798768570484,
+      "nearest_offline_seed": 2090
+    },
+    "182": {
+      "target": [
+        0.11545730306813073,
+        -0.08376304308630367
+      ],
+      "nearest_offline_target_distance": 0.00035085332738018235,
+      "nearest_offline_seed": 2079
+    },
+    "183": {
+      "target": [
+        0.10867011699074247,
+        0.09838913147391332
+      ],
+      "nearest_offline_target_distance": 0.014154555925491396,
+      "nearest_offline_seed": 2098
+    },
+    "184": {
+      "target": [
+        0.12094546456595079,
+        -0.10507064651922643
+      ],
+      "nearest_offline_target_distance": 0.020832586887927152,
+      "nearest_offline_seed": 2213
+    },
+    "185": {
+      "target": [
+        -0.07094209020722261,
+        -0.1272651027925828
+      ],
+      "nearest_offline_target_distance": 0.009436876193145522,
+      "nearest_offline_seed": 2181
+    },
+    "186": {
+      "target": [
+        0.04401922059311389,
+        0.18173758021303027
+      ],
+      "nearest_offline_target_distance": 0.007109782055337314,
+      "nearest_offline_seed": 2070
+    },
+    "187": {
+      "target": [
+        0.1410189950940826,
+        0.030769189372116867
+      ],
+      "nearest_offline_target_distance": 0.01005129597147119,
+      "nearest_offline_seed": 2069
+    },
+    "188": {
+      "target": [
+        0.08955978449990604,
+        -0.02659397667389482
+      ],
+      "nearest_offline_target_distance": 0.02603068206288574,
+      "nearest_offline_seed": 2035
+    },
+    "189": {
+      "target": [
+        -0.10163376507789255,
+        -0.04073668709278461
+      ],
+      "nearest_offline_target_distance": 0.020628955910399913,
+      "nearest_offline_seed": 2083
+    },
+    "190": {
+      "target": [
+        0.035492391430684084,
+        0.1557442472562124
+      ],
+      "nearest_offline_target_distance": 0.007176624520333902,
+      "nearest_offline_seed": 2145
+    },
+    "191": {
+      "target": [
+        0.03646630765982964,
+        0.07494321422701605
+      ],
+      "nearest_offline_target_distance": 0.03121416327277887,
+      "nearest_offline_seed": 2137
+    },
+    "192": {
+      "target": [
+        0.18542480380712872,
+        0.06001070632797184
+      ],
+      "nearest_offline_target_distance": 0.014236399258121871,
+      "nearest_offline_seed": 2149
+    },
+    "193": {
+      "target": [
+        -0.17363910838264207,
+        0.018576441393168525
+      ],
+      "nearest_offline_target_distance": 0.008189886792581438,
+      "nearest_offline_seed": 2115
+    },
+    "194": {
+      "target": [
+        -0.01388755412578685,
+        0.18241754037207553
+      ],
+      "nearest_offline_target_distance": 0.003649382323972501,
+      "nearest_offline_seed": 2054
+    },
+    "195": {
+      "target": [
+        0.04246920840696208,
+        -0.13159112918955254
+      ],
+      "nearest_offline_target_distance": 0.015560290784115778,
+      "nearest_offline_seed": 2052
+    },
+    "196": {
+      "target": [
+        -0.16887769992161095,
+        -0.05274710422966891
+      ],
+      "nearest_offline_target_distance": 0.0025146674899476315,
+      "nearest_offline_seed": 2058
+    },
+    "197": {
+      "target": [
+        -0.07142368066080645,
+        0.15405157016974536
+      ],
+      "nearest_offline_target_distance": 0.010028096938283899,
+      "nearest_offline_seed": 2102
+    },
+    "198": {
+      "target": [
+        0.11406774098461508,
+        0.16031027023387484
+      ],
+      "nearest_offline_target_distance": 0.015380082078139318,
+      "nearest_offline_seed": 2154
+    },
+    "199": {
+      "target": [
+        -0.0972657183817784,
+        -0.17208706138901825
+      ],
+      "nearest_offline_target_distance": 0.0056936206567567964,
+      "nearest_offline_seed": 2068
+    },
+    "200": {
+      "target": [
+        0.029398659699746144,
+        0.020465607050430934
+      ],
+      "nearest_offline_target_distance": 0.021373276891265294,
+      "nearest_offline_seed": 2082
+    },
+    "201": {
+      "target": [
+        0.07362937059772068,
+        0.0078816725708592
+      ],
+      "nearest_offline_target_distance": 0.01578399873759133,
+      "nearest_offline_seed": 2035
+    },
+    "202": {
+      "target": [
+        -0.07982960351560178,
+        -0.023943304892667744
+      ],
+      "nearest_offline_target_distance": 0.006756199977621823,
+      "nearest_offline_seed": 2191
+    },
+    "203": {
+      "target": [
+        -0.07319720204731137,
+        0.14485073704719348
+      ],
+      "nearest_offline_target_distance": 0.0030574411546578327,
+      "nearest_offline_seed": 2045
+    },
+    "204": {
+      "target": [
+        -0.17646285692666652,
+        -0.09114571265574081
+      ],
+      "nearest_offline_target_distance": 0.021885642579892128,
+      "nearest_offline_seed": 2169
+    },
+    "205": {
+      "target": [
+        -0.032477517699157465,
+        -0.14591277359945698
+      ],
+      "nearest_offline_target_distance": 0.00869191342960482,
+      "nearest_offline_seed": 2176
+    },
+    "206": {
+      "target": [
+        0.050970292460212785,
+        0.14777613392205374
+      ],
+      "nearest_offline_target_distance": 0.018354041423958047,
+      "nearest_offline_seed": 2041
+    },
+    "207": {
+      "target": [
+        0.12447805532233658,
+        -0.00819363078529492
+      ],
+      "nearest_offline_target_distance": 0.008843043273697074,
+      "nearest_offline_seed": 2182
+    },
+    "208": {
+      "target": [
+        -0.09147406807942954,
+        -0.14057773577146915
+      ],
+      "nearest_offline_target_distance": 0.004506832379542283,
+      "nearest_offline_seed": 2178
+    },
+    "209": {
+      "target": [
+        -0.14448771860785553,
+        0.09638080705652152
+      ],
+      "nearest_offline_target_distance": 0.021692329983187913,
+      "nearest_offline_seed": 2096
+    },
+    "210": {
+      "target": [
+        -0.1937782271755075,
+        0.02646995133198074
+      ],
+      "nearest_offline_target_distance": 0.014514101066377077,
+      "nearest_offline_seed": 2115
+    }
+  }
+}

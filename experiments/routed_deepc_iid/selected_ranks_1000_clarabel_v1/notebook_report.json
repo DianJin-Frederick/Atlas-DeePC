@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "rollouts": 3000,
+  "ranks": [
+    {
+      "rank": 59,
+      "successes": 965,
+      "median_tail100_mm": 2.0157061659328037,
+      "p90_tail100_mm": 4.4340845496436945,
+      "unsolved_qps": 0
+    },
+    {
+      "rank": 62,
+      "successes": 959,
+      "median_tail100_mm": 1.9673085345830463,
+      "p90_tail100_mm": 4.316338699308091,
+      "unsolved_qps": 0
+    },
+    {
+      "rank": 64,
+      "successes": 952,
+      "median_tail100_mm": 2.015924329372982,
+      "p90_tail100_mm": 4.322438660279096,
+      "unsolved_qps": 0
+    }
+  ],
+  "paired_outcomes": [
+    {
+      "rank A": 59,
+      "rank B": 62,
+      "both succeed": 947,
+      "A only": 18,
+      "B only": 12,
+      "both fail": 23
+    },
+    {
+      "rank A": 59,
+      "rank B": 64,
+      "both succeed": 943,
+      "A only": 22,
+      "B only": 9,
+      "both fail": 26
+    },
+    {
+      "rank A": 62,
+      "rank B": 64,
+      "both succeed": 933,
+      "A only": 26,
+      "B only": 19,
+      "both fail": 22
+    }
+  ],
+  "statuses_by_rank": {
+    "59": {
+      "optimal": 320000
+    },
+    "62": {
+      "optimal": 320000
+    },
+    "64": {
+      "optimal": 320000
+    }
+  },
+  "timing_note": "Serial, one numerical thread, rotating rank order per seed; shared-computer wall clock. First 5 steps excluded from pooled timing; all 320 retained in checkpoints. QP includes construction and solve. Offline setup and rollout wall time recorded separately.",
+  "verified_offline_invariance": true,
+  "figures": [
+    "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/figures/computation_time.png",
+    "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/figures/success.png",
+    "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/figures/tracking_error.png"
+  ]
+}

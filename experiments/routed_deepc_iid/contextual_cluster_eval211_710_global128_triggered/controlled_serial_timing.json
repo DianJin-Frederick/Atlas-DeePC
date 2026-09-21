@@ -1,0 +1,60 @@
+{
+  "seeds": [
+    232,
+    277,
+    299
+  ],
+  "protocol": "serial methods on the same process, machine, seeds, and 320-step horizon",
+  "methods": [
+    {
+      "method": "Contextual-aware DPC: all steps",
+      "control steps": 960,
+      "median control (ms)": 68.12339590396732,
+      "p95 control (ms)": 104.40248351078475,
+      "median selection (ms)": 21.952728973701596,
+      "median SVD (ms)": 4.000812419690192,
+      "median QP (ms)": 41.00508347619325
+    },
+    {
+      "method": "Contextual-cluster Atlas: all steps",
+      "control steps": 960,
+      "median control (ms)": 41.645333520136774,
+      "p95 control (ms)": 54.08456523437046,
+      "median selection (ms)": 0.157500384375453,
+      "median SVD (ms)": 0.0,
+      "median QP (ms)": 41.17397905793041
+    },
+    {
+      "method": "Contextual-cluster Atlas: active steps",
+      "control steps": 770,
+      "median control (ms)": 42.0875420095399,
+      "p95 control (ms)": 51.88430623384191,
+      "median selection (ms)": 0.1796879805624485,
+      "median SVD (ms)": 0.0,
+      "median QP (ms)": 41.64977103937417
+    }
+  ],
+  "outcomes": [
+    {
+      "seed": 232,
+      "contextual strict": true,
+      "cluster strict": true,
+      "cluster triggered": true,
+      "cluster usage fraction": 0.71875
+    },
+    {
+      "seed": 277,
+      "contextual strict": false,
+      "cluster strict": false,
+      "cluster triggered": true,
+      "cluster usage fraction": 0.859375
+    },
+    {
+      "seed": 299,
+      "contextual strict": false,
+      "cluster strict": true,
+      "cluster triggered": true,
+      "cluster usage fraction": 0.828125
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "Noise SD (%)":0.0,
+    "Power NSR":0.0,
+    "Successes":93,
+    "Trials":100,
+    "Success rate (%)":93.0,
+    "Median final-100 true error (mm)":2.0623073239,
+    "P90 final-100 true error (mm)":5.4260070356,
+    "Unsolved QP steps":0,
+    "Median goal-sample switches":0.0
+  },
+  {
+    "Noise SD (%)":1.0,
+    "Power NSR":0.0001,
+    "Successes":90,
+    "Trials":100,
+    "Success rate (%)":90.0,
+    "Median final-100 true error (mm)":2.9399404564,
+    "P90 final-100 true error (mm)":7.4622669989,
+    "Unsolved QP steps":0,
+    "Median goal-sample switches":0.0
+  },
+  {
+    "Noise SD (%)":2.0,
+    "Power NSR":0.0004,
+    "Successes":86,
+    "Trials":100,
+    "Success rate (%)":86.0,
+    "Median final-100 true error (mm)":4.511516552,
+    "P90 final-100 true error (mm)":10.1657883971,
+    "Unsolved QP steps":0,
+    "Median goal-sample switches":0.0
+  },
+  {
+    "Noise SD (%)":5.0,
+    "Power NSR":0.0025,
+    "Successes":33,
+    "Trials":100,
+    "Success rate (%)":33.0,
+    "Median final-100 true error (mm)":10.8493661013,
+    "P90 final-100 true error (mm)":21.4072512905,
+    "Unsolved QP steps":0,
+    "Median goal-sample switches":0.0
+  },
+  {
+    "Noise SD (%)":10.0,
+    "Power NSR":0.01,
+    "Successes":2,
+    "Trials":100,
+    "Success rate (%)":2.0,
+    "Median final-100 true error (mm)":17.3131094558,
+    "P90 final-100 true error (mm)":30.6820380341,
+    "Unsolved QP steps":0,
+    "Median goal-sample switches":3.0
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "data_seed_range": [
+    2026,
+    2225
+  ],
+  "offline_stabilized_episode_count": 0,
+  "offline_transient_within_1cm_count": 62,
+  "offline_best_tail_mean": 0.02933142624102928,
+  "held_out_targets": {
+    "19": {
+      "target": [
+        -0.07578261667475523,
+        0.08727410314883077
+      ],
+      "nearest_offline_target_distance": 0.011845143243808703,
+      "nearest_offline_seed": 2084
+    },
+    "29": {
+      "target": [
+        -0.0424688156305367,
+        -0.047908559249368154
+      ],
+      "nearest_offline_target_distance": 0.014199332246758376,
+      "nearest_offline_seed": 2142
+    }
+  }
+}

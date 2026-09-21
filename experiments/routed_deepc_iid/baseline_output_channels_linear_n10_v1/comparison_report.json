@@ -1,0 +1,18 @@
+{
+  "10 outputs: baseline":{
+    "Strict successes \/100":93,
+    "Median final-100 mean (mm)":2.0623073239,
+    "P90 final-100 mean (mm)":5.4260070356,
+    "Ever below 10 mm \/100":94,
+    "Mean final-100 time below 10 mm (%)":93.0,
+    "Unsolved QPs":0
+  },
+  "8 outputs: no joint-sum lift":{
+    "Strict successes \/100":83,
+    "Median final-100 mean (mm)":2.3466643321,
+    "P90 final-100 mean (mm)":18.4310515745,
+    "Ever below 10 mm \/100":90,
+    "Mean final-100 time below 10 mm (%)":83.0,
+    "Unsolved QPs":0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source_result": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/heldout100_frozen_target_separated/seed150_control_results.npz",
+  "source_result_sha256": "346c0aef32dab50df45ba3e7dbcfd9adde4ad343edd06eb1a174bc602131e730",
+  "source_atlas": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/heldout100_frozen_target_separated/behavioral_atlas.npz",
+  "source_atlas_sha256": "43d1c06786ac9ad019904c62f79da8d1c75c050f8fd14dc3f8b4238d31faeddb",
+  "output_video": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/atlas_deepc_reacher_dashboard_seed150.mp4",
+  "poster": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/atlas_deepc_reacher_dashboard_seed150_poster.png",
+  "seed": 150,
+  "saved_control_steps": 320,
+  "rendered_frames": 350,
+  "fps": 20,
+  "frame_stride": 1,
+  "target_xy_m": [
+    0.07450756707447233,
+    0.0929050243691234
+  ],
+  "final_error_mm": 0.5023468562987805,
+  "success_30": true,
+  "success_100": true,
+  "chart_semantics": {
+    "current": "chart selected from the pre-action measured history",
+    "requested_next": "next chart on the graph route toward the goal chart",
+    "measured_next": "chart selected at the following control step after applying the action"
+  },
+  "controller": "DeePC behavioral column combination",
+  "fitted_dynamics_model": false
+}

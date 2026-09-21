@@ -1,0 +1,28 @@
+{
+  "global_plane_rms": 0.35371137138455055,
+  "local_planes_rms": 0.022891114628645626,
+  "global_prediction_rms": 0.0853173338896853,
+  "local_prediction_rms": 0.018428014290001293,
+  "max_cylinder_residual": 4.218847493575595e-15,
+  "seed": 17,
+  "charts": 16,
+  "train_transitions": 7200,
+  "test_transitions": 2400,
+  "route": [
+    7,
+    0,
+    12,
+    15,
+    9
+  ],
+  "route_edge_counts": [
+    14,
+    16,
+    24,
+    20
+  ],
+  "context_selections": [
+    1,
+    0
+  ]
+}

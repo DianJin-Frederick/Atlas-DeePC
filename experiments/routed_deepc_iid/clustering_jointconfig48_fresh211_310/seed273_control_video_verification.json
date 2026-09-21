@@ -1,0 +1,11 @@
+{
+  "result_path": "experiments/routed_deepc_iid/clustering_jointconfig48_fresh211_310/seed273_control_results.npz",
+  "video_path": "experiments/routed_deepc_iid/clustering_jointconfig48_fresh211_310/seed273_control.mp4",
+  "seed": 273,
+  "actions": 320,
+  "warmup_zeros": 2,
+  "fps": 20,
+  "frame_stride": 4,
+  "maximum_replay_output_error": 0.0,
+  "environment": "Reacher-v5"
+}

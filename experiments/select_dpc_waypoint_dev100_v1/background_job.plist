@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.atlas-deepc.select-dpc-waypoint-dev100-v1</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string>
+    <string>-i</string>
+    <string>/Users/kumiko/miniconda3/envs/gym-robotics-mujoco/bin/python</string>
+    <string>-u</string>
+    <string>/Users/kumiko/Projects/atlas_deepc_reacher/experiments/select_dpc_waypoint_dev100_v1/frozen_protocol/src/select_dpc_waypoint_dev100.py</string>
+    <string>run</string>
+    <string>--output-dir</string>
+    <string>/Users/kumiko/Projects/atlas_deepc_reacher/experiments/select_dpc_waypoint_dev100_v1</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/kumiko/Projects/atlas_deepc_reacher</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/Users/kumiko/Projects/atlas_deepc_reacher/experiments/select_dpc_waypoint_dev100_v1/pipeline.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/kumiko/Projects/atlas_deepc_reacher/experiments/select_dpc_waypoint_dev100_v1/pipeline.stderr.log</string>
+</dict>
+</plist>

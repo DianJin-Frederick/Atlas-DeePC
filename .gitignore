@@ -1,0 +1,39 @@
+.cache/
+.matplotlib/
+.DS_Store
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large, reproducible Pusher training caches.
+experiments/pusher_atlas/**/offline_teacher_data.npz
+experiments/pusher_atlas/**/heldout_coverage_probe_data.npz
+experiments/pusher_atlas/**/behavioral_atlas.npz
+experiments/pusher_atlas/**/offline_behavior_policy*.joblib
+
+# Generated experiment arrays and fitted caches stay local. Keep the original
+# offline inputs under data/ and the experiment code, reports, plots, and videos.
+/experiments/**/*.npz
+/experiments/**/*.npy
+/experiments/**/*.joblib
+/experiments/**/dependencies/
+*.nbc
+*.nbi
+*.log
+/experiments/**/*.lock
+/tmp/
+
+# Local environments, credentials, and editor/agent state.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+*.pem
+*.key
+
+# Personal documents unrelated to the research repository.
+/output/pdf/*Resume.pdf
+/output/resume/*Resume.tex

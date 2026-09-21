@@ -1,0 +1,47 @@
+[
+  {
+    "Noise SD (%)":0.0,
+    "Successes, lambda_g=0.05":93,
+    "Successes, lambda_g=0":93,
+    "Median error, lambda_g=0.05 (mm)":2.0623073239,
+    "Median error, lambda_g=0 (mm)":2.0615694898,
+    "Median paired error change (mm)":-0.0001378964,
+    "Seeds with lower mean error":52
+  },
+  {
+    "Noise SD (%)":1.0,
+    "Successes, lambda_g=0.05":90,
+    "Successes, lambda_g=0":90,
+    "Median error, lambda_g=0.05 (mm)":2.9399404564,
+    "Median error, lambda_g=0 (mm)":2.9402387782,
+    "Median paired error change (mm)":0.0000269893,
+    "Seeds with lower mean error":49
+  },
+  {
+    "Noise SD (%)":2.0,
+    "Successes, lambda_g=0.05":86,
+    "Successes, lambda_g=0":86,
+    "Median error, lambda_g=0.05 (mm)":4.511516552,
+    "Median error, lambda_g=0 (mm)":4.506390778,
+    "Median paired error change (mm)":-0.0010011508,
+    "Seeds with lower mean error":64
+  },
+  {
+    "Noise SD (%)":5.0,
+    "Successes, lambda_g=0.05":33,
+    "Successes, lambda_g=0":33,
+    "Median error, lambda_g=0.05 (mm)":10.8493661013,
+    "Median error, lambda_g=0 (mm)":10.8489998083,
+    "Median paired error change (mm)":-0.0036395718,
+    "Seeds with lower mean error":74
+  },
+  {
+    "Noise SD (%)":10.0,
+    "Successes, lambda_g=0.05":2,
+    "Successes, lambda_g=0":2,
+    "Median error, lambda_g=0.05 (mm)":17.3131094558,
+    "Median error, lambda_g=0 (mm)":17.3068760464,
+    "Median paired error change (mm)":-0.003188361,
+    "Seeds with lower mean error":78
+  }
+]

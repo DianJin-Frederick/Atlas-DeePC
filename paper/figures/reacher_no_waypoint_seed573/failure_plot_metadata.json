@@ -1,0 +1,28 @@
+{
+  "seed": 573,
+  "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/clarabel_lamg005_waypoints_v1/terminal/seed573_control_results.npz",
+  "source_sha256": "ebea12a49beee206084407dbfec963bf6f8a927e798cf96ad48998788d34cf40",
+  "selection_reason": "Failed rollout nearest median failed final-100 mean error among the 1000 terminal-only runs",
+  "solver": "CLARABEL",
+  "lambda_g": 0.05,
+  "reference_mode": "terminal",
+  "graph_waypoints_enabled": false,
+  "terminal_reference_selection_uses_graph": true,
+  "success_30": false,
+  "success_100": false,
+  "mean_last_100_error_mm": 240.6993015796779,
+  "final_error_mm": 240.69930157967792,
+  "displayed_steps": 320,
+  "chart_ids_one_based": [
+    43
+  ],
+  "all_qps_optimal": true,
+  "max_replay_output_error": 0.0,
+  "trajectory_rendering": "Natural cubic spline interpolating recorded positions, visualization only",
+  "error_scale": "logarithmic",
+  "figure_inches": [
+    6,
+    1.5
+  ],
+  "chart_axis_break": false
+}

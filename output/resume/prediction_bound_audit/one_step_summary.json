@@ -1,0 +1,38 @@
+{
+  "experiment": "NEW supplementary scalar-output, one-step comparison; NOT paper-figure replay",
+  "generator_seed": 240415098,
+  "noise_seed": 20260903,
+  "generated_systems": 1000,
+  "structurally_eligible_systems": 226,
+  "structural_filter": "T_f=1, T_p>=n, p=1; exact online initial history",
+  "noise_levels": 50,
+  "realizations_per_level": 20,
+  "attempted_draws": 226000,
+  "baseline_rejections_delta_sn_le_0p6": 89140,
+  "local_distance_condition_rejections": 0,
+  "accepted_draws": 136860,
+  "accepted_system_noise_pairs": 6843,
+  "systems_with_accepted_draws": 137,
+  "raw_bound_reduction_pct_median": 91.1843666639931,
+  "raw_bound_reduction_pct_quartiles": [
+    85.6029395635232,
+    94.83648384972022
+  ],
+  "raw_bound_reduction_pct_range": [
+    24.63027283688224,
+    99.94892500396936
+  ],
+  "raw_bound_smaller_fraction": 1.0,
+  "per_noise_median_raw_reduction_range": [
+    90.71450336313316,
+    91.86358280982732
+  ],
+  "per_noise_median_slack_reduction_range": [
+    83.05066554288823,
+    85.87909887027341
+  ],
+  "empirical_coverage_oracle": 1.0,
+  "empirical_coverage_baseline": 1.0,
+  "interpretation": "Oracle-distance bound vs notebook implementation of Kaviani et al. Theorem 2; not fully data-computable or MSE improvement; baseline retains its online-noise allowance although history is exact.",
+  "elapsed_seconds": 49.46163245898788
+}

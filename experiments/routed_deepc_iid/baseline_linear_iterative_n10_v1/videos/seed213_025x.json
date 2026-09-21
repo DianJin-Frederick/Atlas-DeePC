@@ -1,0 +1,32 @@
+{
+  "source_result": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/baseline_linear_iterative_n10_v1/diagnostics/seed213_control_results.npz",
+  "source_result_sha256": "cc03484948b5a7f66d68619808d4693f92b4ec5b9dc3d3021ce74acb8db75769",
+  "source_atlas": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/clustering_jointconfig48_fresh211_310/behavioral_atlas.npz",
+  "source_atlas_sha256": "b8641b1c376a2f4af5dcf9415a5d591a36e99bb223b1c0f7c17390de16803007",
+  "output_video": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/baseline_linear_iterative_n10_v1/videos/seed213_025x.mp4",
+  "poster": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/baseline_linear_iterative_n10_v1/videos/seed213_025x_poster.png",
+  "seed": 213,
+  "saved_control_steps": 320,
+  "displayed_control_steps": 60,
+  "rendered_frames": 237,
+  "fps": 20,
+  "frame_stride": 1,
+  "play_speed": 0.25,
+  "target_xy_m": [
+    -0.041562096800224824,
+    0.13413704348278427
+  ],
+  "final_error_mm": 2.824307222189459,
+  "success_30": true,
+  "success_100": true,
+  "chart_semantics": {
+    "current": "chart selected from the pre-action measured history",
+    "requested_next": "next chart on the graph route toward the goal chart",
+    "measured_next": "chart selected at the following control step after applying the action"
+  },
+  "contextual_run": false,
+  "contextual_trigger_step": -1,
+  "contextual_usage_fraction_displayed": 0.0,
+  "controller": "DeePC behavioral column combination",
+  "fitted_dynamics_model": false
+}

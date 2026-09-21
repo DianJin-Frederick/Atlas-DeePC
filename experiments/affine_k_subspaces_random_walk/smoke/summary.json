@@ -1,0 +1,98 @@
+{
+  "config": {
+    "collector": "select_dpc_random_walk",
+    "input_process": {
+      "a": 1.0,
+      "b": 0.1
+    },
+    "seed": 2026,
+    "episodes": 8,
+    "episode_len": 60,
+    "t_ini": 2,
+    "t_f": 10,
+    "window_length": 12,
+    "clusters": 3,
+    "chart_rank": 4,
+    "cluster_seed": 7,
+    "cluster_max_iter": 20,
+    "standardize_for_clustering": true,
+    "eval_seeds": [
+      1
+    ],
+    "control_steps": 20
+  },
+  "controller_matrix_shape": [
+    144,
+    15
+  ],
+  "controller_matrix_rank": 14,
+  "cluster_sizes": [
+    93,
+    159,
+    140
+  ],
+  "results": [
+    {
+      "name": "random_walk_affine_concat_seed1",
+      "mode": "affine_subspace",
+      "rank": 4,
+      "energy": null,
+      "max_cols": 1200,
+      "try_top": 1,
+      "u_limit": 0.5,
+      "q_xy": 200000.0,
+      "q_dq": 50.0,
+      "q_joint": 0.0,
+      "q_sum": 0.0,
+      "q_terminal_xy": 0.0,
+      "q_terminal_dq": 0.0,
+      "q_terminal_joint": 0.0,
+      "q_terminal_sum": 0.0,
+      "r": 0.005,
+      "lam_g": 0.05,
+      "lam_ini": 100000.0,
+      "lam_du": 5.0,
+      "solver": "CLARABEL",
+      "steps": 20,
+      "warmup_scale": 0.0,
+      "seed": 1,
+      "chart_selection": "first_feasible",
+      "selection_residual_weight": 0.0,
+      "selection_g_weight": 0.0,
+      "selection_past_weight": 0.0,
+      "selection_zero_action_weight": 0.0,
+      "selection_min_action_norm": 0.0,
+      "selection_relevance_weight": 0.0,
+      "relevance_past_weight": 0.0,
+      "chart_switch_cost": 0.0,
+      "coef_bound_scale": null,
+      "coef_bound_affine": false,
+      "mixture_top": 3,
+      "fixed_chart": 0,
+      "use_ik_ref": false,
+      "ik_elbow": "down",
+      "feedback_blend": 0.0,
+      "feedback_kp": 5.0,
+      "feedback_kd": 1.0,
+      "feedback_fallback": false,
+      "n_steps": 20,
+      "first": 0.2877491915449259,
+      "min": 0.16849705113942856,
+      "last": 0.16849705113942856,
+      "mean_last_30": 0.2697689205102061,
+      "max_last_30": 0.2898366734716903,
+      "mean": 0.2697689205102061,
+      "success": false,
+      "unique_charts": [
+        0
+      ],
+      "unique_chart_sets": [
+        "0"
+      ],
+      "statuses": {
+        "optimal": 20
+      },
+      "result_path": "experiments/affine_k_subspaces_random_walk/smoke/seed1_control_results.npz"
+    }
+  ]
+}

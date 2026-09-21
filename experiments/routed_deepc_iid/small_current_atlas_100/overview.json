@@ -1,0 +1,56 @@
+[
+  {
+    "Method":"Current Atlas-DeePC",
+    "Changed component":"None: current baseline",
+    "Successes":93,
+    "Trials":100,
+    "Success rate (%)":93,
+    "Median final-100 error (mm)":2.0623073239,
+    "Unsolved QP steps":0
+  },
+  {
+    "Method":"Baseline + sum(SVD coefficients) = 1",
+    "Changed component":"Add one equality on the SVD coefficients",
+    "Successes":82,
+    "Trials":100,
+    "Success rate (%)":82,
+    "Median final-100 error (mm)":4.0949694194,
+    "Unsolved QP steps":0
+  },
+  {
+    "Method":"Single nearest-fingertip reference",
+    "Changed component":"Terminal-reference selection policy",
+    "Successes":90,
+    "Trials":100,
+    "Success rate (%)":90,
+    "Median final-100 error (mm)":1.664642105,
+    "Unsolved QP steps":0
+  },
+  {
+    "Method":"Centered affine charts + waypoints",
+    "Changed component":"Chart centering \/ coordinate representation",
+    "Successes":91,
+    "Trials":100,
+    "Success rate (%)":91,
+    "Median final-100 error (mm)":2.1845620001,
+    "Unsolved QP steps":0
+  },
+  {
+    "Method":"No graph waypoints (linear charts)",
+    "Changed component":"Remove graph waypoint references",
+    "Successes":83,
+    "Trials":100,
+    "Success rate (%)":83,
+    "Median final-100 error (mm)":2.4395827494,
+    "Unsolved QP steps":0
+  },
+  {
+    "Method":"Affine charts + no graph waypoints",
+    "Changed component":"Center charts and remove waypoints",
+    "Successes":81,
+    "Trials":100,
+    "Success rate (%)":81,
+    "Median final-100 error (mm)":2.4087369077,
+    "Unsolved QP steps":0
+  }
+]

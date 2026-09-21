@@ -1,0 +1,108 @@
+{
+  "config": {
+    "offline_episodes": 80,
+    "offline_steps": 180,
+    "offline_seed_start": 3000,
+    "clusters": 48,
+    "contextual_clusters": 128,
+    "contextual_support": 200,
+    "cluster_seed": 11,
+    "contextual_seed": 73,
+    "svd_rank": 60,
+    "svd_bound_scale": 3.0,
+    "edge_count_threshold": 2,
+    "control_steps": 200,
+    "evaluation_seed_start": 501,
+    "evaluation_seeds": 10,
+    "lam_g": 0.05,
+    "lam_ini": 100000.0,
+    "lam_du": 5.0,
+    "r": 0.001,
+    "trigger_window": 15,
+    "trigger_minimum_progress_fraction": 0.05
+  },
+  "tasks": [
+    {
+      "task": "finger_turn_easy",
+      "atlas": {
+        "successes": 2,
+        "trials": 10,
+        "median_last_100": 0.13196303374439075,
+        "median_solve_ms": 32.806645747768926,
+        "triggered_rollouts": 0
+      },
+      "contextual_atlas": {
+        "successes": 2,
+        "trials": 10,
+        "median_last_100": 0.1213035511301816,
+        "median_solve_ms": 33.52275025099516,
+        "triggered_rollouts": 8
+      },
+      "offline_audit": {
+        "collection_policy": "bounded correlated random walk",
+        "accepted_episode_count": 80,
+        "accepted_seed_range": [
+          3000,
+          3094
+        ],
+        "rejected_stabilized_episode_count": 15,
+        "rejected_stabilized_seeds": [
+          3013,
+          3016,
+          3025,
+          3031,
+          3036,
+          3038,
+          3050,
+          3056,
+          3060,
+          3063,
+          3066,
+          3077,
+          3079,
+          3083,
+          3085
+        ],
+        "stabilized_episodes_in_offline_data": 0,
+        "online_eval_seed_range": [
+          501,
+          510
+        ],
+        "online_offline_seed_disjoint": true
+      }
+    },
+    {
+      "task": "ball_in_cup",
+      "atlas": {
+        "successes": 0,
+        "trials": 10,
+        "median_last_100": 0.2807471518218672,
+        "median_solve_ms": 35.09944775214535,
+        "triggered_rollouts": 0
+      },
+      "contextual_atlas": {
+        "successes": 0,
+        "trials": 10,
+        "median_last_100": 0.1511664580542018,
+        "median_solve_ms": 35.74202049640007,
+        "triggered_rollouts": 10
+      },
+      "offline_audit": {
+        "collection_policy": "bounded correlated random walk",
+        "accepted_episode_count": 80,
+        "accepted_seed_range": [
+          3000,
+          3079
+        ],
+        "rejected_stabilized_episode_count": 0,
+        "rejected_stabilized_seeds": [],
+        "stabilized_episodes_in_offline_data": 0,
+        "online_eval_seed_range": [
+          501,
+          510
+        ],
+        "online_offline_seed_disjoint": true
+      }
+    }
+  ]
+}

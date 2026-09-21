@@ -1,0 +1,2390 @@
+[
+  {
+    "prediction_error_mm": 0.7294795429078419,
+    "objective_terms": {
+      "tracking": 4.623042105737867,
+      "effort": 0.04620900315117642,
+      "slack": 0.019457286026031195,
+      "coefficient_l1": 0.14963526259515542,
+      "projection": 0.008078515299845985
+    },
+    "past_xy_slack_mm": 0.00048373203154492494,
+    "past_posture_slack": 1.4243607660087911e-07
+  },
+  {
+    "prediction_error_mm": 0.704914970240528,
+    "objective_terms": {
+      "tracking": 3.406489327326258,
+      "effort": 0.008649678205279683,
+      "slack": 2.2647193037628054e-11,
+      "coefficient_l1": 0.15061699962879738,
+      "projection": 0.006441559753377062
+    },
+    "past_xy_slack_mm": 2.6045295410807305e-12,
+    "past_posture_slack": 9.852214779435844e-16
+  },
+  {
+    "prediction_error_mm": 0.37719513253385745,
+    "objective_terms": {
+      "tracking": 2.688100938864965,
+      "effort": 0.007784852973051553,
+      "slack": 0.13142132915411311,
+      "coefficient_l1": 0.144850315461581,
+      "projection": 0.006741014562544927
+    },
+    "past_xy_slack_mm": 0.013174404875740871,
+    "past_posture_slack": 1.147925552047372e-05
+  },
+  {
+    "prediction_error_mm": 2.1339197444342197,
+    "objective_terms": {
+      "tracking": 1.7912780530334595,
+      "effort": 0.05030173073624137,
+      "slack": 0.03534157895656499,
+      "coefficient_l1": 0.3294838114395202,
+      "projection": 0.0029589399760539914
+    },
+    "past_xy_slack_mm": 0.007978071871960223,
+    "past_posture_slack": 6.201555306945633e-07
+  },
+  {
+    "prediction_error_mm": 0.6421065528612148,
+    "objective_terms": {
+      "tracking": 2.1385933038079914,
+      "effort": 0.011393718514819318,
+      "slack": 0.12516900610320214,
+      "coefficient_l1": 0.14272837636229194,
+      "projection": 0.006094151811697587
+    },
+    "past_xy_slack_mm": 0.01967561633917077,
+    "past_posture_slack": 1.2614536769767294e-05
+  },
+  {
+    "prediction_error_mm": null,
+    "objective_terms": null,
+    "past_xy_slack_mm": null,
+    "past_posture_slack": null
+  },
+  {
+    "prediction_error_mm": 0.6158252074162025,
+    "objective_terms": {
+      "tracking": 1.7631606146963845,
+      "effort": 0.007689383045568744,
+      "slack": 0.01287513027490758,
+      "coefficient_l1": 0.13528921974872693,
+      "projection": 0.00652436178955712
+    },
+    "past_xy_slack_mm": 0.0032942061636065598,
+    "past_posture_slack": 7.298060692145951e-07
+  },
+  {
+    "prediction_error_mm": 0.7192785540836606,
+    "objective_terms": {
+      "tracking": 1.65580371737898,
+      "effort": 0.00643816249338201,
+      "slack": 0.03040985946265873,
+      "coefficient_l1": 0.13074095840658997,
+      "projection": 0.0060608039347837305
+    },
+    "past_xy_slack_mm": 0.005466274142147952,
+    "past_posture_slack": 4.036225722717725e-06
+  },
+  {
+    "prediction_error_mm": 0.8048369425115146,
+    "objective_terms": {
+      "tracking": 1.6232803143215642,
+      "effort": 0.006918148133202547,
+      "slack": 0.0025090475294015694,
+      "coefficient_l1": 0.1317076287027716,
+      "projection": 0.0057341318703394446
+    },
+    "past_xy_slack_mm": 0.0002992359007367416,
+    "past_posture_slack": 2.4984040954523298e-08
+  },
+  {
+    "prediction_error_mm": 0.8168999068543299,
+    "objective_terms": {
+      "tracking": 1.6366395412691748,
+      "effort": 0.006428054239175945,
+      "slack": 9.722741326149181e-12,
+      "coefficient_l1": 0.13408409992539158,
+      "projection": 0.006457091189097853
+    },
+    "past_xy_slack_mm": 2.238045043033295e-12,
+    "past_posture_slack": 5.461409706075592e-16
+  },
+  {
+    "prediction_error_mm": 0.8200134783303271,
+    "objective_terms": {
+      "tracking": 1.5999210271928408,
+      "effort": 0.005467748816088849,
+      "slack": 1.6624279101987487e-11,
+      "coefficient_l1": 0.13509787171909796,
+      "projection": 0.006152150209242407
+    },
+    "past_xy_slack_mm": 1.2874075170239984e-12,
+    "past_posture_slack": 6.789527458233507e-16
+  },
+  {
+    "prediction_error_mm": 0.8514847681542861,
+    "objective_terms": {
+      "tracking": 1.5058614944915176,
+      "effort": 0.004475949907181548,
+      "slack": 0.010409015190693444,
+      "coefficient_l1": 0.13909751115967703,
+      "projection": 0.005143833064274177
+    },
+    "past_xy_slack_mm": 0.0037035830098053634,
+    "past_posture_slack": 1.177506317014979e-06
+  },
+  {
+    "prediction_error_mm": 0.8776159761628423,
+    "objective_terms": {
+      "tracking": 1.4894113584406605,
+      "effort": 0.006091040894244078,
+      "slack": 0.0066700063413182385,
+      "coefficient_l1": 0.14233542051514977,
+      "projection": 0.005638787694174828
+    },
+    "past_xy_slack_mm": 0.002908855747781886,
+    "past_posture_slack": 4.258651453781532e-07
+  },
+  {
+    "prediction_error_mm": 0.8310785233953645,
+    "objective_terms": {
+      "tracking": 1.4878271743996667,
+      "effort": 0.004008845327224623,
+      "slack": 0.008762653508789454,
+      "coefficient_l1": 0.14208205162311036,
+      "projection": 0.004881547482574763
+    },
+    "past_xy_slack_mm": 0.0015139724233149594,
+    "past_posture_slack": 2.3637812300199574e-07
+  },
+  {
+    "prediction_error_mm": 0.8588248370874633,
+    "objective_terms": {
+      "tracking": 1.4780660368519682,
+      "effort": 0.00553082734885363,
+      "slack": 0.023156354674359694,
+      "coefficient_l1": 0.1449892685670946,
+      "projection": 0.005433403737613085
+    },
+    "past_xy_slack_mm": 0.012577421034780505,
+    "past_posture_slack": 7.554477513480229e-07
+  },
+  {
+    "prediction_error_mm": 0.8367193426832663,
+    "objective_terms": {
+      "tracking": 1.4791180913191146,
+      "effort": 0.003947824907637366,
+      "slack": 1.061599988814036e-11,
+      "coefficient_l1": 0.14430372889078188,
+      "projection": 0.004768803803197334
+    },
+    "past_xy_slack_mm": 2.609686920840665e-12,
+    "past_posture_slack": 4.877761510198182e-16
+  },
+  {
+    "prediction_error_mm": 0.8602271757831401,
+    "objective_terms": {
+      "tracking": 1.4655052063980365,
+      "effort": 0.005622918712634343,
+      "slack": 0.027788646847723433,
+      "coefficient_l1": 0.14636502947337895,
+      "projection": 0.005287340108291536
+    },
+    "past_xy_slack_mm": 0.009751008857057188,
+    "past_posture_slack": 3.1195738004887037e-06
+  },
+  {
+    "prediction_error_mm": 0.8323951731587347,
+    "objective_terms": {
+      "tracking": 1.4757829999951453,
+      "effort": 0.003921482665766431,
+      "slack": 2.423920600544853e-12,
+      "coefficient_l1": 0.14573142407637435,
+      "projection": 0.004698245728449996
+    },
+    "past_xy_slack_mm": 4.740404839755361e-13,
+    "past_posture_slack": 8.158649811949969e-17
+  },
+  {
+    "prediction_error_mm": 0.8767130169149606,
+    "objective_terms": {
+      "tracking": 1.4608897398894412,
+      "effort": 0.005875557246207298,
+      "slack": 0.01019809692291768,
+      "coefficient_l1": 0.1477391454983235,
+      "projection": 0.005200697079958512
+    },
+    "past_xy_slack_mm": 0.0035892933967161763,
+    "past_posture_slack": 5.108261819828522e-07
+  },
+  {
+    "prediction_error_mm": 0.8281336391290911,
+    "objective_terms": {
+      "tracking": 1.4863196678188415,
+      "effort": 0.0037906806432238004,
+      "slack": 0.005214214754669411,
+      "coefficient_l1": 0.14567412014357484,
+      "projection": 0.004822715260066006
+    },
+    "past_xy_slack_mm": 0.0007340225040951638,
+    "past_posture_slack": 7.049717251458951e-07
+  },
+  {
+    "prediction_error_mm": 0.8636242908258187,
+    "objective_terms": {
+      "tracking": 1.4573836920882406,
+      "effort": 0.00569638004337406,
+      "slack": 4.5572097621183796e-10,
+      "coefficient_l1": 0.1483034481000853,
+      "projection": 0.005088427750751557
+    },
+    "past_xy_slack_mm": 4.591891703045452e-11,
+    "past_posture_slack": 1.7189665577614914e-14
+  },
+  {
+    "prediction_error_mm": 0.8440834525103464,
+    "objective_terms": {
+      "tracking": 1.4271561103970727,
+      "effort": 0.005255173979948995,
+      "slack": 0.0024305852564111704,
+      "coefficient_l1": 0.14602129241261325,
+      "projection": 0.004699459476668764
+    },
+    "past_xy_slack_mm": 0.00011135554178295894,
+    "past_posture_slack": 2.8560957384530965e-08
+  },
+  {
+    "prediction_error_mm": 0.8692117271012483,
+    "objective_terms": {
+      "tracking": 1.4831956734753158,
+      "effort": 0.004389811292774265,
+      "slack": 2.2482165088851633e-11,
+      "coefficient_l1": 0.1484500278260262,
+      "projection": 0.004930848641410457
+    },
+    "past_xy_slack_mm": 2.446091925999837e-12,
+    "past_posture_slack": 6.161096814107629e-16
+  },
+  {
+    "prediction_error_mm": 0.9022832686707463,
+    "objective_terms": {
+      "tracking": 1.42533845768715,
+      "effort": 0.006786273584983099,
+      "slack": 2.1197387131840123e-11,
+      "coefficient_l1": 0.1477001746391616,
+      "projection": 0.0046604630714123145
+    },
+    "past_xy_slack_mm": 2.0347958973020945e-12,
+    "past_posture_slack": 1.6089844887511365e-15
+  },
+  {
+    "prediction_error_mm": 0.8661461159131579,
+    "objective_terms": {
+      "tracking": 1.4911942580021373,
+      "effort": 0.004756696901271492,
+      "slack": 0.02766248156004859,
+      "coefficient_l1": 0.15024552766774435,
+      "projection": 0.0047084065165843075
+    },
+    "past_xy_slack_mm": 0.008475257798173286,
+    "past_posture_slack": 2.670306562885159e-06
+  },
+  {
+    "prediction_error_mm": 0.8286938407890606,
+    "objective_terms": {
+      "tracking": 1.4413570177926676,
+      "effort": 0.005694723509091326,
+      "slack": 4.296172094715335e-12,
+      "coefficient_l1": 0.14852223216410784,
+      "projection": 0.0046532466236793545
+    },
+    "past_xy_slack_mm": 4.647803732918597e-13,
+    "past_posture_slack": 2.8365506858750013e-16
+  },
+  {
+    "prediction_error_mm": 0.8417978014075096,
+    "objective_terms": {
+      "tracking": 1.4986529866155414,
+      "effort": 0.005183914747320244,
+      "slack": 1.1223717066696595e-11,
+      "coefficient_l1": 0.15174191113747054,
+      "projection": 0.0048126214430028215
+    },
+    "past_xy_slack_mm": 1.955256804610069e-12,
+    "past_posture_slack": 2.887795512265676e-16
+  },
+  {
+    "prediction_error_mm": 0.8371959823644999,
+    "objective_terms": {
+      "tracking": 1.4452270251418662,
+      "effort": 0.00676787743446174,
+      "slack": 0.0006284921500599985,
+      "coefficient_l1": 0.14618194474858345,
+      "projection": 0.004870034273352069
+    },
+    "past_xy_slack_mm": 4.873008216183485e-05,
+    "past_posture_slack": 2.0675925574975406e-08
+  },
+  {
+    "prediction_error_mm": 0.8538803325529885,
+    "objective_terms": {
+      "tracking": 1.4959004031890113,
+      "effort": 0.005225846935590032,
+      "slack": 0.004571816664336651,
+      "coefficient_l1": 0.14953372583794053,
+      "projection": 0.004825331551068826
+    },
+    "past_xy_slack_mm": 0.0022164965703993142,
+    "past_posture_slack": 2.775927145436042e-07
+  },
+  {
+    "prediction_error_mm": 0.8114375661805785,
+    "objective_terms": {
+      "tracking": 1.4523719327545181,
+      "effort": 0.006371068338815751,
+      "slack": 9.601955592717409e-12,
+      "coefficient_l1": 0.14661535625093622,
+      "projection": 0.005030706558427343
+    },
+    "past_xy_slack_mm": 1.190941643243266e-12,
+    "past_posture_slack": 6.951928190004652e-16
+  },
+  {
+    "prediction_error_mm": 0.8651066944336825,
+    "objective_terms": {
+      "tracking": 1.49143140069083,
+      "effort": 0.00489633550713257,
+      "slack": 0.0399708271399111,
+      "coefficient_l1": 0.14988088504816743,
+      "projection": 0.004881436522385915
+    },
+    "past_xy_slack_mm": 0.010990787084422816,
+    "past_posture_slack": 4.731729333490199e-06
+  },
+  {
+    "prediction_error_mm": 0.8335169127691671,
+    "objective_terms": {
+      "tracking": 1.4435627016288837,
+      "effort": 0.006290787650589984,
+      "slack": 0.006274640170467263,
+      "coefficient_l1": 0.14579439763060656,
+      "projection": 0.004978098381466249
+    },
+    "past_xy_slack_mm": 0.0023970526529294273,
+    "past_posture_slack": 3.3609618947488033e-07
+  },
+  {
+    "prediction_error_mm": 0.874914930865791,
+    "objective_terms": {
+      "tracking": 1.4813129987084976,
+      "effort": 0.005220902843655435,
+      "slack": 1.0765782352435437e-11,
+      "coefficient_l1": 0.14955584226100857,
+      "projection": 0.004778884760481433
+    },
+    "past_xy_slack_mm": 2.539277326433411e-12,
+    "past_posture_slack": 4.771859866674294e-16
+  },
+  {
+    "prediction_error_mm": 0.8262499726497307,
+    "objective_terms": {
+      "tracking": 1.4827608759937023,
+      "effort": 0.00671312249642639,
+      "slack": 2.0196710291454856e-11,
+      "coefficient_l1": 0.14697855001764806,
+      "projection": 0.005619830758759019
+    },
+    "past_xy_slack_mm": 2.657640140848521e-12,
+    "past_posture_slack": 6.13976307027329e-16
+  },
+  {
+    "prediction_error_mm": 0.856467518202688,
+    "objective_terms": {
+      "tracking": 1.4135205621536058,
+      "effort": 0.006369524148556501,
+      "slack": 1.4030931555051266e-10,
+      "coefficient_l1": 0.1479869472724701,
+      "projection": 0.004614154124585353
+    },
+    "past_xy_slack_mm": 1.1822622591427371e-11,
+    "past_posture_slack": 5.313581978334956e-15
+  },
+  {
+    "prediction_error_mm": 0.8166211318364198,
+    "objective_terms": {
+      "tracking": 1.4652882983452393,
+      "effort": 0.004087823633937222,
+      "slack": 0.011331757213483463,
+      "coefficient_l1": 0.14371925310793238,
+      "projection": 0.004582417279305164
+    },
+    "past_xy_slack_mm": 0.005793858515169742,
+    "past_posture_slack": 8.004501736007244e-07
+  },
+  {
+    "prediction_error_mm": 0.8156750744439528,
+    "objective_terms": {
+      "tracking": 1.4376616399896263,
+      "effort": 0.0046760956070114905,
+      "slack": 0.05095514547502951,
+      "coefficient_l1": 0.14521654373190823,
+      "projection": 0.00518578977713627
+    },
+    "past_xy_slack_mm": 0.011276583697199286,
+    "past_posture_slack": 7.700225588386176e-06
+  },
+  {
+    "prediction_error_mm": 0.814176604641605,
+    "objective_terms": {
+      "tracking": 1.450490597434501,
+      "effort": 0.003058845280637292,
+      "slack": 0.06717882661810635,
+      "coefficient_l1": 0.14550153935473836,
+      "projection": 0.004705543713763302
+    },
+    "past_xy_slack_mm": 0.020245515736096686,
+    "past_posture_slack": 9.549118524983933e-06
+  },
+  {
+    "prediction_error_mm": 0.8025472326886242,
+    "objective_terms": {
+      "tracking": 1.4319091714404915,
+      "effort": 0.005457227852278173,
+      "slack": 0.03457866784642684,
+      "coefficient_l1": 0.1452594727794566,
+      "projection": 0.005102398079908707
+    },
+    "past_xy_slack_mm": 0.015916810847876942,
+    "past_posture_slack": 3.268644668476562e-06
+  },
+  {
+    "prediction_error_mm": 0.8372341278946839,
+    "objective_terms": {
+      "tracking": 1.4048927255367214,
+      "effort": 0.005093669359739917,
+      "slack": 0.020126265174913113,
+      "coefficient_l1": 0.1457941280382686,
+      "projection": 0.004735426306137194
+    },
+    "past_xy_slack_mm": 0.007762071932176132,
+    "past_posture_slack": 2.591346866525886e-06
+  },
+  {
+    "prediction_error_mm": 4.876086935211866,
+    "objective_terms": {
+      "tracking": 8.483563666182551,
+      "effort": 0.07526252633232268,
+      "slack": 1.279554224851052,
+      "coefficient_l1": 0.21003533632214594,
+      "projection": 0.026471923868550813
+    },
+    "past_xy_slack_mm": 1.254873458374305,
+    "past_posture_slack": 1.9284253628469167e-16
+  },
+  {
+    "prediction_error_mm": 4.361271042230521,
+    "objective_terms": {
+      "tracking": 7.071992434670008,
+      "effort": 0.027295776790277334,
+      "slack": 1.2865606766406035,
+      "coefficient_l1": 0.21157835287185792,
+      "projection": 0.022634697816976374
+    },
+    "past_xy_slack_mm": 1.2298293657986468,
+    "past_posture_slack": 1.457231401259622e-06
+  },
+  {
+    "prediction_error_mm": 4.9222746069778704,
+    "objective_terms": {
+      "tracking": 5.0963288886163465,
+      "effort": 0.018524568406132456,
+      "slack": 0.8915255178511527,
+      "coefficient_l1": 0.5602147097899784,
+      "projection": 0.015136425438477584
+    },
+    "past_xy_slack_mm": 0.01550000004962549,
+    "past_posture_slack": 4.179842884359951e-06
+  },
+  {
+    "prediction_error_mm": 3.216096666583503,
+    "objective_terms": {
+      "tracking": 4.956727053717941,
+      "effort": 0.024455842400355157,
+      "slack": 0.6750147196379895,
+      "coefficient_l1": 0.17517888680669813,
+      "projection": 0.022071747288310337
+    },
+    "past_xy_slack_mm": 0.596405872931192,
+    "past_posture_slack": 1.1784843157944805e-16
+  },
+  {
+    "prediction_error_mm": 2.5054343346067682,
+    "objective_terms": {
+      "tracking": 4.817789654654309,
+      "effort": 0.024952738722218926,
+      "slack": 0.3727344487175109,
+      "coefficient_l1": 0.16968189982633067,
+      "projection": 0.025846355782866873
+    },
+    "past_xy_slack_mm": 0.37273444869365085,
+    "past_posture_slack": 4.947411688463422e-16
+  },
+  {
+    "prediction_error_mm": 1.583667016129173,
+    "objective_terms": {
+      "tracking": 4.682571053025792,
+      "effort": 0.025257014568824905,
+      "slack": 0.2945984823841788,
+      "coefficient_l1": 0.17163868007394478,
+      "projection": 0.026629618164040737
+    },
+    "past_xy_slack_mm": 0.29459848221751184,
+    "past_posture_slack": 3.066049891286166e-15
+  },
+  {
+    "prediction_error_mm": 0.9890054124838376,
+    "objective_terms": {
+      "tracking": 4.187812001954797,
+      "effort": 0.027593252518192824,
+      "slack": 0.11093474197965135,
+      "coefficient_l1": 0.18763551876410298,
+      "projection": 0.02372311792706386
+    },
+    "past_xy_slack_mm": 0.03349952235524449,
+    "past_posture_slack": 1.0306564332354096e-05
+  },
+  {
+    "prediction_error_mm": 0.6853496120898817,
+    "objective_terms": {
+      "tracking": 4.075626538766781,
+      "effort": 0.018310833290195474,
+      "slack": 0.013681605887284294,
+      "coefficient_l1": 0.16717292763139657,
+      "projection": 0.024260497561108808
+    },
+    "past_xy_slack_mm": 0.004045503774400444,
+    "past_posture_slack": 7.818159072689798e-07
+  },
+  {
+    "prediction_error_mm": 0.9042543887071199,
+    "objective_terms": {
+      "tracking": 3.6141169012604637,
+      "effort": 0.018205773608432344,
+      "slack": 0.003149091794187371,
+      "coefficient_l1": 0.18237284308063995,
+      "projection": 0.020913383286237156
+    },
+    "past_xy_slack_mm": 0.0015204675488057044,
+    "past_posture_slack": 2.2717743347223961e-07
+  },
+  {
+    "prediction_error_mm": 0.7126074699893711,
+    "objective_terms": {
+      "tracking": 3.507691298220412,
+      "effort": 0.01595547961312623,
+      "slack": 0.01670032643460148,
+      "coefficient_l1": 0.17712738737304623,
+      "projection": 0.017846838267860387
+    },
+    "past_xy_slack_mm": 0.007017483925029628,
+    "past_posture_slack": 5.536049708545109e-07
+  },
+  {
+    "prediction_error_mm": 0.6993489625902937,
+    "objective_terms": {
+      "tracking": 3.3468205961805704,
+      "effort": 0.013822699038729762,
+      "slack": 5.8118322807962226e-12,
+      "coefficient_l1": 0.18604873735411528,
+      "projection": 0.01635050622025503
+    },
+    "past_xy_slack_mm": 1.8045831510356103e-12,
+    "past_posture_slack": 7.810875501046013e-17
+  },
+  {
+    "prediction_error_mm": 0.7879843842099559,
+    "objective_terms": {
+      "tracking": 3.2262371769933287,
+      "effort": 0.014983886992321699,
+      "slack": 1.389060928234518e-11,
+      "coefficient_l1": 0.20668321461398853,
+      "projection": 0.017248433456480704
+    },
+    "past_xy_slack_mm": 3.850152802246191e-12,
+    "past_posture_slack": 3.1831353957093026e-16
+  },
+  {
+    "prediction_error_mm": 0.7164736182089986,
+    "objective_terms": {
+      "tracking": 3.1689046992336687,
+      "effort": 0.013290553198602551,
+      "slack": 0.01193842190136848,
+      "coefficient_l1": 0.20059743799575785,
+      "projection": 0.014857163095780921
+    },
+    "past_xy_slack_mm": 0.005399869252042386,
+    "past_posture_slack": 9.48275330641503e-07
+  },
+  {
+    "prediction_error_mm": 0.7852849881668234,
+    "objective_terms": {
+      "tracking": 3.157066516324272,
+      "effort": 0.013153312356293037,
+      "slack": 2.5915093474865775e-11,
+      "coefficient_l1": 0.20574374419869576,
+      "projection": 0.015445554668837463
+    },
+    "past_xy_slack_mm": 5.724092782298867e-12,
+    "past_posture_slack": 9.82084777627147e-16
+  },
+  {
+    "prediction_error_mm": 0.6739197967755612,
+    "objective_terms": {
+      "tracking": 3.1138856836783892,
+      "effort": 0.012441980621307755,
+      "slack": 1.2690458988437264e-11,
+      "coefficient_l1": 0.21229008493869453,
+      "projection": 0.014105229174015698
+    },
+    "past_xy_slack_mm": 2.5875161584868227e-12,
+    "past_posture_slack": 2.3955348296534775e-16
+  },
+  {
+    "prediction_error_mm": 0.9712150105538946,
+    "objective_terms": {
+      "tracking": 2.840345429616951,
+      "effort": 0.011401757098817829,
+      "slack": 3.390048785640273e-11,
+      "coefficient_l1": 0.22906360941890438,
+      "projection": 0.009550991551636835
+    },
+    "past_xy_slack_mm": 3.0792496744530067e-12,
+    "past_posture_slack": 1.5591568370821465e-15
+  },
+  {
+    "prediction_error_mm": 0.6731224455447455,
+    "objective_terms": {
+      "tracking": 3.0747852494213865,
+      "effort": 0.011130542266706359,
+      "slack": 0.003661621581850127,
+      "coefficient_l1": 0.21761700515568752,
+      "projection": 0.011778305982342958
+    },
+    "past_xy_slack_mm": 0.0016535123493069375,
+    "past_posture_slack": 2.1893821474497178e-07
+  },
+  {
+    "prediction_error_mm": 0.8596752496461256,
+    "objective_terms": {
+      "tracking": 2.8517740217057,
+      "effort": 0.011422494055991172,
+      "slack": 0.007898083543155805,
+      "coefficient_l1": 0.23245816127220134,
+      "projection": 0.009813221104115229
+    },
+    "past_xy_slack_mm": 0.003896567863307607,
+    "past_posture_slack": 3.588291976393279e-07
+  },
+  {
+    "prediction_error_mm": 0.8328444824630835,
+    "objective_terms": {
+      "tracking": 2.847465670873703,
+      "effort": 0.011523013185649024,
+      "slack": 8.303438224772413e-06,
+      "coefficient_l1": 0.23348253348360937,
+      "projection": 0.009783618023509858
+    },
+    "past_xy_slack_mm": 2.0386000790592087e-07,
+    "past_posture_slack": 4.9866816464698464e-11
+  },
+  {
+    "prediction_error_mm": 0.853528784170821,
+    "objective_terms": {
+      "tracking": 2.83666164871356,
+      "effort": 0.011660421405072206,
+      "slack": 0.0069780748897051515,
+      "coefficient_l1": 0.2324551125546274,
+      "projection": 0.0098546305825873
+    },
+    "past_xy_slack_mm": 0.0029274566326112396,
+    "past_posture_slack": 6.393462855216466e-07
+  },
+  {
+    "prediction_error_mm": 0.8594615889151065,
+    "objective_terms": {
+      "tracking": 2.81434154411309,
+      "effort": 0.011640403619351172,
+      "slack": 3.126904527273215e-11,
+      "coefficient_l1": 0.2322345251932049,
+      "projection": 0.009760246326353588
+    },
+    "past_xy_slack_mm": 7.553060688375153e-12,
+    "past_posture_slack": 1.4084644929738818e-15
+  },
+  {
+    "prediction_error_mm": 0.9209021153448178,
+    "objective_terms": {
+      "tracking": 2.772366580182813,
+      "effort": 0.010852662328614865,
+      "slack": 1.542875727375775e-11,
+      "coefficient_l1": 0.2298147863927949,
+      "projection": 0.009475030612263596
+    },
+    "past_xy_slack_mm": 4.066702052235644e-12,
+    "past_posture_slack": 4.1027341678733446e-16
+  },
+  {
+    "prediction_error_mm": 0.9226773124376831,
+    "objective_terms": {
+      "tracking": 2.76081992997124,
+      "effort": 0.010709565540705818,
+      "slack": 1.6788934242803026e-11,
+      "coefficient_l1": 0.22959790313353354,
+      "projection": 0.009506935506738824
+    },
+    "past_xy_slack_mm": 4.45269105293302e-12,
+    "past_posture_slack": 5.505088983418782e-16
+  },
+  {
+    "prediction_error_mm": 0.9030396430537053,
+    "objective_terms": {
+      "tracking": 2.7528230692940054,
+      "effort": 0.010712139068780114,
+      "slack": 1.5514170943450027e-11,
+      "coefficient_l1": 0.2294278074116249,
+      "projection": 0.009536141280429605
+    },
+    "past_xy_slack_mm": 4.108062226949854e-12,
+    "past_posture_slack": 4.1534492787291763e-16
+  },
+  {
+    "prediction_error_mm": 0.8993397036099925,
+    "objective_terms": {
+      "tracking": 2.745601371412428,
+      "effort": 0.01074723284748182,
+      "slack": 1.5616861555735912e-11,
+      "coefficient_l1": 0.2288438647304143,
+      "projection": 0.009590983410922285
+    },
+    "past_xy_slack_mm": 4.150976515523171e-12,
+    "past_posture_slack": 4.19483336106872e-16
+  },
+  {
+    "prediction_error_mm": 0.8983062523706367,
+    "objective_terms": {
+      "tracking": 2.732977520061061,
+      "effort": 0.010729305933543811,
+      "slack": 1.563770265180463e-11,
+      "coefficient_l1": 0.22857956841870963,
+      "projection": 0.009586561175663668
+    },
+    "past_xy_slack_mm": 4.164171344141789e-12,
+    "past_posture_slack": 4.2088405950317886e-16
+  },
+  {
+    "prediction_error_mm": 0.8463327827871511,
+    "objective_terms": {
+      "tracking": 2.737359700043168,
+      "effort": 0.01078675853998313,
+      "slack": 1.7289685894466703e-11,
+      "coefficient_l1": 0.22773320149146914,
+      "projection": 0.010000924009873716
+    },
+    "past_xy_slack_mm": 5.272095130974382e-12,
+    "past_posture_slack": 4.849304178097703e-16
+  },
+  {
+    "prediction_error_mm": 0.9499599667219257,
+    "objective_terms": {
+      "tracking": 2.7070602686021723,
+      "effort": 0.010026480111069326,
+      "slack": 5.746152302581738e-10,
+      "coefficient_l1": 0.22797848693150133,
+      "projection": 0.009778789975488159
+    },
+    "past_xy_slack_mm": 1.1278937711686205e-10,
+    "past_posture_slack": 9.960885971404009e-15
+  },
+  {
+    "prediction_error_mm": 0.9132420165834936,
+    "objective_terms": {
+      "tracking": 2.700205196072509,
+      "effort": 0.010354422976698668,
+      "slack": 0.002232586122845109,
+      "coefficient_l1": 0.22749005172027223,
+      "projection": 0.00967641341068192
+    },
+    "past_xy_slack_mm": 0.0012456469757834855,
+    "past_posture_slack": 4.455512826514628e-08
+  },
+  {
+    "prediction_error_mm": 0.8894409259105621,
+    "objective_terms": {
+      "tracking": 2.702248503231409,
+      "effort": 0.010152403139601592,
+      "slack": 0.004880060133722675,
+      "coefficient_l1": 0.22858595181464622,
+      "projection": 0.009925083636350002
+    },
+    "past_xy_slack_mm": 0.002545948992822216,
+    "past_posture_slack": 1.218049182389835e-07
+  },
+  {
+    "prediction_error_mm": 0.946246991197088,
+    "objective_terms": {
+      "tracking": 2.6964528622881696,
+      "effort": 0.010249720004465182,
+      "slack": 1.667572526532024e-11,
+      "coefficient_l1": 0.22794915553765815,
+      "projection": 0.010063440519368973
+    },
+    "past_xy_slack_mm": 4.991294010462025e-12,
+    "past_posture_slack": 4.671044992456029e-16
+  },
+  {
+    "prediction_error_mm": 0.8930110681412715,
+    "objective_terms": {
+      "tracking": 2.6970742102143945,
+      "effort": 0.010203321579323146,
+      "slack": 1.639360107757358e-11,
+      "coefficient_l1": 0.2282924485588015,
+      "projection": 0.010082364082589012
+    },
+    "past_xy_slack_mm": 4.509326197620272e-12,
+    "past_posture_slack": 4.657537165214611e-16
+  },
+  {
+    "prediction_error_mm": 0.8869561427856301,
+    "objective_terms": {
+      "tracking": 2.699353739358467,
+      "effort": 0.010406162844996271,
+      "slack": 1.6824721213435343e-11,
+      "coefficient_l1": 0.22783294453871028,
+      "projection": 0.010223553370520267
+    },
+    "past_xy_slack_mm": 5.067576581747058e-12,
+    "past_posture_slack": 4.7546232988486675e-16
+  },
+  {
+    "prediction_error_mm": 0.8883162351827049,
+    "objective_terms": {
+      "tracking": 2.6920358931129837,
+      "effort": 0.010447373939498045,
+      "slack": 3.17777216069275e-11,
+      "coefficient_l1": 0.22740170635011242,
+      "projection": 0.01025803180735689
+    },
+    "past_xy_slack_mm": 5.1880884841121e-12,
+    "past_posture_slack": 8.231705408007591e-16
+  },
+  {
+    "prediction_error_mm": 0.8963148379142954,
+    "objective_terms": {
+      "tracking": 2.6837589157200727,
+      "effort": 0.010297108837335547,
+      "slack": 0.011546739279609405,
+      "coefficient_l1": 0.2268213931123363,
+      "projection": 0.010240944155305494
+    },
+    "past_xy_slack_mm": 0.00522371223219768,
+    "past_posture_slack": 7.093137204235399e-07
+  },
+  {
+    "prediction_error_mm": 0.8871047752536507,
+    "objective_terms": {
+      "tracking": 2.6740946809526993,
+      "effort": 0.010376236054872178,
+      "slack": 3.151285263697631e-11,
+      "coefficient_l1": 0.22690239963641448,
+      "projection": 0.010259695420011197
+    },
+    "past_xy_slack_mm": 5.120348662750473e-12,
+    "past_posture_slack": 8.142336253759531e-16
+  },
+  {
+    "prediction_error_mm": 0.893365663439878,
+    "objective_terms": {
+      "tracking": 2.665747192304245,
+      "effort": 0.01018593593964287,
+      "slack": 0.01660368838750164,
+      "coefficient_l1": 0.22634165909195333,
+      "projection": 0.010243547884945867
+    },
+    "past_xy_slack_mm": 0.007607798499760308,
+    "past_posture_slack": 8.766839154807177e-07
+  },
+  {
+    "prediction_error_mm": 0.8050805872813396,
+    "objective_terms": {
+      "tracking": 2.6842169840514916,
+      "effort": 0.009751591203352889,
+      "slack": 3.016816344921663e-11,
+      "coefficient_l1": 0.22660201366439306,
+      "projection": 0.010374887774532309
+    },
+    "past_xy_slack_mm": 9.348533949604521e-12,
+    "past_posture_slack": 1.859122406916175e-15
+  },
+  {
+    "prediction_error_mm": 0.8031434366874411,
+    "objective_terms": {
+      "tracking": 2.6707690464223948,
+      "effort": 0.00967077594604988,
+      "slack": 1.7493732499661174e-11,
+      "coefficient_l1": 0.2264669291788387,
+      "projection": 0.010337200769759233
+    },
+    "past_xy_slack_mm": 5.451616326977354e-12,
+    "past_posture_slack": 5.894272723880098e-16
+  },
+  {
+    "prediction_error_mm": 0.8152198736287152,
+    "objective_terms": {
+      "tracking": 2.652774001713241,
+      "effort": 0.00954921565776458,
+      "slack": 2.7791050546151047e-11,
+      "coefficient_l1": 0.2262956988090853,
+      "projection": 0.01027058322915362
+    },
+    "past_xy_slack_mm": 4.044652242630395e-12,
+    "past_posture_slack": 9.143048438968037e-16
+  },
+  {
+    "prediction_error_mm": 3.8037893858621734,
+    "objective_terms": {
+      "tracking": 9.551806991131336,
+      "effort": 0.05821616652054956,
+      "slack": 1.3727156611759892,
+      "coefficient_l1": 0.2746881834697419,
+      "projection": 0.016968391410406885
+    },
+    "past_xy_slack_mm": 1.1846419512633009,
+    "past_posture_slack": 5.659170883863408e-06
+  },
+  {
+    "prediction_error_mm": 3.142018479752706,
+    "objective_terms": {
+      "tracking": 7.034501104428635,
+      "effort": 0.02547197818889589,
+      "slack": 1.1276930599253547,
+      "coefficient_l1": 0.26437927542356787,
+      "projection": 0.01547608575310641
+    },
+    "past_xy_slack_mm": 1.127693059813552,
+    "past_posture_slack": 1.828618296645528e-15
+  },
+  {
+    "prediction_error_mm": 3.136514521402151,
+    "objective_terms": {
+      "tracking": 5.183533814252573,
+      "effort": 0.025133563195456295,
+      "slack": 0.6111769891024488,
+      "coefficient_l1": 0.23292271624935657,
+      "projection": 0.009282056941961825
+    },
+    "past_xy_slack_mm": 0.6111769889133484,
+    "past_posture_slack": 4.5899664097300334e-15
+  },
+  {
+    "prediction_error_mm": 1.8676357901606881,
+    "objective_terms": {
+      "tracking": 4.031602747304698,
+      "effort": 0.020296342627388872,
+      "slack": 0.1776217077273191,
+      "coefficient_l1": 0.18067310231523753,
+      "projection": 0.008807557223509553
+    },
+    "past_xy_slack_mm": 0.17762170770488386,
+    "past_posture_slack": 2.148297555426442e-15
+  },
+  {
+    "prediction_error_mm": 1.559428267179272,
+    "objective_terms": {
+      "tracking": 3.391439266084621,
+      "effort": 0.025362721903790186,
+      "slack": 1.4670874964685376e-10,
+      "coefficient_l1": 0.2092832614431814,
+      "projection": 0.009592733459874143
+    },
+    "past_xy_slack_mm": 3.912637134998909e-11,
+    "past_posture_slack": 3.7244917326727866e-15
+  },
+  {
+    "prediction_error_mm": null,
+    "objective_terms": null,
+    "past_xy_slack_mm": null,
+    "past_posture_slack": null
+  },
+  {
+    "prediction_error_mm": 1.5376528777227547,
+    "objective_terms": {
+      "tracking": 2.8062232458567844,
+      "effort": 0.007674600096145121,
+      "slack": 1.4931781043247409e-10,
+      "coefficient_l1": 0.212338031677187,
+      "projection": 0.007222163766954209
+    },
+    "past_xy_slack_mm": 2.9473764293601824e-11,
+    "past_posture_slack": 6.142247768562535e-15
+  },
+  {
+    "prediction_error_mm": 1.3807819653219704,
+    "objective_terms": {
+      "tracking": 2.642699431868126,
+      "effort": 0.005266654812614388,
+      "slack": 0.008907986718947382,
+      "coefficient_l1": 0.22424033660148962,
+      "projection": 0.006826215085612922
+    },
+    "past_xy_slack_mm": 0.002906504303319534,
+    "past_posture_slack": 5.741038215141777e-07
+  },
+  {
+    "prediction_error_mm": 1.3301228562624199,
+    "objective_terms": {
+      "tracking": 2.4511091245033274,
+      "effort": 0.004638198190186096,
+      "slack": 2.882498150795852e-11,
+      "coefficient_l1": 0.23203289270740834,
+      "projection": 0.006062348031483715
+    },
+    "past_xy_slack_mm": 6.471919034624575e-12,
+    "past_posture_slack": 1.4986783792690372e-15
+  },
+  {
+    "prediction_error_mm": 1.3519993203139573,
+    "objective_terms": {
+      "tracking": 2.34587883562048,
+      "effort": 0.006481826756448122,
+      "slack": 3.176227560171526e-11,
+      "coefficient_l1": 0.2346297551457056,
+      "projection": 0.006431170159411282
+    },
+    "past_xy_slack_mm": 7.891149579542456e-12,
+    "past_posture_slack": 1.6563948620910352e-15
+  },
+  {
+    "prediction_error_mm": 1.1733050627993966,
+    "objective_terms": {
+      "tracking": 2.314957913314313,
+      "effort": 0.006821870450979816,
+      "slack": 2.2670330538656615e-10,
+      "coefficient_l1": 0.24460032809776325,
+      "projection": 0.008689559175048942
+    },
+    "past_xy_slack_mm": 4.053958644910767e-11,
+    "past_posture_slack": 8.320435790210318e-15
+  },
+  {
+    "prediction_error_mm": 1.5074044239920692,
+    "objective_terms": {
+      "tracking": 2.1191432205242298,
+      "effort": 0.0065815783187325415,
+      "slack": 3.6067299464062867e-11,
+      "coefficient_l1": 0.2472824828497795,
+      "projection": 0.006930807576506284
+    },
+    "past_xy_slack_mm": 9.182760066642366e-12,
+    "past_posture_slack": 2.061673027149959e-15
+  },
+  {
+    "prediction_error_mm": 1.3176130800310208,
+    "objective_terms": {
+      "tracking": 2.13524510656784,
+      "effort": 0.0055092245440722595,
+      "slack": 0.0014414090596498522,
+      "coefficient_l1": 0.2562904615205321,
+      "projection": 0.0072856759842060284
+    },
+    "past_xy_slack_mm": 0.0002804301562121899,
+    "past_posture_slack": 4.7086606798363496e-08
+  },
+  {
+    "prediction_error_mm": 1.1682604397798657,
+    "objective_terms": {
+      "tracking": 2.11196499849846,
+      "effort": 0.00624042622016746,
+      "slack": 1.0707440929973642e-09,
+      "coefficient_l1": 0.2595945320839799,
+      "projection": 0.0073481606335002074
+    },
+    "past_xy_slack_mm": 1.8436059235387854e-10,
+    "past_posture_slack": 1.8797501291286872e-14
+  },
+  {
+    "prediction_error_mm": 1.2587630815150952,
+    "objective_terms": {
+      "tracking": 2.0367095343456776,
+      "effort": 0.004838750488761468,
+      "slack": 1.6848965492678668e-10,
+      "coefficient_l1": 0.2619538437480383,
+      "projection": 0.006615059900394332
+    },
+    "past_xy_slack_mm": 3.103679405233393e-11,
+    "past_posture_slack": 6.122425356355111e-15
+  },
+  {
+    "prediction_error_mm": 1.3105760357865943,
+    "objective_terms": {
+      "tracking": 2.0165972506135685,
+      "effort": 0.006100418237581971,
+      "slack": 1.4525193316243523e-10,
+      "coefficient_l1": 0.2640078438662215,
+      "projection": 0.007011773592323638
+    },
+    "past_xy_slack_mm": 2.8673576224595116e-11,
+    "past_posture_slack": 5.521708533124017e-15
+  },
+  {
+    "prediction_error_mm": 1.2955572624810034,
+    "objective_terms": {
+      "tracking": 1.9768988949171673,
+      "effort": 0.0046645428313358455,
+      "slack": 1.4677320807201945e-10,
+      "coefficient_l1": 0.26501723268520644,
+      "projection": 0.006322048984284814
+    },
+    "past_xy_slack_mm": 2.754325494914325e-11,
+    "past_posture_slack": 5.5781301161685394e-15
+  },
+  {
+    "prediction_error_mm": 1.3083854315029835,
+    "objective_terms": {
+      "tracking": 1.9786979263326818,
+      "effort": 0.005933195060804261,
+      "slack": 0.0008597683003165297,
+      "coefficient_l1": 0.26638427273276966,
+      "projection": 0.006693055858518347
+    },
+    "past_xy_slack_mm": 0.00017933333523849603,
+    "past_posture_slack": 2.7288068179198778e-08
+  },
+  {
+    "prediction_error_mm": 1.296529855528847,
+    "objective_terms": {
+      "tracking": 1.9438113400946881,
+      "effort": 0.004378395902885282,
+      "slack": 3.3982618158304657e-10,
+      "coefficient_l1": 0.26699335711952665,
+      "projection": 0.006213277916347892
+    },
+    "past_xy_slack_mm": 5.4660062656938195e-11,
+    "past_posture_slack": 1.137754068656281e-14
+  },
+  {
+    "prediction_error_mm": 1.2984025706378235,
+    "objective_terms": {
+      "tracking": 1.9693654175857946,
+      "effort": 0.006060205535817128,
+      "slack": 1.767352830517858e-10,
+      "coefficient_l1": 0.2694976765614164,
+      "projection": 0.006893295607742635
+    },
+    "past_xy_slack_mm": 3.278959617359401e-11,
+    "past_posture_slack": 6.918208546001096e-15
+  },
+  {
+    "prediction_error_mm": 1.3690466578292557,
+    "objective_terms": {
+      "tracking": 1.9169000158158347,
+      "effort": 0.0048260538130694575,
+      "slack": 7.297284085972458e-11,
+      "coefficient_l1": 0.268954008190893,
+      "projection": 0.006174726886192614
+    },
+    "past_xy_slack_mm": 1.5021652159969742e-11,
+    "past_posture_slack": 3.0217565358676202e-15
+  },
+  {
+    "prediction_error_mm": 1.3018119136633817,
+    "objective_terms": {
+      "tracking": 1.9368766400149457,
+      "effort": 0.005649236041295528,
+      "slack": 1.5848470758456431e-10,
+      "coefficient_l1": 0.2707830263534636,
+      "projection": 0.005991709391231536
+    },
+    "past_xy_slack_mm": 2.841444329758632e-11,
+    "past_posture_slack": 5.9389357416649574e-15
+  },
+  {
+    "prediction_error_mm": 1.2921033241459543,
+    "objective_terms": {
+      "tracking": 1.9617139470445852,
+      "effort": 0.004283593949921877,
+      "slack": 3.9173331083022604e-10,
+      "coefficient_l1": 0.2705707476006873,
+      "projection": 0.006317960902330857
+    },
+    "past_xy_slack_mm": 7.502016187342591e-11,
+    "past_posture_slack": 1.1691739939670298e-14
+  },
+  {
+    "prediction_error_mm": 1.2376548784855002,
+    "objective_terms": {
+      "tracking": 1.9864075320172763,
+      "effort": 0.005902173174291491,
+      "slack": 1.7271929743016618e-10,
+      "coefficient_l1": 0.2725517598310157,
+      "projection": 0.00629288144117194
+    },
+    "past_xy_slack_mm": 3.0526749900453926e-11,
+    "past_posture_slack": 6.451532961994141e-15
+  },
+  {
+    "prediction_error_mm": 1.2345997868097738,
+    "objective_terms": {
+      "tracking": 2.001049616510123,
+      "effort": 0.004404834222776952,
+      "slack": 1.423380810615423e-10,
+      "coefficient_l1": 0.2719027718186712,
+      "projection": 0.006500236570038883
+    },
+    "past_xy_slack_mm": 2.8472802696509587e-11,
+    "past_posture_slack": 6.024639250240623e-15
+  },
+  {
+    "prediction_error_mm": 1.2146367437520886,
+    "objective_terms": {
+      "tracking": 2.012513674987389,
+      "effort": 0.006035184442596309,
+      "slack": 1.6321416327792718e-10,
+      "coefficient_l1": 0.27245568164887246,
+      "projection": 0.006418164195058004
+    },
+    "past_xy_slack_mm": 2.929131189958461e-11,
+    "past_posture_slack": 6.102228309462462e-15
+  },
+  {
+    "prediction_error_mm": 1.2217069759416221,
+    "objective_terms": {
+      "tracking": 2.0181874702195035,
+      "effort": 0.004444637865283227,
+      "slack": 1.431314803919933e-10,
+      "coefficient_l1": 0.2709346639728799,
+      "projection": 0.0065790214610434595
+    },
+    "past_xy_slack_mm": 2.8124065225954265e-11,
+    "past_posture_slack": 5.950632788025109e-15
+  },
+  {
+    "prediction_error_mm": 1.2079459139420232,
+    "objective_terms": {
+      "tracking": 2.0244838033902415,
+      "effort": 0.006090319922435205,
+      "slack": 1.6367514445115432e-10,
+      "coefficient_l1": 0.27151610235724954,
+      "projection": 0.006480871696892329
+    },
+    "past_xy_slack_mm": 2.937698497727235e-11,
+    "past_posture_slack": 6.116868730958487e-15
+  },
+  {
+    "prediction_error_mm": 1.2136050141076264,
+    "objective_terms": {
+      "tracking": 2.026685662067361,
+      "effort": 0.00447124025271699,
+      "slack": 1.018030980302458e-10,
+      "coefficient_l1": 0.2700839806190544,
+      "projection": 0.006620817474006681
+    },
+    "past_xy_slack_mm": 1.9523848532190783e-11,
+    "past_posture_slack": 3.981835598756632e-15
+  },
+  {
+    "prediction_error_mm": 1.2020860575439298,
+    "objective_terms": {
+      "tracking": 2.029679161068415,
+      "effort": 0.0061031696191505905,
+      "slack": 2.840247127250301e-10,
+      "coefficient_l1": 0.270850546016964,
+      "projection": 0.0065038225370894044
+    },
+    "past_xy_slack_mm": 4.8898180515803473e-11,
+    "past_posture_slack": 9.826392240667408e-15
+  },
+  {
+    "prediction_error_mm": 1.2051860639227776,
+    "objective_terms": {
+      "tracking": 2.066697058706033,
+      "effort": 0.0053357187850040545,
+      "slack": 1.874261078511329e-10,
+      "coefficient_l1": 0.2701693740889789,
+      "projection": 0.007178667776690058
+    },
+    "past_xy_slack_mm": 3.358516376486832e-11,
+    "past_posture_slack": 6.8405270622158934e-15
+  },
+  {
+    "prediction_error_mm": 1.225272118618854,
+    "objective_terms": {
+      "tracking": 2.0649650077224004,
+      "effort": 0.005334406175603104,
+      "slack": 1.876878309005128e-10,
+      "coefficient_l1": 0.26989947779414053,
+      "projection": 0.007196897088600796
+    },
+    "past_xy_slack_mm": 3.3635280537043415e-11,
+    "past_posture_slack": 6.849039672088542e-15
+  },
+  {
+    "prediction_error_mm": 1.213413089400014,
+    "objective_terms": {
+      "tracking": 2.0680351994623725,
+      "effort": 0.0053351252303714715,
+      "slack": 1.8790396161707407e-10,
+      "coefficient_l1": 0.2691549117604743,
+      "projection": 0.007218486008664447
+    },
+    "past_xy_slack_mm": 3.3674107682114864e-11,
+    "past_posture_slack": 6.856543964437648e-15
+  },
+  {
+    "prediction_error_mm": 1.2094582783043042,
+    "objective_terms": {
+      "tracking": 2.0706514101807856,
+      "effort": 0.0053518496917398,
+      "slack": 1.618663324123936e-10,
+      "coefficient_l1": 0.2689559123553655,
+      "projection": 0.007264373016463336
+    },
+    "past_xy_slack_mm": 2.9526318118239447e-11,
+    "past_posture_slack": 6.084926208175291e-15
+  },
+  {
+    "prediction_error_mm": 1.2086165865586012,
+    "objective_terms": {
+      "tracking": 2.0708660625688324,
+      "effort": 0.005351952868654291,
+      "slack": 1.6183741993364594e-10,
+      "coefficient_l1": 0.2688946191428567,
+      "projection": 0.007265591352065488
+    },
+    "past_xy_slack_mm": 2.9520627633104885e-11,
+    "past_posture_slack": 6.083811852052125e-15
+  },
+  {
+    "prediction_error_mm": 1.2069252002395294,
+    "objective_terms": {
+      "tracking": 2.070730883612567,
+      "effort": 0.00534965233462377,
+      "slack": 1.6176799073233132e-10,
+      "coefficient_l1": 0.26884285331599134,
+      "projection": 0.007262500996352949
+    },
+    "past_xy_slack_mm": 2.950720105156762e-11,
+    "past_posture_slack": 6.081233544995794e-15
+  },
+  {
+    "prediction_error_mm": 1.2059716436685257,
+    "objective_terms": {
+      "tracking": 2.0701397195720674,
+      "effort": 0.005345823850416775,
+      "slack": 1.6166345354952884e-10,
+      "coefficient_l1": 0.26880137685131217,
+      "projection": 0.007256726023214384
+    },
+    "past_xy_slack_mm": 2.948740766470658e-11,
+    "past_posture_slack": 6.0775123224724975e-15
+  },
+  {
+    "prediction_error_mm": 1.2052472027308077,
+    "objective_terms": {
+      "tracking": 2.0692068486809605,
+      "effort": 0.0053408618276705585,
+      "slack": 1.615454884223792e-10,
+      "coefficient_l1": 0.26875480125745627,
+      "projection": 0.007249119322475076
+    },
+    "past_xy_slack_mm": 2.946482146325057e-11,
+    "past_posture_slack": 6.0732550918364355e-15
+  },
+  {
+    "prediction_error_mm": 1.2046038533561347,
+    "objective_terms": {
+      "tracking": 2.068036333088987,
+      "effort": 0.00533511841917741,
+      "slack": 1.6141995633085324e-10,
+      "coefficient_l1": 0.26871670385131896,
+      "projection": 0.007240098226818001
+    },
+    "past_xy_slack_mm": 2.9440660529142847e-11,
+    "past_posture_slack": 6.068721544580443e-15
+  },
+  {
+    "prediction_error_mm": 1.2040213683610872,
+    "objective_terms": {
+      "tracking": 2.066673128576695,
+      "effort": 0.005328747142506543,
+      "slack": 1.6127743793236332e-10,
+      "coefficient_l1": 0.26868767410703137,
+      "projection": 0.0072299102940792375
+    },
+    "past_xy_slack_mm": 2.9413558718125344e-11,
+    "past_posture_slack": 6.063629292268353e-15
+  },
+  {
+    "prediction_error_mm": 1.2034858777529043,
+    "objective_terms": {
+      "tracking": 2.065150979674126,
+      "effort": 0.005321857997946903,
+      "slack": 1.611246122619034e-10,
+      "coefficient_l1": 0.268666517125053,
+      "projection": 0.007218743790226753
+    },
+    "past_xy_slack_mm": 2.9384356372679724e-11,
+    "past_posture_slack": 6.058226108336506e-15
+  },
+  {
+    "prediction_error_mm": 1.202988784518706,
+    "objective_terms": {
+      "tracking": 2.0634980577493813,
+      "effort": 0.005314554028841337,
+      "slack": 1.609662480211559e-10,
+      "coefficient_l1": 0.26865195645651624,
+      "projection": 0.007206779737320419
+    },
+    "past_xy_slack_mm": 2.9354208623675835e-11,
+    "past_posture_slack": 6.052603489165762e-15
+  },
+  {
+    "prediction_error_mm": 1.2025243415511093,
+    "objective_terms": {
+      "tracking": 2.0617374462780456,
+      "effort": 0.005306918648828772,
+      "slack": 1.6080008726780519e-10,
+      "coefficient_l1": 0.26864287723307234,
+      "projection": 0.007194165788600707
+    },
+    "past_xy_slack_mm": 2.932252830235549e-11,
+    "past_posture_slack": 6.046706999313601e-15
+  },
+  {
+    "prediction_error_mm": 1.202087317791653,
+    "objective_terms": {
+      "tracking": 2.059888472489789,
+      "effort": 0.005299021019575954,
+      "slack": 1.6063184565943122e-10,
+      "coefficient_l1": 0.26863835264835156,
+      "projection": 0.007181024527035761
+    },
+    "past_xy_slack_mm": 2.929040479988424e-11,
+    "past_posture_slack": 6.040764249633009e-15
+  },
+  {
+    "prediction_error_mm": 1.2016733573174008,
+    "objective_terms": {
+      "tracking": 2.0579672950076153,
+      "effort": 0.0052909186375816805,
+      "slack": 1.604565431073811e-10,
+      "coefficient_l1": 0.26863761920752677,
+      "projection": 0.00716745787418944
+    },
+    "past_xy_slack_mm": 2.9256866238699165e-11,
+    "past_posture_slack": 6.034547219604221e-15
+  },
+  {
+    "prediction_error_mm": 1.169163841783236,
+    "objective_terms": {
+      "tracking": 2.0369952805674116,
+      "effort": 0.0043184043731262075,
+      "slack": 1.1350179184973111e-09,
+      "coefficient_l1": 0.2673055062692133,
+      "projection": 0.006966024201954194
+    },
+    "past_xy_slack_mm": 1.52981749548524e-10,
+    "past_posture_slack": 3.7390677453586485e-14
+  },
+  {
+    "prediction_error_mm": 1.1820480071777333,
+    "objective_terms": {
+      "tracking": 2.0303446577116087,
+      "effort": 0.005696575614461585,
+      "slack": 1.1845969367010436e-10,
+      "coefficient_l1": 0.26846486326722474,
+      "projection": 0.006915025330170933
+    },
+    "past_xy_slack_mm": 2.2868031299219e-11,
+    "past_posture_slack": 4.313743708558968e-15
+  },
+  {
+    "prediction_error_mm": 1.2100608103712533,
+    "objective_terms": {
+      "tracking": 2.013791570923345,
+      "effort": 0.0042661492304026305,
+      "slack": 2.352573900380917e-09,
+      "coefficient_l1": 0.2677328947737052,
+      "projection": 0.006832003046687019
+    },
+    "past_xy_slack_mm": 2.600449120496803e-10,
+    "past_posture_slack": 6.63244579766625e-14
+  },
+  {
+    "prediction_error_mm": 1.1842333187277672,
+    "objective_terms": {
+      "tracking": 2.0142642942744624,
+      "effort": 0.00561247430665766,
+      "slack": 1.4210975316924133e-10,
+      "coefficient_l1": 0.2687798776987959,
+      "projection": 0.006777498863970305
+    },
+    "past_xy_slack_mm": 2.8143452190630333e-11,
+    "past_posture_slack": 5.3728184842057085e-15
+  },
+  {
+    "prediction_error_mm": 1.28752546588424,
+    "objective_terms": {
+      "tracking": 2.0052533367816596,
+      "effort": 0.005670790363802823,
+      "slack": 1.5052304400600586e-10,
+      "coefficient_l1": 0.26886055235591577,
+      "projection": 0.006814121057541099
+    },
+    "past_xy_slack_mm": 2.7394463963938228e-11,
+    "past_posture_slack": 5.613294096978441e-15
+  },
+  {
+    "prediction_error_mm": 1.1866491647923172,
+    "objective_terms": {
+      "tracking": 2.0041841756677257,
+      "effort": 0.0055737929653916565,
+      "slack": 1.4168438176159078e-10,
+      "coefficient_l1": 0.26875813418971906,
+      "projection": 0.006732409606042804
+    },
+    "past_xy_slack_mm": 2.805886126754499e-11,
+    "past_posture_slack": 5.35837548445603e-15
+  },
+  {
+    "prediction_error_mm": 1.2827332253952477,
+    "objective_terms": {
+      "tracking": 1.9982903108509162,
+      "effort": 0.005654411338735926,
+      "slack": 1.5010846392581863e-10,
+      "coefficient_l1": 0.26837515371335735,
+      "projection": 0.006776158796178417
+    },
+    "past_xy_slack_mm": 2.7314487203308047e-11,
+    "past_posture_slack": 5.599709214633646e-15
+  },
+  {
+    "prediction_error_mm": 1.1867094093350004,
+    "objective_terms": {
+      "tracking": 1.9978628886853838,
+      "effort": 0.005580813803268819,
+      "slack": 1.415849872530785e-10,
+      "coefficient_l1": 0.26859457457376995,
+      "projection": 0.006728561259622753
+    },
+    "past_xy_slack_mm": 2.8040812676823338e-11,
+    "past_posture_slack": 5.3556867099759625e-15
+  },
+  {
+    "prediction_error_mm": 1.2830584407614283,
+    "objective_terms": {
+      "tracking": 1.9916398231654153,
+      "effort": 0.005633695099864836,
+      "slack": 1.4961053217111168e-10,
+      "coefficient_l1": 0.26860229695805976,
+      "projection": 0.006735163767370797
+    },
+    "past_xy_slack_mm": 2.7219311398978352e-11,
+    "past_posture_slack": 5.582620996197682e-15
+  },
+  {
+    "prediction_error_mm": 1.1836729663490846,
+    "objective_terms": {
+      "tracking": 1.9919297706587358,
+      "effort": 0.0055645486539504605,
+      "slack": 1.164528839993604e-10,
+      "coefficient_l1": 0.26882068958842925,
+      "projection": 0.006686529995566798
+    },
+    "past_xy_slack_mm": 2.246300723532019e-11,
+    "past_posture_slack": 4.24801223909471e-15
+  },
+  {
+    "prediction_error_mm": 1.2821601974822638,
+    "objective_terms": {
+      "tracking": 1.985587489222824,
+      "effort": 0.005612964335262167,
+      "slack": 1.4910587679161046e-10,
+      "coefficient_l1": 0.26877171288959734,
+      "projection": 0.006694297809542721
+    },
+    "past_xy_slack_mm": 2.7122469090711815e-11,
+    "past_posture_slack": 5.56526038324692e-15
+  },
+  {
+    "prediction_error_mm": 1.18281629206581,
+    "objective_terms": {
+      "tracking": 1.9858749320741556,
+      "effort": 0.005545589290640376,
+      "slack": 1.1608750577084105e-10,
+      "coefficient_l1": 0.2689263769758363,
+      "projection": 0.006646216654607734
+    },
+    "past_xy_slack_mm": 2.238822300765209e-11,
+    "past_posture_slack": 4.235993108019099e-15
+  },
+  {
+    "prediction_error_mm": 1.2815415468341018,
+    "objective_terms": {
+      "tracking": 1.9796345826165564,
+      "effort": 0.005592698471468892,
+      "slack": 1.4861304590968597e-10,
+      "coefficient_l1": 0.26885313120713,
+      "projection": 0.006655550471351772
+    },
+    "past_xy_slack_mm": 2.7028437098636934e-11,
+    "past_posture_slack": 5.548288132679954e-15
+  },
+  {
+    "prediction_error_mm": 1.1822043698545126,
+    "objective_terms": {
+      "tracking": 1.980008569938209,
+      "effort": 0.005527446406818331,
+      "slack": 1.1572726516286813e-10,
+      "coefficient_l1": 0.2690055793997556,
+      "projection": 0.006607571874648652
+    },
+    "past_xy_slack_mm": 2.231481896405699e-11,
+    "past_posture_slack": 4.224171318216332e-15
+  },
+  {
+    "prediction_error_mm": 1.2809167195240925,
+    "objective_terms": {
+      "tracking": 1.9738905324032452,
+      "effort": 0.00557335124909313,
+      "slack": 1.481435578830316e-10,
+      "coefficient_l1": 0.26891943626611037,
+      "projection": 0.006618329637911322
+    },
+    "past_xy_slack_mm": 2.693822928645211e-11,
+    "past_posture_slack": 5.532079060569784e-15
+  },
+  {
+    "prediction_error_mm": 1.1815521065056727,
+    "objective_terms": {
+      "tracking": 1.974339982546834,
+      "effort": 0.005510123607850643,
+      "slack": 1.1537587170670182e-10,
+      "coefficient_l1": 0.26907647802775364,
+      "projection": 0.006570263072584081
+    },
+    "past_xy_slack_mm": 2.2243260969709636e-11,
+    "past_posture_slack": 4.212607952121298e-15
+  },
+  {
+    "prediction_error_mm": 1.2802607511614101,
+    "objective_terms": {
+      "tracking": 1.9683202599787635,
+      "effort": 0.005554815455871259,
+      "slack": 1.4767983731985552e-10,
+      "coefficient_l1": 0.2689789741889403,
+      "projection": 0.00658230772430565
+    },
+    "past_xy_slack_mm": 2.684939049154939e-11,
+    "past_posture_slack": 5.516031110348922e-15
+  },
+  {
+    "prediction_error_mm": 1.1808734194017108,
+    "objective_terms": {
+      "tracking": 1.968823110217275,
+      "effort": 0.00549348443746587,
+      "slack": 1.1503359925919925e-10,
+      "coefficient_l1": 0.2691413183728882,
+      "projection": 0.006534026190610275
+    },
+    "past_xy_slack_mm": 2.2173263491260132e-11,
+    "past_posture_slack": 4.20136764472053e-15
+  },
+  {
+    "prediction_error_mm": 1.279584090632838,
+    "objective_terms": {
+      "tracking": 1.9628841007978508,
+      "effort": 0.005536959195481233,
+      "slack": 1.4722839527267839e-10,
+      "coefficient_l1": 0.26903353890073894,
+      "projection": 0.006547241673855028
+    },
+    "past_xy_slack_mm": 2.676299584165561e-11,
+    "past_posture_slack": 5.5004472268366474e-15
+  },
+  {
+    "prediction_error_mm": 0.7818432724756845,
+    "objective_terms": {
+      "tracking": 2.2707223293710586,
+      "effort": 0.008281724468524581,
+      "slack": 2.3182676631738772e-10,
+      "coefficient_l1": 0.23465363122282215,
+      "projection": 0.008417183120822916
+    },
+    "past_xy_slack_mm": 3.275181281179914e-11,
+    "past_posture_slack": 7.987540062302323e-15
+  },
+  {
+    "prediction_error_mm": 0.7768681855558923,
+    "objective_terms": {
+      "tracking": 2.2221692234021355,
+      "effort": 0.008147804826768535,
+      "slack": 8.296846484674447e-10,
+      "coefficient_l1": 0.23363026804926107,
+      "projection": 0.008103182965617168
+    },
+    "past_xy_slack_mm": 8.944736273316223e-11,
+    "past_posture_slack": 2.3964742302996158e-14
+  },
+  {
+    "prediction_error_mm": 0.8687467408441935,
+    "objective_terms": {
+      "tracking": 2.1661440999421684,
+      "effort": 0.007955270485587492,
+      "slack": 1.0732730644583298e-10,
+      "coefficient_l1": 0.23164193429994606,
+      "projection": 0.007831829639372335
+    },
+    "past_xy_slack_mm": 1.8401041306445765e-11,
+    "past_posture_slack": 4.953563597735833e-15
+  },
+  {
+    "prediction_error_mm": 0.8969766899676028,
+    "objective_terms": {
+      "tracking": 2.132575534129118,
+      "effort": 0.00778169222064611,
+      "slack": 1.0656406711345446e-10,
+      "coefficient_l1": 0.23127183053790212,
+      "projection": 0.00771746635504726
+    },
+    "past_xy_slack_mm": 1.8284187242860506e-11,
+    "past_posture_slack": 4.920442203677851e-15
+  },
+  {
+    "prediction_error_mm": 0.947019262830004,
+    "objective_terms": {
+      "tracking": 2.1258540850256673,
+      "effort": 0.007654691080439906,
+      "slack": 3.892916426246849e-10,
+      "coefficient_l1": 0.23019648198635317,
+      "projection": 0.007547782181536909
+    },
+    "past_xy_slack_mm": 5.700755837831839e-11,
+    "past_posture_slack": 1.2947184081771949e-14
+  },
+  {
+    "prediction_error_mm": 0.9483469043894995,
+    "objective_terms": {
+      "tracking": 2.0886227748193513,
+      "effort": 0.00770074214181639,
+      "slack": 2.4180962568007843e-10,
+      "coefficient_l1": 0.23211696351889072,
+      "projection": 0.007274133341863209
+    },
+    "past_xy_slack_mm": 4.0373719432375307e-11,
+    "past_posture_slack": 9.564135986966162e-15
+  },
+  {
+    "prediction_error_mm": 0.965534123000789,
+    "objective_terms": {
+      "tracking": 2.08385377298559,
+      "effort": 0.007539644796319814,
+      "slack": 8.252547505216814e-11,
+      "coefficient_l1": 0.23119133444793644,
+      "projection": 0.007294305533220403
+    },
+    "past_xy_slack_mm": 1.4383994407135381e-11,
+    "past_posture_slack": 3.730687641739753e-15
+  },
+  {
+    "prediction_error_mm": 0.9594748718662995,
+    "objective_terms": {
+      "tracking": 2.05113955405581,
+      "effort": 0.007534745506143416,
+      "slack": 1.9134575570511331e-10,
+      "coefficient_l1": 0.23304146063857392,
+      "projection": 0.007110632064666227
+    },
+    "past_xy_slack_mm": 2.701152207612578e-11,
+    "past_posture_slack": 7.680854900619746e-15
+  },
+  {
+    "prediction_error_mm": 0.9755583853010239,
+    "objective_terms": {
+      "tracking": 2.0629251310393544,
+      "effort": 0.007474140549705074,
+      "slack": 1.7769719377875404e-10,
+      "coefficient_l1": 0.23210715910233112,
+      "projection": 0.0071789457590386956
+    },
+    "past_xy_slack_mm": 2.943695223691266e-11,
+    "past_posture_slack": 6.789958052028636e-15
+  },
+  {
+    "prediction_error_mm": 0.9524289757566662,
+    "objective_terms": {
+      "tracking": 2.0384724260558755,
+      "effort": 0.007514447276790404,
+      "slack": 1.790153771323652e-10,
+      "coefficient_l1": 0.23406944963279283,
+      "projection": 0.007029259002414112
+    },
+    "past_xy_slack_mm": 2.7181190160715495e-11,
+    "past_posture_slack": 7.680746137153269e-15
+  },
+  {
+    "prediction_error_mm": 0.9732651508116087,
+    "objective_terms": {
+      "tracking": 2.0524378120299835,
+      "effort": 0.0074936568951576845,
+      "slack": 4.805699156254318e-10,
+      "coefficient_l1": 0.2328635730956506,
+      "projection": 0.007112785577496048
+    },
+    "past_xy_slack_mm": 7.418658962857251e-11,
+    "past_posture_slack": 1.8895474203874163e-14
+  },
+  {
+    "prediction_error_mm": 0.9545106045424786,
+    "objective_terms": {
+      "tracking": 2.0285267328025633,
+      "effort": 0.0074762527253017415,
+      "slack": 1.7820248266578112e-10,
+      "coefficient_l1": 0.23467304580876736,
+      "projection": 0.006962348500332772
+    },
+    "past_xy_slack_mm": 2.7055574730809175e-11,
+    "past_posture_slack": 7.649273470046603e-15
+  },
+  {
+    "prediction_error_mm": 0.9756084644297125,
+    "objective_terms": {
+      "tracking": 2.0443802539370584,
+      "effort": 0.0075059892246204865,
+      "slack": 4.795712491454856e-10,
+      "coefficient_l1": 0.23334139643766344,
+      "projection": 0.0070612713988658865
+    },
+    "past_xy_slack_mm": 7.403648831801216e-11,
+    "past_posture_slack": 1.8858863193668155e-14
+  },
+  {
+    "prediction_error_mm": 0.9549850984281136,
+    "objective_terms": {
+      "tracking": 2.0218987181633015,
+      "effort": 0.0074524403653573506,
+      "slack": 1.7769390272092272e-10,
+      "coefficient_l1": 0.23510275563457808,
+      "projection": 0.006918870789745887
+    },
+    "past_xy_slack_mm": 2.6977053479385582e-11,
+    "past_posture_slack": 7.629581529601902e-15
+  },
+  {
+    "prediction_error_mm": 0.9773078154946568,
+    "objective_terms": {
+      "tracking": 2.0390308765692726,
+      "effort": 0.007513949908274211,
+      "slack": 5.933432288718036e-10,
+      "coefficient_l1": 0.23367434659086347,
+      "projection": 0.00702672822211997
+    },
+    "past_xy_slack_mm": 8.071081748192512e-11,
+    "past_posture_slack": 1.9546943414195395e-14
+  },
+  {
+    "prediction_error_mm": 0.9557101964558117,
+    "objective_terms": {
+      "tracking": 2.017487842892476,
+      "effort": 0.007437041043071538,
+      "slack": 1.7736502970819414e-10,
+      "coefficient_l1": 0.23538670005451703,
+      "projection": 0.006890348115999334
+    },
+    "past_xy_slack_mm": 2.6926562597583454e-11,
+    "past_posture_slack": 7.616948619809579e-15
+  },
+  {
+    "prediction_error_mm": 0.9789082095565237,
+    "objective_terms": {
+      "tracking": 2.035591263312466,
+      "effort": 0.007509922058363522,
+      "slack": 2.746405106581135e-10,
+      "coefficient_l1": 0.23390045584293753,
+      "projection": 0.007006365950822159
+    },
+    "past_xy_slack_mm": 3.627065798861896e-11,
+    "past_posture_slack": 8.500113009515092e-15
+  },
+  {
+    "prediction_error_mm": 0.9564325665812718,
+    "objective_terms": {
+      "tracking": 2.01494728132116,
+      "effort": 0.007428514057548296,
+      "slack": 1.7720138748305187e-10,
+      "coefficient_l1": 0.23557750701649205,
+      "projection": 0.006874031342341306
+    },
+    "past_xy_slack_mm": 2.6901524368334802e-11,
+    "past_posture_slack": 7.610767587740347e-15
+  },
+  {
+    "prediction_error_mm": 0.9796531185965857,
+    "objective_terms": {
+      "tracking": 2.033794229739084,
+      "effort": 0.007508012771940527,
+      "slack": 2.7452742983184014e-10,
+      "coefficient_l1": 0.23405769446770722,
+      "projection": 0.0069962584631216755
+    },
+    "past_xy_slack_mm": 3.625564473117334e-11,
+    "past_posture_slack": 8.49735921444985e-15
+  },
+  {
+    "prediction_error_mm": 0.9489228908212205,
+    "objective_terms": {
+      "tracking": 2.0306495124178614,
+      "effort": 0.007410458255853337,
+      "slack": 4.890625405332869e-10,
+      "coefficient_l1": 0.23435049114619458,
+      "projection": 0.006953499511227731
+    },
+    "past_xy_slack_mm": 7.644884765408139e-11,
+    "past_posture_slack": 1.6465234535037713e-14
+  },
+  {
+    "prediction_error_mm": 0.9729609990009107,
+    "objective_terms": {
+      "tracking": 2.0212197258188636,
+      "effort": 0.007479234027845675,
+      "slack": 2.2035583453257345e-10,
+      "coefficient_l1": 0.23418434224241436,
+      "projection": 0.006911716569006062
+    },
+    "past_xy_slack_mm": 2.916724164418386e-11,
+    "past_posture_slack": 7.641472710005723e-15
+  },
+  {
+    "prediction_error_mm": 0.9787541302380746,
+    "objective_terms": {
+      "tracking": 2.0142002842998425,
+      "effort": 0.0074245106746873325,
+      "slack": 1.1347698634746498e-10,
+      "coefficient_l1": 0.2341249187356821,
+      "projection": 0.006872675917582629
+    },
+    "past_xy_slack_mm": 1.947750111436172e-11,
+    "past_posture_slack": 4.489310181426358e-15
+  },
+  {
+    "prediction_error_mm": 0.9788202850528878,
+    "objective_terms": {
+      "tracking": 2.0110235514335835,
+      "effort": 0.0074097973825420676,
+      "slack": 1.1335836367792885e-10,
+      "coefficient_l1": 0.2342636690001918,
+      "projection": 0.006855327503733766
+    },
+    "past_xy_slack_mm": 1.945625433323095e-11,
+    "past_posture_slack": 4.48559897555874e-15
+  },
+  {
+    "prediction_error_mm": 0.98217465713554,
+    "objective_terms": {
+      "tracking": 2.0168083772461496,
+      "effort": 0.007373712695089913,
+      "slack": 1.2176269389490783e-10,
+      "coefficient_l1": 0.2356607451725221,
+      "projection": 0.006996366614959051
+    },
+    "past_xy_slack_mm": 1.9945448652436642e-11,
+    "past_posture_slack": 5.3315030675462105e-15
+  },
+  {
+    "prediction_error_mm": 0.9806040712598347,
+    "objective_terms": {
+      "tracking": 2.0080348912121804,
+      "effort": 0.00740091132801191,
+      "slack": 1.85900519111402e-10,
+      "coefficient_l1": 0.23442455546541865,
+      "projection": 0.006839616196021752
+    },
+    "past_xy_slack_mm": 3.038328034442828e-11,
+    "past_posture_slack": 6.141150206090408e-15
+  },
+  {
+    "prediction_error_mm": 0.9787214307965947,
+    "objective_terms": {
+      "tracking": 2.0155139311418346,
+      "effort": 0.0073730439126904156,
+      "slack": 1.2170259555174075e-10,
+      "coefficient_l1": 0.23583818330823006,
+      "projection": 0.0069875110369834485
+    },
+    "past_xy_slack_mm": 1.9935783214460607e-11,
+    "past_posture_slack": 5.3296163526237915e-15
+  },
+  {
+    "prediction_error_mm": 0.980317082965761,
+    "objective_terms": {
+      "tracking": 2.006761738951342,
+      "effort": 0.007413288408231063,
+      "slack": 1.1323387443041792e-10,
+      "coefficient_l1": 0.23455932255839507,
+      "projection": 0.006834266580749703
+    },
+    "past_xy_slack_mm": 1.9434577080925147e-11,
+    "past_posture_slack": 4.4825245577045916e-15
+  },
+  {
+    "prediction_error_mm": 0.9789075570605206,
+    "objective_terms": {
+      "tracking": 2.0142405634362386,
+      "effort": 0.007369943436395749,
+      "slack": 1.2163799076522336e-10,
+      "coefficient_l1": 0.2359547576796775,
+      "projection": 0.006979633672679708
+    },
+    "past_xy_slack_mm": 1.9925348741820758e-11,
+    "past_posture_slack": 5.3273347115382595e-15
+  },
+  {
+    "prediction_error_mm": 0.9802567293413257,
+    "objective_terms": {
+      "tracking": 2.0057935772026583,
+      "effort": 0.007410522779563274,
+      "slack": 1.1319464055582387e-10,
+      "coefficient_l1": 0.23465433578797434,
+      "projection": 0.006828195215594926
+    },
+    "past_xy_slack_mm": 1.9427678181871912e-11,
+    "past_posture_slack": 4.481415205465065e-15
+  },
+  {
+    "prediction_error_mm": 0.9790361387082901,
+    "objective_terms": {
+      "tracking": 2.013486937069991,
+      "effort": 0.007368021646453638,
+      "slack": 1.216018631459545e-10,
+      "coefficient_l1": 0.23602834086684443,
+      "projection": 0.006974694310136705
+    },
+    "past_xy_slack_mm": 1.9919343342282775e-11,
+    "past_posture_slack": 5.326068327041545e-15
+  },
+  {
+    "prediction_error_mm": 0.9804446335426636,
+    "objective_terms": {
+      "tracking": 2.0052231621894214,
+      "effort": 0.007409466916197566,
+      "slack": 1.1317465523556792e-10,
+      "coefficient_l1": 0.234708135466549,
+      "projection": 0.006824853397082017
+    },
+    "past_xy_slack_mm": 1.94242185103311e-11,
+    "past_posture_slack": 4.480948013475622e-15
+  },
+  {
+    "prediction_error_mm": 0.9791992986898158,
+    "objective_terms": {
+      "tracking": 2.0130962091790767,
+      "effort": 0.007367264760535639,
+      "slack": 1.215930001702043e-10,
+      "coefficient_l1": 0.23607190657328359,
+      "projection": 0.006972415664869943
+    },
+    "past_xy_slack_mm": 1.99180773942374e-11,
+    "past_posture_slack": 5.3258024997035865e-15
+  },
+  {
+    "prediction_error_mm": 0.9805973470096252,
+    "objective_terms": {
+      "tracking": 2.0049685660695653,
+      "effort": 0.007409366194250107,
+      "slack": 1.1317452341176215e-10,
+      "coefficient_l1": 0.23474342876507492,
+      "projection": 0.0068234433162426954
+    },
+    "past_xy_slack_mm": 1.9424320624881285e-11,
+    "past_posture_slack": 4.481020847064205e-15
+  },
+  {
+    "prediction_error_mm": 0.9793418180718183,
+    "objective_terms": {
+      "tracking": 2.0129581532009047,
+      "effort": 0.007367230277180949,
+      "slack": 1.215955233773495e-10,
+      "coefficient_l1": 0.23610052231376422,
+      "projection": 0.006971689472867088
+    },
+    "past_xy_slack_mm": 1.9918662897402906e-11,
+    "past_posture_slack": 5.325964469947588e-15
+  },
+  {
+    "prediction_error_mm": 0.9807367303698159,
+    "objective_terms": {
+      "tracking": 2.0049161821463426,
+      "effort": 0.007409878310919004,
+      "slack": 1.1318086835884813e-10,
+      "coefficient_l1": 0.2347664217329525,
+      "projection": 0.006823255128898165
+    },
+    "past_xy_slack_mm": 1.9425386974637444e-11,
+    "past_posture_slack": 4.481309718506009e-15
+  },
+  {
+    "prediction_error_mm": 0.9794740211917087,
+    "objective_terms": {
+      "tracking": 2.0129824488573096,
+      "effort": 0.007367661745004652,
+      "slack": 1.2160735058891676e-10,
+      "coefficient_l1": 0.23611900220671958,
+      "projection": 0.0069719758180190545
+    },
+    "past_xy_slack_mm": 1.9920786131910136e-11,
+    "past_posture_slack": 5.3264874726300946e-15
+  },
+  {
+    "prediction_error_mm": 0.9808670688025939,
+    "objective_terms": {
+      "tracking": 2.0049948311767243,
+      "effort": 0.007410791054730977,
+      "slack": 1.1319394021073827e-10,
+      "coefficient_l1": 0.2347813123582161,
+      "projection": 0.006823864347850011
+    },
+    "past_xy_slack_mm": 1.942801569877578e-11,
+    "past_posture_slack": 4.481814488574364e-15
+  },
+  {
+    "prediction_error_mm": 0.9795989953685638,
+    "objective_terms": {
+      "tracking": 2.0131118273406012,
+      "effort": 0.007368394224134273,
+      "slack": 1.2162711825652812e-10,
+      "coefficient_l1": 0.23613086848565681,
+      "projection": 0.006972917426608505
+    },
+    "past_xy_slack_mm": 1.9924339494066444e-11,
+    "past_posture_slack": 5.3272895467088486e-15
+  },
+  {
+    "prediction_error_mm": 0.9809909584833479,
+    "objective_terms": {
+      "tracking": 2.005158075216931,
+      "effort": 0.00741196008214199,
+      "slack": 1.1321121691728536e-10,
+      "coefficient_l1": 0.23479091518115888,
+      "projection": 0.006824987876782542
+    },
+    "past_xy_slack_mm": 1.943120096313335e-11,
+    "past_posture_slack": 4.482452942292922e-15
+  },
+  {
+    "prediction_error_mm": 0.9797188383355482,
+    "objective_terms": {
+      "tracking": 2.0133088074502745,
+      "effort": 0.007369319579055378,
+      "slack": 1.2164720110345783e-10,
+      "coefficient_l1": 0.23613841472527125,
+      "projection": 0.006974280243434702
+    },
+    "past_xy_slack_mm": 1.9927868541258334e-11,
+    "past_posture_slack": 5.3281085643944546e-15
+  },
+  {
+    "prediction_error_mm": 0.9811102698098603,
+    "objective_terms": {
+      "tracking": 2.005375537939993,
+      "effort": 0.007413291632801697,
+      "slack": 1.1322547894200486e-10,
+      "coefficient_l1": 0.23479706042682869,
+      "projection": 0.00682644095130089
+    },
+    "past_xy_slack_mm": 1.9433979427792833e-11,
+    "past_posture_slack": 4.482975009249354e-15
+  },
+  {
+    "prediction_error_mm": 0.9798349589642341,
+    "objective_terms": {
+      "tracking": 2.0135488973504923,
+      "effort": 0.007370367259631541,
+      "slack": 1.2167111632141938e-10,
+      "coefficient_l1": 0.23614313715385676,
+      "projection": 0.0069759115419976815
+    },
+    "past_xy_slack_mm": 1.9931896096714793e-11,
+    "past_posture_slack": 5.32905581698682e-15
+  },
+  {
+    "prediction_error_mm": 0.9812262130215115,
+    "objective_terms": {
+      "tracking": 2.005627381727049,
+      "effort": 0.007414724479008406,
+      "slack": 1.1324434623796684e-10,
+      "coefficient_l1": 0.23480094548507432,
+      "projection": 0.00682810288409792
+    },
+    "past_xy_slack_mm": 1.943754458489651e-11,
+    "past_posture_slack": 4.483687482632945e-15
+  },
+  {
+    "prediction_error_mm": 0.979948277174942,
+    "objective_terms": {
+      "tracking": 2.0138161005833837,
+      "effort": 0.007371491175199119,
+      "slack": 1.2169688054578634e-10,
+      "coefficient_l1": 0.23614601466163831,
+      "projection": 0.006977711525592516
+    },
+    "past_xy_slack_mm": 1.9936341287939234e-11,
+    "past_posture_slack": 5.330081801643707e-15
+  },
+  {
+    "prediction_error_mm": 0.98133958334073,
+    "objective_terms": {
+      "tracking": 2.0059006486264197,
+      "effort": 0.007416218625733592,
+      "slack": 1.1326456631909577e-10,
+      "coefficient_l1": 0.23480335341042635,
+      "projection": 0.0068298948168481165
+    },
+    "past_xy_slack_mm": 1.9441346408599885e-11,
+    "past_posture_slack": 4.4844125406068275e-15
+  },
+  {
+    "prediction_error_mm": 0.977224490426579,
+    "objective_terms": {
+      "tracking": 2.005683712205793,
+      "effort": 0.007395541460564932,
+      "slack": 1.1319371587469723e-10,
+      "coefficient_l1": 0.2348625227063894,
+      "projection": 0.006822014125483033
+    },
+    "past_xy_slack_mm": 1.942788252571333e-11,
+    "past_posture_slack": 4.482189603846373e-15
+  },
+  {
+    "prediction_error_mm": 0.9831677041228781,
+    "objective_terms": {
+      "tracking": 2.012948088842299,
+      "effort": 0.007369710409459067,
+      "slack": 1.21691238300193e-10,
+      "coefficient_l1": 0.23612900392231087,
+      "projection": 0.006976353042621003
+    },
+    "past_xy_slack_mm": 1.9935949184638395e-11,
+    "past_posture_slack": 5.329865932509652e-15
+  },
+  {
+    "prediction_error_mm": 0.9822167082576383,
+    "objective_terms": {
+      "tracking": 2.0051416092502405,
+      "effort": 0.007402341750366612,
+      "slack": 1.1321594523641662e-10,
+      "coefficient_l1": 0.23481016484698636,
+      "projection": 0.006823540293922446
+    },
+    "past_xy_slack_mm": 1.9432515589866626e-11,
+    "past_posture_slack": 4.482721570188703e-15
+  },
+  {
+    "prediction_error_mm": 0.980194098403805,
+    "objective_terms": {
+      "tracking": 2.0138551930995594,
+      "effort": 0.007372090583303193,
+      "slack": 1.2172330106795323e-10,
+      "coefficient_l1": 0.2361526712884123,
+      "projection": 0.006978630626454289
+    },
+    "past_xy_slack_mm": 1.9941108125375e-11,
+    "past_posture_slack": 5.331208754919273e-15
+  },
+  {
+    "prediction_error_mm": 0.9834655728153071,
+    "objective_terms": {
+      "tracking": 2.00565098204576,
+      "effort": 0.0074128905560847105,
+      "slack": 0.0008458083407261917,
+      "coefficient_l1": 0.23480541904436372,
+      "projection": 0.006828224457664141
+    },
+    "past_xy_slack_mm": 0.0001693595595838985,
+    "past_posture_slack": 3.31223498429671e-08
+  },
+  {
+    "prediction_error_mm": 0.9774696210756524,
+    "objective_terms": {
+      "tracking": 2.005897241361065,
+      "effort": 0.0073969444618001146,
+      "slack": 1.1321962925547114e-10,
+      "coefficient_l1": 0.23487049851377836,
+      "projection": 0.006823893564450241
+    },
+    "past_xy_slack_mm": 1.943285428315795e-11,
+    "past_posture_slack": 4.483173585919063e-15
+  },
+  {
+    "prediction_error_mm": 0.9835024277850667,
+    "objective_terms": {
+      "tracking": 2.0132379561404634,
+      "effort": 0.0073711724265353275,
+      "slack": 1.217275563548681e-10,
+      "coefficient_l1": 0.2361378781196244,
+      "projection": 0.006978526247214908
+    },
+    "past_xy_slack_mm": 1.9942421466561508e-11,
+    "past_posture_slack": 5.33136458486218e-15
+  },
+  {
+    "prediction_error_mm": 0.9824669616813927,
+    "objective_terms": {
+      "tracking": 2.005495643783143,
+      "effort": 0.0074046455473491925,
+      "slack": 1.132518911979945e-10,
+      "coefficient_l1": 0.23481934031215268,
+      "projection": 0.006826109141493375
+    },
+    "past_xy_slack_mm": 1.9439143587902173e-11,
+    "past_posture_slack": 4.483976861960295e-15
+  },
+  {
+    "prediction_error_mm": 0.9775516201684551,
+    "objective_terms": {
+      "tracking": 2.0058454527222818,
+      "effort": 0.0073962273572432445,
+      "slack": 1.1322560519667348e-10,
+      "coefficient_l1": 0.23487569499569885,
+      "projection": 0.006823773821830228
+    },
+    "past_xy_slack_mm": 1.9434188372456975e-11,
+    "past_posture_slack": 4.4834184389421976e-15
+  },
+  {
+    "prediction_error_mm": 0.9837872871118687,
+    "objective_terms": {
+      "tracking": 2.0132344998557126,
+      "effort": 0.007371401595458609,
+      "slack": 1.2174049453612489e-10,
+      "coefficient_l1": 0.23614228438602627,
+      "projection": 0.006978795239920664
+    },
+    "past_xy_slack_mm": 1.9944552515784518e-11,
+    "past_posture_slack": 5.331894180906566e-15
+  },
+  {
+    "prediction_error_mm": 0.9826231907542426,
+    "objective_terms": {
+      "tracking": 2.0055557267375663,
+      "effort": 0.007405174843605907,
+      "slack": 1.1325857533073868e-10,
+      "coefficient_l1": 0.2348252017442737,
+      "projection": 0.006826745731838877
+    },
+    "past_xy_slack_mm": 1.9440672538082998e-11,
+    "past_posture_slack": 4.484316134039887e-15
+  }
+]

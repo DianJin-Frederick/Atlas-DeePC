@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-09-08T16:52:38.177814+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "workers": 1,
+  "numerical_threads": 1,
+  "load_average_at_start": [
+    10.06591796875,
+    8.58203125,
+    7.96044921875
+  ],
+  "timing_caveat": "Local wall-clock measurements on a shared computer, not isolated from other jobs.",
+  "offline_setup_seconds": {
+    "data_loading": 0.008616041974164546,
+    "atlas_loading": 0.002207458019256592,
+    "source_episode_metadata": 0.9798331669298932,
+    "linear_chart_cache_and_all_pairs_routes": 0.14582270896062255
+  }
+}

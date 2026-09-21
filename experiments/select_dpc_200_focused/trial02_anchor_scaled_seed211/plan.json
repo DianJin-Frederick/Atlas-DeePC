@@ -1,0 +1,57 @@
+{
+  "seed": 211,
+  "steps": 320,
+  "parameters": {
+    "past": 2,
+    "horizon": 15,
+    "columns": 200,
+    "iterations": 5,
+    "q_xy": 40000.0,
+    "q_velocity": 10.0,
+    "r": 10.0,
+    "lambda_g1": 10.0,
+    "lambda_projection": 1000000.0,
+    "lambda_slack": 50000.0,
+    "input_limit": 1.0
+  },
+  "objective_scale": 0.01,
+  "effective_parameters": {
+    "past": 2,
+    "horizon": 15,
+    "columns": 200,
+    "iterations": 5,
+    "q_xy": 400.0,
+    "q_velocity": 0.1,
+    "r": 0.1,
+    "lambda_g1": 0.1,
+    "lambda_projection": 10000.0,
+    "lambda_slack": 500.0,
+    "input_limit": 1.0
+  },
+  "numerical_note": "Uniform positive objective scaling preserves the exact optimizer, but finite solver tolerances can change the numerical solution. Diagnostic objective terms use effective weights.",
+  "reason": "Trial01 reduced error slowly and had 19 failed QPs out of 150 at step30. A fixed-QP check improved solve time from 1.32s to 0.29s when all objective weights were multiplied by 0.01. Test this numerical scaling first, retaining all relative control weights, raw columns, solver settings and selection passes.",
+  "data_path": "/Users/kumiko/Projects/atlas_deepc_reacher/data/select_iid_offline_hankel.npy",
+  "evaluation_cost": {
+    "q_xy": 100000.0,
+    "r": 0.0001,
+    "r_delta": 5.0
+  },
+  "success": "both last-30 and last-100 mean xy error <0.01 m and max <0.02 m",
+  "adaptations": [
+    "Shared Atlas offline recordings; native eight outputs and 2+15-step windows reconstructed exactly.",
+    "Shared Atlas task torque bound +/-1 (authors Reacher example uses +/-0.5).",
+    "Two zero-action environment initialization steps match Atlas; original repeated-state internal history retained.",
+    "Requested final fingertip target, no graph routing, no Atlas posture reference.",
+    "320-step shared task and strict Atlas success criterion; not the paper's exact experimental protocol."
+  ],
+  "solver": {
+    "name": "OSQP",
+    "max_iter": 6000,
+    "eps_abs": 1e-05,
+    "eps_rel": 0.0001,
+    "warm_start": false
+  },
+  "development_only": true,
+  "created": "2026-09-16T22:00:45-05:00",
+  "next_action": "Stop after this seed; inspect results before selecting the next trial."
+}

@@ -1,0 +1,11 @@
+{
+  "result_path": "experiments/routed_deepc_pusher/notebook_run/seed1_control_results.npz",
+  "video_path": "experiments/routed_deepc_pusher/notebook_run/seed1_control.mp4",
+  "seed": 1,
+  "actions": 100,
+  "warmup_zeros": 2,
+  "fps": 5,
+  "frame_stride": 4,
+  "maximum_replay_output_error": 0.0,
+  "environment": "Pusher-v5"
+}

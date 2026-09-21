@@ -1,0 +1,48 @@
+{
+  "comparison_base": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/linear_subspace_rank_lamg0_100_v1",
+  "config_differences": {},
+  "solver_change": [
+    "CLARABEL",
+    "OSQP"
+  ],
+  "qp_solver_options": {
+    "max_iter": 10000,
+    "eps_abs": 1e-05,
+    "eps_rel": 1e-05,
+    "polishing": true
+  },
+  "versions": {
+    "cvxpy": "1.6.5",
+    "osqp": "1.0.4"
+  },
+  "data_and_atlas_hashes_match": true,
+  "changed_hashed_sources": [
+    "linear_subspace_rank_ablation.py",
+    "routed_deepc_experiment.py",
+    "expert_pipeline_search.py"
+  ],
+  "source_diff": "source_changes.diff",
+  "smoke_tests": {
+    "seed": 211,
+    "steps": 8,
+    "ranks": [
+      20,
+      60,
+      80
+    ],
+    "statuses": {
+      "20": {
+        "optimal": 6,
+        "iteration_limit": 2
+      },
+      "60": {
+        "optimal": 8
+      },
+      "80": {
+        "optimal": 8
+      }
+    },
+    "low_rank_failure_behavior": "zero action; all steps retained",
+    "not_sweep_results": true
+  }
+}

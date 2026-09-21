@@ -1,0 +1,72 @@
+[
+  {
+    "first":"Affine + graph (baseline)",
+    "second":"Linear + graph",
+    "repaired":0,
+    "regressed":0,
+    "net":0,
+    "McNemar_p_unadjusted":1.0,
+    "repaired_seeds":[
+
+    ],
+    "regressed_seeds":[
+
+    ]
+  },
+  {
+    "first":"Affine + graph (baseline)",
+    "second":"Affine + terminal",
+    "repaired":0,
+    "regressed":0,
+    "net":0,
+    "McNemar_p_unadjusted":1.0,
+    "repaired_seeds":[
+
+    ],
+    "regressed_seeds":[
+
+    ]
+  },
+  {
+    "first":"Affine + graph (baseline)",
+    "second":"Linear + terminal",
+    "repaired":0,
+    "regressed":0,
+    "net":0,
+    "McNemar_p_unadjusted":1.0,
+    "repaired_seeds":[
+
+    ],
+    "regressed_seeds":[
+
+    ]
+  },
+  {
+    "first":"Linear + graph",
+    "second":"Linear + terminal",
+    "repaired":0,
+    "regressed":0,
+    "net":0,
+    "McNemar_p_unadjusted":1.0,
+    "repaired_seeds":[
+
+    ],
+    "regressed_seeds":[
+
+    ]
+  },
+  {
+    "first":"Affine + terminal",
+    "second":"Linear + terminal",
+    "repaired":0,
+    "regressed":0,
+    "net":0,
+    "McNemar_p_unadjusted":1.0,
+    "repaired_seeds":[
+
+    ],
+    "regressed_seeds":[
+
+    ]
+  }
+]

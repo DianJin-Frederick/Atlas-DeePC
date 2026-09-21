@@ -1,0 +1,59 @@
+{
+  "signature": {
+    "version": 2,
+    "controller_config": {
+      "clusters": 48,
+      "cluster_seed": 11,
+      "clustering_input_weight": 0.0,
+      "clustering_method": "minibatch_kmeans",
+      "clustering_feature_mode": "plant_joint_configuration",
+      "clustering_subspace_rank": 6,
+      "clustering_max_iter": 20,
+      "clustering_configuration_weight": 1.0,
+      "clustering_velocity_weight": 1.0,
+      "clustering_fingertip_weight": 1.0,
+      "formulation": "svd_current",
+      "overlap_charts": 2,
+      "svd_rank": 60,
+      "svd_bound_scale": 3.0,
+      "negative_mass": 0.2,
+      "edge_count_threshold": 3,
+      "target_switch_distance": 0.07,
+      "latch_target_reference": true,
+      "target_matrix_mode": "current",
+      "terminal_overlap_distance": 0.01,
+      "terminal_overlap_dwell": 5,
+      "q_xy": 100000.0,
+      "q_dq": 20.0,
+      "q_data_goal_joint": 5000.0,
+      "r": 0.0001,
+      "lam_g": 0.05,
+      "lam_ini": 100000.0,
+      "lam_du": 5.0,
+      "u_limit": 1.0,
+      "goal_chart_candidates": 400,
+      "goal_charts": 2,
+      "goal_source_target_min_distance": 0.06,
+      "goal_branch_selection": "compatible",
+      "goal_chart_override": null,
+      "steps": 8
+    },
+    "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+    "atlas_sha256": "b8641b1c376a2f4af5dcf9415a5d591a36e99bb223b1c0f7c17390de16803007",
+    "timing_protocol": "serial_rollouts_one_blas_thread"
+  },
+  "seeds": [
+    211
+  ],
+  "candidate_counts": [
+    10,
+    50,
+    100,
+    200,
+    400
+  ],
+  "shared_offline_preparation_s": 0.12959591700928286,
+  "shared_chart_svd_s": 0.12244391703279689,
+  "shared_all_pairs_routing_s": 0.0004657499957829714,
+  "shared_source_metadata_s": 1.7909915186464787e-06
+}

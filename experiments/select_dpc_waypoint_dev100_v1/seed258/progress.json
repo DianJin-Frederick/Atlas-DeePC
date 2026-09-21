@@ -1,0 +1,62 @@
+{
+  "seed": 258,
+  "updated": "2026-09-17T02:47:26-05:00",
+  "plan_sha256": "7e7b86cb056324fad4fd2637fc646d9a1010c2609b7b0400420822712a06f020",
+  "waypoints_xy": [
+    [
+      0.14684669964107067,
+      0.052203461493090186
+    ],
+    [
+      0.08385315715063163,
+      0.10233480766294945
+    ]
+  ],
+  "final_target_xy": [
+    0.020859614660192566,
+    0.1524661538328087
+  ],
+  "waypoint_events": [
+    {
+      "step": 40,
+      "waypoint": 0,
+      "reason": "timeout",
+      "distance_mm": 50.18794291083727
+    },
+    {
+      "step": 80,
+      "waypoint": 1,
+      "reason": "timeout",
+      "distance_mm": 74.4084049343142
+    }
+  ],
+  "step": 200,
+  "requested_steps": 200,
+  "current_error_mm": 17.85535290371065,
+  "last30_mean_error_mm": 17.33037844366752,
+  "last30_max_error_mm": 19.588367004778853,
+  "last_diagnostic": {
+    "prediction_error_mm": 0.9206695855280056,
+    "objective_terms": {
+      "tracking": 1.2835558538397627,
+      "effort": 0.01546552713382271,
+      "slack": 1.5151959204593383e-11,
+      "coefficient_l1": 0.20828817861441573,
+      "projection": 0.01729943260227576
+    },
+    "past_xy_slack_mm": 2.4314077489923074e-12,
+    "past_posture_slack": 3.0288436607194873e-16
+  },
+  "success": false,
+  "success_30": false,
+  "success_100": false,
+  "final100_mm": 22.27038781270123,
+  "common_task_cost": 260334.45014011962,
+  "unsolved_subproblems": 0,
+  "subproblems": 1000,
+  "median_compute_ms": 2153.5087910015136,
+  "p99_compute_ms": 4010.9403705783193,
+  "max_compute_ms": 4215.652416925877,
+  "input_bound_violations": 0,
+  "active_reference_task_cost": 51066.50208579065
+}

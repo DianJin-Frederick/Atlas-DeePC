@@ -1,0 +1,6091 @@
+{
+  "modules": [
+    {
+      "module": "Chart localization",
+      "mean_ms": 0.07119281423862077,
+      "median_ms": 0.0647080596536398,
+      "p95_ms": 0.10141695383936167,
+      "p99_ms": 0.19295979873277325,
+      "share_of_mean_total": 0.0019827680501012025
+    },
+    {
+      "module": "Terminal-reference selection",
+      "mean_ms": 0.015657092158180026,
+      "median_ms": 0.013874960131943226,
+      "p95_ms": 0.01920794602483511,
+      "p99_ms": 0.04704191815108061,
+      "share_of_mean_total": 0.00043606061118298144
+    },
+    {
+      "module": "Graph routing",
+      "mean_ms": 0.006965069616183875,
+      "median_ms": 0.005959067493677139,
+      "p95_ms": 0.008750008419156075,
+      "p99_ms": 0.022207970032468438,
+      "share_of_mean_total": 0.00019398190181683112
+    },
+    {
+      "module": "Linear subspace retrieval",
+      "mean_ms": 0.0008207087970471808,
+      "median_ms": 0.000750063918530941,
+      "p95_ms": 0.0010420335456728935,
+      "p99_ms": 0.0013329554349184036,
+      "share_of_mean_total": 2.2857295341183125e-05
+    },
+    {
+      "module": "QP construction and solve",
+      "mean_ms": 35.77466798740853,
+      "median_ms": 32.99395798239857,
+      "p95_ms": 54.467793763615184,
+      "p99_ms": 76.32701620110319,
+      "share_of_mean_total": 0.9963487108496992
+    },
+    {
+      "module": "Other control-loop work",
+      "mean_ms": 0.036466664854910166,
+      "median_ms": 0.03179092891514301,
+      "p95_ms": 0.054957810789346695,
+      "p99_ms": 0.10829117032699288,
+      "share_of_mean_total": 0.0010156212918584163
+    },
+    {
+      "module": "Total online control",
+      "mean_ms": 35.90577033707348,
+      "median_ms": 33.11958292033523,
+      "p95_ms": 54.63067328091711,
+      "p99_ms": 76.53940810356296,
+      "share_of_mean_total": 1.0
+    }
+  ],
+  "per_seed": [
+    {
+      "seed": 311,
+      "one_time_goal_setup_ms": 13.832124997861683,
+      "median_total_ms": 36.80304205045104,
+      "mean_total_ms": 39.23614998126314
+    },
+    {
+      "seed": 312,
+      "one_time_goal_setup_ms": 5.661166040226817,
+      "median_total_ms": 38.881707936525345,
+      "mean_total_ms": 45.12400529606061
+    },
+    {
+      "seed": 313,
+      "one_time_goal_setup_ms": 7.737666019238532,
+      "median_total_ms": 35.924875061027706,
+      "mean_total_ms": 38.00855160557798
+    },
+    {
+      "seed": 314,
+      "one_time_goal_setup_ms": 5.296957911923528,
+      "median_total_ms": 36.776207969523966,
+      "mean_total_ms": 39.042184908046494
+    },
+    {
+      "seed": 315,
+      "one_time_goal_setup_ms": 11.44270901568234,
+      "median_total_ms": 37.68887498881668,
+      "mean_total_ms": 40.72153120530799
+    },
+    {
+      "seed": 316,
+      "one_time_goal_setup_ms": 7.0327919675037265,
+      "median_total_ms": 37.79341699555516,
+      "mean_total_ms": 40.968970381211314
+    },
+    {
+      "seed": 317,
+      "one_time_goal_setup_ms": 5.368374986574054,
+      "median_total_ms": 43.54245797730982,
+      "mean_total_ms": 47.67184481024742
+    },
+    {
+      "seed": 318,
+      "one_time_goal_setup_ms": 7.420749985612929,
+      "median_total_ms": 38.09725004248321,
+      "mean_total_ms": 41.60398595471172
+    },
+    {
+      "seed": 319,
+      "one_time_goal_setup_ms": 6.65262492839247,
+      "median_total_ms": 36.419334006495774,
+      "mean_total_ms": 39.24817379881879
+    },
+    {
+      "seed": 320,
+      "one_time_goal_setup_ms": 4.7554170014336705,
+      "median_total_ms": 38.237374974414706,
+      "mean_total_ms": 39.00488753921338
+    },
+    {
+      "seed": 321,
+      "one_time_goal_setup_ms": 7.397040957584977,
+      "median_total_ms": 36.547333002090454,
+      "mean_total_ms": 39.82147027716218
+    },
+    {
+      "seed": 322,
+      "one_time_goal_setup_ms": 5.816166987642646,
+      "median_total_ms": 36.30383301060647,
+      "mean_total_ms": 37.79203183912036
+    },
+    {
+      "seed": 323,
+      "one_time_goal_setup_ms": 5.294792004860938,
+      "median_total_ms": 35.703124944120646,
+      "mean_total_ms": 38.63138398007741
+    },
+    {
+      "seed": 324,
+      "one_time_goal_setup_ms": 5.1620000740513206,
+      "median_total_ms": 35.257791983895004,
+      "mean_total_ms": 37.11703066226272
+    },
+    {
+      "seed": 325,
+      "one_time_goal_setup_ms": 4.638583050109446,
+      "median_total_ms": 37.721749977208674,
+      "mean_total_ms": 39.666975811419505
+    },
+    {
+      "seed": 326,
+      "one_time_goal_setup_ms": 5.598334013484418,
+      "median_total_ms": 40.23704200517386,
+      "mean_total_ms": 43.40234777616662
+    },
+    {
+      "seed": 327,
+      "one_time_goal_setup_ms": 6.116125034168363,
+      "median_total_ms": 37.56129206158221,
+      "mean_total_ms": 40.70029538272629
+    },
+    {
+      "seed": 328,
+      "one_time_goal_setup_ms": 5.536167067475617,
+      "median_total_ms": 37.363584036938846,
+      "mean_total_ms": 40.03547087666534
+    },
+    {
+      "seed": 329,
+      "one_time_goal_setup_ms": 5.278458003886044,
+      "median_total_ms": 37.05066698603332,
+      "mean_total_ms": 39.78488253584752
+    },
+    {
+      "seed": 330,
+      "one_time_goal_setup_ms": 5.285499966703355,
+      "median_total_ms": 35.84441600833088,
+      "mean_total_ms": 39.396809946952594
+    },
+    {
+      "seed": 331,
+      "one_time_goal_setup_ms": 5.190292024053633,
+      "median_total_ms": 36.620124941691756,
+      "mean_total_ms": 39.34464050892977
+    },
+    {
+      "seed": 332,
+      "one_time_goal_setup_ms": 5.175499944016337,
+      "median_total_ms": 38.97774999495596,
+      "mean_total_ms": 41.437992854561244
+    },
+    {
+      "seed": 333,
+      "one_time_goal_setup_ms": 5.564832943491638,
+      "median_total_ms": 36.66008298750967,
+      "mean_total_ms": 40.70145848266307
+    },
+    {
+      "seed": 334,
+      "one_time_goal_setup_ms": 5.251458031125367,
+      "median_total_ms": 37.11866692174226,
+      "mean_total_ms": 39.33380501832636
+    },
+    {
+      "seed": 335,
+      "one_time_goal_setup_ms": 5.213625030592084,
+      "median_total_ms": 37.37079200800508,
+      "mean_total_ms": 40.75287895883241
+    },
+    {
+      "seed": 336,
+      "one_time_goal_setup_ms": 5.156415980309248,
+      "median_total_ms": 38.876542006619275,
+      "mean_total_ms": 41.17759458816773
+    },
+    {
+      "seed": 337,
+      "one_time_goal_setup_ms": 5.840291036292911,
+      "median_total_ms": 37.94725006446242,
+      "mean_total_ms": 40.18259718016322
+    },
+    {
+      "seed": 338,
+      "one_time_goal_setup_ms": 7.206124952062964,
+      "median_total_ms": 35.30204202979803,
+      "mean_total_ms": 37.553727881066386
+    },
+    {
+      "seed": 339,
+      "one_time_goal_setup_ms": 5.235583987087011,
+      "median_total_ms": 34.85166607424617,
+      "mean_total_ms": 36.45125357951555
+    },
+    {
+      "seed": 340,
+      "one_time_goal_setup_ms": 7.492207922041416,
+      "median_total_ms": 36.01916693150997,
+      "mean_total_ms": 39.82336389987419
+    },
+    {
+      "seed": 341,
+      "one_time_goal_setup_ms": 6.090375012718141,
+      "median_total_ms": 35.71420896332711,
+      "mean_total_ms": 37.67097329772595
+    },
+    {
+      "seed": 342,
+      "one_time_goal_setup_ms": 4.696249961853027,
+      "median_total_ms": 35.47116694971919,
+      "mean_total_ms": 38.131876470565444
+    },
+    {
+      "seed": 343,
+      "one_time_goal_setup_ms": 5.772584001533687,
+      "median_total_ms": 38.218915928155184,
+      "mean_total_ms": 40.540196707413074
+    },
+    {
+      "seed": 344,
+      "one_time_goal_setup_ms": 5.892416927963495,
+      "median_total_ms": 36.86616593040526,
+      "mean_total_ms": 39.576531064859225
+    },
+    {
+      "seed": 345,
+      "one_time_goal_setup_ms": 5.763416062109172,
+      "median_total_ms": 35.604874952696264,
+      "mean_total_ms": 37.171686102917036
+    },
+    {
+      "seed": 346,
+      "one_time_goal_setup_ms": 4.996833042241633,
+      "median_total_ms": 35.86499998345971,
+      "mean_total_ms": 39.407583309470546
+    },
+    {
+      "seed": 347,
+      "one_time_goal_setup_ms": 5.134750041179359,
+      "median_total_ms": 38.749209023080766,
+      "mean_total_ms": 44.23918342550418
+    },
+    {
+      "seed": 348,
+      "one_time_goal_setup_ms": 9.17604099959135,
+      "median_total_ms": 36.25062492210418,
+      "mean_total_ms": 39.988224842171704
+    },
+    {
+      "seed": 349,
+      "one_time_goal_setup_ms": 5.206250003539026,
+      "median_total_ms": 36.26729198731482,
+      "mean_total_ms": 39.141605018697206
+    },
+    {
+      "seed": 350,
+      "one_time_goal_setup_ms": 5.522624938748777,
+      "median_total_ms": 36.07262496370822,
+      "mean_total_ms": 38.922587575183975
+    },
+    {
+      "seed": 351,
+      "one_time_goal_setup_ms": 6.697292090393603,
+      "median_total_ms": 37.695916020311415,
+      "mean_total_ms": 40.59937988622262
+    },
+    {
+      "seed": 352,
+      "one_time_goal_setup_ms": 5.141832982189953,
+      "median_total_ms": 36.788083030842245,
+      "mean_total_ms": 38.786849149295854
+    },
+    {
+      "seed": 353,
+      "one_time_goal_setup_ms": 5.109124933369458,
+      "median_total_ms": 36.093416973017156,
+      "mean_total_ms": 39.1052263197563
+    },
+    {
+      "seed": 354,
+      "one_time_goal_setup_ms": 6.845833035185933,
+      "median_total_ms": 39.43895793054253,
+      "mean_total_ms": 42.99016704908498
+    },
+    {
+      "seed": 355,
+      "one_time_goal_setup_ms": 5.410540965385735,
+      "median_total_ms": 37.94512490276247,
+      "mean_total_ms": 40.24458606505678
+    },
+    {
+      "seed": 356,
+      "one_time_goal_setup_ms": 5.051291082054377,
+      "median_total_ms": 35.46837507747114,
+      "mean_total_ms": 38.57397193029996
+    },
+    {
+      "seed": 357,
+      "one_time_goal_setup_ms": 6.185207981616259,
+      "median_total_ms": 39.72020896617323,
+      "mean_total_ms": 42.74114720405094
+    },
+    {
+      "seed": 358,
+      "one_time_goal_setup_ms": 5.431208992376924,
+      "median_total_ms": 38.869792013429105,
+      "mean_total_ms": 42.8062271518958
+    },
+    {
+      "seed": 359,
+      "one_time_goal_setup_ms": 5.731042008846998,
+      "median_total_ms": 36.86191700398922,
+      "mean_total_ms": 40.39706034282784
+    },
+    {
+      "seed": 360,
+      "one_time_goal_setup_ms": 4.802874987944961,
+      "median_total_ms": 36.40237497165799,
+      "mean_total_ms": 41.06822263833786
+    },
+    {
+      "seed": 361,
+      "one_time_goal_setup_ms": 15.876790974289179,
+      "median_total_ms": 36.72945802100003,
+      "mean_total_ms": 40.66399929431518
+    },
+    {
+      "seed": 362,
+      "one_time_goal_setup_ms": 5.904000019654632,
+      "median_total_ms": 35.69370892364532,
+      "mean_total_ms": 38.233763746739854
+    },
+    {
+      "seed": 363,
+      "one_time_goal_setup_ms": 5.592499976046383,
+      "median_total_ms": 35.82529095001519,
+      "mean_total_ms": 39.65130729031645
+    },
+    {
+      "seed": 364,
+      "one_time_goal_setup_ms": 5.8120000176131725,
+      "median_total_ms": 37.04904206097126,
+      "mean_total_ms": 39.31520965526856
+    },
+    {
+      "seed": 365,
+      "one_time_goal_setup_ms": 6.926249945536256,
+      "median_total_ms": 40.17341695725918,
+      "mean_total_ms": 44.629137710269006
+    },
+    {
+      "seed": 366,
+      "one_time_goal_setup_ms": 7.063542027026415,
+      "median_total_ms": 39.50266703031957,
+      "mean_total_ms": 42.608202112439486
+    },
+    {
+      "seed": 367,
+      "one_time_goal_setup_ms": 11.267082998529077,
+      "median_total_ms": 38.53200003504753,
+      "mean_total_ms": 43.83394973877344
+    },
+    {
+      "seed": 368,
+      "one_time_goal_setup_ms": 7.29229103308171,
+      "median_total_ms": 34.65341601986438,
+      "mean_total_ms": 37.066067592610445
+    },
+    {
+      "seed": 369,
+      "one_time_goal_setup_ms": 6.456707953475416,
+      "median_total_ms": 34.79950001928955,
+      "mean_total_ms": 37.64688782356975
+    },
+    {
+      "seed": 370,
+      "one_time_goal_setup_ms": 6.0631249798461795,
+      "median_total_ms": 38.3862080052495,
+      "mean_total_ms": 45.98842643105262
+    },
+    {
+      "seed": 371,
+      "one_time_goal_setup_ms": 7.785083027556539,
+      "median_total_ms": 34.34700006619096,
+      "mean_total_ms": 36.57476453088401
+    },
+    {
+      "seed": 372,
+      "one_time_goal_setup_ms": 5.65937499050051,
+      "median_total_ms": 34.95795791968703,
+      "mean_total_ms": 38.78054165961369
+    },
+    {
+      "seed": 373,
+      "one_time_goal_setup_ms": 5.072291009128094,
+      "median_total_ms": 35.82658292725682,
+      "mean_total_ms": 38.55066667200022
+    },
+    {
+      "seed": 374,
+      "one_time_goal_setup_ms": 5.397667060606182,
+      "median_total_ms": 35.25937499944121,
+      "mean_total_ms": 38.41270581737811
+    },
+    {
+      "seed": 375,
+      "one_time_goal_setup_ms": 5.818250006996095,
+      "median_total_ms": 37.83004195429385,
+      "mean_total_ms": 41.101168237611766
+    },
+    {
+      "seed": 376,
+      "one_time_goal_setup_ms": 5.908540915697813,
+      "median_total_ms": 38.59045810531825,
+      "mean_total_ms": 44.784034252728496
+    },
+    {
+      "seed": 377,
+      "one_time_goal_setup_ms": 6.569791934452951,
+      "median_total_ms": 37.820749916136265,
+      "mean_total_ms": 44.37893849930593
+    },
+    {
+      "seed": 378,
+      "one_time_goal_setup_ms": 7.600625045597553,
+      "median_total_ms": 33.86199998203665,
+      "mean_total_ms": 36.665057761239865
+    },
+    {
+      "seed": 379,
+      "one_time_goal_setup_ms": 5.73187496047467,
+      "median_total_ms": 36.73562500625849,
+      "mean_total_ms": 41.90565027400024
+    },
+    {
+      "seed": 380,
+      "one_time_goal_setup_ms": 5.49408292863518,
+      "median_total_ms": 34.68375001102686,
+      "mean_total_ms": 42.23707699556909
+    },
+    {
+      "seed": 381,
+      "one_time_goal_setup_ms": 8.611041936092079,
+      "median_total_ms": 38.635458098724484,
+      "mean_total_ms": 42.178056488138814
+    },
+    {
+      "seed": 382,
+      "one_time_goal_setup_ms": 7.941166986711323,
+      "median_total_ms": 35.64641694538295,
+      "mean_total_ms": 41.35089485299966
+    },
+    {
+      "seed": 383,
+      "one_time_goal_setup_ms": 5.300957942381501,
+      "median_total_ms": 36.35841701179743,
+      "mean_total_ms": 41.83636865696855
+    },
+    {
+      "seed": 384,
+      "one_time_goal_setup_ms": 4.910958930850029,
+      "median_total_ms": 37.495333002880216,
+      "mean_total_ms": 41.12002582008403
+    },
+    {
+      "seed": 385,
+      "one_time_goal_setup_ms": 5.385583965107799,
+      "median_total_ms": 41.372125037014484,
+      "mean_total_ms": 46.04737753055931
+    },
+    {
+      "seed": 386,
+      "one_time_goal_setup_ms": 7.38633400760591,
+      "median_total_ms": 39.13154103793204,
+      "mean_total_ms": 43.03158446296399
+    },
+    {
+      "seed": 387,
+      "one_time_goal_setup_ms": 6.114291958510876,
+      "median_total_ms": 39.98191701248288,
+      "mean_total_ms": 44.206483673954764
+    },
+    {
+      "seed": 388,
+      "one_time_goal_setup_ms": 9.274499956518412,
+      "median_total_ms": 39.626457961276174,
+      "mean_total_ms": 43.330107416425435
+    },
+    {
+      "seed": 389,
+      "one_time_goal_setup_ms": 5.311082932166755,
+      "median_total_ms": 35.293917055241764,
+      "mean_total_ms": 37.300306774808895
+    },
+    {
+      "seed": 390,
+      "one_time_goal_setup_ms": 5.558707984164357,
+      "median_total_ms": 38.80116599611938,
+      "mean_total_ms": 41.256929544125875
+    },
+    {
+      "seed": 391,
+      "one_time_goal_setup_ms": 6.7425830056890845,
+      "median_total_ms": 36.82479099370539,
+      "mean_total_ms": 40.983749220576435
+    },
+    {
+      "seed": 392,
+      "one_time_goal_setup_ms": 5.292749963700771,
+      "median_total_ms": 37.080375012010336,
+      "mean_total_ms": 41.33768949642896
+    },
+    {
+      "seed": 393,
+      "one_time_goal_setup_ms": 6.5732080256566405,
+      "median_total_ms": 36.520207999274135,
+      "mean_total_ms": 42.318353184779724
+    },
+    {
+      "seed": 394,
+      "one_time_goal_setup_ms": 7.141917012631893,
+      "median_total_ms": 34.49820901732892,
+      "mean_total_ms": 39.08091175170349
+    },
+    {
+      "seed": 395,
+      "one_time_goal_setup_ms": 5.465207970701158,
+      "median_total_ms": 34.624041989445686,
+      "mean_total_ms": 37.99549062691984
+    },
+    {
+      "seed": 396,
+      "one_time_goal_setup_ms": 5.210874951444566,
+      "median_total_ms": 35.49191704951227,
+      "mean_total_ms": 38.6396975936516
+    },
+    {
+      "seed": 397,
+      "one_time_goal_setup_ms": 4.946375032886863,
+      "median_total_ms": 38.12883293721825,
+      "mean_total_ms": 45.60178691698682
+    },
+    {
+      "seed": 398,
+      "one_time_goal_setup_ms": 18.852667068131268,
+      "median_total_ms": 45.710334088653326,
+      "mean_total_ms": 57.70435128878388
+    },
+    {
+      "seed": 399,
+      "one_time_goal_setup_ms": 31.12475003581494,
+      "median_total_ms": 38.9313749037683,
+      "mean_total_ms": 44.52861447685531
+    },
+    {
+      "seed": 400,
+      "one_time_goal_setup_ms": 14.970417018048465,
+      "median_total_ms": 39.537500008009374,
+      "mean_total_ms": 44.18862866429937
+    },
+    {
+      "seed": 401,
+      "one_time_goal_setup_ms": 6.175416987389326,
+      "median_total_ms": 37.90845803450793,
+      "mean_total_ms": 41.20906255030561
+    },
+    {
+      "seed": 402,
+      "one_time_goal_setup_ms": 5.5639579659327865,
+      "median_total_ms": 34.801832982338965,
+      "mean_total_ms": 37.673257270251355
+    },
+    {
+      "seed": 403,
+      "one_time_goal_setup_ms": 7.135333027690649,
+      "median_total_ms": 34.42416596226394,
+      "mean_total_ms": 36.53403863732127
+    },
+    {
+      "seed": 404,
+      "one_time_goal_setup_ms": 8.21312505286187,
+      "median_total_ms": 35.69295897614211,
+      "mean_total_ms": 40.31454552896321
+    },
+    {
+      "seed": 405,
+      "one_time_goal_setup_ms": 5.783667089417577,
+      "median_total_ms": 37.05275000538677,
+      "mean_total_ms": 41.51634552723004
+    },
+    {
+      "seed": 406,
+      "one_time_goal_setup_ms": 5.015083937905729,
+      "median_total_ms": 35.51133302971721,
+      "mean_total_ms": 39.13565681256827
+    },
+    {
+      "seed": 407,
+      "one_time_goal_setup_ms": 7.482250104658306,
+      "median_total_ms": 38.00275002140552,
+      "mean_total_ms": 40.786088637578935
+    },
+    {
+      "seed": 408,
+      "one_time_goal_setup_ms": 5.556624964810908,
+      "median_total_ms": 41.29875008948147,
+      "mean_total_ms": 44.68080730340074
+    },
+    {
+      "seed": 409,
+      "one_time_goal_setup_ms": 7.145124953240156,
+      "median_total_ms": 38.64616702776402,
+      "mean_total_ms": 41.30815291548118
+    },
+    {
+      "seed": 410,
+      "one_time_goal_setup_ms": 6.409334018826485,
+      "median_total_ms": 36.84433293528855,
+      "mean_total_ms": 39.22660397698304
+    },
+    {
+      "seed": 411,
+      "one_time_goal_setup_ms": 5.016500013880432,
+      "median_total_ms": 36.641959100961685,
+      "mean_total_ms": 43.18591690149217
+    },
+    {
+      "seed": 412,
+      "one_time_goal_setup_ms": 6.254417006857693,
+      "median_total_ms": 48.1229160213843,
+      "mean_total_ms": 54.18646451573642
+    },
+    {
+      "seed": 413,
+      "one_time_goal_setup_ms": 10.938041959889233,
+      "median_total_ms": 38.06483291555196,
+      "mean_total_ms": 41.765367432260916
+    },
+    {
+      "seed": 414,
+      "one_time_goal_setup_ms": 7.589083979837596,
+      "median_total_ms": 38.17716694902629,
+      "mean_total_ms": 44.565732941578425
+    },
+    {
+      "seed": 415,
+      "one_time_goal_setup_ms": 7.175249978899956,
+      "median_total_ms": 38.59812510199845,
+      "mean_total_ms": 40.86153360992847
+    },
+    {
+      "seed": 416,
+      "one_time_goal_setup_ms": 5.188541021198034,
+      "median_total_ms": 32.577708014287055,
+      "mean_total_ms": 34.98794309876209
+    },
+    {
+      "seed": 417,
+      "one_time_goal_setup_ms": 4.860166925936937,
+      "median_total_ms": 35.23537504952401,
+      "mean_total_ms": 36.88830653471606
+    },
+    {
+      "seed": 418,
+      "one_time_goal_setup_ms": 6.19808305054903,
+      "median_total_ms": 36.33812500629574,
+      "mean_total_ms": 39.136615840141616
+    },
+    {
+      "seed": 419,
+      "one_time_goal_setup_ms": 4.870917066000402,
+      "median_total_ms": 40.302832960151136,
+      "mean_total_ms": 45.56413278323672
+    },
+    {
+      "seed": 420,
+      "one_time_goal_setup_ms": 5.816707969643176,
+      "median_total_ms": 33.23937498498708,
+      "mean_total_ms": 35.77070077326859
+    },
+    {
+      "seed": 421,
+      "one_time_goal_setup_ms": 5.101833026856184,
+      "median_total_ms": 34.29229196626693,
+      "mean_total_ms": 37.1289786017899
+    },
+    {
+      "seed": 422,
+      "one_time_goal_setup_ms": 5.424458999186754,
+      "median_total_ms": 33.99054100736976,
+      "mean_total_ms": 35.93483228783404
+    },
+    {
+      "seed": 423,
+      "one_time_goal_setup_ms": 4.8643340123817325,
+      "median_total_ms": 33.93141692504287,
+      "mean_total_ms": 37.14738822808223
+    },
+    {
+      "seed": 424,
+      "one_time_goal_setup_ms": 4.8944170121103525,
+      "median_total_ms": 35.329916048794985,
+      "mean_total_ms": 37.664418766230696
+    },
+    {
+      "seed": 425,
+      "one_time_goal_setup_ms": 6.005167029798031,
+      "median_total_ms": 35.61145800631493,
+      "mean_total_ms": 37.07299179966665
+    },
+    {
+      "seed": 426,
+      "one_time_goal_setup_ms": 5.311500048264861,
+      "median_total_ms": 34.61445798166096,
+      "mean_total_ms": 37.79390902805423
+    },
+    {
+      "seed": 427,
+      "one_time_goal_setup_ms": 4.507250036112964,
+      "median_total_ms": 35.85750004276633,
+      "mean_total_ms": 36.886617220893854
+    },
+    {
+      "seed": 428,
+      "one_time_goal_setup_ms": 6.37008307967335,
+      "median_total_ms": 35.31183290760964,
+      "mean_total_ms": 36.008400135924894
+    },
+    {
+      "seed": 429,
+      "one_time_goal_setup_ms": 5.654667038470507,
+      "median_total_ms": 36.54762508813292,
+      "mean_total_ms": 38.627775541196264
+    },
+    {
+      "seed": 430,
+      "one_time_goal_setup_ms": 5.362499970942736,
+      "median_total_ms": 32.90945803746581,
+      "mean_total_ms": 34.92167012078599
+    },
+    {
+      "seed": 431,
+      "one_time_goal_setup_ms": 5.277334013953805,
+      "median_total_ms": 35.295333014801145,
+      "mean_total_ms": 37.08392778699774
+    },
+    {
+      "seed": 432,
+      "one_time_goal_setup_ms": 6.104458007030189,
+      "median_total_ms": 34.25208304543048,
+      "mean_total_ms": 36.062071236988736
+    },
+    {
+      "seed": 433,
+      "one_time_goal_setup_ms": 4.66937490273267,
+      "median_total_ms": 33.18691696040332,
+      "mean_total_ms": 36.034103191738566
+    },
+    {
+      "seed": 434,
+      "one_time_goal_setup_ms": 4.972082911990583,
+      "median_total_ms": 35.78320809174329,
+      "mean_total_ms": 38.306248024298206
+    },
+    {
+      "seed": 435,
+      "one_time_goal_setup_ms": 4.490999970585108,
+      "median_total_ms": 36.91450005862862,
+      "mean_total_ms": 37.72781864917349
+    },
+    {
+      "seed": 436,
+      "one_time_goal_setup_ms": 5.428833072073758,
+      "median_total_ms": 34.16966600343585,
+      "mean_total_ms": 37.483811773551956
+    },
+    {
+      "seed": 437,
+      "one_time_goal_setup_ms": 5.608999985270202,
+      "median_total_ms": 32.947625033557415,
+      "mean_total_ms": 35.968563758531616
+    },
+    {
+      "seed": 438,
+      "one_time_goal_setup_ms": 5.037249997258186,
+      "median_total_ms": 33.39941694866866,
+      "mean_total_ms": 35.50313200010726
+    },
+    {
+      "seed": 439,
+      "one_time_goal_setup_ms": 5.187958013266325,
+      "median_total_ms": 36.316666984930634,
+      "mean_total_ms": 39.641235825709174
+    },
+    {
+      "seed": 440,
+      "one_time_goal_setup_ms": 4.9175419844686985,
+      "median_total_ms": 37.403375026769936,
+      "mean_total_ms": 41.394363483414054
+    },
+    {
+      "seed": 441,
+      "one_time_goal_setup_ms": 5.628833081573248,
+      "median_total_ms": 34.71441695000976,
+      "mean_total_ms": 37.614004895652805
+    },
+    {
+      "seed": 442,
+      "one_time_goal_setup_ms": 4.885750007815659,
+      "median_total_ms": 35.611333907581866,
+      "mean_total_ms": 37.28776716863707
+    },
+    {
+      "seed": 443,
+      "one_time_goal_setup_ms": 5.248666973784566,
+      "median_total_ms": 37.1215840568766,
+      "mean_total_ms": 41.600221175227375
+    },
+    {
+      "seed": 444,
+      "one_time_goal_setup_ms": 4.95970796328038,
+      "median_total_ms": 37.44137496687472,
+      "mean_total_ms": 39.760163061631225
+    },
+    {
+      "seed": 445,
+      "one_time_goal_setup_ms": 5.234124953858554,
+      "median_total_ms": 35.15933302696794,
+      "mean_total_ms": 36.121404740501134
+    },
+    {
+      "seed": 446,
+      "one_time_goal_setup_ms": 5.08516700938344,
+      "median_total_ms": 36.4092499949038,
+      "mean_total_ms": 38.20888918181438
+    },
+    {
+      "seed": 447,
+      "one_time_goal_setup_ms": 5.149416974745691,
+      "median_total_ms": 36.286499933339655,
+      "mean_total_ms": 38.14452093552857
+    },
+    {
+      "seed": 448,
+      "one_time_goal_setup_ms": 5.046542035415769,
+      "median_total_ms": 33.425166038796306,
+      "mean_total_ms": 35.24882975773561
+    },
+    {
+      "seed": 449,
+      "one_time_goal_setup_ms": 4.805541946552694,
+      "median_total_ms": 35.02770804334432,
+      "mean_total_ms": 36.700564148717575
+    },
+    {
+      "seed": 450,
+      "one_time_goal_setup_ms": 6.959457998163998,
+      "median_total_ms": 38.40941598173231,
+      "mean_total_ms": 40.371809776000205
+    },
+    {
+      "seed": 451,
+      "one_time_goal_setup_ms": 5.655334098264575,
+      "median_total_ms": 37.536832969635725,
+      "mean_total_ms": 39.98529258671971
+    },
+    {
+      "seed": 452,
+      "one_time_goal_setup_ms": 5.665458971634507,
+      "median_total_ms": 35.201125079765916,
+      "mean_total_ms": 37.22968132360764
+    },
+    {
+      "seed": 453,
+      "one_time_goal_setup_ms": 5.760792060755193,
+      "median_total_ms": 33.64154207520187,
+      "mean_total_ms": 35.525839703364504
+    },
+    {
+      "seed": 454,
+      "one_time_goal_setup_ms": 5.168083938769996,
+      "median_total_ms": 33.08654192369431,
+      "mean_total_ms": 34.92036707115374
+    },
+    {
+      "seed": 455,
+      "one_time_goal_setup_ms": 5.489000002853572,
+      "median_total_ms": 33.74883299693465,
+      "mean_total_ms": 35.71541929351432
+    },
+    {
+      "seed": 456,
+      "one_time_goal_setup_ms": 4.853416932746768,
+      "median_total_ms": 31.93670802284032,
+      "mean_total_ms": 35.512637448984954
+    },
+    {
+      "seed": 457,
+      "one_time_goal_setup_ms": 4.996957955881953,
+      "median_total_ms": 32.978834002278745,
+      "mean_total_ms": 34.846601597151704
+    },
+    {
+      "seed": 458,
+      "one_time_goal_setup_ms": 5.000166944228113,
+      "median_total_ms": 30.632375041022897,
+      "mean_total_ms": 32.45953084930541
+    },
+    {
+      "seed": 459,
+      "one_time_goal_setup_ms": 4.854374914430082,
+      "median_total_ms": 32.11141703650355,
+      "mean_total_ms": 33.24268636966331
+    },
+    {
+      "seed": 460,
+      "one_time_goal_setup_ms": 4.999957978725433,
+      "median_total_ms": 32.09820901975036,
+      "mean_total_ms": 33.82572022761913
+    },
+    {
+      "seed": 461,
+      "one_time_goal_setup_ms": 5.291374982334673,
+      "median_total_ms": 32.75995794683695,
+      "mean_total_ms": 34.61871126422747
+    },
+    {
+      "seed": 462,
+      "one_time_goal_setup_ms": 5.092167062684894,
+      "median_total_ms": 31.364207970909774,
+      "mean_total_ms": 34.58959427662194
+    },
+    {
+      "seed": 463,
+      "one_time_goal_setup_ms": 5.143083981238306,
+      "median_total_ms": 33.41699996963143,
+      "mean_total_ms": 35.2781002505845
+    },
+    {
+      "seed": 464,
+      "one_time_goal_setup_ms": 5.262959050014615,
+      "median_total_ms": 31.899666995741427,
+      "mean_total_ms": 33.16830203107129
+    },
+    {
+      "seed": 465,
+      "one_time_goal_setup_ms": 4.749124986119568,
+      "median_total_ms": 33.79491693340242,
+      "mean_total_ms": 35.612825133527316
+    },
+    {
+      "seed": 466,
+      "one_time_goal_setup_ms": 6.98612502310425,
+      "median_total_ms": 32.245334004983306,
+      "mean_total_ms": 34.037676300956974
+    },
+    {
+      "seed": 467,
+      "one_time_goal_setup_ms": 4.86104201991111,
+      "median_total_ms": 32.66558307223022,
+      "mean_total_ms": 35.00152911199996
+    },
+    {
+      "seed": 468,
+      "one_time_goal_setup_ms": 5.440708016976714,
+      "median_total_ms": 30.620666104368865,
+      "mean_total_ms": 33.24115028464428
+    },
+    {
+      "seed": 469,
+      "one_time_goal_setup_ms": 4.9657500348985195,
+      "median_total_ms": 32.28583303280175,
+      "mean_total_ms": 33.555288912565814
+    },
+    {
+      "seed": 470,
+      "one_time_goal_setup_ms": 5.207750014960766,
+      "median_total_ms": 32.044416991993785,
+      "mean_total_ms": 34.35317645891614
+    },
+    {
+      "seed": 471,
+      "one_time_goal_setup_ms": 5.121208028867841,
+      "median_total_ms": 30.91016598045826,
+      "mean_total_ms": 33.41657127667632
+    },
+    {
+      "seed": 472,
+      "one_time_goal_setup_ms": 4.749499959871173,
+      "median_total_ms": 31.543833087198436,
+      "mean_total_ms": 33.98844032725763
+    },
+    {
+      "seed": 473,
+      "one_time_goal_setup_ms": 4.786540986970067,
+      "median_total_ms": 32.15054201427847,
+      "mean_total_ms": 34.33170327251511
+    },
+    {
+      "seed": 474,
+      "one_time_goal_setup_ms": 6.2054169829934835,
+      "median_total_ms": 32.73087495472282,
+      "mean_total_ms": 34.17832295757733
+    },
+    {
+      "seed": 475,
+      "one_time_goal_setup_ms": 5.4345420794561505,
+      "median_total_ms": 34.10374990198761,
+      "mean_total_ms": 35.66512435541621
+    },
+    {
+      "seed": 476,
+      "one_time_goal_setup_ms": 4.784791963174939,
+      "median_total_ms": 33.75783294904977,
+      "mean_total_ms": 36.64654482022992
+    },
+    {
+      "seed": 477,
+      "one_time_goal_setup_ms": 6.498250062577426,
+      "median_total_ms": 32.952082925476134,
+      "mean_total_ms": 34.592843941220686
+    },
+    {
+      "seed": 478,
+      "one_time_goal_setup_ms": 5.479625076986849,
+      "median_total_ms": 34.357542055658996,
+      "mean_total_ms": 36.317421554306904
+    },
+    {
+      "seed": 479,
+      "one_time_goal_setup_ms": 4.665874992497265,
+      "median_total_ms": 33.98287494201213,
+      "mean_total_ms": 35.76582750335099
+    },
+    {
+      "seed": 480,
+      "one_time_goal_setup_ms": 4.740749951452017,
+      "median_total_ms": 32.247374998405576,
+      "mean_total_ms": 33.95760409489629
+    },
+    {
+      "seed": 481,
+      "one_time_goal_setup_ms": 5.667500081472099,
+      "median_total_ms": 33.85058289859444,
+      "mean_total_ms": 35.86848398175327
+    },
+    {
+      "seed": 482,
+      "one_time_goal_setup_ms": 4.76404104847461,
+      "median_total_ms": 32.47020801063627,
+      "mean_total_ms": 34.41413574933355
+    },
+    {
+      "seed": 483,
+      "one_time_goal_setup_ms": 5.4521249840036035,
+      "median_total_ms": 33.671375014819205,
+      "mean_total_ms": 36.56217326328809
+    },
+    {
+      "seed": 484,
+      "one_time_goal_setup_ms": 4.846874973736703,
+      "median_total_ms": 32.34708297532052,
+      "mean_total_ms": 34.07716388991546
+    },
+    {
+      "seed": 485,
+      "one_time_goal_setup_ms": 5.108457989990711,
+      "median_total_ms": 31.29129100125283,
+      "mean_total_ms": 33.41261391040115
+    },
+    {
+      "seed": 486,
+      "one_time_goal_setup_ms": 5.156500032171607,
+      "median_total_ms": 31.141916988417506,
+      "mean_total_ms": 33.24214881914298
+    },
+    {
+      "seed": 487,
+      "one_time_goal_setup_ms": 4.84104105271399,
+      "median_total_ms": 32.36795903649181,
+      "mean_total_ms": 34.7539996192421
+    },
+    {
+      "seed": 488,
+      "one_time_goal_setup_ms": 4.669625079259276,
+      "median_total_ms": 30.824500019662082,
+      "mean_total_ms": 33.11357001796188
+    },
+    {
+      "seed": 489,
+      "one_time_goal_setup_ms": 4.931749892421067,
+      "median_total_ms": 31.981708016246557,
+      "mean_total_ms": 33.94938026192702
+    },
+    {
+      "seed": 490,
+      "one_time_goal_setup_ms": 4.94029198307544,
+      "median_total_ms": 31.082666013389826,
+      "mean_total_ms": 33.347623437155214
+    },
+    {
+      "seed": 491,
+      "one_time_goal_setup_ms": 4.926790948957205,
+      "median_total_ms": 30.95487493555993,
+      "mean_total_ms": 32.81633702646349
+    },
+    {
+      "seed": 492,
+      "one_time_goal_setup_ms": 5.424082977697253,
+      "median_total_ms": 30.978791997767985,
+      "mean_total_ms": 34.169803591932926
+    },
+    {
+      "seed": 493,
+      "one_time_goal_setup_ms": 5.877499934285879,
+      "median_total_ms": 32.94158400967717,
+      "mean_total_ms": 35.89171322084786
+    },
+    {
+      "seed": 494,
+      "one_time_goal_setup_ms": 4.632250056602061,
+      "median_total_ms": 32.504667062312365,
+      "mean_total_ms": 35.58419286642992
+    },
+    {
+      "seed": 495,
+      "one_time_goal_setup_ms": 5.71233406662941,
+      "median_total_ms": 34.873791970312595,
+      "mean_total_ms": 36.80524999305369
+    },
+    {
+      "seed": 496,
+      "one_time_goal_setup_ms": 5.158666986972094,
+      "median_total_ms": 32.67870901618153,
+      "mean_total_ms": 34.47321076943938
+    },
+    {
+      "seed": 497,
+      "one_time_goal_setup_ms": 6.008500000461936,
+      "median_total_ms": 31.53774992097169,
+      "mean_total_ms": 32.99013041070707
+    },
+    {
+      "seed": 498,
+      "one_time_goal_setup_ms": 15.472791972570121,
+      "median_total_ms": 32.95795898884535,
+      "mean_total_ms": 35.76880264103354
+    },
+    {
+      "seed": 499,
+      "one_time_goal_setup_ms": 4.923166008666158,
+      "median_total_ms": 34.04645901173353,
+      "mean_total_ms": 37.841225836041666
+    },
+    {
+      "seed": 500,
+      "one_time_goal_setup_ms": 4.889208008535206,
+      "median_total_ms": 33.936999971047044,
+      "mean_total_ms": 35.76440638160363
+    },
+    {
+      "seed": 501,
+      "one_time_goal_setup_ms": 6.22779200784862,
+      "median_total_ms": 31.943124951794744,
+      "mean_total_ms": 33.78482988207705
+    },
+    {
+      "seed": 502,
+      "one_time_goal_setup_ms": 5.023000063374639,
+      "median_total_ms": 30.453999992460012,
+      "mean_total_ms": 32.23136442062992
+    },
+    {
+      "seed": 503,
+      "one_time_goal_setup_ms": 4.800125025212765,
+      "median_total_ms": 33.09099993202835,
+      "mean_total_ms": 35.31747829420344
+    },
+    {
+      "seed": 504,
+      "one_time_goal_setup_ms": 5.997166037559509,
+      "median_total_ms": 32.85800002049655,
+      "mean_total_ms": 35.400390867439526
+    },
+    {
+      "seed": 505,
+      "one_time_goal_setup_ms": 5.022542085498571,
+      "median_total_ms": 32.55508292932063,
+      "mean_total_ms": 34.23696175062408
+    },
+    {
+      "seed": 506,
+      "one_time_goal_setup_ms": 4.7681250143796206,
+      "median_total_ms": 32.647957908920944,
+      "mean_total_ms": 34.1978297779514
+    },
+    {
+      "seed": 507,
+      "one_time_goal_setup_ms": 4.699083045125008,
+      "median_total_ms": 31.2710830476135,
+      "mean_total_ms": 33.127509112588115
+    },
+    {
+      "seed": 508,
+      "one_time_goal_setup_ms": 4.424374899826944,
+      "median_total_ms": 31.429792055860162,
+      "mean_total_ms": 33.76042644885029
+    },
+    {
+      "seed": 509,
+      "one_time_goal_setup_ms": 7.737457985058427,
+      "median_total_ms": 32.29329199530184,
+      "mean_total_ms": 33.83219737618688
+    },
+    {
+      "seed": 510,
+      "one_time_goal_setup_ms": 4.584791022352874,
+      "median_total_ms": 34.72604195121676,
+      "mean_total_ms": 37.043200942525075
+    },
+    {
+      "seed": 511,
+      "one_time_goal_setup_ms": 4.945375025272369,
+      "median_total_ms": 33.2267910707742,
+      "mean_total_ms": 34.75139049724454
+    },
+    {
+      "seed": 512,
+      "one_time_goal_setup_ms": 4.72945801448077,
+      "median_total_ms": 33.40491699054837,
+      "mean_total_ms": 34.89056517636137
+    },
+    {
+      "seed": 513,
+      "one_time_goal_setup_ms": 5.592750036157668,
+      "median_total_ms": 32.333250041119754,
+      "mean_total_ms": 33.97271469279769
+    },
+    {
+      "seed": 514,
+      "one_time_goal_setup_ms": 5.390707985498011,
+      "median_total_ms": 31.54812508728355,
+      "mean_total_ms": 33.458402653830866
+    },
+    {
+      "seed": 515,
+      "one_time_goal_setup_ms": 4.964916966855526,
+      "median_total_ms": 32.20341703854501,
+      "mean_total_ms": 34.30809999210021
+    },
+    {
+      "seed": 516,
+      "one_time_goal_setup_ms": 4.7793330159038305,
+      "median_total_ms": 33.02291699219495,
+      "mean_total_ms": 34.462859413941345
+    },
+    {
+      "seed": 517,
+      "one_time_goal_setup_ms": 4.79537493083626,
+      "median_total_ms": 32.465709024108946,
+      "mean_total_ms": 33.932363250780675
+    },
+    {
+      "seed": 518,
+      "one_time_goal_setup_ms": 5.407458986155689,
+      "median_total_ms": 33.861791947856545,
+      "mean_total_ms": 36.76265383930138
+    },
+    {
+      "seed": 519,
+      "one_time_goal_setup_ms": 4.916791920550168,
+      "median_total_ms": 31.000541988760233,
+      "mean_total_ms": 33.122535956106965
+    },
+    {
+      "seed": 520,
+      "one_time_goal_setup_ms": 4.845542018301785,
+      "median_total_ms": 30.870333081111312,
+      "mean_total_ms": 32.99567023225661
+    },
+    {
+      "seed": 521,
+      "one_time_goal_setup_ms": 5.044582998380065,
+      "median_total_ms": 31.766458065249026,
+      "mean_total_ms": 34.56923689707995
+    },
+    {
+      "seed": 522,
+      "one_time_goal_setup_ms": 5.040458985604346,
+      "median_total_ms": 31.442041974514723,
+      "mean_total_ms": 33.903430865722754
+    },
+    {
+      "seed": 523,
+      "one_time_goal_setup_ms": 4.563499940559268,
+      "median_total_ms": 33.6556660477072,
+      "mean_total_ms": 36.291659630775925
+    },
+    {
+      "seed": 524,
+      "one_time_goal_setup_ms": 6.550958030857146,
+      "median_total_ms": 32.43012505117804,
+      "mean_total_ms": 34.08008455151012
+    },
+    {
+      "seed": 525,
+      "one_time_goal_setup_ms": 5.0127910217270255,
+      "median_total_ms": 30.661875032819808,
+      "mean_total_ms": 32.549829103259576
+    },
+    {
+      "seed": 526,
+      "one_time_goal_setup_ms": 4.578542080707848,
+      "median_total_ms": 33.21141703054309,
+      "mean_total_ms": 35.95727469905147
+    },
+    {
+      "seed": 527,
+      "one_time_goal_setup_ms": 4.4848748948425055,
+      "median_total_ms": 34.31504196487367,
+      "mean_total_ms": 36.27268080451777
+    },
+    {
+      "seed": 528,
+      "one_time_goal_setup_ms": 4.832125036045909,
+      "median_total_ms": 30.884500010870397,
+      "mean_total_ms": 32.91944736053073
+    },
+    {
+      "seed": 529,
+      "one_time_goal_setup_ms": 4.9556250451132655,
+      "median_total_ms": 32.61529200244695,
+      "mean_total_ms": 34.61975912445239
+    },
+    {
+      "seed": 530,
+      "one_time_goal_setup_ms": 4.777083056978881,
+      "median_total_ms": 31.757625052705407,
+      "mean_total_ms": 33.65883496183429
+    },
+    {
+      "seed": 531,
+      "one_time_goal_setup_ms": 4.608832998201251,
+      "median_total_ms": 33.10654102824628,
+      "mean_total_ms": 35.37262144890274
+    },
+    {
+      "seed": 532,
+      "one_time_goal_setup_ms": 5.497584003023803,
+      "median_total_ms": 34.367250045761466,
+      "mean_total_ms": 36.1307656259409
+    },
+    {
+      "seed": 533,
+      "one_time_goal_setup_ms": 5.293458001688123,
+      "median_total_ms": 34.738624934107065,
+      "mean_total_ms": 36.40217392017976
+    },
+    {
+      "seed": 534,
+      "one_time_goal_setup_ms": 5.258791032247245,
+      "median_total_ms": 33.38216699194163,
+      "mean_total_ms": 35.629911632794474
+    },
+    {
+      "seed": 535,
+      "one_time_goal_setup_ms": 4.986208979971707,
+      "median_total_ms": 32.58345799986273,
+      "mean_total_ms": 33.630521142382236
+    },
+    {
+      "seed": 536,
+      "one_time_goal_setup_ms": 5.023582954891026,
+      "median_total_ms": 30.698499991558492,
+      "mean_total_ms": 32.890452123394915
+    },
+    {
+      "seed": 537,
+      "one_time_goal_setup_ms": 5.910624982789159,
+      "median_total_ms": 32.72533300332725,
+      "mean_total_ms": 35.33649803471884
+    },
+    {
+      "seed": 538,
+      "one_time_goal_setup_ms": 5.071708001196384,
+      "median_total_ms": 32.04987500794232,
+      "mean_total_ms": 32.81405685794732
+    },
+    {
+      "seed": 539,
+      "one_time_goal_setup_ms": 4.922625026665628,
+      "median_total_ms": 31.155082979239523,
+      "mean_total_ms": 32.75431742492531
+    },
+    {
+      "seed": 540,
+      "one_time_goal_setup_ms": 4.745124955661595,
+      "median_total_ms": 32.70587499719113,
+      "mean_total_ms": 34.72302357725326
+    },
+    {
+      "seed": 541,
+      "one_time_goal_setup_ms": 4.778875038027763,
+      "median_total_ms": 30.568041023798287,
+      "mean_total_ms": 33.016210446311604
+    },
+    {
+      "seed": 542,
+      "one_time_goal_setup_ms": 4.667208064347506,
+      "median_total_ms": 31.720084021799266,
+      "mean_total_ms": 34.05810992144758
+    },
+    {
+      "seed": 543,
+      "one_time_goal_setup_ms": 6.077166995964944,
+      "median_total_ms": 33.650083001703024,
+      "mean_total_ms": 35.379226731934715
+    },
+    {
+      "seed": 544,
+      "one_time_goal_setup_ms": 4.846166004426777,
+      "median_total_ms": 35.03295802511275,
+      "mean_total_ms": 36.410285447103284
+    },
+    {
+      "seed": 545,
+      "one_time_goal_setup_ms": 6.820583948865533,
+      "median_total_ms": 32.96416695229709,
+      "mean_total_ms": 35.6197109734196
+    },
+    {
+      "seed": 546,
+      "one_time_goal_setup_ms": 4.808375029824674,
+      "median_total_ms": 32.738792011514306,
+      "mean_total_ms": 35.681210005921976
+    },
+    {
+      "seed": 547,
+      "one_time_goal_setup_ms": 5.073291016742587,
+      "median_total_ms": 31.934916973114014,
+      "mean_total_ms": 33.95892369176542
+    },
+    {
+      "seed": 548,
+      "one_time_goal_setup_ms": 11.061833007261157,
+      "median_total_ms": 31.04533301666379,
+      "mean_total_ms": 32.93234405019099
+    },
+    {
+      "seed": 549,
+      "one_time_goal_setup_ms": 4.734457936137915,
+      "median_total_ms": 33.42820797115564,
+      "mean_total_ms": 34.347095217053145
+    },
+    {
+      "seed": 550,
+      "one_time_goal_setup_ms": 4.924334003590047,
+      "median_total_ms": 32.144458033144474,
+      "mean_total_ms": 34.26651848361842
+    },
+    {
+      "seed": 551,
+      "one_time_goal_setup_ms": 5.114750005304813,
+      "median_total_ms": 33.202750026248395,
+      "mean_total_ms": 34.953472207093405
+    },
+    {
+      "seed": 552,
+      "one_time_goal_setup_ms": 4.780166083946824,
+      "median_total_ms": 30.712291016243398,
+      "mean_total_ms": 32.56402867846191
+    },
+    {
+      "seed": 553,
+      "one_time_goal_setup_ms": 4.796749912202358,
+      "median_total_ms": 31.049584038555622,
+      "mean_total_ms": 34.21288317749425
+    },
+    {
+      "seed": 554,
+      "one_time_goal_setup_ms": 4.730332992039621,
+      "median_total_ms": 31.93974995519966,
+      "mean_total_ms": 33.373259659117416
+    },
+    {
+      "seed": 555,
+      "one_time_goal_setup_ms": 5.7522079441696405,
+      "median_total_ms": 31.358583946712315,
+      "mean_total_ms": 33.80646146316495
+    },
+    {
+      "seed": 556,
+      "one_time_goal_setup_ms": 5.3660409757867455,
+      "median_total_ms": 32.71424991544336,
+      "mean_total_ms": 35.244440613684084
+    },
+    {
+      "seed": 557,
+      "one_time_goal_setup_ms": 4.637084086425602,
+      "median_total_ms": 32.19049994368106,
+      "mean_total_ms": 33.984846293941025
+    },
+    {
+      "seed": 558,
+      "one_time_goal_setup_ms": 5.3862499771639705,
+      "median_total_ms": 31.814832938835025,
+      "mean_total_ms": 34.1491891666212
+    },
+    {
+      "seed": 559,
+      "one_time_goal_setup_ms": 4.962833016179502,
+      "median_total_ms": 33.82262506056577,
+      "mean_total_ms": 35.13764314545644
+    },
+    {
+      "seed": 560,
+      "one_time_goal_setup_ms": 5.526875029318035,
+      "median_total_ms": 32.62325003743172,
+      "mean_total_ms": 34.03169312662194
+    },
+    {
+      "seed": 561,
+      "one_time_goal_setup_ms": 4.740874981507659,
+      "median_total_ms": 32.368042040616274,
+      "mean_total_ms": 33.45238939371137
+    },
+    {
+      "seed": 562,
+      "one_time_goal_setup_ms": 4.454209003597498,
+      "median_total_ms": 31.913124956190586,
+      "mean_total_ms": 33.92494605514147
+    },
+    {
+      "seed": 563,
+      "one_time_goal_setup_ms": 4.875499987974763,
+      "median_total_ms": 31.737917102873325,
+      "mean_total_ms": 33.39855712690642
+    },
+    {
+      "seed": 564,
+      "one_time_goal_setup_ms": 4.9840840511024,
+      "median_total_ms": 33.38333300780505,
+      "mean_total_ms": 35.499833455486666
+    },
+    {
+      "seed": 565,
+      "one_time_goal_setup_ms": 4.658833029679954,
+      "median_total_ms": 30.725958989933133,
+      "mean_total_ms": 32.98271630949799
+    },
+    {
+      "seed": 566,
+      "one_time_goal_setup_ms": 5.098207970149815,
+      "median_total_ms": 34.58045900333673,
+      "mean_total_ms": 36.10727671230774
+    },
+    {
+      "seed": 567,
+      "one_time_goal_setup_ms": 5.100333946757019,
+      "median_total_ms": 32.35083294566721,
+      "mean_total_ms": 35.55460000070669
+    },
+    {
+      "seed": 568,
+      "one_time_goal_setup_ms": 4.894250072538853,
+      "median_total_ms": 32.34962502028793,
+      "mean_total_ms": 33.97648518808955
+    },
+    {
+      "seed": 569,
+      "one_time_goal_setup_ms": 5.084291915409267,
+      "median_total_ms": 31.503792037256062,
+      "mean_total_ms": 34.2520621812178
+    },
+    {
+      "seed": 570,
+      "one_time_goal_setup_ms": 8.46150005236268,
+      "median_total_ms": 32.4321249499917,
+      "mean_total_ms": 33.85687090515617
+    },
+    {
+      "seed": 571,
+      "one_time_goal_setup_ms": 6.117917015217245,
+      "median_total_ms": 32.28445805143565,
+      "mean_total_ms": 34.11613000179862
+    },
+    {
+      "seed": 572,
+      "one_time_goal_setup_ms": 4.577250103466213,
+      "median_total_ms": 34.272167016752064,
+      "mean_total_ms": 35.85295330230442
+    },
+    {
+      "seed": 573,
+      "one_time_goal_setup_ms": 5.04887499846518,
+      "median_total_ms": 33.89516694005579,
+      "mean_total_ms": 36.09754328157694
+    },
+    {
+      "seed": 574,
+      "one_time_goal_setup_ms": 5.274124909192324,
+      "median_total_ms": 30.832124990411103,
+      "mean_total_ms": 32.31719617680129
+    },
+    {
+      "seed": 575,
+      "one_time_goal_setup_ms": 4.969291971065104,
+      "median_total_ms": 34.32841598987579,
+      "mean_total_ms": 36.875875764674255
+    },
+    {
+      "seed": 576,
+      "one_time_goal_setup_ms": 4.7807920491322875,
+      "median_total_ms": 32.763458089903,
+      "mean_total_ms": 34.072980949921266
+    },
+    {
+      "seed": 577,
+      "one_time_goal_setup_ms": 4.998666001483798,
+      "median_total_ms": 35.02854204270989,
+      "mean_total_ms": 36.25749307610686
+    },
+    {
+      "seed": 578,
+      "one_time_goal_setup_ms": 4.75445797201246,
+      "median_total_ms": 33.13362505286932,
+      "mean_total_ms": 35.686746406339346
+    },
+    {
+      "seed": 579,
+      "one_time_goal_setup_ms": 5.024290992878377,
+      "median_total_ms": 32.2835830738768,
+      "mean_total_ms": 33.97603055077886
+    },
+    {
+      "seed": 580,
+      "one_time_goal_setup_ms": 4.5191250974312425,
+      "median_total_ms": 33.93054206389934,
+      "mean_total_ms": 35.383989961655246
+    },
+    {
+      "seed": 581,
+      "one_time_goal_setup_ms": 4.746624967083335,
+      "median_total_ms": 32.4754579924047,
+      "mean_total_ms": 34.19476044105573
+    },
+    {
+      "seed": 582,
+      "one_time_goal_setup_ms": 5.019082920625806,
+      "median_total_ms": 31.48333402350545,
+      "mean_total_ms": 33.36882021847285
+    },
+    {
+      "seed": 583,
+      "one_time_goal_setup_ms": 4.838041961193085,
+      "median_total_ms": 31.31245798431337,
+      "mean_total_ms": 33.310042867170914
+    },
+    {
+      "seed": 584,
+      "one_time_goal_setup_ms": 5.745208938606083,
+      "median_total_ms": 32.88479195907712,
+      "mean_total_ms": 35.18997696413111
+    },
+    {
+      "seed": 585,
+      "one_time_goal_setup_ms": 4.594916012138128,
+      "median_total_ms": 34.832000033929944,
+      "mean_total_ms": 37.45487883007006
+    },
+    {
+      "seed": 586,
+      "one_time_goal_setup_ms": 5.2067500073462725,
+      "median_total_ms": 32.53458405379206,
+      "mean_total_ms": 34.72287940851871
+    },
+    {
+      "seed": 587,
+      "one_time_goal_setup_ms": 5.020792013965547,
+      "median_total_ms": 30.89654096402228,
+      "mean_total_ms": 33.29845778200598
+    },
+    {
+      "seed": 588,
+      "one_time_goal_setup_ms": 5.186749971471727,
+      "median_total_ms": 31.13829204812646,
+      "mean_total_ms": 32.84328467663496
+    },
+    {
+      "seed": 589,
+      "one_time_goal_setup_ms": 5.485125002451241,
+      "median_total_ms": 33.45674998126924,
+      "mean_total_ms": 35.34708693032227
+    },
+    {
+      "seed": 590,
+      "one_time_goal_setup_ms": 4.45637502707541,
+      "median_total_ms": 32.07920794375241,
+      "mean_total_ms": 33.63286709294669
+    },
+    {
+      "seed": 591,
+      "one_time_goal_setup_ms": 4.665625048801303,
+      "median_total_ms": 34.7319160355255,
+      "mean_total_ms": 37.307489144852354
+    },
+    {
+      "seed": 592,
+      "one_time_goal_setup_ms": 5.095625063404441,
+      "median_total_ms": 32.30391698889434,
+      "mean_total_ms": 33.44649445479884
+    },
+    {
+      "seed": 593,
+      "one_time_goal_setup_ms": 4.812791012227535,
+      "median_total_ms": 31.872124993242323,
+      "mean_total_ms": 33.885728193092206
+    },
+    {
+      "seed": 594,
+      "one_time_goal_setup_ms": 4.980208002962172,
+      "median_total_ms": 30.45225003734231,
+      "mean_total_ms": 32.88442353784506
+    },
+    {
+      "seed": 595,
+      "one_time_goal_setup_ms": 5.200874991714954,
+      "median_total_ms": 33.39566709473729,
+      "mean_total_ms": 35.68238899821327
+    },
+    {
+      "seed": 596,
+      "one_time_goal_setup_ms": 4.68329107388854,
+      "median_total_ms": 30.237874947488308,
+      "mean_total_ms": 33.219666660408535
+    },
+    {
+      "seed": 597,
+      "one_time_goal_setup_ms": 5.027208011597395,
+      "median_total_ms": 31.485292012803257,
+      "mean_total_ms": 33.734431465910305
+    },
+    {
+      "seed": 598,
+      "one_time_goal_setup_ms": 4.856916959397495,
+      "median_total_ms": 31.6273330245167,
+      "mean_total_ms": 33.561373245532785
+    },
+    {
+      "seed": 599,
+      "one_time_goal_setup_ms": 5.646834033541381,
+      "median_total_ms": 30.472542042843997,
+      "mean_total_ms": 33.54742208030075
+    },
+    {
+      "seed": 600,
+      "one_time_goal_setup_ms": 4.631374962627888,
+      "median_total_ms": 34.86345801502466,
+      "mean_total_ms": 38.869024578127124
+    },
+    {
+      "seed": 601,
+      "one_time_goal_setup_ms": 5.230708047747612,
+      "median_total_ms": 32.232790952548385,
+      "mean_total_ms": 35.35138730159296
+    },
+    {
+      "seed": 602,
+      "one_time_goal_setup_ms": 4.935291945002973,
+      "median_total_ms": 32.37291693221778,
+      "mean_total_ms": 34.47139928013914
+    },
+    {
+      "seed": 603,
+      "one_time_goal_setup_ms": 5.434458958916366,
+      "median_total_ms": 31.042665941640735,
+      "mean_total_ms": 33.22004803072011
+    },
+    {
+      "seed": 604,
+      "one_time_goal_setup_ms": 4.810916027054191,
+      "median_total_ms": 32.3352919658646,
+      "mean_total_ms": 34.531808081304746
+    },
+    {
+      "seed": 605,
+      "one_time_goal_setup_ms": 6.3096670201048255,
+      "median_total_ms": 33.211917034350336,
+      "mean_total_ms": 35.06315924515504
+    },
+    {
+      "seed": 606,
+      "one_time_goal_setup_ms": 4.954207921400666,
+      "median_total_ms": 33.12079200986773,
+      "mean_total_ms": 35.48651601830941
+    },
+    {
+      "seed": 607,
+      "one_time_goal_setup_ms": 5.70612505543977,
+      "median_total_ms": 34.75025005172938,
+      "mean_total_ms": 37.643193414006085
+    },
+    {
+      "seed": 608,
+      "one_time_goal_setup_ms": 5.03687490709126,
+      "median_total_ms": 30.95100005157292,
+      "mean_total_ms": 33.03377464494949
+    },
+    {
+      "seed": 609,
+      "one_time_goal_setup_ms": 5.6509580463171005,
+      "median_total_ms": 31.95541608147323,
+      "mean_total_ms": 34.11894166686883
+    },
+    {
+      "seed": 610,
+      "one_time_goal_setup_ms": 5.827291985042393,
+      "median_total_ms": 32.93870808556676,
+      "mean_total_ms": 34.38137795421339
+    },
+    {
+      "seed": 611,
+      "one_time_goal_setup_ms": 5.159083055332303,
+      "median_total_ms": 34.21200008597225,
+      "mean_total_ms": 36.288063874142985
+    },
+    {
+      "seed": 612,
+      "one_time_goal_setup_ms": 4.84133290592581,
+      "median_total_ms": 31.33591602090746,
+      "mean_total_ms": 34.166238747078864
+    },
+    {
+      "seed": 613,
+      "one_time_goal_setup_ms": 5.029540974646807,
+      "median_total_ms": 32.66587504185736,
+      "mean_total_ms": 33.694256844353816
+    },
+    {
+      "seed": 614,
+      "one_time_goal_setup_ms": 4.97958401683718,
+      "median_total_ms": 34.098457894288,
+      "mean_total_ms": 35.78508238544658
+    },
+    {
+      "seed": 615,
+      "one_time_goal_setup_ms": 4.8252500128000975,
+      "median_total_ms": 31.423332984559238,
+      "mean_total_ms": 33.36878506548052
+    },
+    {
+      "seed": 616,
+      "one_time_goal_setup_ms": 5.765459034591913,
+      "median_total_ms": 32.983917044475675,
+      "mean_total_ms": 34.70448256278085
+    },
+    {
+      "seed": 617,
+      "one_time_goal_setup_ms": 4.7589169116690755,
+      "median_total_ms": 32.15754101984203,
+      "mean_total_ms": 34.14822775124025
+    },
+    {
+      "seed": 618,
+      "one_time_goal_setup_ms": 7.540667080320418,
+      "median_total_ms": 31.654207967221737,
+      "mean_total_ms": 34.3337933662244
+    },
+    {
+      "seed": 619,
+      "one_time_goal_setup_ms": 5.637916037812829,
+      "median_total_ms": 30.96687502693385,
+      "mean_total_ms": 32.9648259036716
+    },
+    {
+      "seed": 620,
+      "one_time_goal_setup_ms": 5.388958961702883,
+      "median_total_ms": 32.98479097429663,
+      "mean_total_ms": 35.44561957408275
+    },
+    {
+      "seed": 621,
+      "one_time_goal_setup_ms": 5.291125038638711,
+      "median_total_ms": 31.36008302681148,
+      "mean_total_ms": 33.0034597980095
+    },
+    {
+      "seed": 622,
+      "one_time_goal_setup_ms": 4.728417028672993,
+      "median_total_ms": 31.93133301101625,
+      "mean_total_ms": 33.60716179937183
+    },
+    {
+      "seed": 623,
+      "one_time_goal_setup_ms": 4.612416960299015,
+      "median_total_ms": 31.954500009305775,
+      "mean_total_ms": 34.58228809574235
+    },
+    {
+      "seed": 624,
+      "one_time_goal_setup_ms": 5.075082997791469,
+      "median_total_ms": 32.35479211434722,
+      "mean_total_ms": 34.035516122636935
+    },
+    {
+      "seed": 625,
+      "one_time_goal_setup_ms": 4.80479106772691,
+      "median_total_ms": 31.231291010044515,
+      "mean_total_ms": 33.27051935761812
+    },
+    {
+      "seed": 626,
+      "one_time_goal_setup_ms": 5.29491703491658,
+      "median_total_ms": 33.08791702147573,
+      "mean_total_ms": 35.119511902938406
+    },
+    {
+      "seed": 627,
+      "one_time_goal_setup_ms": 4.930582945235074,
+      "median_total_ms": 31.087624956853688,
+      "mean_total_ms": 33.46379638339082
+    },
+    {
+      "seed": 628,
+      "one_time_goal_setup_ms": 4.518040921539068,
+      "median_total_ms": 31.77558397874236,
+      "mean_total_ms": 34.428413860899
+    },
+    {
+      "seed": 629,
+      "one_time_goal_setup_ms": 5.008499952964485,
+      "median_total_ms": 32.275417004711926,
+      "mean_total_ms": 34.25296706199232
+    },
+    {
+      "seed": 630,
+      "one_time_goal_setup_ms": 4.952874965965748,
+      "median_total_ms": 31.299834023229778,
+      "mean_total_ms": 33.648779905504654
+    },
+    {
+      "seed": 631,
+      "one_time_goal_setup_ms": 5.150084034539759,
+      "median_total_ms": 32.45345898903906,
+      "mean_total_ms": 35.46904075099894
+    },
+    {
+      "seed": 632,
+      "one_time_goal_setup_ms": 5.673957988619804,
+      "median_total_ms": 32.35533297993243,
+      "mean_total_ms": 34.77053227945275
+    },
+    {
+      "seed": 633,
+      "one_time_goal_setup_ms": 5.327249993570149,
+      "median_total_ms": 33.641207963228226,
+      "mean_total_ms": 36.823392741101244
+    },
+    {
+      "seed": 634,
+      "one_time_goal_setup_ms": 5.425249924883246,
+      "median_total_ms": 36.174042033962905,
+      "mean_total_ms": 39.269464684369424
+    },
+    {
+      "seed": 635,
+      "one_time_goal_setup_ms": 5.783834028989077,
+      "median_total_ms": 35.46087502036244,
+      "mean_total_ms": 39.3951653107439
+    },
+    {
+      "seed": 636,
+      "one_time_goal_setup_ms": 6.427042069844902,
+      "median_total_ms": 36.01500007789582,
+      "mean_total_ms": 41.70674273285956
+    },
+    {
+      "seed": 637,
+      "one_time_goal_setup_ms": 16.518917051143944,
+      "median_total_ms": 33.83466601371765,
+      "mean_total_ms": 35.510553815032516
+    },
+    {
+      "seed": 638,
+      "one_time_goal_setup_ms": 4.866207949817181,
+      "median_total_ms": 31.83320793323219,
+      "mean_total_ms": 34.096053168029776
+    },
+    {
+      "seed": 639,
+      "one_time_goal_setup_ms": 7.334541995078325,
+      "median_total_ms": 33.490165951661766,
+      "mean_total_ms": 36.911501729905254
+    },
+    {
+      "seed": 640,
+      "one_time_goal_setup_ms": 5.428040982224047,
+      "median_total_ms": 33.65587501320988,
+      "mean_total_ms": 36.11245306083075
+    },
+    {
+      "seed": 641,
+      "one_time_goal_setup_ms": 5.241084028966725,
+      "median_total_ms": 34.69649993348867,
+      "mean_total_ms": 39.16861852113571
+    },
+    {
+      "seed": 642,
+      "one_time_goal_setup_ms": 4.706250037997961,
+      "median_total_ms": 33.274666988290846,
+      "mean_total_ms": 36.11386527772993
+    },
+    {
+      "seed": 643,
+      "one_time_goal_setup_ms": 4.896334023214877,
+      "median_total_ms": 32.00775000732392,
+      "mean_total_ms": 34.02141400701588
+    },
+    {
+      "seed": 644,
+      "one_time_goal_setup_ms": 5.670292070135474,
+      "median_total_ms": 33.627500059083104,
+      "mean_total_ms": 36.26716121964689
+    },
+    {
+      "seed": 645,
+      "one_time_goal_setup_ms": 4.690458066761494,
+      "median_total_ms": 34.46879098191857,
+      "mean_total_ms": 36.2188675640417
+    },
+    {
+      "seed": 646,
+      "one_time_goal_setup_ms": 4.95450000744313,
+      "median_total_ms": 33.51895802188665,
+      "mean_total_ms": 39.537368125710934
+    },
+    {
+      "seed": 647,
+      "one_time_goal_setup_ms": 9.373332955874503,
+      "median_total_ms": 33.7528339587152,
+      "mean_total_ms": 37.53670198207219
+    },
+    {
+      "seed": 648,
+      "one_time_goal_setup_ms": 31.64670802652836,
+      "median_total_ms": 33.56958297081292,
+      "mean_total_ms": 37.24892276028792
+    },
+    {
+      "seed": 649,
+      "one_time_goal_setup_ms": 10.584958014078438,
+      "median_total_ms": 33.722750027664006,
+      "mean_total_ms": 38.282946163477995
+    },
+    {
+      "seed": 650,
+      "one_time_goal_setup_ms": 5.739958956837654,
+      "median_total_ms": 32.66633301973343,
+      "mean_total_ms": 35.060231729100146
+    },
+    {
+      "seed": 651,
+      "one_time_goal_setup_ms": 5.936624947935343,
+      "median_total_ms": 36.34891705587506,
+      "mean_total_ms": 39.72777158265845
+    },
+    {
+      "seed": 652,
+      "one_time_goal_setup_ms": 5.716708954423666,
+      "median_total_ms": 30.7636660290882,
+      "mean_total_ms": 34.49596402250112
+    },
+    {
+      "seed": 653,
+      "one_time_goal_setup_ms": 4.7409170074388385,
+      "median_total_ms": 30.47495905775577,
+      "mean_total_ms": 33.504283219014134
+    },
+    {
+      "seed": 654,
+      "one_time_goal_setup_ms": 5.183417000807822,
+      "median_total_ms": 33.066209056414664,
+      "mean_total_ms": 35.34089473393997
+    },
+    {
+      "seed": 655,
+      "one_time_goal_setup_ms": 5.05345908459276,
+      "median_total_ms": 32.54420799203217,
+      "mean_total_ms": 34.11092855634966
+    },
+    {
+      "seed": 656,
+      "one_time_goal_setup_ms": 4.570416989736259,
+      "median_total_ms": 30.690375017002225,
+      "mean_total_ms": 32.69646573176105
+    },
+    {
+      "seed": 657,
+      "one_time_goal_setup_ms": 4.999957978725433,
+      "median_total_ms": 30.553500051610172,
+      "mean_total_ms": 33.2943900998327
+    },
+    {
+      "seed": 658,
+      "one_time_goal_setup_ms": 4.867915995419025,
+      "median_total_ms": 29.773417045362294,
+      "mean_total_ms": 31.656346961279354
+    },
+    {
+      "seed": 659,
+      "one_time_goal_setup_ms": 4.874667036347091,
+      "median_total_ms": 29.563416028395295,
+      "mean_total_ms": 32.72385596785517
+    },
+    {
+      "seed": 660,
+      "one_time_goal_setup_ms": 5.043708020821214,
+      "median_total_ms": 32.86470798775554,
+      "mean_total_ms": 34.88024592488294
+    },
+    {
+      "seed": 661,
+      "one_time_goal_setup_ms": 5.265749990940094,
+      "median_total_ms": 30.67800006829202,
+      "mean_total_ms": 33.02681944406931
+    },
+    {
+      "seed": 662,
+      "one_time_goal_setup_ms": 6.310709053650498,
+      "median_total_ms": 31.01708402391523,
+      "mean_total_ms": 33.09411598805575
+    },
+    {
+      "seed": 663,
+      "one_time_goal_setup_ms": 4.68045799061656,
+      "median_total_ms": 32.26979204919189,
+      "mean_total_ms": 34.97673863072007
+    },
+    {
+      "seed": 664,
+      "one_time_goal_setup_ms": 5.1556669641286135,
+      "median_total_ms": 30.652125016786158,
+      "mean_total_ms": 32.751862864778744
+    },
+    {
+      "seed": 665,
+      "one_time_goal_setup_ms": 4.925834015011787,
+      "median_total_ms": 35.39412503596395,
+      "mean_total_ms": 37.5368187717709
+    },
+    {
+      "seed": 666,
+      "one_time_goal_setup_ms": 4.677165998145938,
+      "median_total_ms": 31.58720792271197,
+      "mean_total_ms": 33.679006345910096
+    },
+    {
+      "seed": 667,
+      "one_time_goal_setup_ms": 4.630040959455073,
+      "median_total_ms": 31.591624952852726,
+      "mean_total_ms": 33.993379888124764
+    },
+    {
+      "seed": 668,
+      "one_time_goal_setup_ms": 4.775000037625432,
+      "median_total_ms": 33.88920798897743,
+      "mean_total_ms": 37.464975815502896
+    },
+    {
+      "seed": 669,
+      "one_time_goal_setup_ms": 4.992124973796308,
+      "median_total_ms": 33.55879196897149,
+      "mean_total_ms": 36.39140014447982
+    },
+    {
+      "seed": 670,
+      "one_time_goal_setup_ms": 5.225667031481862,
+      "median_total_ms": 33.81258295848966,
+      "mean_total_ms": 36.377291775323336
+    },
+    {
+      "seed": 671,
+      "one_time_goal_setup_ms": 5.548957968130708,
+      "median_total_ms": 32.73791691754013,
+      "mean_total_ms": 34.69791334780258
+    },
+    {
+      "seed": 672,
+      "one_time_goal_setup_ms": 5.538917030207813,
+      "median_total_ms": 32.359540928155184,
+      "mean_total_ms": 35.58175623461249
+    },
+    {
+      "seed": 673,
+      "one_time_goal_setup_ms": 6.522167008370161,
+      "median_total_ms": 32.21608302555978,
+      "mean_total_ms": 37.76125650305951
+    },
+    {
+      "seed": 674,
+      "one_time_goal_setup_ms": 5.519790924154222,
+      "median_total_ms": 35.767708090133965,
+      "mean_total_ms": 38.38301033579877
+    },
+    {
+      "seed": 675,
+      "one_time_goal_setup_ms": 5.441584042273462,
+      "median_total_ms": 33.601790899410844,
+      "mean_total_ms": 39.951449463750045
+    },
+    {
+      "seed": 676,
+      "one_time_goal_setup_ms": 4.810208105482161,
+      "median_total_ms": 31.022749957628548,
+      "mean_total_ms": 33.219854515563284
+    },
+    {
+      "seed": 677,
+      "one_time_goal_setup_ms": 6.227041012607515,
+      "median_total_ms": 31.60845802631229,
+      "mean_total_ms": 35.06341525760021
+    },
+    {
+      "seed": 678,
+      "one_time_goal_setup_ms": 5.2020830335095525,
+      "median_total_ms": 32.7084589516744,
+      "mean_total_ms": 36.480793497332975
+    },
+    {
+      "seed": 679,
+      "one_time_goal_setup_ms": 5.522334016859531,
+      "median_total_ms": 32.36154199112207,
+      "mean_total_ms": 35.16817553345824
+    },
+    {
+      "seed": 680,
+      "one_time_goal_setup_ms": 4.570499993860722,
+      "median_total_ms": 36.48745792452246,
+      "mean_total_ms": 41.741837971725516
+    },
+    {
+      "seed": 681,
+      "one_time_goal_setup_ms": 9.42808308172971,
+      "median_total_ms": 34.111957997083664,
+      "mean_total_ms": 36.42547851768396
+    },
+    {
+      "seed": 682,
+      "one_time_goal_setup_ms": 5.072625004686415,
+      "median_total_ms": 31.85137500986457,
+      "mean_total_ms": 34.12036136945798
+    },
+    {
+      "seed": 683,
+      "one_time_goal_setup_ms": 5.032542045228183,
+      "median_total_ms": 32.316874945536256,
+      "mean_total_ms": 35.51966427263641
+    },
+    {
+      "seed": 684,
+      "one_time_goal_setup_ms": 5.248000030405819,
+      "median_total_ms": 33.9788330020383,
+      "mean_total_ms": 40.71404724123163
+    },
+    {
+      "seed": 685,
+      "one_time_goal_setup_ms": 5.271125002764165,
+      "median_total_ms": 33.19016704335809,
+      "mean_total_ms": 36.89275487614352
+    },
+    {
+      "seed": 686,
+      "one_time_goal_setup_ms": 7.574916002340615,
+      "median_total_ms": 35.33945803064853,
+      "mean_total_ms": 39.4950017181506
+    },
+    {
+      "seed": 687,
+      "one_time_goal_setup_ms": 5.668708006851375,
+      "median_total_ms": 32.284292043186724,
+      "mean_total_ms": 37.35381271653173
+    },
+    {
+      "seed": 688,
+      "one_time_goal_setup_ms": 5.721374996937811,
+      "median_total_ms": 31.19579202029854,
+      "mean_total_ms": 33.057099985446605
+    },
+    {
+      "seed": 689,
+      "one_time_goal_setup_ms": 4.7287080669775605,
+      "median_total_ms": 32.71616704296321,
+      "mean_total_ms": 36.04608621071314
+    },
+    {
+      "seed": 690,
+      "one_time_goal_setup_ms": 5.028999992646277,
+      "median_total_ms": 34.53820908907801,
+      "mean_total_ms": 36.78076812768325
+    },
+    {
+      "seed": 691,
+      "one_time_goal_setup_ms": 4.910957999527454,
+      "median_total_ms": 32.40204101894051,
+      "mean_total_ms": 35.36915248740346
+    },
+    {
+      "seed": 692,
+      "one_time_goal_setup_ms": 6.613584002479911,
+      "median_total_ms": 30.60433396603912,
+      "mean_total_ms": 32.05541745752155
+    },
+    {
+      "seed": 693,
+      "one_time_goal_setup_ms": 5.107249948196113,
+      "median_total_ms": 31.51787503156811,
+      "mean_total_ms": 34.280142601254205
+    },
+    {
+      "seed": 694,
+      "one_time_goal_setup_ms": 4.76554105989635,
+      "median_total_ms": 32.00754104182124,
+      "mean_total_ms": 34.848646958550766
+    },
+    {
+      "seed": 695,
+      "one_time_goal_setup_ms": 4.772749962285161,
+      "median_total_ms": 31.48554195649922,
+      "mean_total_ms": 33.950710945969654
+    },
+    {
+      "seed": 696,
+      "one_time_goal_setup_ms": 5.202458938583732,
+      "median_total_ms": 31.71499993186444,
+      "mean_total_ms": 35.320879619509455
+    },
+    {
+      "seed": 697,
+      "one_time_goal_setup_ms": 4.5694580767303705,
+      "median_total_ms": 34.574000048451126,
+      "mean_total_ms": 36.534675674158194
+    },
+    {
+      "seed": 698,
+      "one_time_goal_setup_ms": 6.826125085353851,
+      "median_total_ms": 29.722417006269097,
+      "mean_total_ms": 31.00488279938757
+    },
+    {
+      "seed": 699,
+      "one_time_goal_setup_ms": 4.627083078958094,
+      "median_total_ms": 28.964499942958355,
+      "mean_total_ms": 29.971140522568945
+    },
+    {
+      "seed": 700,
+      "one_time_goal_setup_ms": 4.568292060866952,
+      "median_total_ms": 29.386083013378084,
+      "mean_total_ms": 32.613500942742185
+    },
+    {
+      "seed": 701,
+      "one_time_goal_setup_ms": 4.805875010788441,
+      "median_total_ms": 29.707166948355734,
+      "mean_total_ms": 32.210014675123
+    },
+    {
+      "seed": 702,
+      "one_time_goal_setup_ms": 5.40416594594717,
+      "median_total_ms": 29.69329198822379,
+      "mean_total_ms": 31.827823130325193
+    },
+    {
+      "seed": 703,
+      "one_time_goal_setup_ms": 4.77787503041327,
+      "median_total_ms": 30.547000002115965,
+      "mean_total_ms": 32.517098149447335
+    },
+    {
+      "seed": 704,
+      "one_time_goal_setup_ms": 5.232291994616389,
+      "median_total_ms": 31.03283408563584,
+      "mean_total_ms": 32.525384530336375
+    },
+    {
+      "seed": 705,
+      "one_time_goal_setup_ms": 4.9197920598089695,
+      "median_total_ms": 29.21379206236452,
+      "mean_total_ms": 32.07961613134969
+    },
+    {
+      "seed": 706,
+      "one_time_goal_setup_ms": 6.717915995977819,
+      "median_total_ms": 30.07049998268485,
+      "mean_total_ms": 32.27395036124757
+    },
+    {
+      "seed": 707,
+      "one_time_goal_setup_ms": 4.43299999460578,
+      "median_total_ms": 29.20037496369332,
+      "mean_total_ms": 31.42183839587406
+    },
+    {
+      "seed": 708,
+      "one_time_goal_setup_ms": 5.115916952490807,
+      "median_total_ms": 30.27095808647573,
+      "mean_total_ms": 31.915945614067216
+    },
+    {
+      "seed": 709,
+      "one_time_goal_setup_ms": 4.716792027465999,
+      "median_total_ms": 28.811541036702693,
+      "mean_total_ms": 30.018126558039395
+    },
+    {
+      "seed": 710,
+      "one_time_goal_setup_ms": 4.960332997143269,
+      "median_total_ms": 30.453625018708408,
+      "mean_total_ms": 32.228626361456776
+    },
+    {
+      "seed": 711,
+      "one_time_goal_setup_ms": 4.923333995975554,
+      "median_total_ms": 28.828167007304728,
+      "mean_total_ms": 31.241610450744037
+    },
+    {
+      "seed": 712,
+      "one_time_goal_setup_ms": 5.835000076331198,
+      "median_total_ms": 29.455834068357944,
+      "mean_total_ms": 31.731887026468204
+    },
+    {
+      "seed": 713,
+      "one_time_goal_setup_ms": 5.207584006711841,
+      "median_total_ms": 31.372542027384043,
+      "mean_total_ms": 34.57055634612011
+    },
+    {
+      "seed": 714,
+      "one_time_goal_setup_ms": 5.619667004793882,
+      "median_total_ms": 30.04845802206546,
+      "mean_total_ms": 32.36737124703174
+    },
+    {
+      "seed": 715,
+      "one_time_goal_setup_ms": 4.792541963979602,
+      "median_total_ms": 29.30970909073949,
+      "mean_total_ms": 31.480117713559476
+    },
+    {
+      "seed": 716,
+      "one_time_goal_setup_ms": 5.218208068981767,
+      "median_total_ms": 30.37900000344962,
+      "mean_total_ms": 31.693587336866628
+    },
+    {
+      "seed": 717,
+      "one_time_goal_setup_ms": 5.2943750051781535,
+      "median_total_ms": 30.47858306672424,
+      "mean_total_ms": 32.673462401218124
+    },
+    {
+      "seed": 718,
+      "one_time_goal_setup_ms": 5.479041021317244,
+      "median_total_ms": 30.022958060726523,
+      "mean_total_ms": 31.817850791701368
+    },
+    {
+      "seed": 719,
+      "one_time_goal_setup_ms": 4.902582964859903,
+      "median_total_ms": 29.81150010600686,
+      "mean_total_ms": 32.27580156184674
+    },
+    {
+      "seed": 720,
+      "one_time_goal_setup_ms": 4.59537492133677,
+      "median_total_ms": 31.03695798199624,
+      "mean_total_ms": 32.47410093197629
+    },
+    {
+      "seed": 721,
+      "one_time_goal_setup_ms": 5.139917018823326,
+      "median_total_ms": 30.48562491312623,
+      "mean_total_ms": 31.955614527096113
+    },
+    {
+      "seed": 722,
+      "one_time_goal_setup_ms": 5.175958969630301,
+      "median_total_ms": 29.032249934971333,
+      "mean_total_ms": 30.27393081491547
+    },
+    {
+      "seed": 723,
+      "one_time_goal_setup_ms": 4.3945410288870335,
+      "median_total_ms": 30.719249974936247,
+      "mean_total_ms": 33.32510979676117
+    },
+    {
+      "seed": 724,
+      "one_time_goal_setup_ms": 4.638415994122624,
+      "median_total_ms": 29.579540947452188,
+      "mean_total_ms": 31.29665582248616
+    },
+    {
+      "seed": 725,
+      "one_time_goal_setup_ms": 4.518166068010032,
+      "median_total_ms": 30.15704092103988,
+      "mean_total_ms": 33.31788174756285
+    },
+    {
+      "seed": 726,
+      "one_time_goal_setup_ms": 4.918333957903087,
+      "median_total_ms": 29.86524999141693,
+      "mean_total_ms": 31.11399916769375
+    },
+    {
+      "seed": 727,
+      "one_time_goal_setup_ms": 4.925749963149428,
+      "median_total_ms": 29.99479102436453,
+      "mean_total_ms": 31.9940500205294
+    },
+    {
+      "seed": 728,
+      "one_time_goal_setup_ms": 4.731292021460831,
+      "median_total_ms": 30.086750048212707,
+      "mean_total_ms": 34.564284270717984
+    },
+    {
+      "seed": 729,
+      "one_time_goal_setup_ms": 5.4724159417673945,
+      "median_total_ms": 29.202707926742733,
+      "mean_total_ms": 30.702630006929947
+    },
+    {
+      "seed": 730,
+      "one_time_goal_setup_ms": 4.9663749523460865,
+      "median_total_ms": 29.65895796660334,
+      "mean_total_ms": 32.3902236534253
+    },
+    {
+      "seed": 731,
+      "one_time_goal_setup_ms": 5.018458003178239,
+      "median_total_ms": 30.349666951224208,
+      "mean_total_ms": 32.14697076621214
+    },
+    {
+      "seed": 732,
+      "one_time_goal_setup_ms": 4.890249925665557,
+      "median_total_ms": 29.842208023183048,
+      "mean_total_ms": 31.852971802332572
+    },
+    {
+      "seed": 733,
+      "one_time_goal_setup_ms": 4.9743750132620335,
+      "median_total_ms": 30.60770803131163,
+      "mean_total_ms": 33.26107511141648
+    },
+    {
+      "seed": 734,
+      "one_time_goal_setup_ms": 5.8154999278485775,
+      "median_total_ms": 29.120709048584104,
+      "mean_total_ms": 30.860377618643856
+    },
+    {
+      "seed": 735,
+      "one_time_goal_setup_ms": 4.628000082448125,
+      "median_total_ms": 29.203832964412868,
+      "mean_total_ms": 30.871283333186827
+    },
+    {
+      "seed": 736,
+      "one_time_goal_setup_ms": 4.724750062450767,
+      "median_total_ms": 31.3799170544371,
+      "mean_total_ms": 33.39400289114565
+    },
+    {
+      "seed": 737,
+      "one_time_goal_setup_ms": 5.180208943784237,
+      "median_total_ms": 32.36620896495879,
+      "mean_total_ms": 33.61233629153243
+    },
+    {
+      "seed": 738,
+      "one_time_goal_setup_ms": 5.3522499511018395,
+      "median_total_ms": 29.048915952444077,
+      "mean_total_ms": 30.255021444625324
+    },
+    {
+      "seed": 739,
+      "one_time_goal_setup_ms": 21.640124963596463,
+      "median_total_ms": 29.58083397243172,
+      "mean_total_ms": 32.77155239142419
+    },
+    {
+      "seed": 740,
+      "one_time_goal_setup_ms": 5.149083095602691,
+      "median_total_ms": 29.061959008686244,
+      "mean_total_ms": 31.228326969144362
+    },
+    {
+      "seed": 741,
+      "one_time_goal_setup_ms": 4.693583003245294,
+      "median_total_ms": 31.163874897174537,
+      "mean_total_ms": 32.37261797212774
+    },
+    {
+      "seed": 742,
+      "one_time_goal_setup_ms": 4.731624969281256,
+      "median_total_ms": 30.56387498509139,
+      "mean_total_ms": 32.89502925749513
+    },
+    {
+      "seed": 743,
+      "one_time_goal_setup_ms": 5.482332897372544,
+      "median_total_ms": 29.474874958395958,
+      "mean_total_ms": 30.774475000650874
+    },
+    {
+      "seed": 744,
+      "one_time_goal_setup_ms": 5.131250014528632,
+      "median_total_ms": 31.74104099161923,
+      "mean_total_ms": 33.638102110726614
+    },
+    {
+      "seed": 745,
+      "one_time_goal_setup_ms": 4.490583902224898,
+      "median_total_ms": 29.29979097098112,
+      "mean_total_ms": 30.861802913603327
+    },
+    {
+      "seed": 746,
+      "one_time_goal_setup_ms": 4.679250065237284,
+      "median_total_ms": 30.36491700913757,
+      "mean_total_ms": 31.788377361076456
+    },
+    {
+      "seed": 747,
+      "one_time_goal_setup_ms": 4.506208002567291,
+      "median_total_ms": 29.226207989268005,
+      "mean_total_ms": 31.005244195047354
+    },
+    {
+      "seed": 748,
+      "one_time_goal_setup_ms": 4.445417085662484,
+      "median_total_ms": 30.332708964124322,
+      "mean_total_ms": 32.84426762182857
+    },
+    {
+      "seed": 749,
+      "one_time_goal_setup_ms": 4.522833041846752,
+      "median_total_ms": 30.15429200604558,
+      "mean_total_ms": 31.44065115659956
+    },
+    {
+      "seed": 750,
+      "one_time_goal_setup_ms": 4.859916982240975,
+      "median_total_ms": 30.057165888138115,
+      "mean_total_ms": 31.995831499807537
+    },
+    {
+      "seed": 751,
+      "one_time_goal_setup_ms": 5.205167108215392,
+      "median_total_ms": 31.0944999800995,
+      "mean_total_ms": 33.543837605236426
+    },
+    {
+      "seed": 752,
+      "one_time_goal_setup_ms": 4.688250017352402,
+      "median_total_ms": 29.525332967750728,
+      "mean_total_ms": 32.13310500178191
+    },
+    {
+      "seed": 753,
+      "one_time_goal_setup_ms": 4.739583004266024,
+      "median_total_ms": 29.24041694495827,
+      "mean_total_ms": 30.948490733724263
+    },
+    {
+      "seed": 754,
+      "one_time_goal_setup_ms": 4.9342920538038015,
+      "median_total_ms": 29.997750069014728,
+      "mean_total_ms": 32.766830417445846
+    },
+    {
+      "seed": 755,
+      "one_time_goal_setup_ms": 4.579667001962662,
+      "median_total_ms": 29.315292020328343,
+      "mean_total_ms": 30.500896167497906
+    },
+    {
+      "seed": 756,
+      "one_time_goal_setup_ms": 4.576207953505218,
+      "median_total_ms": 31.93749999627471,
+      "mean_total_ms": 35.47627383044788
+    },
+    {
+      "seed": 757,
+      "one_time_goal_setup_ms": 11.048124986700714,
+      "median_total_ms": 36.88679193146527,
+      "mean_total_ms": 43.43711268895912
+    },
+    {
+      "seed": 758,
+      "one_time_goal_setup_ms": 12.032250058837235,
+      "median_total_ms": 34.832541015930474,
+      "mean_total_ms": 38.53549418734416
+    },
+    {
+      "seed": 759,
+      "one_time_goal_setup_ms": 6.294499966315925,
+      "median_total_ms": 32.58404100779444,
+      "mean_total_ms": 37.48027170742197
+    },
+    {
+      "seed": 760,
+      "one_time_goal_setup_ms": 4.8064159927889705,
+      "median_total_ms": 31.76929207984358,
+      "mean_total_ms": 34.51547702249613
+    },
+    {
+      "seed": 761,
+      "one_time_goal_setup_ms": 4.860165994614363,
+      "median_total_ms": 35.7024580007419,
+      "mean_total_ms": 40.70977367763777
+    },
+    {
+      "seed": 762,
+      "one_time_goal_setup_ms": 6.486208993010223,
+      "median_total_ms": 35.998832900077105,
+      "mean_total_ms": 41.67047580223649
+    },
+    {
+      "seed": 763,
+      "one_time_goal_setup_ms": 7.206458016298711,
+      "median_total_ms": 33.92858395818621,
+      "mean_total_ms": 37.64579591954807
+    },
+    {
+      "seed": 764,
+      "one_time_goal_setup_ms": 8.584833005443215,
+      "median_total_ms": 32.28400007355958,
+      "mean_total_ms": 34.75591592889811
+    },
+    {
+      "seed": 765,
+      "one_time_goal_setup_ms": 5.418125074356794,
+      "median_total_ms": 31.98883298318833,
+      "mean_total_ms": 33.50933825685864
+    },
+    {
+      "seed": 766,
+      "one_time_goal_setup_ms": 5.005417042411864,
+      "median_total_ms": 34.055333002470434,
+      "mean_total_ms": 35.935464650318615
+    },
+    {
+      "seed": 767,
+      "one_time_goal_setup_ms": 5.072750034742057,
+      "median_total_ms": 32.90112502872944,
+      "mean_total_ms": 35.22272697531633
+    },
+    {
+      "seed": 768,
+      "one_time_goal_setup_ms": 5.886625032871962,
+      "median_total_ms": 32.99479198176414,
+      "mean_total_ms": 34.82058110521249
+    },
+    {
+      "seed": 769,
+      "one_time_goal_setup_ms": 4.994582966901362,
+      "median_total_ms": 38.36604207754135,
+      "mean_total_ms": 40.76818412443298
+    },
+    {
+      "seed": 770,
+      "one_time_goal_setup_ms": 4.744292004033923,
+      "median_total_ms": 31.780584016814828,
+      "mean_total_ms": 33.931947496187476
+    },
+    {
+      "seed": 771,
+      "one_time_goal_setup_ms": 5.007208092138171,
+      "median_total_ms": 31.174832955002785,
+      "mean_total_ms": 33.01143148130486
+    },
+    {
+      "seed": 772,
+      "one_time_goal_setup_ms": 4.592707962729037,
+      "median_total_ms": 33.33858400583267,
+      "mean_total_ms": 35.54883765995444
+    },
+    {
+      "seed": 773,
+      "one_time_goal_setup_ms": 5.84362493827939,
+      "median_total_ms": 32.81591599807143,
+      "mean_total_ms": 34.963786498539974
+    },
+    {
+      "seed": 774,
+      "one_time_goal_setup_ms": 5.19749999511987,
+      "median_total_ms": 32.629374996759,
+      "mean_total_ms": 34.172671957547585
+    },
+    {
+      "seed": 775,
+      "one_time_goal_setup_ms": 4.990374902263284,
+      "median_total_ms": 32.9102500109002,
+      "mean_total_ms": 34.265513885174954
+    },
+    {
+      "seed": 776,
+      "one_time_goal_setup_ms": 5.293959053233266,
+      "median_total_ms": 32.27724996395409,
+      "mean_total_ms": 34.41683320284245
+    },
+    {
+      "seed": 777,
+      "one_time_goal_setup_ms": 5.411249934695661,
+      "median_total_ms": 33.288541017100215,
+      "mean_total_ms": 35.45661400449241
+    },
+    {
+      "seed": 778,
+      "one_time_goal_setup_ms": 5.663375020958483,
+      "median_total_ms": 32.98287501093,
+      "mean_total_ms": 34.48896866313936
+    },
+    {
+      "seed": 779,
+      "one_time_goal_setup_ms": 4.677708027884364,
+      "median_total_ms": 31.363583053462207,
+      "mean_total_ms": 32.890247489650925
+    },
+    {
+      "seed": 780,
+      "one_time_goal_setup_ms": 4.801917006261647,
+      "median_total_ms": 32.16808300931007,
+      "mean_total_ms": 34.396461141665306
+    },
+    {
+      "seed": 781,
+      "one_time_goal_setup_ms": 6.928458926267922,
+      "median_total_ms": 31.052667065523565,
+      "mean_total_ms": 32.471621186206384
+    },
+    {
+      "seed": 782,
+      "one_time_goal_setup_ms": 4.538709064945579,
+      "median_total_ms": 31.221334007568657,
+      "mean_total_ms": 32.919567823410034
+    },
+    {
+      "seed": 783,
+      "one_time_goal_setup_ms": 5.180707899853587,
+      "median_total_ms": 32.955334056168795,
+      "mean_total_ms": 36.18853808092397
+    },
+    {
+      "seed": 784,
+      "one_time_goal_setup_ms": 5.34370809327811,
+      "median_total_ms": 32.28250006213784,
+      "mean_total_ms": 33.92757391261439
+    },
+    {
+      "seed": 785,
+      "one_time_goal_setup_ms": 4.633583012036979,
+      "median_total_ms": 32.90366695728153,
+      "mean_total_ms": 34.990110729141016
+    },
+    {
+      "seed": 786,
+      "one_time_goal_setup_ms": 5.358707974664867,
+      "median_total_ms": 33.74608303420246,
+      "mean_total_ms": 35.516234632906695
+    },
+    {
+      "seed": 787,
+      "one_time_goal_setup_ms": 5.067375022917986,
+      "median_total_ms": 33.83912506978959,
+      "mean_total_ms": 35.13257966288144
+    },
+    {
+      "seed": 788,
+      "one_time_goal_setup_ms": 4.833666025660932,
+      "median_total_ms": 32.114166067913175,
+      "mean_total_ms": 33.78977788250066
+    },
+    {
+      "seed": 789,
+      "one_time_goal_setup_ms": 7.507959031499922,
+      "median_total_ms": 31.352249905467033,
+      "mean_total_ms": 33.074263570505
+    },
+    {
+      "seed": 790,
+      "one_time_goal_setup_ms": 5.300167016685009,
+      "median_total_ms": 31.95645904634148,
+      "mean_total_ms": 33.969228024343174
+    },
+    {
+      "seed": 791,
+      "one_time_goal_setup_ms": 6.822832976467907,
+      "median_total_ms": 32.72079210728407,
+      "mean_total_ms": 34.10497860325175
+    },
+    {
+      "seed": 792,
+      "one_time_goal_setup_ms": 5.186542053706944,
+      "median_total_ms": 33.2727920031175,
+      "mean_total_ms": 35.12116773940978
+    },
+    {
+      "seed": 793,
+      "one_time_goal_setup_ms": 4.952041897922754,
+      "median_total_ms": 30.7809169171378,
+      "mean_total_ms": 32.9728423070813
+    },
+    {
+      "seed": 794,
+      "one_time_goal_setup_ms": 4.702958976849914,
+      "median_total_ms": 33.133207936771214,
+      "mean_total_ms": 34.90563186831654
+    },
+    {
+      "seed": 795,
+      "one_time_goal_setup_ms": 7.150957942940295,
+      "median_total_ms": 32.0951669709757,
+      "mean_total_ms": 33.96914958369933
+    },
+    {
+      "seed": 796,
+      "one_time_goal_setup_ms": 4.819666035473347,
+      "median_total_ms": 32.3850839631632,
+      "mean_total_ms": 35.087448952808266
+    },
+    {
+      "seed": 797,
+      "one_time_goal_setup_ms": 4.907625028863549,
+      "median_total_ms": 31.582584022544324,
+      "mean_total_ms": 33.42900334133042
+    },
+    {
+      "seed": 798,
+      "one_time_goal_setup_ms": 5.4177079582586884,
+      "median_total_ms": 32.99129207152873,
+      "mean_total_ms": 34.41231285133178
+    },
+    {
+      "seed": 799,
+      "one_time_goal_setup_ms": 5.078042042441666,
+      "median_total_ms": 32.94887498486787,
+      "mean_total_ms": 34.48157225114604
+    },
+    {
+      "seed": 800,
+      "one_time_goal_setup_ms": 5.64666697755456,
+      "median_total_ms": 32.60770905762911,
+      "mean_total_ms": 34.590608060419086
+    },
+    {
+      "seed": 801,
+      "one_time_goal_setup_ms": 5.457457969896495,
+      "median_total_ms": 31.201040954329073,
+      "mean_total_ms": 33.40609523593374
+    },
+    {
+      "seed": 802,
+      "one_time_goal_setup_ms": 5.121042020618916,
+      "median_total_ms": 31.741707934997976,
+      "mean_total_ms": 33.40201642075997
+    },
+    {
+      "seed": 803,
+      "one_time_goal_setup_ms": 5.286082974635065,
+      "median_total_ms": 31.523624900728464,
+      "mean_total_ms": 32.92330430103614
+    },
+    {
+      "seed": 804,
+      "one_time_goal_setup_ms": 4.652375006116927,
+      "median_total_ms": 33.74437498860061,
+      "mean_total_ms": 35.84098687898072
+    },
+    {
+      "seed": 805,
+      "one_time_goal_setup_ms": 5.942207993939519,
+      "median_total_ms": 36.08237497974187,
+      "mean_total_ms": 38.2815912639397
+    },
+    {
+      "seed": 806,
+      "one_time_goal_setup_ms": 5.624792072921991,
+      "median_total_ms": 32.38220792263746,
+      "mean_total_ms": 33.9568879603157
+    },
+    {
+      "seed": 807,
+      "one_time_goal_setup_ms": 5.199791048653424,
+      "median_total_ms": 32.507415977306664,
+      "mean_total_ms": 35.53406111711252
+    },
+    {
+      "seed": 808,
+      "one_time_goal_setup_ms": 4.855125094763935,
+      "median_total_ms": 33.00045803189278,
+      "mean_total_ms": 34.64550309304503
+    },
+    {
+      "seed": 809,
+      "one_time_goal_setup_ms": 4.569042008370161,
+      "median_total_ms": 31.30233404226601,
+      "mean_total_ms": 33.35106812107066
+    },
+    {
+      "seed": 810,
+      "one_time_goal_setup_ms": 4.630458075553179,
+      "median_total_ms": 31.581624993123114,
+      "mean_total_ms": 33.30578890865639
+    },
+    {
+      "seed": 811,
+      "one_time_goal_setup_ms": 5.213625030592084,
+      "median_total_ms": 31.108416034840047,
+      "mean_total_ms": 32.64809893702881
+    },
+    {
+      "seed": 812,
+      "one_time_goal_setup_ms": 5.7525839656591415,
+      "median_total_ms": 33.39087497442961,
+      "mean_total_ms": 35.87497329738523
+    },
+    {
+      "seed": 813,
+      "one_time_goal_setup_ms": 4.683166043832898,
+      "median_total_ms": 30.890875030308962,
+      "mean_total_ms": 32.348256891534206
+    },
+    {
+      "seed": 814,
+      "one_time_goal_setup_ms": 5.081249983049929,
+      "median_total_ms": 32.12462505325675,
+      "mean_total_ms": 33.75619657241577
+    },
+    {
+      "seed": 815,
+      "one_time_goal_setup_ms": 4.620625055395067,
+      "median_total_ms": 33.062207978218794,
+      "mean_total_ms": 34.95158387739803
+    },
+    {
+      "seed": 816,
+      "one_time_goal_setup_ms": 5.0049580167979,
+      "median_total_ms": 32.32995897997171,
+      "mean_total_ms": 34.27901837960004
+    },
+    {
+      "seed": 817,
+      "one_time_goal_setup_ms": 5.003665923140943,
+      "median_total_ms": 33.47029199358076,
+      "mean_total_ms": 34.243905404952194
+    },
+    {
+      "seed": 818,
+      "one_time_goal_setup_ms": 4.792834050022066,
+      "median_total_ms": 33.33204204682261,
+      "mean_total_ms": 35.81786109910657
+    },
+    {
+      "seed": 819,
+      "one_time_goal_setup_ms": 5.045500001870096,
+      "median_total_ms": 33.11512491200119,
+      "mean_total_ms": 34.431642296886636
+    },
+    {
+      "seed": 820,
+      "one_time_goal_setup_ms": 5.321667063981295,
+      "median_total_ms": 31.31804196164012,
+      "mean_total_ms": 32.71899930615392
+    },
+    {
+      "seed": 821,
+      "one_time_goal_setup_ms": 4.982042009942234,
+      "median_total_ms": 31.69062500819564,
+      "mean_total_ms": 33.62873699922588
+    },
+    {
+      "seed": 822,
+      "one_time_goal_setup_ms": 4.513083025813103,
+      "median_total_ms": 34.32537510525435,
+      "mean_total_ms": 36.46224576772915
+    },
+    {
+      "seed": 823,
+      "one_time_goal_setup_ms": 5.349417100660503,
+      "median_total_ms": 35.50220897886902,
+      "mean_total_ms": 39.78150778464855
+    },
+    {
+      "seed": 824,
+      "one_time_goal_setup_ms": 9.467125055380166,
+      "median_total_ms": 33.61649997532368,
+      "mean_total_ms": 35.412578999123994
+    },
+    {
+      "seed": 825,
+      "one_time_goal_setup_ms": 10.05774992518127,
+      "median_total_ms": 32.69237501081079,
+      "mean_total_ms": 33.7177551225833
+    },
+    {
+      "seed": 826,
+      "one_time_goal_setup_ms": 7.046125014312565,
+      "median_total_ms": 31.816415954381227,
+      "mean_total_ms": 33.25766322520813
+    },
+    {
+      "seed": 827,
+      "one_time_goal_setup_ms": 5.11004205327481,
+      "median_total_ms": 32.54358295816928,
+      "mean_total_ms": 34.121952501184765
+    },
+    {
+      "seed": 828,
+      "one_time_goal_setup_ms": 4.5252080308273435,
+      "median_total_ms": 32.82100008800626,
+      "mean_total_ms": 35.16932950939037
+    },
+    {
+      "seed": 829,
+      "one_time_goal_setup_ms": 5.08570799138397,
+      "median_total_ms": 32.641957979649305,
+      "mean_total_ms": 34.500793935657136
+    },
+    {
+      "seed": 830,
+      "one_time_goal_setup_ms": 4.85654198564589,
+      "median_total_ms": 32.24420896731317,
+      "mean_total_ms": 33.43441558794843
+    },
+    {
+      "seed": 831,
+      "one_time_goal_setup_ms": 5.708292010240257,
+      "median_total_ms": 31.075124978087842,
+      "mean_total_ms": 32.20187007146518
+    },
+    {
+      "seed": 832,
+      "one_time_goal_setup_ms": 5.706958007067442,
+      "median_total_ms": 32.13991690427065,
+      "mean_total_ms": 33.59875586031685
+    },
+    {
+      "seed": 833,
+      "one_time_goal_setup_ms": 14.246625010855496,
+      "median_total_ms": 33.67745806463063,
+      "mean_total_ms": 35.081748689140476
+    },
+    {
+      "seed": 834,
+      "one_time_goal_setup_ms": 4.604249959811568,
+      "median_total_ms": 32.983334036543965,
+      "mean_total_ms": 37.73563317437139
+    },
+    {
+      "seed": 835,
+      "one_time_goal_setup_ms": 4.400291945785284,
+      "median_total_ms": 33.27945794444531,
+      "mean_total_ms": 34.95778835208584
+    },
+    {
+      "seed": 836,
+      "one_time_goal_setup_ms": 4.9609169363975525,
+      "median_total_ms": 31.17229207418859,
+      "mean_total_ms": 32.59770185354033
+    },
+    {
+      "seed": 837,
+      "one_time_goal_setup_ms": 5.4382081143558025,
+      "median_total_ms": 32.24429197143763,
+      "mean_total_ms": 34.90877276183002
+    },
+    {
+      "seed": 838,
+      "one_time_goal_setup_ms": 5.613959045149386,
+      "median_total_ms": 32.295582932420075,
+      "mean_total_ms": 33.87301983163943
+    },
+    {
+      "seed": 839,
+      "one_time_goal_setup_ms": 5.288916057907045,
+      "median_total_ms": 32.83895901404321,
+      "mean_total_ms": 35.240732534005055
+    },
+    {
+      "seed": 840,
+      "one_time_goal_setup_ms": 6.4044579630717635,
+      "median_total_ms": 31.98129206430167,
+      "mean_total_ms": 33.44472658539575
+    },
+    {
+      "seed": 841,
+      "one_time_goal_setup_ms": 4.955666954629123,
+      "median_total_ms": 33.14974997192621,
+      "mean_total_ms": 35.233664427263044
+    },
+    {
+      "seed": 842,
+      "one_time_goal_setup_ms": 4.6113330172374845,
+      "median_total_ms": 32.939916010946035,
+      "mean_total_ms": 33.98711800368296
+    },
+    {
+      "seed": 843,
+      "one_time_goal_setup_ms": 4.74024994764477,
+      "median_total_ms": 34.30920804385096,
+      "mean_total_ms": 35.44233098020038
+    },
+    {
+      "seed": 844,
+      "one_time_goal_setup_ms": 4.996833042241633,
+      "median_total_ms": 31.699666054919362,
+      "mean_total_ms": 34.211006083540504
+    },
+    {
+      "seed": 845,
+      "one_time_goal_setup_ms": 4.818541929125786,
+      "median_total_ms": 33.4158749319613,
+      "mean_total_ms": 35.13999536692623
+    },
+    {
+      "seed": 846,
+      "one_time_goal_setup_ms": 4.786957986652851,
+      "median_total_ms": 31.80462506134063,
+      "mean_total_ms": 33.38287154596949
+    },
+    {
+      "seed": 847,
+      "one_time_goal_setup_ms": 5.420499946922064,
+      "median_total_ms": 31.822292017750442,
+      "mean_total_ms": 33.08232169753561
+    },
+    {
+      "seed": 848,
+      "one_time_goal_setup_ms": 4.948791931383312,
+      "median_total_ms": 32.68116700928658,
+      "mean_total_ms": 34.762863751633894
+    },
+    {
+      "seed": 849,
+      "one_time_goal_setup_ms": 4.996999981813133,
+      "median_total_ms": 30.88549990206957,
+      "mean_total_ms": 32.21588227195695
+    },
+    {
+      "seed": 850,
+      "one_time_goal_setup_ms": 4.58908302243799,
+      "median_total_ms": 33.35291601251811,
+      "mean_total_ms": 36.16136215065443
+    },
+    {
+      "seed": 851,
+      "one_time_goal_setup_ms": 6.200916948728263,
+      "median_total_ms": 34.1691659996286,
+      "mean_total_ms": 35.372793195872674
+    },
+    {
+      "seed": 852,
+      "one_time_goal_setup_ms": 4.661792074330151,
+      "median_total_ms": 32.346040941774845,
+      "mean_total_ms": 33.318110983375284
+    },
+    {
+      "seed": 853,
+      "one_time_goal_setup_ms": 5.846415995620191,
+      "median_total_ms": 31.393458019010723,
+      "mean_total_ms": 32.944936650465166
+    },
+    {
+      "seed": 854,
+      "one_time_goal_setup_ms": 4.703458049334586,
+      "median_total_ms": 32.226125011220574,
+      "mean_total_ms": 33.77612182715287
+    },
+    {
+      "seed": 855,
+      "one_time_goal_setup_ms": 4.992958041839302,
+      "median_total_ms": 32.862375024706125,
+      "mean_total_ms": 34.92526242450353
+    },
+    {
+      "seed": 856,
+      "one_time_goal_setup_ms": 6.379666039720178,
+      "median_total_ms": 33.532582921907306,
+      "mean_total_ms": 35.64187555004739
+    },
+    {
+      "seed": 857,
+      "one_time_goal_setup_ms": 18.128708004951477,
+      "median_total_ms": 31.4176669344306,
+      "mean_total_ms": 32.92125663424413
+    },
+    {
+      "seed": 858,
+      "one_time_goal_setup_ms": 6.668124930001795,
+      "median_total_ms": 31.885207979939878,
+      "mean_total_ms": 33.735953827595544
+    },
+    {
+      "seed": 859,
+      "one_time_goal_setup_ms": 5.456709070131183,
+      "median_total_ms": 31.47520893253386,
+      "mean_total_ms": 32.96526002786344
+    },
+    {
+      "seed": 860,
+      "one_time_goal_setup_ms": 5.316832917742431,
+      "median_total_ms": 31.60699992440641,
+      "mean_total_ms": 33.75691811236302
+    },
+    {
+      "seed": 861,
+      "one_time_goal_setup_ms": 6.22370804194361,
+      "median_total_ms": 35.13058298267424,
+      "mean_total_ms": 37.3006291077694
+    },
+    {
+      "seed": 862,
+      "one_time_goal_setup_ms": 5.623083095997572,
+      "median_total_ms": 34.02116592042148,
+      "mean_total_ms": 34.83674950853345
+    },
+    {
+      "seed": 863,
+      "one_time_goal_setup_ms": 5.179750034585595,
+      "median_total_ms": 31.234291032887995,
+      "mean_total_ms": 32.67106932536181
+    },
+    {
+      "seed": 864,
+      "one_time_goal_setup_ms": 4.913875018246472,
+      "median_total_ms": 33.599624992348254,
+      "mean_total_ms": 34.82585728966764
+    },
+    {
+      "seed": 865,
+      "one_time_goal_setup_ms": 4.635750083252788,
+      "median_total_ms": 33.48208300303668,
+      "mean_total_ms": 34.755609929561615
+    },
+    {
+      "seed": 866,
+      "one_time_goal_setup_ms": 5.456209066323936,
+      "median_total_ms": 33.066832926124334,
+      "mean_total_ms": 35.12413149389128
+    },
+    {
+      "seed": 867,
+      "one_time_goal_setup_ms": 5.078250076621771,
+      "median_total_ms": 33.16016693133861,
+      "mean_total_ms": 34.3544624246923
+    },
+    {
+      "seed": 868,
+      "one_time_goal_setup_ms": 4.569250042550266,
+      "median_total_ms": 32.81879099085927,
+      "mean_total_ms": 34.1119905822866
+    },
+    {
+      "seed": 869,
+      "one_time_goal_setup_ms": 4.709790926426649,
+      "median_total_ms": 31.82062495034188,
+      "mean_total_ms": 34.45230334782825
+    },
+    {
+      "seed": 870,
+      "one_time_goal_setup_ms": 4.79224999435246,
+      "median_total_ms": 33.60420907847583,
+      "mean_total_ms": 35.04361552223268
+    },
+    {
+      "seed": 871,
+      "one_time_goal_setup_ms": 5.130958976224065,
+      "median_total_ms": 32.00570901390165,
+      "mean_total_ms": 34.24388041557182
+    },
+    {
+      "seed": 872,
+      "one_time_goal_setup_ms": 5.2017089910805225,
+      "median_total_ms": 32.812624936923385,
+      "mean_total_ms": 34.55374315565836
+    },
+    {
+      "seed": 873,
+      "one_time_goal_setup_ms": 4.992707981728017,
+      "median_total_ms": 31.74500004388392,
+      "mean_total_ms": 33.18334297528342
+    },
+    {
+      "seed": 874,
+      "one_time_goal_setup_ms": 4.859791952185333,
+      "median_total_ms": 34.83866702299565,
+      "mean_total_ms": 36.05843163649773
+    },
+    {
+      "seed": 875,
+      "one_time_goal_setup_ms": 5.258750054053962,
+      "median_total_ms": 30.777582898736,
+      "mean_total_ms": 32.877364141925696
+    },
+    {
+      "seed": 876,
+      "one_time_goal_setup_ms": 4.586583003401756,
+      "median_total_ms": 31.742333085276186,
+      "mean_total_ms": 33.28201560865319
+    },
+    {
+      "seed": 877,
+      "one_time_goal_setup_ms": 5.407458054833114,
+      "median_total_ms": 31.75929095596075,
+      "mean_total_ms": 34.23940644318622
+    },
+    {
+      "seed": 878,
+      "one_time_goal_setup_ms": 4.807166988030076,
+      "median_total_ms": 32.139708986505866,
+      "mean_total_ms": 34.311779095820846
+    },
+    {
+      "seed": 879,
+      "one_time_goal_setup_ms": 4.8459169920533895,
+      "median_total_ms": 33.118291990831494,
+      "mean_total_ms": 34.19893034475131
+    },
+    {
+      "seed": 880,
+      "one_time_goal_setup_ms": 4.719458986073732,
+      "median_total_ms": 31.98424994479865,
+      "mean_total_ms": 33.258722830075946
+    },
+    {
+      "seed": 881,
+      "one_time_goal_setup_ms": 4.7007499961182475,
+      "median_total_ms": 32.48283301945776,
+      "mean_total_ms": 33.4369432395472
+    },
+    {
+      "seed": 882,
+      "one_time_goal_setup_ms": 4.580958979204297,
+      "median_total_ms": 31.505292048677802,
+      "mean_total_ms": 34.091525790207676
+    },
+    {
+      "seed": 883,
+      "one_time_goal_setup_ms": 4.873083904385567,
+      "median_total_ms": 32.81174995936453,
+      "mean_total_ms": 34.98958581615062
+    },
+    {
+      "seed": 884,
+      "one_time_goal_setup_ms": 5.046000005677342,
+      "median_total_ms": 32.184000010602176,
+      "mean_total_ms": 33.192558346744924
+    },
+    {
+      "seed": 885,
+      "one_time_goal_setup_ms": 4.844625014811754,
+      "median_total_ms": 32.832041033543646,
+      "mean_total_ms": 34.01405544737206
+    },
+    {
+      "seed": 886,
+      "one_time_goal_setup_ms": 4.666959051974118,
+      "median_total_ms": 31.859957962296903,
+      "mean_total_ms": 33.23971641079952
+    },
+    {
+      "seed": 887,
+      "one_time_goal_setup_ms": 4.630208946764469,
+      "median_total_ms": 31.34391689673066,
+      "mean_total_ms": 32.913353460811315
+    },
+    {
+      "seed": 888,
+      "one_time_goal_setup_ms": 4.886541981250048,
+      "median_total_ms": 33.26950001064688,
+      "mean_total_ms": 34.84885013470101
+    },
+    {
+      "seed": 889,
+      "one_time_goal_setup_ms": 4.706125007942319,
+      "median_total_ms": 33.42550003435463,
+      "mean_total_ms": 35.46113635908576
+    },
+    {
+      "seed": 890,
+      "one_time_goal_setup_ms": 4.890791024081409,
+      "median_total_ms": 33.60833297483623,
+      "mean_total_ms": 35.08813029657754
+    },
+    {
+      "seed": 891,
+      "one_time_goal_setup_ms": 5.7130829663947225,
+      "median_total_ms": 32.66862500458956,
+      "mean_total_ms": 35.68873601182113
+    },
+    {
+      "seed": 892,
+      "one_time_goal_setup_ms": 4.788083024322987,
+      "median_total_ms": 31.19766607414931,
+      "mean_total_ms": 32.94959946106824
+    },
+    {
+      "seed": 893,
+      "one_time_goal_setup_ms": 5.1943749422207475,
+      "median_total_ms": 32.712125102989376,
+      "mean_total_ms": 34.796046286762234
+    },
+    {
+      "seed": 894,
+      "one_time_goal_setup_ms": 5.1079170079901814,
+      "median_total_ms": 32.45858405716717,
+      "mean_total_ms": 34.310879217579014
+    },
+    {
+      "seed": 895,
+      "one_time_goal_setup_ms": 5.166833056136966,
+      "median_total_ms": 33.22616696823388,
+      "mean_total_ms": 35.10631438315151
+    },
+    {
+      "seed": 896,
+      "one_time_goal_setup_ms": 4.860625020228326,
+      "median_total_ms": 30.843666987493634,
+      "mean_total_ms": 32.276782852464486
+    },
+    {
+      "seed": 897,
+      "one_time_goal_setup_ms": 4.543208051472902,
+      "median_total_ms": 31.715249991975725,
+      "mean_total_ms": 33.8101042611968
+    },
+    {
+      "seed": 898,
+      "one_time_goal_setup_ms": 5.456834100186825,
+      "median_total_ms": 31.551250023767352,
+      "mean_total_ms": 33.04256691582619
+    },
+    {
+      "seed": 899,
+      "one_time_goal_setup_ms": 4.781916970387101,
+      "median_total_ms": 33.60399999655783,
+      "mean_total_ms": 35.80862304328808
+    },
+    {
+      "seed": 900,
+      "one_time_goal_setup_ms": 4.842207999899983,
+      "median_total_ms": 32.73149998858571,
+      "mean_total_ms": 34.93636666043174
+    },
+    {
+      "seed": 901,
+      "one_time_goal_setup_ms": 25.607542018406093,
+      "median_total_ms": 33.160958089865744,
+      "mean_total_ms": 34.57660873139661
+    },
+    {
+      "seed": 902,
+      "one_time_goal_setup_ms": 14.38179099932313,
+      "median_total_ms": 33.543750061653554,
+      "mean_total_ms": 35.10046695388617
+    },
+    {
+      "seed": 903,
+      "one_time_goal_setup_ms": 5.226874956861138,
+      "median_total_ms": 33.4654999896884,
+      "mean_total_ms": 35.17379332740333
+    },
+    {
+      "seed": 904,
+      "one_time_goal_setup_ms": 5.8112089755013585,
+      "median_total_ms": 31.44787496421486,
+      "mean_total_ms": 34.25354722865103
+    },
+    {
+      "seed": 905,
+      "one_time_goal_setup_ms": 5.273374961689115,
+      "median_total_ms": 32.905459054745734,
+      "mean_total_ms": 34.85897843807285
+    },
+    {
+      "seed": 906,
+      "one_time_goal_setup_ms": 5.30929199885577,
+      "median_total_ms": 33.2151249749586,
+      "mean_total_ms": 34.349116297542224
+    },
+    {
+      "seed": 907,
+      "one_time_goal_setup_ms": 4.840958048589528,
+      "median_total_ms": 31.150166993029416,
+      "mean_total_ms": 32.69208519320403
+    },
+    {
+      "seed": 908,
+      "one_time_goal_setup_ms": 5.071624997071922,
+      "median_total_ms": 30.541457934305072,
+      "mean_total_ms": 32.35815782543449
+    },
+    {
+      "seed": 909,
+      "one_time_goal_setup_ms": 5.234040901996195,
+      "median_total_ms": 32.61295810807496,
+      "mean_total_ms": 33.74287245706434
+    },
+    {
+      "seed": 910,
+      "one_time_goal_setup_ms": 4.878332954831421,
+      "median_total_ms": 32.95729192905128,
+      "mean_total_ms": 35.199392430617344
+    },
+    {
+      "seed": 911,
+      "one_time_goal_setup_ms": 5.448875017464161,
+      "median_total_ms": 32.45000005699694,
+      "mean_total_ms": 34.69054375309497
+    },
+    {
+      "seed": 912,
+      "one_time_goal_setup_ms": 4.490374936722219,
+      "median_total_ms": 31.83504194021225,
+      "mean_total_ms": 33.623712673960696
+    },
+    {
+      "seed": 913,
+      "one_time_goal_setup_ms": 5.568707943893969,
+      "median_total_ms": 32.15049998834729,
+      "mean_total_ms": 33.20931510312394
+    },
+    {
+      "seed": 914,
+      "one_time_goal_setup_ms": 4.752916982397437,
+      "median_total_ms": 32.68670791294426,
+      "mean_total_ms": 34.079060698711565
+    },
+    {
+      "seed": 915,
+      "one_time_goal_setup_ms": 5.9803330805152655,
+      "median_total_ms": 33.60116702970117,
+      "mean_total_ms": 36.33059527621501
+    },
+    {
+      "seed": 916,
+      "one_time_goal_setup_ms": 4.7148329904302955,
+      "median_total_ms": 31.757749966345727,
+      "mean_total_ms": 33.562832956557116
+    },
+    {
+      "seed": 917,
+      "one_time_goal_setup_ms": 5.067915888503194,
+      "median_total_ms": 32.60158293414861,
+      "mean_total_ms": 34.08204497924695
+    },
+    {
+      "seed": 918,
+      "one_time_goal_setup_ms": 4.939540987834334,
+      "median_total_ms": 32.178415916860104,
+      "mean_total_ms": 33.44879363855672
+    },
+    {
+      "seed": 919,
+      "one_time_goal_setup_ms": 4.521499969996512,
+      "median_total_ms": 33.509583096019924,
+      "mean_total_ms": 35.241073381806174
+    },
+    {
+      "seed": 920,
+      "one_time_goal_setup_ms": 5.021915887482464,
+      "median_total_ms": 31.39562509022653,
+      "mean_total_ms": 34.03156002732142
+    },
+    {
+      "seed": 921,
+      "one_time_goal_setup_ms": 5.750417010858655,
+      "median_total_ms": 32.85674995277077,
+      "mean_total_ms": 35.02007325675102
+    },
+    {
+      "seed": 922,
+      "one_time_goal_setup_ms": 5.1538749830797315,
+      "median_total_ms": 32.78325009159744,
+      "mean_total_ms": 34.63001150623082
+    },
+    {
+      "seed": 923,
+      "one_time_goal_setup_ms": 5.07449998985976,
+      "median_total_ms": 34.138499991968274,
+      "mean_total_ms": 36.291184385366265
+    },
+    {
+      "seed": 924,
+      "one_time_goal_setup_ms": 5.296957911923528,
+      "median_total_ms": 32.62945904862136,
+      "mean_total_ms": 34.38440805803689
+    },
+    {
+      "seed": 925,
+      "one_time_goal_setup_ms": 5.610459018498659,
+      "median_total_ms": 33.46349997445941,
+      "mean_total_ms": 38.71281505414536
+    },
+    {
+      "seed": 926,
+      "one_time_goal_setup_ms": 6.18241704069078,
+      "median_total_ms": 40.195208974182606,
+      "mean_total_ms": 46.63573425366647
+    },
+    {
+      "seed": 927,
+      "one_time_goal_setup_ms": 6.313125020824373,
+      "median_total_ms": 34.03829107992351,
+      "mean_total_ms": 35.71348705750314
+    },
+    {
+      "seed": 928,
+      "one_time_goal_setup_ms": 5.792124895378947,
+      "median_total_ms": 33.76354102510959,
+      "mean_total_ms": 35.50907369252176
+    },
+    {
+      "seed": 929,
+      "one_time_goal_setup_ms": 5.203707958571613,
+      "median_total_ms": 33.12116698361933,
+      "mean_total_ms": 34.98333572957014
+    },
+    {
+      "seed": 930,
+      "one_time_goal_setup_ms": 5.214208969846368,
+      "median_total_ms": 39.76762492675334,
+      "mean_total_ms": 42.3281885945933
+    },
+    {
+      "seed": 931,
+      "one_time_goal_setup_ms": 7.042583078145981,
+      "median_total_ms": 36.02341702207923,
+      "mean_total_ms": 41.22840491389589
+    },
+    {
+      "seed": 932,
+      "one_time_goal_setup_ms": 7.932042004540563,
+      "median_total_ms": 36.38916707132012,
+      "mean_total_ms": 37.99232972327561
+    },
+    {
+      "seed": 933,
+      "one_time_goal_setup_ms": 5.016417009755969,
+      "median_total_ms": 33.00929209217429,
+      "mean_total_ms": 34.957545252871654
+    },
+    {
+      "seed": 934,
+      "one_time_goal_setup_ms": 4.927624948322773,
+      "median_total_ms": 33.66412501782179,
+      "mean_total_ms": 35.18047774957109
+    },
+    {
+      "seed": 935,
+      "one_time_goal_setup_ms": 4.610499949194491,
+      "median_total_ms": 33.3009579917416,
+      "mean_total_ms": 35.77747762809315
+    },
+    {
+      "seed": 936,
+      "one_time_goal_setup_ms": 5.4380419896915555,
+      "median_total_ms": 33.789917011745274,
+      "mean_total_ms": 35.91563982837316
+    },
+    {
+      "seed": 937,
+      "one_time_goal_setup_ms": 5.717374966479838,
+      "median_total_ms": 33.23837509378791,
+      "mean_total_ms": 35.98354469822158
+    },
+    {
+      "seed": 938,
+      "one_time_goal_setup_ms": 5.121166002936661,
+      "median_total_ms": 35.40870803408325,
+      "mean_total_ms": 36.15750636617165
+    },
+    {
+      "seed": 939,
+      "one_time_goal_setup_ms": 4.645791952498257,
+      "median_total_ms": 36.481124931015074,
+      "mean_total_ms": 38.007705282449486
+    },
+    {
+      "seed": 940,
+      "one_time_goal_setup_ms": 4.956500022672117,
+      "median_total_ms": 35.82741704303771,
+      "mean_total_ms": 37.404250359118336
+    },
+    {
+      "seed": 941,
+      "one_time_goal_setup_ms": 5.41541597340256,
+      "median_total_ms": 34.40754197072238,
+      "mean_total_ms": 36.28526777324696
+    },
+    {
+      "seed": 942,
+      "one_time_goal_setup_ms": 4.880832973867655,
+      "median_total_ms": 33.02712494041771,
+      "mean_total_ms": 34.554535048525956
+    },
+    {
+      "seed": 943,
+      "one_time_goal_setup_ms": 5.2118750754743814,
+      "median_total_ms": 33.033749903552234,
+      "mean_total_ms": 36.267646185551136
+    },
+    {
+      "seed": 944,
+      "one_time_goal_setup_ms": 5.543833016417921,
+      "median_total_ms": 33.75633293762803,
+      "mean_total_ms": 34.8300043430682
+    },
+    {
+      "seed": 945,
+      "one_time_goal_setup_ms": 4.959458019584417,
+      "median_total_ms": 34.991541993804276,
+      "mean_total_ms": 37.67248675419343
+    },
+    {
+      "seed": 946,
+      "one_time_goal_setup_ms": 4.995084018446505,
+      "median_total_ms": 35.97600001376122,
+      "mean_total_ms": 38.813947893250436
+    },
+    {
+      "seed": 947,
+      "one_time_goal_setup_ms": 5.10404200758785,
+      "median_total_ms": 34.1344999615103,
+      "mean_total_ms": 35.88528983287572
+    },
+    {
+      "seed": 948,
+      "one_time_goal_setup_ms": 5.50024991389364,
+      "median_total_ms": 33.52616704069078,
+      "mean_total_ms": 35.54056931494011
+    },
+    {
+      "seed": 949,
+      "one_time_goal_setup_ms": 5.340542062185705,
+      "median_total_ms": 34.06795801129192,
+      "mean_total_ms": 35.53020569739775
+    },
+    {
+      "seed": 950,
+      "one_time_goal_setup_ms": 5.779291968792677,
+      "median_total_ms": 33.77483307849616,
+      "mean_total_ms": 34.888527253716596
+    },
+    {
+      "seed": 951,
+      "one_time_goal_setup_ms": 5.108500015921891,
+      "median_total_ms": 35.16570804640651,
+      "mean_total_ms": 37.73478812700699
+    },
+    {
+      "seed": 952,
+      "one_time_goal_setup_ms": 5.2700829692184925,
+      "median_total_ms": 33.093165955506265,
+      "mean_total_ms": 34.68761357685758
+    },
+    {
+      "seed": 953,
+      "one_time_goal_setup_ms": 4.589666961692274,
+      "median_total_ms": 34.37454090453684,
+      "mean_total_ms": 41.370764953853
+    },
+    {
+      "seed": 954,
+      "one_time_goal_setup_ms": 9.725125040858984,
+      "median_total_ms": 36.275167018175125,
+      "mean_total_ms": 38.828656636917636
+    },
+    {
+      "seed": 955,
+      "one_time_goal_setup_ms": 9.340291959233582,
+      "median_total_ms": 33.565124962478876,
+      "mean_total_ms": 35.03090262649551
+    },
+    {
+      "seed": 956,
+      "one_time_goal_setup_ms": 8.027125033549964,
+      "median_total_ms": 34.53966602683067,
+      "mean_total_ms": 37.73339575134395
+    },
+    {
+      "seed": 957,
+      "one_time_goal_setup_ms": 7.4360830476507545,
+      "median_total_ms": 34.565458074212074,
+      "mean_total_ms": 35.96097235309167
+    },
+    {
+      "seed": 958,
+      "one_time_goal_setup_ms": 4.999166005291045,
+      "median_total_ms": 32.827583025209606,
+      "mean_total_ms": 35.04932535930522
+    },
+    {
+      "seed": 959,
+      "one_time_goal_setup_ms": 6.231416016817093,
+      "median_total_ms": 33.23291696142405,
+      "mean_total_ms": 35.40315107508962
+    },
+    {
+      "seed": 960,
+      "one_time_goal_setup_ms": 5.423957947641611,
+      "median_total_ms": 34.117499948479235,
+      "mean_total_ms": 36.02074575980031
+    },
+    {
+      "seed": 961,
+      "one_time_goal_setup_ms": 6.700958008877933,
+      "median_total_ms": 35.8342919498682,
+      "mean_total_ms": 38.25380343958617
+    },
+    {
+      "seed": 962,
+      "one_time_goal_setup_ms": 7.219208055175841,
+      "median_total_ms": 33.94966688938439,
+      "mean_total_ms": 35.9576482798845
+    },
+    {
+      "seed": 963,
+      "one_time_goal_setup_ms": 4.7375839203596115,
+      "median_total_ms": 33.870749990455806,
+      "mean_total_ms": 35.62567236034998
+    },
+    {
+      "seed": 964,
+      "one_time_goal_setup_ms": 5.164375063031912,
+      "median_total_ms": 33.33495801780373,
+      "mean_total_ms": 34.781527502964884
+    },
+    {
+      "seed": 965,
+      "one_time_goal_setup_ms": 5.325333913788199,
+      "median_total_ms": 32.73720794823021,
+      "mean_total_ms": 34.59249113885952
+    },
+    {
+      "seed": 966,
+      "one_time_goal_setup_ms": 4.993790993466973,
+      "median_total_ms": 34.639792051166296,
+      "mean_total_ms": 36.7842280132223
+    },
+    {
+      "seed": 967,
+      "one_time_goal_setup_ms": 4.768542014062405,
+      "median_total_ms": 33.655666979029775,
+      "mean_total_ms": 35.783596437734865
+    },
+    {
+      "seed": 968,
+      "one_time_goal_setup_ms": 4.993000067770481,
+      "median_total_ms": 38.456292008049786,
+      "mean_total_ms": 39.50258134827313
+    },
+    {
+      "seed": 969,
+      "one_time_goal_setup_ms": 4.921707906760275,
+      "median_total_ms": 33.43925008084625,
+      "mean_total_ms": 35.02057608630922
+    },
+    {
+      "seed": 970,
+      "one_time_goal_setup_ms": 5.8174580335617065,
+      "median_total_ms": 34.475875087082386,
+      "mean_total_ms": 35.702081579375005
+    },
+    {
+      "seed": 971,
+      "one_time_goal_setup_ms": 4.9219169886782765,
+      "median_total_ms": 34.955124952830374,
+      "mean_total_ms": 36.877356992945785
+    },
+    {
+      "seed": 972,
+      "one_time_goal_setup_ms": 4.6617090702056885,
+      "median_total_ms": 34.84808292705566,
+      "mean_total_ms": 36.420447504635725
+    },
+    {
+      "seed": 973,
+      "one_time_goal_setup_ms": 5.233500036410987,
+      "median_total_ms": 33.351375022903085,
+      "mean_total_ms": 35.719216240584736
+    },
+    {
+      "seed": 974,
+      "one_time_goal_setup_ms": 4.655041033402085,
+      "median_total_ms": 33.99933292530477,
+      "mean_total_ms": 35.60902353132232
+    },
+    {
+      "seed": 975,
+      "one_time_goal_setup_ms": 4.9403749871999025,
+      "median_total_ms": 33.67687505669892,
+      "mean_total_ms": 34.736301630203215
+    },
+    {
+      "seed": 976,
+      "one_time_goal_setup_ms": 5.922832991927862,
+      "median_total_ms": 34.69720797147602,
+      "mean_total_ms": 36.76634561381347
+    },
+    {
+      "seed": 977,
+      "one_time_goal_setup_ms": 5.690458929166198,
+      "median_total_ms": 35.12462507933378,
+      "mean_total_ms": 36.74895329814818
+    },
+    {
+      "seed": 978,
+      "one_time_goal_setup_ms": 6.000875029712915,
+      "median_total_ms": 33.1017910502851,
+      "mean_total_ms": 35.086662329304666
+    },
+    {
+      "seed": 979,
+      "one_time_goal_setup_ms": 5.058000097051263,
+      "median_total_ms": 32.69408305641264,
+      "mean_total_ms": 34.38066602462814
+    },
+    {
+      "seed": 980,
+      "one_time_goal_setup_ms": 4.969332949258387,
+      "median_total_ms": 32.66712499316782,
+      "mean_total_ms": 34.461504754625146
+    },
+    {
+      "seed": 981,
+      "one_time_goal_setup_ms": 5.150874960236251,
+      "median_total_ms": 32.98091690521687,
+      "mean_total_ms": 34.54381810641655
+    },
+    {
+      "seed": 982,
+      "one_time_goal_setup_ms": 4.980292054824531,
+      "median_total_ms": 37.61266695801169,
+      "mean_total_ms": 40.0837490641852
+    },
+    {
+      "seed": 983,
+      "one_time_goal_setup_ms": 4.968791035935283,
+      "median_total_ms": 32.66199992503971,
+      "mean_total_ms": 34.43837868537577
+    },
+    {
+      "seed": 984,
+      "one_time_goal_setup_ms": 5.17354195471853,
+      "median_total_ms": 33.83837500587106,
+      "mean_total_ms": 35.88900448133548
+    },
+    {
+      "seed": 985,
+      "one_time_goal_setup_ms": 5.034875008277595,
+      "median_total_ms": 33.8508749846369,
+      "mean_total_ms": 34.83896747024523
+    },
+    {
+      "seed": 986,
+      "one_time_goal_setup_ms": 5.21954195573926,
+      "median_total_ms": 36.652375012636185,
+      "mean_total_ms": 37.365218542427534
+    },
+    {
+      "seed": 987,
+      "one_time_goal_setup_ms": 4.645250039175153,
+      "median_total_ms": 34.20195903163403,
+      "mean_total_ms": 36.116654233312204
+    },
+    {
+      "seed": 988,
+      "one_time_goal_setup_ms": 5.195709061808884,
+      "median_total_ms": 34.65908393263817,
+      "mean_total_ms": 36.798879800231326
+    },
+    {
+      "seed": 989,
+      "one_time_goal_setup_ms": 4.848834010772407,
+      "median_total_ms": 34.01270799804479,
+      "mean_total_ms": 35.2496579374438
+    },
+    {
+      "seed": 990,
+      "one_time_goal_setup_ms": 5.2132089622318745,
+      "median_total_ms": 33.62541692331433,
+      "mean_total_ms": 35.23165236175474
+    },
+    {
+      "seed": 991,
+      "one_time_goal_setup_ms": 5.051916930824518,
+      "median_total_ms": 33.688042080029845,
+      "mean_total_ms": 35.20105552549163
+    },
+    {
+      "seed": 992,
+      "one_time_goal_setup_ms": 5.442166002467275,
+      "median_total_ms": 34.23658409155905,
+      "mean_total_ms": 36.195801460139805
+    },
+    {
+      "seed": 993,
+      "one_time_goal_setup_ms": 4.699749988503754,
+      "median_total_ms": 32.67145901918411,
+      "mean_total_ms": 35.10355515856414
+    },
+    {
+      "seed": 994,
+      "one_time_goal_setup_ms": 5.156207946129143,
+      "median_total_ms": 33.04566699080169,
+      "mean_total_ms": 34.981198844292926
+    },
+    {
+      "seed": 995,
+      "one_time_goal_setup_ms": 4.933750024065375,
+      "median_total_ms": 33.847791026346385,
+      "mean_total_ms": 37.69483333860066
+    },
+    {
+      "seed": 996,
+      "one_time_goal_setup_ms": 5.271500092931092,
+      "median_total_ms": 35.11808405164629,
+      "mean_total_ms": 36.23708757786228
+    },
+    {
+      "seed": 997,
+      "one_time_goal_setup_ms": 5.153750069439411,
+      "median_total_ms": 34.23537500202656,
+      "mean_total_ms": 36.419032777600464
+    },
+    {
+      "seed": 998,
+      "one_time_goal_setup_ms": 6.812624982558191,
+      "median_total_ms": 34.17287499178201,
+      "mean_total_ms": 35.82724851319596
+    },
+    {
+      "seed": 999,
+      "one_time_goal_setup_ms": 5.155583028681576,
+      "median_total_ms": 34.580708015710115,
+      "mean_total_ms": 36.44889921563426
+    },
+    {
+      "seed": 1000,
+      "one_time_goal_setup_ms": 5.456375074572861,
+      "median_total_ms": 32.82229194883257,
+      "mean_total_ms": 34.955275822652595
+    },
+    {
+      "seed": 1001,
+      "one_time_goal_setup_ms": 4.971125046722591,
+      "median_total_ms": 35.24004202336073,
+      "mean_total_ms": 36.79343321072381
+    },
+    {
+      "seed": 1002,
+      "one_time_goal_setup_ms": 5.406416952610016,
+      "median_total_ms": 32.604250009171665,
+      "mean_total_ms": 35.066159095038614
+    },
+    {
+      "seed": 1003,
+      "one_time_goal_setup_ms": 5.3544590482488275,
+      "median_total_ms": 34.87937489990145,
+      "mean_total_ms": 36.4967416849963
+    },
+    {
+      "seed": 1004,
+      "one_time_goal_setup_ms": 5.649250000715256,
+      "median_total_ms": 32.429666025564075,
+      "mean_total_ms": 34.03113954035299
+    },
+    {
+      "seed": 1005,
+      "one_time_goal_setup_ms": 5.534541909582913,
+      "median_total_ms": 32.77891699690372,
+      "mean_total_ms": 35.061066710419716
+    },
+    {
+      "seed": 1006,
+      "one_time_goal_setup_ms": 4.807958961464465,
+      "median_total_ms": 35.16245901118964,
+      "mean_total_ms": 35.940745271121465
+    },
+    {
+      "seed": 1007,
+      "one_time_goal_setup_ms": 5.029792082495987,
+      "median_total_ms": 32.75629098061472,
+      "mean_total_ms": 35.38917459488388
+    },
+    {
+      "seed": 1008,
+      "one_time_goal_setup_ms": 5.638833972625434,
+      "median_total_ms": 33.83562504313886,
+      "mean_total_ms": 34.93335006595959
+    },
+    {
+      "seed": 1009,
+      "one_time_goal_setup_ms": 5.246083019301295,
+      "median_total_ms": 35.35104205366224,
+      "mean_total_ms": 37.2853796459764
+    },
+    {
+      "seed": 1010,
+      "one_time_goal_setup_ms": 4.966665990650654,
+      "median_total_ms": 33.247459097765386,
+      "mean_total_ms": 34.74708345777813
+    },
+    {
+      "seed": 1011,
+      "one_time_goal_setup_ms": 5.084667005576193,
+      "median_total_ms": 33.65050000138581,
+      "mean_total_ms": 35.23292078947028
+    },
+    {
+      "seed": 1012,
+      "one_time_goal_setup_ms": 5.0051249563694,
+      "median_total_ms": 33.09425001498312,
+      "mean_total_ms": 34.55270897404897
+    },
+    {
+      "seed": 1013,
+      "one_time_goal_setup_ms": 5.194958066567779,
+      "median_total_ms": 33.855500048957765,
+      "mean_total_ms": 36.26329348060406
+    },
+    {
+      "seed": 1014,
+      "one_time_goal_setup_ms": 4.658249905332923,
+      "median_total_ms": 34.66645802836865,
+      "mean_total_ms": 36.27376095983126
+    },
+    {
+      "seed": 1015,
+      "one_time_goal_setup_ms": 5.558958975598216,
+      "median_total_ms": 35.568458028137684,
+      "mean_total_ms": 37.355398038579594
+    },
+    {
+      "seed": 1016,
+      "one_time_goal_setup_ms": 4.709333064965904,
+      "median_total_ms": 34.40783394034952,
+      "mean_total_ms": 36.22510015062751
+    },
+    {
+      "seed": 1017,
+      "one_time_goal_setup_ms": 4.980625002644956,
+      "median_total_ms": 32.793791964650154,
+      "mean_total_ms": 35.25947526962097
+    },
+    {
+      "seed": 1018,
+      "one_time_goal_setup_ms": 5.686666001565754,
+      "median_total_ms": 35.020000068470836,
+      "mean_total_ms": 37.59905333032033
+    },
+    {
+      "seed": 1019,
+      "one_time_goal_setup_ms": 4.9732920015230775,
+      "median_total_ms": 33.54287496767938,
+      "mean_total_ms": 35.2348583103675
+    },
+    {
+      "seed": 1020,
+      "one_time_goal_setup_ms": 5.145624978467822,
+      "median_total_ms": 32.79737499542534,
+      "mean_total_ms": 34.82168516890693
+    },
+    {
+      "seed": 1021,
+      "one_time_goal_setup_ms": 5.02904097083956,
+      "median_total_ms": 33.98083406500518,
+      "mean_total_ms": 35.44108916687528
+    },
+    {
+      "seed": 1022,
+      "one_time_goal_setup_ms": 5.146874929778278,
+      "median_total_ms": 34.39233300741762,
+      "mean_total_ms": 35.5372919309293
+    },
+    {
+      "seed": 1023,
+      "one_time_goal_setup_ms": 5.88125002104789,
+      "median_total_ms": 36.21662501245737,
+      "mean_total_ms": 39.96798781241985
+    },
+    {
+      "seed": 1024,
+      "one_time_goal_setup_ms": 5.413832957856357,
+      "median_total_ms": 34.219083026982844,
+      "mean_total_ms": 35.8453083288161
+    },
+    {
+      "seed": 1025,
+      "one_time_goal_setup_ms": 5.052792024798691,
+      "median_total_ms": 35.121832974255085,
+      "mean_total_ms": 47.46071704559856
+    },
+    {
+      "seed": 1026,
+      "one_time_goal_setup_ms": 57.63004207983613,
+      "median_total_ms": 33.457166980952024,
+      "mean_total_ms": 35.560507758978815
+    },
+    {
+      "seed": 1027,
+      "one_time_goal_setup_ms": 7.581999991089106,
+      "median_total_ms": 31.90791595261544,
+      "mean_total_ms": 34.03694526336732
+    },
+    {
+      "seed": 1028,
+      "one_time_goal_setup_ms": 4.893042030744255,
+      "median_total_ms": 32.954916008748114,
+      "mean_total_ms": 34.96867299028155
+    },
+    {
+      "seed": 1029,
+      "one_time_goal_setup_ms": 5.5969590321183205,
+      "median_total_ms": 32.627042033709586,
+      "mean_total_ms": 34.293684673806034
+    },
+    {
+      "seed": 1030,
+      "one_time_goal_setup_ms": 4.739540978334844,
+      "median_total_ms": 32.5071249390021,
+      "mean_total_ms": 34.14048176436197
+    },
+    {
+      "seed": 1031,
+      "one_time_goal_setup_ms": 5.704374983906746,
+      "median_total_ms": 32.35366602893919,
+      "mean_total_ms": 33.738378137867485
+    },
+    {
+      "seed": 1032,
+      "one_time_goal_setup_ms": 4.701708094216883,
+      "median_total_ms": 31.439874903298914,
+      "mean_total_ms": 32.94699655860544
+    },
+    {
+      "seed": 1033,
+      "one_time_goal_setup_ms": 4.83083410654217,
+      "median_total_ms": 33.50212494842708,
+      "mean_total_ms": 37.33066663493417
+    },
+    {
+      "seed": 1034,
+      "one_time_goal_setup_ms": 78.66083295084536,
+      "median_total_ms": 32.77050005272031,
+      "mean_total_ms": 35.43642396846461
+    },
+    {
+      "seed": 1035,
+      "one_time_goal_setup_ms": 8.647791924886405,
+      "median_total_ms": 31.383958994410932,
+      "mean_total_ms": 33.102607825357055
+    },
+    {
+      "seed": 1036,
+      "one_time_goal_setup_ms": 6.202000076882541,
+      "median_total_ms": 33.4747500019148,
+      "mean_total_ms": 34.35036983481416
+    },
+    {
+      "seed": 1037,
+      "one_time_goal_setup_ms": 4.9642500234767795,
+      "median_total_ms": 34.096249961294234,
+      "mean_total_ms": 36.196349205316174
+    },
+    {
+      "seed": 1038,
+      "one_time_goal_setup_ms": 5.223750020377338,
+      "median_total_ms": 34.464582917280495,
+      "mean_total_ms": 37.289106914226615
+    },
+    {
+      "seed": 1039,
+      "one_time_goal_setup_ms": 8.347208029590547,
+      "median_total_ms": 33.22950005531311,
+      "mean_total_ms": 37.00240419120602
+    },
+    {
+      "seed": 1040,
+      "one_time_goal_setup_ms": 17.85204093903303,
+      "median_total_ms": 31.905583920888603,
+      "mean_total_ms": 33.66600369169776
+    },
+    {
+      "seed": 1041,
+      "one_time_goal_setup_ms": 6.844291929155588,
+      "median_total_ms": 32.53670898266137,
+      "mean_total_ms": 35.1366383829228
+    },
+    {
+      "seed": 1042,
+      "one_time_goal_setup_ms": 6.523834075778723,
+      "median_total_ms": 38.85945794172585,
+      "mean_total_ms": 41.795443515071554
+    },
+    {
+      "seed": 1043,
+      "one_time_goal_setup_ms": 5.905207945033908,
+      "median_total_ms": 35.98049993161112,
+      "mean_total_ms": 38.243714544094274
+    },
+    {
+      "seed": 1044,
+      "one_time_goal_setup_ms": 8.360959007404745,
+      "median_total_ms": 35.119540989398956,
+      "mean_total_ms": 37.87611574378042
+    },
+    {
+      "seed": 1045,
+      "one_time_goal_setup_ms": 4.917750018648803,
+      "median_total_ms": 36.22974990867078,
+      "mean_total_ms": 39.41642275331394
+    },
+    {
+      "seed": 1046,
+      "one_time_goal_setup_ms": 4.949582973495126,
+      "median_total_ms": 36.77820798475295,
+      "mean_total_ms": 42.33486760289423
+    },
+    {
+      "seed": 1047,
+      "one_time_goal_setup_ms": 8.434875053353608,
+      "median_total_ms": 31.915707979351282,
+      "mean_total_ms": 34.09116417797844
+    },
+    {
+      "seed": 1048,
+      "one_time_goal_setup_ms": 5.630124942399561,
+      "median_total_ms": 33.089958014898,
+      "mean_total_ms": 37.068601445634926
+    },
+    {
+      "seed": 1049,
+      "one_time_goal_setup_ms": 4.843291011638939,
+      "median_total_ms": 37.420583073981106,
+      "mean_total_ms": 40.20744563664295
+    },
+    {
+      "seed": 1050,
+      "one_time_goal_setup_ms": 5.042999982833862,
+      "median_total_ms": 33.58779207337648,
+      "mean_total_ms": 36.337118383334385
+    },
+    {
+      "seed": 1051,
+      "one_time_goal_setup_ms": 5.362124997191131,
+      "median_total_ms": 34.08058395143598,
+      "mean_total_ms": 37.35922434189845
+    },
+    {
+      "seed": 1052,
+      "one_time_goal_setup_ms": 5.438916967250407,
+      "median_total_ms": 34.23141606617719,
+      "mean_total_ms": 37.376859660689085
+    },
+    {
+      "seed": 1053,
+      "one_time_goal_setup_ms": 6.217499962076545,
+      "median_total_ms": 34.471165970899165,
+      "mean_total_ms": 36.33274922502183
+    },
+    {
+      "seed": 1054,
+      "one_time_goal_setup_ms": 5.04795799497515,
+      "median_total_ms": 37.08629100583494,
+      "mean_total_ms": 39.84980302648471
+    },
+    {
+      "seed": 1055,
+      "one_time_goal_setup_ms": 4.998207907192409,
+      "median_total_ms": 32.59712504222989,
+      "mean_total_ms": 35.24024746018566
+    },
+    {
+      "seed": 1056,
+      "one_time_goal_setup_ms": 9.408583049662411,
+      "median_total_ms": 32.11483405902982,
+      "mean_total_ms": 34.05791770940321
+    },
+    {
+      "seed": 1057,
+      "one_time_goal_setup_ms": 4.713875008746982,
+      "median_total_ms": 31.251167063601315,
+      "mean_total_ms": 32.867307028925374
+    },
+    {
+      "seed": 1058,
+      "one_time_goal_setup_ms": 4.639583057723939,
+      "median_total_ms": 31.525750062428415,
+      "mean_total_ms": 33.04241970366251
+    },
+    {
+      "seed": 1059,
+      "one_time_goal_setup_ms": 4.8115410609170794,
+      "median_total_ms": 33.771792077459395,
+      "mean_total_ms": 36.39318704908152
+    },
+    {
+      "seed": 1060,
+      "one_time_goal_setup_ms": 4.920249921269715,
+      "median_total_ms": 31.802000012248755,
+      "mean_total_ms": 33.3369621770486
+    },
+    {
+      "seed": 1061,
+      "one_time_goal_setup_ms": 4.999333061277866,
+      "median_total_ms": 34.103124984540045,
+      "mean_total_ms": 35.27644721658102
+    },
+    {
+      "seed": 1062,
+      "one_time_goal_setup_ms": 5.39599999319762,
+      "median_total_ms": 32.61750005185604,
+      "mean_total_ms": 33.65862442934442
+    },
+    {
+      "seed": 1063,
+      "one_time_goal_setup_ms": 4.5998330460861325,
+      "median_total_ms": 34.0302080148831,
+      "mean_total_ms": 35.771187711211425
+    },
+    {
+      "seed": 1064,
+      "one_time_goal_setup_ms": 4.813125007785857,
+      "median_total_ms": 33.177334000356495,
+      "mean_total_ms": 35.04408187757704
+    },
+    {
+      "seed": 1065,
+      "one_time_goal_setup_ms": 5.069792037829757,
+      "median_total_ms": 32.90945803746581,
+      "mean_total_ms": 34.5018335976564
+    },
+    {
+      "seed": 1066,
+      "one_time_goal_setup_ms": 4.801332950592041,
+      "median_total_ms": 32.93129103258252,
+      "mean_total_ms": 33.82213743410946
+    },
+    {
+      "seed": 1067,
+      "one_time_goal_setup_ms": 4.6261249808594584,
+      "median_total_ms": 33.60150009393692,
+      "mean_total_ms": 34.79315253632468
+    },
+    {
+      "seed": 1068,
+      "one_time_goal_setup_ms": 5.064624943770468,
+      "median_total_ms": 31.515375012531877,
+      "mean_total_ms": 33.540395721941
+    },
+    {
+      "seed": 1069,
+      "one_time_goal_setup_ms": 4.523582989349961,
+      "median_total_ms": 33.0432920018211,
+      "mean_total_ms": 34.44645211935812
+    },
+    {
+      "seed": 1070,
+      "one_time_goal_setup_ms": 4.8195840790867805,
+      "median_total_ms": 33.5365830687806,
+      "mean_total_ms": 34.59673944513299
+    },
+    {
+      "seed": 1071,
+      "one_time_goal_setup_ms": 5.211916984990239,
+      "median_total_ms": 33.77812495455146,
+      "mean_total_ms": 34.96483255783835
+    },
+    {
+      "seed": 1072,
+      "one_time_goal_setup_ms": 4.7606669832021,
+      "median_total_ms": 33.98891701363027,
+      "mean_total_ms": 35.52033136199628
+    },
+    {
+      "seed": 1073,
+      "one_time_goal_setup_ms": 4.753042012453079,
+      "median_total_ms": 31.214583083055913,
+      "mean_total_ms": 32.85187615251671
+    },
+    {
+      "seed": 1074,
+      "one_time_goal_setup_ms": 4.574916907586157,
+      "median_total_ms": 31.53016697615385,
+      "mean_total_ms": 33.53083583208481
+    },
+    {
+      "seed": 1075,
+      "one_time_goal_setup_ms": 4.70399996265769,
+      "median_total_ms": 32.96529198996723,
+      "mean_total_ms": 35.14104421354003
+    },
+    {
+      "seed": 1076,
+      "one_time_goal_setup_ms": 5.152250058017671,
+      "median_total_ms": 33.26404106337577,
+      "mean_total_ms": 34.48286891937079
+    },
+    {
+      "seed": 1077,
+      "one_time_goal_setup_ms": 4.873708006925881,
+      "median_total_ms": 31.93508298136294,
+      "mean_total_ms": 33.68577131306723
+    },
+    {
+      "seed": 1078,
+      "one_time_goal_setup_ms": 4.770624917000532,
+      "median_total_ms": 32.652084017172456,
+      "mean_total_ms": 34.68837237894712
+    },
+    {
+      "seed": 1079,
+      "one_time_goal_setup_ms": 5.261708050966263,
+      "median_total_ms": 32.769500045105815,
+      "mean_total_ms": 35.03169394098222
+    },
+    {
+      "seed": 1080,
+      "one_time_goal_setup_ms": 4.95450000744313,
+      "median_total_ms": 32.63666690327227,
+      "mean_total_ms": 34.75365857963288
+    },
+    {
+      "seed": 1081,
+      "one_time_goal_setup_ms": 5.3594589699059725,
+      "median_total_ms": 32.45541697833687,
+      "mean_total_ms": 34.42633255266599
+    },
+    {
+      "seed": 1082,
+      "one_time_goal_setup_ms": 4.8325000097975135,
+      "median_total_ms": 32.509334036149085,
+      "mean_total_ms": 34.34617644737637
+    },
+    {
+      "seed": 1083,
+      "one_time_goal_setup_ms": 4.519417067058384,
+      "median_total_ms": 32.4063339503482,
+      "mean_total_ms": 33.84394633716771
+    },
+    {
+      "seed": 1084,
+      "one_time_goal_setup_ms": 4.970583948306739,
+      "median_total_ms": 33.20158401038498,
+      "mean_total_ms": 34.42903415943008
+    },
+    {
+      "seed": 1085,
+      "one_time_goal_setup_ms": 5.424999981187284,
+      "median_total_ms": 33.8158329250291,
+      "mean_total_ms": 34.99602555216009
+    },
+    {
+      "seed": 1086,
+      "one_time_goal_setup_ms": 5.254457937553525,
+      "median_total_ms": 32.844291999936104,
+      "mean_total_ms": 34.722920652804156
+    },
+    {
+      "seed": 1087,
+      "one_time_goal_setup_ms": 6.635292083956301,
+      "median_total_ms": 33.19837502203882,
+      "mean_total_ms": 34.185141792506094
+    },
+    {
+      "seed": 1088,
+      "one_time_goal_setup_ms": 5.267292028293014,
+      "median_total_ms": 30.83787497598678,
+      "mean_total_ms": 32.49495146825673
+    },
+    {
+      "seed": 1089,
+      "one_time_goal_setup_ms": 4.976541036739945,
+      "median_total_ms": 33.37408299557865,
+      "mean_total_ms": 34.90783864233111
+    },
+    {
+      "seed": 1090,
+      "one_time_goal_setup_ms": 5.1206250209361315,
+      "median_total_ms": 34.11349991802126,
+      "mean_total_ms": 35.88186623011198
+    },
+    {
+      "seed": 1091,
+      "one_time_goal_setup_ms": 5.021083052270114,
+      "median_total_ms": 35.13691702391952,
+      "mean_total_ms": 37.953988240573494
+    },
+    {
+      "seed": 1092,
+      "one_time_goal_setup_ms": 5.266207968816161,
+      "median_total_ms": 32.16225001960993,
+      "mean_total_ms": 34.309540263613655
+    },
+    {
+      "seed": 1093,
+      "one_time_goal_setup_ms": 4.715749993920326,
+      "median_total_ms": 32.327417051419616,
+      "mean_total_ms": 34.63839006772827
+    },
+    {
+      "seed": 1094,
+      "one_time_goal_setup_ms": 5.050625069998205,
+      "median_total_ms": 30.886959051713347,
+      "mean_total_ms": 32.57346191953513
+    },
+    {
+      "seed": 1095,
+      "one_time_goal_setup_ms": 5.073167034424841,
+      "median_total_ms": 33.244833000935614,
+      "mean_total_ms": 34.41279116456234
+    },
+    {
+      "seed": 1096,
+      "one_time_goal_setup_ms": 4.702083999291062,
+      "median_total_ms": 33.083499991334975,
+      "mean_total_ms": 34.64776679932598
+    },
+    {
+      "seed": 1097,
+      "one_time_goal_setup_ms": 6.126915919594467,
+      "median_total_ms": 34.35533307492733,
+      "mean_total_ms": 36.60854695933975
+    },
+    {
+      "seed": 1098,
+      "one_time_goal_setup_ms": 21.79541694931686,
+      "median_total_ms": 31.763958977535367,
+      "mean_total_ms": 33.41042855902324
+    },
+    {
+      "seed": 1099,
+      "one_time_goal_setup_ms": 6.828084005974233,
+      "median_total_ms": 32.469416968524456,
+      "mean_total_ms": 35.056749855848174
+    },
+    {
+      "seed": 1100,
+      "one_time_goal_setup_ms": 4.907833063043654,
+      "median_total_ms": 31.586290919221938,
+      "mean_total_ms": 33.12366414696924
+    },
+    {
+      "seed": 1101,
+      "one_time_goal_setup_ms": 5.056375055573881,
+      "median_total_ms": 32.56858291570097,
+      "mean_total_ms": 34.30982433104267
+    },
+    {
+      "seed": 1102,
+      "one_time_goal_setup_ms": 6.449500098824501,
+      "median_total_ms": 32.79991704039276,
+      "mean_total_ms": 34.98375012007143
+    },
+    {
+      "seed": 1103,
+      "one_time_goal_setup_ms": 4.880625056102872,
+      "median_total_ms": 33.49200007505715,
+      "mean_total_ms": 35.30469245669092
+    },
+    {
+      "seed": 1104,
+      "one_time_goal_setup_ms": 4.662875086069107,
+      "median_total_ms": 32.06116601359099,
+      "mean_total_ms": 33.50865371591811
+    },
+    {
+      "seed": 1105,
+      "one_time_goal_setup_ms": 5.128999939188361,
+      "median_total_ms": 36.17491701152176,
+      "mean_total_ms": 41.52954895980656
+    },
+    {
+      "seed": 1106,
+      "one_time_goal_setup_ms": 17.36387494020164,
+      "median_total_ms": 34.514165949076414,
+      "mean_total_ms": 37.52894535557263
+    },
+    {
+      "seed": 1107,
+      "one_time_goal_setup_ms": 5.338000017218292,
+      "median_total_ms": 35.76774999964982,
+      "mean_total_ms": 40.62249248086046
+    },
+    {
+      "seed": 1108,
+      "one_time_goal_setup_ms": 5.278417025692761,
+      "median_total_ms": 32.91712503414601,
+      "mean_total_ms": 35.025305711546
+    },
+    {
+      "seed": 1109,
+      "one_time_goal_setup_ms": 5.080709001049399,
+      "median_total_ms": 33.921040943823755,
+      "mean_total_ms": 38.689759372186565
+    },
+    {
+      "seed": 1110,
+      "one_time_goal_setup_ms": 9.938625036738813,
+      "median_total_ms": 37.23270806949586,
+      "mean_total_ms": 40.133641422578386
+    },
+    {
+      "seed": 1111,
+      "one_time_goal_setup_ms": 6.65029208175838,
+      "median_total_ms": 34.18566705659032,
+      "mean_total_ms": 35.892836504527146
+    },
+    {
+      "seed": 1112,
+      "one_time_goal_setup_ms": 4.8386669950559735,
+      "median_total_ms": 33.57037506066263,
+      "mean_total_ms": 36.86304840126208
+    },
+    {
+      "seed": 1113,
+      "one_time_goal_setup_ms": 5.262374994345009,
+      "median_total_ms": 35.44375009369105,
+      "mean_total_ms": 39.6631562524283
+    },
+    {
+      "seed": 1114,
+      "one_time_goal_setup_ms": 5.345582962036133,
+      "median_total_ms": 31.85079200193286,
+      "mean_total_ms": 34.5504576698803
+    },
+    {
+      "seed": 1115,
+      "one_time_goal_setup_ms": 6.828790996223688,
+      "median_total_ms": 31.464708037674427,
+      "mean_total_ms": 32.985548360184545
+    },
+    {
+      "seed": 1116,
+      "one_time_goal_setup_ms": 5.784207955002785,
+      "median_total_ms": 32.015834003686905,
+      "mean_total_ms": 34.14777847568667
+    },
+    {
+      "seed": 1117,
+      "one_time_goal_setup_ms": 4.96050005313009,
+      "median_total_ms": 33.263458986766636,
+      "mean_total_ms": 35.283345792679086
+    },
+    {
+      "seed": 1118,
+      "one_time_goal_setup_ms": 4.957583965733647,
+      "median_total_ms": 33.31870795227587,
+      "mean_total_ms": 34.9436351678349
+    },
+    {
+      "seed": 1119,
+      "one_time_goal_setup_ms": 5.293666967190802,
+      "median_total_ms": 32.42433303967118,
+      "mean_total_ms": 34.224503471826516
+    },
+    {
+      "seed": 1120,
+      "one_time_goal_setup_ms": 5.040083080530167,
+      "median_total_ms": 31.831333064474165,
+      "mean_total_ms": 32.936973658035555
+    },
+    {
+      "seed": 1121,
+      "one_time_goal_setup_ms": 5.098833004012704,
+      "median_total_ms": 31.521875062026083,
+      "mean_total_ms": 33.303960831096724
+    },
+    {
+      "seed": 1122,
+      "one_time_goal_setup_ms": 5.105458083562553,
+      "median_total_ms": 33.90033298637718,
+      "mean_total_ms": 36.03461851691088
+    },
+    {
+      "seed": 1123,
+      "one_time_goal_setup_ms": 4.452125052921474,
+      "median_total_ms": 32.55941695533693,
+      "mean_total_ms": 33.46453368560307
+    },
+    {
+      "seed": 1124,
+      "one_time_goal_setup_ms": 5.056499969214201,
+      "median_total_ms": 33.12816610559821,
+      "mean_total_ms": 35.052927136273375
+    },
+    {
+      "seed": 1125,
+      "one_time_goal_setup_ms": 5.497375037521124,
+      "median_total_ms": 31.25537501182407,
+      "mean_total_ms": 32.858563237084404
+    },
+    {
+      "seed": 1126,
+      "one_time_goal_setup_ms": 4.792042076587677,
+      "median_total_ms": 30.977374990470707,
+      "mean_total_ms": 32.45712671731968
+    },
+    {
+      "seed": 1127,
+      "one_time_goal_setup_ms": 4.944875021465123,
+      "median_total_ms": 31.897459062747657,
+      "mean_total_ms": 33.29029272953492
+    },
+    {
+      "seed": 1128,
+      "one_time_goal_setup_ms": 5.240458995103836,
+      "median_total_ms": 32.39350009243935,
+      "mean_total_ms": 34.99288915929991
+    },
+    {
+      "seed": 1129,
+      "one_time_goal_setup_ms": 5.0047499826177955,
+      "median_total_ms": 33.194624935276806,
+      "mean_total_ms": 34.819448922967744
+    },
+    {
+      "seed": 1130,
+      "one_time_goal_setup_ms": 4.744375008158386,
+      "median_total_ms": 31.998291960917413,
+      "mean_total_ms": 33.98519947659224
+    },
+    {
+      "seed": 1131,
+      "one_time_goal_setup_ms": 4.894540994428098,
+      "median_total_ms": 32.46508399024606,
+      "mean_total_ms": 34.50779029877768
+    },
+    {
+      "seed": 1132,
+      "one_time_goal_setup_ms": 4.957416909746826,
+      "median_total_ms": 32.54499996546656,
+      "mean_total_ms": 33.90923268272586
+    },
+    {
+      "seed": 1133,
+      "one_time_goal_setup_ms": 4.945708089508116,
+      "median_total_ms": 32.88508299738169,
+      "mean_total_ms": 34.35442065487483
+    },
+    {
+      "seed": 1134,
+      "one_time_goal_setup_ms": 5.199874984100461,
+      "median_total_ms": 31.944917049258947,
+      "mean_total_ms": 33.56308109489166
+    },
+    {
+      "seed": 1135,
+      "one_time_goal_setup_ms": 4.838791908696294,
+      "median_total_ms": 31.990625080652535,
+      "mean_total_ms": 35.04614378769128
+    },
+    {
+      "seed": 1136,
+      "one_time_goal_setup_ms": 4.766541998833418,
+      "median_total_ms": 32.14758401736617,
+      "mean_total_ms": 33.56865250268981
+    },
+    {
+      "seed": 1137,
+      "one_time_goal_setup_ms": 4.919833038002253,
+      "median_total_ms": 32.446582918055356,
+      "mean_total_ms": 33.82254723489048
+    },
+    {
+      "seed": 1138,
+      "one_time_goal_setup_ms": 4.682375001721084,
+      "median_total_ms": 32.184707932174206,
+      "mean_total_ms": 33.90153173933781
+    },
+    {
+      "seed": 1139,
+      "one_time_goal_setup_ms": 7.276542019098997,
+      "median_total_ms": 36.06724995188415,
+      "mean_total_ms": 38.92553163219302
+    },
+    {
+      "seed": 1140,
+      "one_time_goal_setup_ms": 4.655042081139982,
+      "median_total_ms": 34.50587508268654,
+      "mean_total_ms": 37.063336394549836
+    },
+    {
+      "seed": 1141,
+      "one_time_goal_setup_ms": 5.541709018871188,
+      "median_total_ms": 32.66720799729228,
+      "mean_total_ms": 34.16430255738161
+    },
+    {
+      "seed": 1142,
+      "one_time_goal_setup_ms": 5.855957977473736,
+      "median_total_ms": 31.10570798162371,
+      "mean_total_ms": 33.15862986953959
+    },
+    {
+      "seed": 1143,
+      "one_time_goal_setup_ms": 4.8533749068155885,
+      "median_total_ms": 30.51716706249863,
+      "mean_total_ms": 32.027453955425514
+    },
+    {
+      "seed": 1144,
+      "one_time_goal_setup_ms": 5.124666960909963,
+      "median_total_ms": 31.19325009174645,
+      "mean_total_ms": 33.47347474228295
+    },
+    {
+      "seed": 1145,
+      "one_time_goal_setup_ms": 4.66870900709182,
+      "median_total_ms": 31.609916011802852,
+      "mean_total_ms": 33.490074870900976
+    },
+    {
+      "seed": 1146,
+      "one_time_goal_setup_ms": 4.9551669508218765,
+      "median_total_ms": 31.993167009204626,
+      "mean_total_ms": 33.93630994121648
+    },
+    {
+      "seed": 1147,
+      "one_time_goal_setup_ms": 5.024582962505519,
+      "median_total_ms": 31.38591698370874,
+      "mean_total_ms": 32.8396287229326
+    },
+    {
+      "seed": 1148,
+      "one_time_goal_setup_ms": 5.180375068448484,
+      "median_total_ms": 32.251707976683974,
+      "mean_total_ms": 33.96819222252816
+    },
+    {
+      "seed": 1149,
+      "one_time_goal_setup_ms": 4.841583082452416,
+      "median_total_ms": 35.82654206547886,
+      "mean_total_ms": 38.21973916778843
+    },
+    {
+      "seed": 1150,
+      "one_time_goal_setup_ms": 5.335916066542268,
+      "median_total_ms": 32.82929095439613,
+      "mean_total_ms": 33.48455067043976
+    },
+    {
+      "seed": 1151,
+      "one_time_goal_setup_ms": 4.756334004923701,
+      "median_total_ms": 32.895208918489516,
+      "mean_total_ms": 33.637898195801036
+    },
+    {
+      "seed": 1152,
+      "one_time_goal_setup_ms": 4.887125105597079,
+      "median_total_ms": 35.6424170313403,
+      "mean_total_ms": 36.45502316122431
+    },
+    {
+      "seed": 1153,
+      "one_time_goal_setup_ms": 4.991707974113524,
+      "median_total_ms": 33.24737504590303,
+      "mean_total_ms": 33.83275897737356
+    },
+    {
+      "seed": 1154,
+      "one_time_goal_setup_ms": 4.9342920538038015,
+      "median_total_ms": 32.33979200012982,
+      "mean_total_ms": 35.19073956912117
+    },
+    {
+      "seed": 1155,
+      "one_time_goal_setup_ms": 5.173084093257785,
+      "median_total_ms": 39.03862496372312,
+      "mean_total_ms": 112.80788848849221
+    },
+    {
+      "seed": 1156,
+      "one_time_goal_setup_ms": 125.61395799275488,
+      "median_total_ms": 87.16266707051545,
+      "mean_total_ms": 89.84918517600154
+    },
+    {
+      "seed": 1157,
+      "one_time_goal_setup_ms": 27.60508400388062,
+      "median_total_ms": 72.12024996988475,
+      "mean_total_ms": 75.52362578100569
+    },
+    {
+      "seed": 1158,
+      "one_time_goal_setup_ms": 11.932083987630904,
+      "median_total_ms": 86.6258330643177,
+      "mean_total_ms": 86.30945092946705
+    },
+    {
+      "seed": 1159,
+      "one_time_goal_setup_ms": 10.462625068612397,
+      "median_total_ms": 80.824917065911,
+      "mean_total_ms": 135.56849498907843
+    },
+    {
+      "seed": 1160,
+      "one_time_goal_setup_ms": 101.2985419947654,
+      "median_total_ms": 37.37262508366257,
+      "mean_total_ms": 41.71628311335567
+    },
+    {
+      "seed": 1161,
+      "one_time_goal_setup_ms": 17.565625021234155,
+      "median_total_ms": 35.349874990060925,
+      "mean_total_ms": 40.07965913892443
+    },
+    {
+      "seed": 1162,
+      "one_time_goal_setup_ms": 13.806417002342641,
+      "median_total_ms": 32.74737496394664,
+      "mean_total_ms": 35.57380798258006
+    },
+    {
+      "seed": 1163,
+      "one_time_goal_setup_ms": 4.986541927792132,
+      "median_total_ms": 33.514333073981106,
+      "mean_total_ms": 35.646484399377
+    },
+    {
+      "seed": 1164,
+      "one_time_goal_setup_ms": 4.758166964165866,
+      "median_total_ms": 37.58008393924683,
+      "mean_total_ms": 45.826423019614246
+    },
+    {
+      "seed": 1165,
+      "one_time_goal_setup_ms": 7.664375007152557,
+      "median_total_ms": 32.012667041271925,
+      "mean_total_ms": 35.58274283450807
+    },
+    {
+      "seed": 1166,
+      "one_time_goal_setup_ms": 5.527875036932528,
+      "median_total_ms": 30.745500000193715,
+      "mean_total_ms": 32.84092657452833
+    },
+    {
+      "seed": 1167,
+      "one_time_goal_setup_ms": 4.7677080146968365,
+      "median_total_ms": 32.291000010445714,
+      "mean_total_ms": 35.45890261293463
+    },
+    {
+      "seed": 1168,
+      "one_time_goal_setup_ms": 4.544082912616432,
+      "median_total_ms": 32.29074995033443,
+      "mean_total_ms": 34.94186465340179
+    },
+    {
+      "seed": 1169,
+      "one_time_goal_setup_ms": 5.114833009429276,
+      "median_total_ms": 33.949833014048636,
+      "mean_total_ms": 39.29523107972706
+    },
+    {
+      "seed": 1170,
+      "one_time_goal_setup_ms": 4.8444169806316495,
+      "median_total_ms": 33.18749996833503,
+      "mean_total_ms": 35.59998940077743
+    },
+    {
+      "seed": 1171,
+      "one_time_goal_setup_ms": 4.768916987814009,
+      "median_total_ms": 30.09466698858887,
+      "mean_total_ms": 31.848332642148886
+    },
+    {
+      "seed": 1172,
+      "one_time_goal_setup_ms": 5.229333997704089,
+      "median_total_ms": 30.89804109185934,
+      "mean_total_ms": 32.54551136836646
+    },
+    {
+      "seed": 1173,
+      "one_time_goal_setup_ms": 4.82795899733901,
+      "median_total_ms": 30.97449999768287,
+      "mean_total_ms": 32.78348067671888
+    },
+    {
+      "seed": 1174,
+      "one_time_goal_setup_ms": 4.781625000759959,
+      "median_total_ms": 31.358332955278456,
+      "mean_total_ms": 33.14594536324933
+    },
+    {
+      "seed": 1175,
+      "one_time_goal_setup_ms": 10.722875013016164,
+      "median_total_ms": 31.793750007636845,
+      "mean_total_ms": 36.844376318659336
+    },
+    {
+      "seed": 1176,
+      "one_time_goal_setup_ms": 5.059167044237256,
+      "median_total_ms": 32.15712495148182,
+      "mean_total_ms": 37.52013938686263
+    },
+    {
+      "seed": 1177,
+      "one_time_goal_setup_ms": 4.572125035338104,
+      "median_total_ms": 30.71583400014788,
+      "mean_total_ms": 32.93253135948723
+    },
+    {
+      "seed": 1178,
+      "one_time_goal_setup_ms": 4.984125029295683,
+      "median_total_ms": 33.09150005225092,
+      "mean_total_ms": 36.33848150068569
+    },
+    {
+      "seed": 1179,
+      "one_time_goal_setup_ms": 4.865417024120688,
+      "median_total_ms": 34.76754203438759,
+      "mean_total_ms": 39.54229365317299
+    },
+    {
+      "seed": 1180,
+      "one_time_goal_setup_ms": 4.580624983645976,
+      "median_total_ms": 35.40745796635747,
+      "mean_total_ms": 37.58270791805689
+    },
+    {
+      "seed": 1181,
+      "one_time_goal_setup_ms": 5.423041991889477,
+      "median_total_ms": 34.61804101243615,
+      "mean_total_ms": 36.871232141903235
+    },
+    {
+      "seed": 1182,
+      "one_time_goal_setup_ms": 5.791584029793739,
+      "median_total_ms": 36.062833038158715,
+      "mean_total_ms": 39.88020949745699
+    },
+    {
+      "seed": 1183,
+      "one_time_goal_setup_ms": 4.687916953116655,
+      "median_total_ms": 32.85291604697704,
+      "mean_total_ms": 36.96882917789654
+    },
+    {
+      "seed": 1184,
+      "one_time_goal_setup_ms": 5.029458086937666,
+      "median_total_ms": 31.586750061251223,
+      "mean_total_ms": 33.84076428547915
+    },
+    {
+      "seed": 1185,
+      "one_time_goal_setup_ms": 5.3250829223543406,
+      "median_total_ms": 30.683666933327913,
+      "mean_total_ms": 33.8872909712206
+    },
+    {
+      "seed": 1186,
+      "one_time_goal_setup_ms": 5.314832902513444,
+      "median_total_ms": 31.70950000640005,
+      "mean_total_ms": 33.71962975740196
+    },
+    {
+      "seed": 1187,
+      "one_time_goal_setup_ms": 4.866834031417966,
+      "median_total_ms": 30.039833043701947,
+      "mean_total_ms": 31.982892607930044
+    },
+    {
+      "seed": 1188,
+      "one_time_goal_setup_ms": 4.670542082749307,
+      "median_total_ms": 30.65762505866587,
+      "mean_total_ms": 32.345944283057065
+    },
+    {
+      "seed": 1189,
+      "one_time_goal_setup_ms": 5.0703330198302865,
+      "median_total_ms": 29.635541955940425,
+      "mean_total_ms": 30.9521678373188
+    },
+    {
+      "seed": 1190,
+      "one_time_goal_setup_ms": 4.774582921527326,
+      "median_total_ms": 31.195832998491824,
+      "mean_total_ms": 33.92794526492556
+    },
+    {
+      "seed": 1191,
+      "one_time_goal_setup_ms": 7.976582972332835,
+      "median_total_ms": 32.98212506342679,
+      "mean_total_ms": 36.111320758105386
+    },
+    {
+      "seed": 1192,
+      "one_time_goal_setup_ms": 5.141999921761453,
+      "median_total_ms": 33.95729104522616,
+      "mean_total_ms": 37.319863616074954
+    },
+    {
+      "seed": 1193,
+      "one_time_goal_setup_ms": 5.413166014477611,
+      "median_total_ms": 34.48441706132144,
+      "mean_total_ms": 37.11853704289607
+    },
+    {
+      "seed": 1194,
+      "one_time_goal_setup_ms": 7.242167019285262,
+      "median_total_ms": 33.45137508586049,
+      "mean_total_ms": 37.69225807978757
+    },
+    {
+      "seed": 1195,
+      "one_time_goal_setup_ms": 5.026416969485581,
+      "median_total_ms": 33.94879098050296,
+      "mean_total_ms": 36.9210252704631
+    },
+    {
+      "seed": 1196,
+      "one_time_goal_setup_ms": 5.374541971832514,
+      "median_total_ms": 35.994249978102744,
+      "mean_total_ms": 40.98883557007722
+    },
+    {
+      "seed": 1197,
+      "one_time_goal_setup_ms": 5.832375027239323,
+      "median_total_ms": 33.217750024050474,
+      "mean_total_ms": 35.550869852378376
+    },
+    {
+      "seed": 1198,
+      "one_time_goal_setup_ms": 4.812040948309004,
+      "median_total_ms": 35.584624973125756,
+      "mean_total_ms": 37.90768530840675
+    },
+    {
+      "seed": 1199,
+      "one_time_goal_setup_ms": 5.628625047393143,
+      "median_total_ms": 32.209625001996756,
+      "mean_total_ms": 36.8203154731808
+    },
+    {
+      "seed": 1200,
+      "one_time_goal_setup_ms": 7.817875011824071,
+      "median_total_ms": 34.06674996949732,
+      "mean_total_ms": 37.26494524273134
+    },
+    {
+      "seed": 1201,
+      "one_time_goal_setup_ms": 6.348333088681102,
+      "median_total_ms": 33.46195898484439,
+      "mean_total_ms": 38.25824484709532
+    },
+    {
+      "seed": 1202,
+      "one_time_goal_setup_ms": 70.28312503825873,
+      "median_total_ms": 30.214500031434,
+      "mean_total_ms": 33.06708294373479
+    },
+    {
+      "seed": 1203,
+      "one_time_goal_setup_ms": 6.918709026649594,
+      "median_total_ms": 32.731125014834106,
+      "mean_total_ms": 35.347809968885805
+    },
+    {
+      "seed": 1204,
+      "one_time_goal_setup_ms": 6.022208952344954,
+      "median_total_ms": 30.477249994874,
+      "mean_total_ms": 32.5486156269021
+    },
+    {
+      "seed": 1205,
+      "one_time_goal_setup_ms": 4.838875029236078,
+      "median_total_ms": 31.51424997486174,
+      "mean_total_ms": 33.164689560524295
+    },
+    {
+      "seed": 1206,
+      "one_time_goal_setup_ms": 5.101958056911826,
+      "median_total_ms": 32.304625026881695,
+      "mean_total_ms": 34.754274229681684
+    },
+    {
+      "seed": 1207,
+      "one_time_goal_setup_ms": 5.215917015448213,
+      "median_total_ms": 32.25450008176267,
+      "mean_total_ms": 34.923009004902156
+    },
+    {
+      "seed": 1208,
+      "one_time_goal_setup_ms": 4.810042097233236,
+      "median_total_ms": 29.89600005093962,
+      "mean_total_ms": 32.14049629187063
+    },
+    {
+      "seed": 1209,
+      "one_time_goal_setup_ms": 4.8975839745253325,
+      "median_total_ms": 31.508292071521282,
+      "mean_total_ms": 33.57967313246003
+    },
+    {
+      "seed": 1210,
+      "one_time_goal_setup_ms": 5.932957981713116,
+      "median_total_ms": 31.16158291231841,
+      "mean_total_ms": 32.74399718668844
+    },
+    {
+      "seed": 1211,
+      "one_time_goal_setup_ms": 5.04987477324903,
+      "median_total_ms": 30.897832941263914,
+      "mean_total_ms": 32.28107145839622
+    },
+    {
+      "seed": 1212,
+      "one_time_goal_setup_ms": 5.295166978612542,
+      "median_total_ms": 34.45425000973046,
+      "mean_total_ms": 36.78729891082242
+    },
+    {
+      "seed": 1213,
+      "one_time_goal_setup_ms": 5.6557077914476395,
+      "median_total_ms": 36.149000050500035,
+      "mean_total_ms": 45.68746430459358
+    },
+    {
+      "seed": 1214,
+      "one_time_goal_setup_ms": 4.841583082452416,
+      "median_total_ms": 31.627084128558636,
+      "mean_total_ms": 36.06657697301772
+    },
+    {
+      "seed": 1215,
+      "one_time_goal_setup_ms": 5.094333086162806,
+      "median_total_ms": 30.98558308556676,
+      "mean_total_ms": 32.72078983145692
+    },
+    {
+      "seed": 1216,
+      "one_time_goal_setup_ms": 5.018207943066955,
+      "median_total_ms": 31.363958027213812,
+      "mean_total_ms": 35.464380018501764
+    },
+    {
+      "seed": 1217,
+      "one_time_goal_setup_ms": 7.866667117923498,
+      "median_total_ms": 31.91345790401101,
+      "mean_total_ms": 33.51419019985885
+    },
+    {
+      "seed": 1218,
+      "one_time_goal_setup_ms": 4.448165884241462,
+      "median_total_ms": 30.961875105276704,
+      "mean_total_ms": 33.20565506416772
+    },
+    {
+      "seed": 1219,
+      "one_time_goal_setup_ms": 5.032749846577644,
+      "median_total_ms": 31.012791907414794,
+      "mean_total_ms": 35.479395753068346
+    },
+    {
+      "seed": 1220,
+      "one_time_goal_setup_ms": 7.904666010290384,
+      "median_total_ms": 31.508625019341707,
+      "mean_total_ms": 33.45619469718446
+    },
+    {
+      "seed": 1221,
+      "one_time_goal_setup_ms": 5.089249927550554,
+      "median_total_ms": 33.90345792286098,
+      "mean_total_ms": 36.878337175215755
+    },
+    {
+      "seed": 1222,
+      "one_time_goal_setup_ms": 4.56733419559896,
+      "median_total_ms": 31.38095885515213,
+      "mean_total_ms": 33.143194718286395
+    },
+    {
+      "seed": 1223,
+      "one_time_goal_setup_ms": 5.471625132486224,
+      "median_total_ms": 31.37387498281896,
+      "mean_total_ms": 33.46593016832475
+    },
+    {
+      "seed": 1224,
+      "one_time_goal_setup_ms": 4.984166938811541,
+      "median_total_ms": 31.384875066578388,
+      "mean_total_ms": 33.477526319228
+    },
+    {
+      "seed": 1225,
+      "one_time_goal_setup_ms": 4.625750007107854,
+      "median_total_ms": 31.136125093325973,
+      "mean_total_ms": 32.687818526571235
+    },
+    {
+      "seed": 1226,
+      "one_time_goal_setup_ms": 5.258708028122783,
+      "median_total_ms": 31.34279209189117,
+      "mean_total_ms": 33.44741956449099
+    },
+    {
+      "seed": 1227,
+      "one_time_goal_setup_ms": 4.6344168949872255,
+      "median_total_ms": 33.001125091686845,
+      "mean_total_ms": 35.02909098086612
+    },
+    {
+      "seed": 1228,
+      "one_time_goal_setup_ms": 4.900959087535739,
+      "median_total_ms": 32.03054191544652,
+      "mean_total_ms": 34.12491270666203
+    },
+    {
+      "seed": 1229,
+      "one_time_goal_setup_ms": 5.160250002518296,
+      "median_total_ms": 32.56979212164879,
+      "mean_total_ms": 34.80174592548301
+    },
+    {
+      "seed": 1230,
+      "one_time_goal_setup_ms": 9.795333025977015,
+      "median_total_ms": 32.01629198156297,
+      "mean_total_ms": 34.045844590882695
+    },
+    {
+      "seed": 1231,
+      "one_time_goal_setup_ms": 4.663917003199458,
+      "median_total_ms": 30.52324987947941,
+      "mean_total_ms": 32.492005147986
+    },
+    {
+      "seed": 1232,
+      "one_time_goal_setup_ms": 4.839958157390356,
+      "median_total_ms": 35.438708029687405,
+      "mean_total_ms": 37.88016952485556
+    },
+    {
+      "seed": 1233,
+      "one_time_goal_setup_ms": 4.913832992315292,
+      "median_total_ms": 30.521375127136707,
+      "mean_total_ms": 31.798725118417117
+    },
+    {
+      "seed": 1234,
+      "one_time_goal_setup_ms": 4.631583113223314,
+      "median_total_ms": 31.612540828064084,
+      "mean_total_ms": 33.58693319254569
+    },
+    {
+      "seed": 1235,
+      "one_time_goal_setup_ms": 4.812584025785327,
+      "median_total_ms": 31.205458100885153,
+      "mean_total_ms": 33.327898033525024
+    },
+    {
+      "seed": 1236,
+      "one_time_goal_setup_ms": 4.679375095292926,
+      "median_total_ms": 30.633040936663747,
+      "mean_total_ms": 32.01002406015519
+    },
+    {
+      "seed": 1237,
+      "one_time_goal_setup_ms": 4.4544171541929245,
+      "median_total_ms": 30.844416934996843,
+      "mean_total_ms": 32.39629005436741
+    },
+    {
+      "seed": 1238,
+      "one_time_goal_setup_ms": 4.688041051849723,
+      "median_total_ms": 30.592499999329448,
+      "mean_total_ms": 32.178072617315344
+    },
+    {
+      "seed": 1239,
+      "one_time_goal_setup_ms": 5.0294590182602406,
+      "median_total_ms": 31.83049988001585,
+      "mean_total_ms": 33.47192393201921
+    },
+    {
+      "seed": 1240,
+      "one_time_goal_setup_ms": 4.738249816000462,
+      "median_total_ms": 33.314333064481616,
+      "mean_total_ms": 34.666919519770005
+    },
+    {
+      "seed": 1241,
+      "one_time_goal_setup_ms": 4.877167055383325,
+      "median_total_ms": 30.6856669485569,
+      "mean_total_ms": 32.14620012597787
+    },
+    {
+      "seed": 1242,
+      "one_time_goal_setup_ms": 5.059832939878106,
+      "median_total_ms": 31.346125062555075,
+      "mean_total_ms": 36.52612170396698
+    },
+    {
+      "seed": 1243,
+      "one_time_goal_setup_ms": 4.916915902867913,
+      "median_total_ms": 32.549292081966996,
+      "mean_total_ms": 34.44599444564018
+    },
+    {
+      "seed": 1244,
+      "one_time_goal_setup_ms": 5.206917179748416,
+      "median_total_ms": 32.77808311395347,
+      "mean_total_ms": 35.82894876747141
+    },
+    {
+      "seed": 1245,
+      "one_time_goal_setup_ms": 4.687167005613446,
+      "median_total_ms": 31.56320797279477,
+      "mean_total_ms": 34.12270567394675
+    },
+    {
+      "seed": 1246,
+      "one_time_goal_setup_ms": 4.724500002339482,
+      "median_total_ms": 30.633083079010248,
+      "mean_total_ms": 35.60628225686886
+    },
+    {
+      "seed": 1247,
+      "one_time_goal_setup_ms": 4.688542103394866,
+      "median_total_ms": 33.05825009010732,
+      "mean_total_ms": 37.926286386532915
+    },
+    {
+      "seed": 1248,
+      "one_time_goal_setup_ms": 4.719666903838515,
+      "median_total_ms": 31.59479098394513,
+      "mean_total_ms": 35.179257437231996
+    },
+    {
+      "seed": 1249,
+      "one_time_goal_setup_ms": 4.925166955217719,
+      "median_total_ms": 32.52783394418657,
+      "mean_total_ms": 34.076319458997915
+    },
+    {
+      "seed": 1250,
+      "one_time_goal_setup_ms": 5.030915839597583,
+      "median_total_ms": 32.3229159694165,
+      "mean_total_ms": 34.75673493323109
+    },
+    {
+      "seed": 1251,
+      "one_time_goal_setup_ms": 4.953708034008741,
+      "median_total_ms": 31.417957972735167,
+      "mean_total_ms": 34.18461480399682
+    },
+    {
+      "seed": 1252,
+      "one_time_goal_setup_ms": 4.833958111703396,
+      "median_total_ms": 31.33766702376306,
+      "mean_total_ms": 34.437731848586175
+    },
+    {
+      "seed": 1253,
+      "one_time_goal_setup_ms": 5.20183308981359,
+      "median_total_ms": 32.03341690823436,
+      "mean_total_ms": 35.44020557421304
+    },
+    {
+      "seed": 1254,
+      "one_time_goal_setup_ms": 7.7037091832607985,
+      "median_total_ms": 34.54858297482133,
+      "mean_total_ms": 38.80338480636951
+    },
+    {
+      "seed": 1255,
+      "one_time_goal_setup_ms": 5.167957860976458,
+      "median_total_ms": 31.18041600100696,
+      "mean_total_ms": 33.4745478875462
+    },
+    {
+      "seed": 1256,
+      "one_time_goal_setup_ms": 5.253582959994674,
+      "median_total_ms": 31.553582986816764,
+      "mean_total_ms": 34.661005914122576
+    },
+    {
+      "seed": 1257,
+      "one_time_goal_setup_ms": 6.596249993890524,
+      "median_total_ms": 31.836624955758452,
+      "mean_total_ms": 36.674838231521704
+    },
+    {
+      "seed": 1258,
+      "one_time_goal_setup_ms": 4.908582894131541,
+      "median_total_ms": 32.008917070925236,
+      "mean_total_ms": 34.600844558712744
+    },
+    {
+      "seed": 1259,
+      "one_time_goal_setup_ms": 15.840250067412853,
+      "median_total_ms": 31.666334019973874,
+      "mean_total_ms": 34.81165039323507
+    },
+    {
+      "seed": 1260,
+      "one_time_goal_setup_ms": 4.972667200490832,
+      "median_total_ms": 31.59920801408589,
+      "mean_total_ms": 33.65172736405853
+    },
+    {
+      "seed": 1261,
+      "one_time_goal_setup_ms": 6.456249859184027,
+      "median_total_ms": 33.420291962102056,
+      "mean_total_ms": 36.70681614709634
+    },
+    {
+      "seed": 1262,
+      "one_time_goal_setup_ms": 5.346208810806274,
+      "median_total_ms": 32.25425002165139,
+      "mean_total_ms": 34.77781811906468
+    },
+    {
+      "seed": 1263,
+      "one_time_goal_setup_ms": 5.319958087056875,
+      "median_total_ms": 31.619334127753973,
+      "mean_total_ms": 33.53864058985242
+    },
+    {
+      "seed": 1264,
+      "one_time_goal_setup_ms": 5.1560839638113976,
+      "median_total_ms": 31.48087509907782,
+      "mean_total_ms": 35.77264974130288
+    },
+    {
+      "seed": 1265,
+      "one_time_goal_setup_ms": 5.106042139232159,
+      "median_total_ms": 31.21929196640849,
+      "mean_total_ms": 36.46277910955842
+    },
+    {
+      "seed": 1266,
+      "one_time_goal_setup_ms": 7.585667073726654,
+      "median_total_ms": 30.911291018128395,
+      "mean_total_ms": 32.86666733597124
+    },
+    {
+      "seed": 1267,
+      "one_time_goal_setup_ms": 4.852917045354843,
+      "median_total_ms": 30.67783289588988,
+      "mean_total_ms": 32.57728666658439
+    },
+    {
+      "seed": 1268,
+      "one_time_goal_setup_ms": 4.912582924589515,
+      "median_total_ms": 31.993707874789834,
+      "mean_total_ms": 33.532437445625426
+    },
+    {
+      "seed": 1269,
+      "one_time_goal_setup_ms": 4.8661669716238976,
+      "median_total_ms": 32.00487489812076,
+      "mean_total_ms": 33.409168741976224
+    },
+    {
+      "seed": 1270,
+      "one_time_goal_setup_ms": 4.757334012538195,
+      "median_total_ms": 30.95112508162856,
+      "mean_total_ms": 32.50429656962672
+    },
+    {
+      "seed": 1271,
+      "one_time_goal_setup_ms": 5.081542069092393,
+      "median_total_ms": 30.510792043060064,
+      "mean_total_ms": 32.08376981968444
+    },
+    {
+      "seed": 1272,
+      "one_time_goal_setup_ms": 4.963708110153675,
+      "median_total_ms": 30.545916873961687,
+      "mean_total_ms": 32.03529150313919
+    },
+    {
+      "seed": 1273,
+      "one_time_goal_setup_ms": 5.04141696728766,
+      "median_total_ms": 30.72762512601912,
+      "mean_total_ms": 32.352656488942486
+    },
+    {
+      "seed": 1274,
+      "one_time_goal_setup_ms": 4.973500035703182,
+      "median_total_ms": 31.32704086601734,
+      "mean_total_ms": 32.92688966122648
+    },
+    {
+      "seed": 1275,
+      "one_time_goal_setup_ms": 5.235000047832727,
+      "median_total_ms": 31.617583008483052,
+      "mean_total_ms": 33.26028055836639
+    },
+    {
+      "seed": 1276,
+      "one_time_goal_setup_ms": 4.67891595326364,
+      "median_total_ms": 31.17774985730648,
+      "mean_total_ms": 32.93895013260818
+    },
+    {
+      "seed": 1277,
+      "one_time_goal_setup_ms": 4.999666940420866,
+      "median_total_ms": 31.212917063385248,
+      "mean_total_ms": 32.65210701197031
+    },
+    {
+      "seed": 1278,
+      "one_time_goal_setup_ms": 5.154208047315478,
+      "median_total_ms": 30.796042177826166,
+      "mean_total_ms": 34.046680036015694
+    },
+    {
+      "seed": 1279,
+      "one_time_goal_setup_ms": 5.724583053961396,
+      "median_total_ms": 31.5550840459764,
+      "mean_total_ms": 36.297712046357375
+    },
+    {
+      "seed": 1280,
+      "one_time_goal_setup_ms": 5.149416159838438,
+      "median_total_ms": 34.72850006073713,
+      "mean_total_ms": 39.401878826024515
+    },
+    {
+      "seed": 1281,
+      "one_time_goal_setup_ms": 4.959916928783059,
+      "median_total_ms": 36.080375080928206,
+      "mean_total_ms": 39.814875682904606
+    },
+    {
+      "seed": 1282,
+      "one_time_goal_setup_ms": 5.249666981399059,
+      "median_total_ms": 31.548083061352372,
+      "mean_total_ms": 33.511096303395576
+    },
+    {
+      "seed": 1283,
+      "one_time_goal_setup_ms": 4.8195840790867805,
+      "median_total_ms": 31.334250001236796,
+      "mean_total_ms": 33.637266022167985
+    },
+    {
+      "seed": 1284,
+      "one_time_goal_setup_ms": 4.921166924759746,
+      "median_total_ms": 34.04466598294675,
+      "mean_total_ms": 35.3844436336427
+    },
+    {
+      "seed": 1285,
+      "one_time_goal_setup_ms": 5.399709101766348,
+      "median_total_ms": 31.4749579411,
+      "mean_total_ms": 36.37240197627791
+    },
+    {
+      "seed": 1286,
+      "one_time_goal_setup_ms": 4.676584154367447,
+      "median_total_ms": 33.53141597472131,
+      "mean_total_ms": 38.357896960177825
+    },
+    {
+      "seed": 1287,
+      "one_time_goal_setup_ms": 5.139667075127363,
+      "median_total_ms": 32.10587496869266,
+      "mean_total_ms": 33.74212449342604
+    },
+    {
+      "seed": 1288,
+      "one_time_goal_setup_ms": 4.760124953463674,
+      "median_total_ms": 32.0257090497762,
+      "mean_total_ms": 34.74650079133137
+    },
+    {
+      "seed": 1289,
+      "one_time_goal_setup_ms": 8.024583104997873,
+      "median_total_ms": 31.350750010460615,
+      "mean_total_ms": 32.93920529947158
+    },
+    {
+      "seed": 1290,
+      "one_time_goal_setup_ms": 5.329499952495098,
+      "median_total_ms": 31.4087918959558,
+      "mean_total_ms": 34.159807002704056
+    },
+    {
+      "seed": 1291,
+      "one_time_goal_setup_ms": 5.4259588941931725,
+      "median_total_ms": 31.045082956552505,
+      "mean_total_ms": 33.09170634944051
+    },
+    {
+      "seed": 1292,
+      "one_time_goal_setup_ms": 4.703790880739689,
+      "median_total_ms": 30.6341249961406,
+      "mean_total_ms": 32.39602802380446
+    },
+    {
+      "seed": 1293,
+      "one_time_goal_setup_ms": 4.613083088770509,
+      "median_total_ms": 30.744333053007722,
+      "mean_total_ms": 32.456295395506515
+    },
+    {
+      "seed": 1294,
+      "one_time_goal_setup_ms": 5.505874985828996,
+      "median_total_ms": 30.671375105157495,
+      "mean_total_ms": 32.42210807530061
+    },
+    {
+      "seed": 1295,
+      "one_time_goal_setup_ms": 5.019667092710733,
+      "median_total_ms": 30.86558310315013,
+      "mean_total_ms": 32.561572128167704
+    },
+    {
+      "seed": 1296,
+      "one_time_goal_setup_ms": 4.597833845764399,
+      "median_total_ms": 31.319000059738755,
+      "mean_total_ms": 33.1331477182666
+    },
+    {
+      "seed": 1297,
+      "one_time_goal_setup_ms": 4.686499945819378,
+      "median_total_ms": 31.560000032186508,
+      "mean_total_ms": 33.58955384557328
+    },
+    {
+      "seed": 1298,
+      "one_time_goal_setup_ms": 4.828749923035502,
+      "median_total_ms": 31.428582966327667,
+      "mean_total_ms": 33.099234540991134
+    },
+    {
+      "seed": 1299,
+      "one_time_goal_setup_ms": 6.5277921967208385,
+      "median_total_ms": 31.34354203939438,
+      "mean_total_ms": 33.505548559690986
+    },
+    {
+      "seed": 1300,
+      "one_time_goal_setup_ms": 4.962958861142397,
+      "median_total_ms": 33.44491706229746,
+      "mean_total_ms": 35.68682767051671
+    },
+    {
+      "seed": 1301,
+      "one_time_goal_setup_ms": 5.302499979734421,
+      "median_total_ms": 30.959708150476217,
+      "mean_total_ms": 32.598817885838564
+    },
+    {
+      "seed": 1302,
+      "one_time_goal_setup_ms": 5.048708990216255,
+      "median_total_ms": 31.298208981752396,
+      "mean_total_ms": 32.979183720188246
+    },
+    {
+      "seed": 1303,
+      "one_time_goal_setup_ms": 4.934166092425585,
+      "median_total_ms": 31.3421250320971,
+      "mean_total_ms": 33.18049355838743
+    },
+    {
+      "seed": 1304,
+      "one_time_goal_setup_ms": 4.840250127017498,
+      "median_total_ms": 30.893957940861583,
+      "mean_total_ms": 32.34866905720934
+    },
+    {
+      "seed": 1305,
+      "one_time_goal_setup_ms": 5.199957871809602,
+      "median_total_ms": 33.028915990144014,
+      "mean_total_ms": 34.46522920229842
+    },
+    {
+      "seed": 1306,
+      "one_time_goal_setup_ms": 5.0647498574107885,
+      "median_total_ms": 31.67874994687736,
+      "mean_total_ms": 33.03840885544935
+    },
+    {
+      "seed": 1307,
+      "one_time_goal_setup_ms": 4.526291973888874,
+      "median_total_ms": 30.797832878306508,
+      "mean_total_ms": 32.71411085456965
+    },
+    {
+      "seed": 1308,
+      "one_time_goal_setup_ms": 4.94616711512208,
+      "median_total_ms": 31.548792030662298,
+      "mean_total_ms": 32.96553319881833
+    },
+    {
+      "seed": 1309,
+      "one_time_goal_setup_ms": 5.198625149205327,
+      "median_total_ms": 33.01762486808002,
+      "mean_total_ms": 34.613749715277834
+    },
+    {
+      "seed": 1310,
+      "one_time_goal_setup_ms": 4.840875044465065,
+      "median_total_ms": 30.700290808454156,
+      "mean_total_ms": 32.36001611923769
+    }
+  ],
+  "timed_steps": 315000,
+  "discard_initial_steps_per_rollout": 5,
+  "median_of_rollout_medians_ms": 32.821646018419415,
+  "one_time_goal_setup_ms": {
+    "mean": 6.0930422260425985,
+    "median": 5.106646043714136,
+    "p95": 8.43620630330406
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-08T16:52:38.177814+00:00",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "workers": 1,
+      "numerical_threads": 1,
+      "load_average_at_start": [
+        10.06591796875,
+        8.58203125,
+        7.96044921875
+      ],
+      "timing_caveat": "Local wall-clock measurements on a shared computer, not isolated from other jobs.",
+      "offline_setup_seconds": {
+        "data_loading": 0.008616041974164546,
+        "atlas_loading": 0.002207458019256592,
+        "source_episode_metadata": 0.9798331669298932,
+        "linear_chart_cache_and_all_pairs_routes": 0.14582270896062255
+      }
+    }
+  ],
+  "timing_caveat": "Overlapping seeds reuse historical measurements; timings span different sessions."
+}

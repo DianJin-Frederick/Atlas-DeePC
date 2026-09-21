@@ -1,0 +1,11 @@
+{
+  "result_path": "experiments/routed_deepc_iid/contextual_cluster_eval211_710_global128_triggered/seed288_control_results.npz",
+  "video_path": "experiments/routed_deepc_iid/contextual_cluster_eval211_710_global128_triggered/seed288_control.mp4",
+  "seed": 288,
+  "actions": 320,
+  "warmup_zeros": 2,
+  "fps": 20,
+  "frame_stride": 4,
+  "maximum_replay_output_error": 0.0,
+  "environment": "Reacher-v5"
+}

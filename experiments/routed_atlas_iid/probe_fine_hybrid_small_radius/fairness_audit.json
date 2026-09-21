@@ -1,0 +1,43 @@
+{
+  "data_seed_range": [
+    2026,
+    2225
+  ],
+  "offline_stabilized_episode_count": 0,
+  "offline_transient_within_1cm_count": 62,
+  "offline_best_tail_mean": 0.02933142624102928,
+  "held_out_targets": {
+    "1": {
+      "target": [
+        -0.07526741919580582,
+        -0.030669420410969733
+      ],
+      "nearest_offline_target_distance": 0.006990531566865091,
+      "nearest_offline_seed": 2191
+    },
+    "2": {
+      "target": [
+        0.0400402103862616,
+        0.09142421072471785
+      ],
+      "nearest_offline_target_distance": 0.028914738475268723,
+      "nearest_offline_seed": 2133
+    },
+    "4": {
+      "target": [
+        0.04294233279801185,
+        -0.049405366249090976
+      ],
+      "nearest_offline_target_distance": 0.017977596391914014,
+      "nearest_offline_seed": 2125
+    },
+    "24": {
+      "target": [
+        0.0256850029721003,
+        0.027874924203360768
+      ],
+      "nearest_offline_target_distance": 0.027227404241178903,
+      "nearest_offline_seed": 2217
+    }
+  }
+}

@@ -1,0 +1,86 @@
+--- lambda0_clarabel/linear_subspace_rank_ablation.py
++++ lambda0_osqp/linear_subspace_rank_ablation.py
+@@ -15,6 +15,8 @@
+ os.environ.setdefault("MPLCONFIGDIR", "/tmp/atlas_deepc_mpl")
+ 
+ import numpy as np
++import cvxpy as cp
++import osqp
+ from threadpoolctl import threadpool_limits
+ 
+ import baseline_atlas_deepc as baseline
+@@ -23,7 +25,7 @@
+ from baseline_1000_benchmark import summarize_timing
+ from candidate_goal_routing_experiment import TIMING_KEYS, file_digest, strict_success
+ 
+-VERSION = "linear_subspace_rank_lamg0_100_v1"
++VERSION = "linear_subspace_rank_lamg0_osqp_100_v1"
+ RESULT_ROOT = baseline.ROOT / "experiments/routed_deepc_iid" / VERSION
+ RANKS = tuple(range(20, 81))
+ SEEDS = tuple(range(211, 311))
+@@ -47,6 +49,8 @@
+         "data_sha256": file_digest(baseline.DATA_PATH), "atlas_sha256": file_digest(baseline.ATLAS_PATH),
+         "matrix_geometry": "linear", "candidate_count": 10, "output_dimension": 10,
+         "noise_sd_ratio": 0.0,
++        "qp_solver": "OSQP", "qp_solver_options": pipe.OSQP_OPTIONS,
++        "solver_versions": {"cvxpy": cp.__version__, "osqp": osqp.__version__},
+         "source_sha256": {name: file_digest(baseline.ROOT / "src" / name) for name in (
+             "linear_subspace_rank_ablation.py", "baseline_atlas_deepc.py",
+             "routed_deepc_experiment.py", "candidate_goal_routing_experiment.py",
+@@ -97,6 +101,7 @@
+     expected = asdict(replace(rank_config(rank), seed=seed))
+     assert all(row[key] == value for key, value in expected.items())
+     assert row["rank_ablation_version"] == VERSION
++    assert row["qp_solver"] == "OSQP" and row["qp_solver_options"] == pipe.OSQP_OPTIONS
+     assert row["baseline_version"] == baseline.BASELINE_VERSION
+     assert row["matrix_geometry"] == "linear" and row["candidate_count"] == 10
+     assert row["terminal_reference_policy"] == "iterative_minimum_route_cost"
+--- lambda0_clarabel/routed_deepc_experiment.py
++++ lambda0_osqp/routed_deepc_experiment.py
+@@ -493,7 +493,7 @@
+         config.lam_ini,
+         config.lam_du,
+         config.u_limit,
+-        cp.CLARABEL,
++        cp.OSQP,
+     )
+     env = gym.make(pipe.REACHER_ENV_ID, max_episode_steps=config.steps + pipe.T_INI + 5)
+     obs, _ = env.reset(seed=config.seed)
+@@ -663,6 +663,8 @@
+     )
+     summary = {
+         **asdict(config),
++        "qp_solver": str(controller.solver),
++        "qp_solver_options": controller.solver_options,
+         "reference_mode": reference_mode,
+         "goal_setup_time_ms": float(1000 * goal_setup_time),
+         "median_goal_selection_time_ms": float(1000 * np.median(records["goal_selection_time_s"])),
+--- lambda0_clarabel/expert_pipeline_search.py
++++ lambda0_osqp/expert_pipeline_search.py
+@@ -489,6 +489,9 @@
+     }
+ 
+ 
++OSQP_OPTIONS = {"max_iter": 10000, "eps_abs": 1e-5, "eps_rel": 1e-5, "polishing": True}
++
++
+ class DeePCController:
+     def __init__(self, Q, R, Q_terminal, lam_g, lam_ini, lam_du, u_limit, solver):
+         self.Q = Q
+@@ -499,6 +502,7 @@
+         self.lam_du = lam_du
+         self.u_limit = u_limit
+         self.solver = solver
++        self.solver_options = dict(OSQP_OPTIONS) if solver == cp.OSQP else {"max_iter": 10000}
+ 
+     def solve(self, A, u_ini, y_ini, y_ref):
+         affine_offset, A_matrix, g_min, g_max = unpack_basis(A)
+@@ -533,7 +537,7 @@
+             constraints.append(g >= 0.0)
+         prob = cp.Problem(cp.Minimize(cost), constraints)
+         try:
+-            prob.solve(solver=self.solver, verbose=False, max_iter=10000)
++            prob.solve(solver=self.solver, verbose=False, **self.solver_options)
+         except Exception as exc:
+             return None, None, None, f"crashed: {exc}", np.inf
+         if prob.status not in ("optimal", "optimal_inaccurate"):

@@ -1,0 +1,347 @@
+{
+  "seeds": [
+    311,
+    1310
+  ],
+  "rollouts_per_rank": 1000,
+  "ranks": [
+    59,
+    60,
+    62,
+    64
+  ],
+  "font": "Times New Roman",
+  "font_path": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+  "label_font_pt": 10,
+  "tick_legend_font_pt": 9,
+  "figure_inches": {
+    "rank_success_rate": [
+      3,
+      2.35
+    ],
+    "rank_tracking_error": [
+      3,
+      2.35
+    ],
+    "rank_module_timing": [
+      6,
+      3.05
+    ]
+  },
+  "timing_visualization": "Stacked module means: total in ms and non-QP detail in microseconds, both linear zero-based axes; colors encode modules",
+  "success_definition": "Both final-30 and final-100 mean error <10 mm and maximum error <20 mm",
+  "tracking_error_definition": "Empirical distribution of each rollout final-100 mean fingertip error; all rollouts included",
+  "timing_definition": "Module means over 315000 steps per rank, discarding first 5 steps per rollout; QP includes construction and solve; offline and one-time setup excluded",
+  "timing_caveat": "Historical rank-60 timings and selected-rank timings span sessions on a shared computer; differences cannot be attributed solely to rank",
+  "sources_sha256": {
+    "experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/manifest.json": "7ca7b34543ce9435e8bd2519bf327c379782fcc1efff52eed915257baef61a7c",
+    "experiments/routed_deepc_iid/clarabel_lamg005_panel_311_1310_v1/manifest.json": "0e4834483b990061b0bdef204c912282a10d907f8d02b5e30aaf3dcc8f00a66b",
+    "experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/rank059/summary.json": "b20c7ae083eb867406f76d2c3ebe7119f2c180da6ee8bb6e8db36dc3a176b73d",
+    "experiments/routed_deepc_iid/clarabel_lamg005_panel_311_1310_v1/graph/summary.json": "e64eb8d469c1b4dd9a8357fd6d28ee44b9ba2312197ca9383e279e50916d44bf",
+    "experiments/routed_deepc_iid/clarabel_lamg005_panel_311_1310_v1/graph/timing_summary.json": "82d64620cc712fdbab99a70e91df267b13e6f9e6aa3f6c559f89414dfea0f98c",
+    "experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/rank062/summary.json": "90ad64f61e9051c60a0a332804c8c40f05e75d99d48dea75cc3d8492858f2363",
+    "experiments/routed_deepc_iid/selected_ranks_1000_clarabel_v1/rank064/summary.json": "2b9ca85c9042419b1c0e1bfeac9a41574acf31de0ae344e18f2cf8f669388267"
+  },
+  "statistics": {
+    "59": {
+      "successes": 965,
+      "success_rate_pct": 96.5,
+      "wilson_95_pct": [
+        95.17133776255466,
+        97.4727736982887
+      ],
+      "median_error_mm": 2.0157061659328037,
+      "p90_error_mm": 4.4340845496436945,
+      "max_error_mm": 77.63395215108935,
+      "unsolved_qps": 0,
+      "timing_modules": [
+        {
+          "module": "Chart localization",
+          "mean_ms": 0.051039047004832395,
+          "median_ms": 0.048708170652389526,
+          "p95_ms": 0.06645801477134228,
+          "p99_ms": 0.08116592653095722,
+          "share_of_mean_total": 0.001663417010008242
+        },
+        {
+          "module": "Terminal-reference selection",
+          "mean_ms": 0.01203629436296603,
+          "median_ms": 0.011416850611567497,
+          "p95_ms": 0.016208970919251442,
+          "p99_ms": 0.01895800232887268,
+          "share_of_mean_total": 0.0003922756782454888
+        },
+        {
+          "module": "Graph routing",
+          "mean_ms": 0.005361432360396498,
+          "median_ms": 0.005041947588324547,
+          "p95_ms": 0.006875023245811462,
+          "p99_ms": 0.009499955922365189,
+          "share_of_mean_total": 0.00017473480226713062
+        },
+        {
+          "module": "Linear subspace retrieval",
+          "mean_ms": 0.00057078760176424,
+          "median_ms": 0.000541098415851593,
+          "p95_ms": 0.000833999365568161,
+          "p99_ms": 0.0010419171303510666,
+          "share_of_mean_total": 1.8602577077635327e-05
+        },
+        {
+          "module": "QP construction and solve",
+          "mean_ms": 30.588996712414044,
+          "median_ms": 29.388332972303033,
+          "p95_ms": 33.8803538121283,
+          "p99_ms": 59.170056418515756,
+          "share_of_mean_total": 0.9969280469852456
+        },
+        {
+          "module": "Other control-loop work",
+          "mean_ms": 0.02524995399742491,
+          "median_ms": 0.02408493310213089,
+          "p95_ms": 0.032333191484212875,
+          "p99_ms": 0.04558535991236603,
+          "share_of_mean_total": 0.0008229229471558414
+        },
+        {
+          "module": "Total online control",
+          "mean_ms": 30.68325422774143,
+          "median_ms": 29.481437522917986,
+          "p95_ms": 33.98675631033257,
+          "p99_ms": 59.26468635676431,
+          "share_of_mean_total": 1.0
+        }
+      ],
+      "one_time_goal_setup_ms": {
+        "mean": 4.744967722101137,
+        "median": 4.647520952858031,
+        "p95": 5.12155273463577
+      }
+    },
+    "60": {
+      "successes": 925,
+      "success_rate_pct": 92.5,
+      "wilson_95_pct": [
+        90.69990602607456,
+        93.97481950265328
+      ],
+      "median_error_mm": 2.034783467082871,
+      "p90_error_mm": 5.719952671253954,
+      "max_error_mm": 77.62635200718141,
+      "unsolved_qps": 0,
+      "timing_modules": [
+        {
+          "module": "Chart localization",
+          "mean_ms": 0.07119281423862077,
+          "median_ms": 0.0647080596536398,
+          "p95_ms": 0.10141695383936167,
+          "p99_ms": 0.19295979873277325,
+          "share_of_mean_total": 0.0019827680501012025
+        },
+        {
+          "module": "Terminal-reference selection",
+          "mean_ms": 0.015657092158180026,
+          "median_ms": 0.013874960131943226,
+          "p95_ms": 0.01920794602483511,
+          "p99_ms": 0.04704191815108061,
+          "share_of_mean_total": 0.00043606061118298144
+        },
+        {
+          "module": "Graph routing",
+          "mean_ms": 0.006965069616183875,
+          "median_ms": 0.005959067493677139,
+          "p95_ms": 0.008750008419156075,
+          "p99_ms": 0.022207970032468438,
+          "share_of_mean_total": 0.00019398190181683112
+        },
+        {
+          "module": "Linear subspace retrieval",
+          "mean_ms": 0.0008207087970471808,
+          "median_ms": 0.000750063918530941,
+          "p95_ms": 0.0010420335456728935,
+          "p99_ms": 0.0013329554349184036,
+          "share_of_mean_total": 2.2857295341183125e-05
+        },
+        {
+          "module": "QP construction and solve",
+          "mean_ms": 35.77466798740853,
+          "median_ms": 32.99395798239857,
+          "p95_ms": 54.467793763615184,
+          "p99_ms": 76.32701620110319,
+          "share_of_mean_total": 0.9963487108496992
+        },
+        {
+          "module": "Other control-loop work",
+          "mean_ms": 0.036466664854910166,
+          "median_ms": 0.03179092891514301,
+          "p95_ms": 0.054957810789346695,
+          "p99_ms": 0.10829117032699288,
+          "share_of_mean_total": 0.0010156212918584163
+        },
+        {
+          "module": "Total online control",
+          "mean_ms": 35.90577033707348,
+          "median_ms": 33.11958292033523,
+          "p95_ms": 54.63067328091711,
+          "p99_ms": 76.53940810356296,
+          "share_of_mean_total": 1.0
+        }
+      ],
+      "one_time_goal_setup_ms": {
+        "mean": 6.0930422260425985,
+        "median": 5.106646043714136,
+        "p95": 8.43620630330406
+      }
+    },
+    "62": {
+      "successes": 959,
+      "success_rate_pct": 95.9,
+      "wilson_95_pct": [
+        94.48520067923587,
+        96.96350289179017
+      ],
+      "median_error_mm": 1.9673085345830466,
+      "p90_error_mm": 4.316338699308091,
+      "max_error_mm": 82.55890347795633,
+      "unsolved_qps": 0,
+      "timing_modules": [
+        {
+          "module": "Chart localization",
+          "mean_ms": 0.05120135950412424,
+          "median_ms": 0.049083027988672256,
+          "p95_ms": 0.06674998439848423,
+          "p99_ms": 0.0815410166978836,
+          "share_of_mean_total": 0.001627792103626258
+        },
+        {
+          "module": "Terminal-reference selection",
+          "mean_ms": 0.012220326981078538,
+          "median_ms": 0.011499971151351929,
+          "p95_ms": 0.016208970919251442,
+          "p99_ms": 0.01916685374453664,
+          "share_of_mean_total": 0.00038850827314318193
+        },
+        {
+          "module": "Graph routing",
+          "mean_ms": 0.005345339179482488,
+          "median_ms": 0.005041947588324547,
+          "p95_ms": 0.006875023245811462,
+          "p99_ms": 0.009499955922365189,
+          "share_of_mean_total": 0.00016993886474566728
+        },
+        {
+          "module": "Linear subspace retrieval",
+          "mean_ms": 0.0005708867817052773,
+          "median_ms": 0.0005417969077825546,
+          "p95_ms": 0.0008330680429935455,
+          "p99_ms": 0.0010409858077764511,
+          "share_of_mean_total": 1.8149615641545696e-05
+        },
+        {
+          "module": "QP construction and solve",
+          "mean_ms": 31.359756968318973,
+          "median_ms": 30.107625061646104,
+          "p95_ms": 34.97305248165503,
+          "p99_ms": 59.984167935326695,
+          "share_of_mean_total": 0.9969884639597573
+        },
+        {
+          "module": "Other control-loop work",
+          "mean_ms": 0.02538839757353777,
+          "median_ms": 0.0242509413510561,
+          "p95_ms": 0.032335054129362106,
+          "p99_ms": 0.04554307088255882,
+          "share_of_mean_total": 0.0008071471830860265
+        },
+        {
+          "module": "Total online control",
+          "mean_ms": 31.454483278338902,
+          "median_ms": 30.202332884073257,
+          "p95_ms": 35.082210099790245,
+          "p99_ms": 60.086265490390375,
+          "share_of_mean_total": 1.0
+        }
+      ],
+      "one_time_goal_setup_ms": {
+        "mean": 4.740815783385187,
+        "median": 4.649625043384731,
+        "p95": 5.167610559146851
+      }
+    },
+    "64": {
+      "successes": 952,
+      "success_rate_pct": 95.2,
+      "wilson_95_pct": [
+        93.6933911349866,
+        96.36066989791921
+      ],
+      "median_error_mm": 2.0159243293729814,
+      "p90_error_mm": 4.322438660279096,
+      "max_error_mm": 77.94679309293147,
+      "unsolved_qps": 0,
+      "timing_modules": [
+        {
+          "module": "Chart localization",
+          "mean_ms": 0.05155710418826886,
+          "median_ms": 0.049416907131671906,
+          "p95_ms": 0.06708316504955292,
+          "p99_ms": 0.08208304643630981,
+          "share_of_mean_total": 0.0015961252004549524
+        },
+        {
+          "module": "Terminal-reference selection",
+          "mean_ms": 0.01218839478013771,
+          "median_ms": 0.011582858860492706,
+          "p95_ms": 0.016290927305817604,
+          "p99_ms": 0.01900014467537403,
+          "share_of_mean_total": 0.0003773331409504948
+        },
+        {
+          "module": "Graph routing",
+          "mean_ms": 0.005352997699279397,
+          "median_ms": 0.005041947588324547,
+          "p95_ms": 0.006916932761669159,
+          "p99_ms": 0.009542098268866539,
+          "share_of_mean_total": 0.00016572021761729038
+        },
+        {
+          "module": "Linear subspace retrieval",
+          "mean_ms": 0.0005701315360114215,
+          "median_ms": 0.0005417969077825546,
+          "p95_ms": 0.0008330680429935455,
+          "p99_ms": 0.0010409858077764511,
+          "share_of_mean_total": 1.7650357337349816e-05
+        },
+        {
+          "module": "QP construction and solve",
+          "mean_ms": 32.206187473616694,
+          "median_ms": 30.88450012728572,
+          "p95_ms": 36.584629176650196,
+          "p99_ms": 60.79258763231338,
+          "share_of_mean_total": 0.9970518757124607
+        },
+        {
+          "module": "Other control-loop work",
+          "mean_ms": 0.025559961013052437,
+          "median_ms": 0.024416251108050346,
+          "p95_ms": 0.03254110924899578,
+          "p99_ms": 0.04595890874043107,
+          "share_of_mean_total": 0.0007912953711791651
+        },
+        {
+          "module": "Total online control",
+          "mean_ms": 32.30141606283345,
+          "median_ms": 30.979729490354657,
+          "p95_ms": 36.69402711093425,
+          "p99_ms": 60.88883531279862,
+          "share_of_mean_total": 1.0
+        }
+      ],
+      "one_time_goal_setup_ms": {
+        "mean": 4.727215851191431,
+        "median": 4.652520990930498,
+        "p95": 5.146143119782209
+      }
+    }
+  }
+}

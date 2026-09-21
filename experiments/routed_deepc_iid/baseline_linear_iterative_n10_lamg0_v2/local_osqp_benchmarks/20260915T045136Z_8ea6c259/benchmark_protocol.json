@@ -1,0 +1,20 @@
+{
+  "kind": "fresh_single_worker_osqp",
+  "workers": 1,
+  "numerical_threads": 1,
+  "warmup_seed": 210,
+  "warmup_steps": 10,
+  "discard_initial_steps_per_rollout": 5,
+  "reused_rollouts": 0,
+  "started_utc": "2026-09-15T04:51:36.632003+00:00",
+  "host": "MacBook-Pro-128.local",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.10.20",
+  "load_average_at_start": [
+    17.42578125,
+    34.59521484375,
+    31.30810546875
+  ],
+  "benchmark_source_sha256": "3d44a917dd851b876c842a081d62ba8619368dddbd319a179f871004a3f75b38",
+  "timing_caveat": "Single rollout worker; stop unrelated heavy jobs for an uncontended latency measurement."
+}

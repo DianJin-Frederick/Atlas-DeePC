@@ -1,0 +1,29 @@
+{
+  "collector": "select_dpc_random_walk",
+  "input_process": {
+    "a": 1.0,
+    "b": 0.1
+  },
+  "seed": 2026,
+  "episodes": 200,
+  "episode_len": 200,
+  "t_ini": 2,
+  "t_f": 10,
+  "window_length": 12,
+  "clusters": 8,
+  "chart_rank": 12,
+  "cluster_seed": 7,
+  "cluster_max_iter": 20,
+  "standardize_for_clustering": true,
+  "eval_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    42
+  ],
+  "control_steps": 320
+}

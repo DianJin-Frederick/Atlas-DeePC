@@ -1,0 +1,136 @@
+{
+  "system": "y[k+1] = y[k]^2 + u[k]",
+  "input_family": "u1 = -u0",
+  "T_ini": 1,
+  "T_f": 1,
+  "full_window_dimension": 4,
+  "training_windows": 1200,
+  "test_windows": 500,
+  "K": 8,
+  "chart_type": "centered rank-two affine SVD",
+  "max_KMeans_distance_preservation_error": 2.220446049250313e-15,
+  "sweep": [
+    {
+      "K": 1,
+      "test_window_rms": 0.22681873882640913
+    },
+    {
+      "K": 4,
+      "test_window_rms": 0.04767889536837275
+    },
+    {
+      "K": 8,
+      "test_window_rms": 0.01915970863715843
+    },
+    {
+      "K": 16,
+      "test_window_rms": 0.013117647516372368
+    }
+  ],
+  "charts": [
+    {
+      "chart": 1,
+      "training_windows": 105,
+      "center": [
+        -0.1549761542295735,
+        0.1549761542295735,
+        -0.7712782728447849,
+        0.45638091847314705
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.0009057008921005633
+    },
+    {
+      "chart": 2,
+      "training_windows": 114,
+      "center": [
+        0.297274766493214,
+        -0.297274766493214,
+        -0.7688327859505533,
+        0.9099706413009017
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.0009365911974457267
+    },
+    {
+      "chart": 3,
+      "training_windows": 158,
+      "center": [
+        -0.2975451388800732,
+        0.2975451388800732,
+        -0.4234765268509471,
+        -0.09225753244345639
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.003602513010860628
+    },
+    {
+      "chart": 4,
+      "training_windows": 195,
+      "center": [
+        0.25528992874925327,
+        -0.25528992874925327,
+        -0.28423978026068647,
+        0.3576957814009776
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.003206819070199061
+    },
+    {
+      "chart": 5,
+      "training_windows": 194,
+      "center": [
+        -0.26586067177618056,
+        0.26586067177618056,
+        0.18668250152106453,
+        -0.1961196141539777
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.008530132694274634
+    },
+    {
+      "chart": 6,
+      "training_windows": 178,
+      "center": [
+        0.24166577331573247,
+        -0.24166577331573247,
+        0.2748941267541515,
+        0.34311770966570465
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.004463962096139278
+    },
+    {
+      "chart": 7,
+      "training_windows": 135,
+      "center": [
+        -0.21845781697950098,
+        0.21845781697950098,
+        0.729070498542852,
+        0.33523896635295014
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.001166367170510064
+    },
+    {
+      "chart": 8,
+      "training_windows": 121,
+      "center": [
+        0.2685540189407752,
+        -0.2685540189407752,
+        0.8209117083393669,
+        0.9584674846769538
+      ],
+      "centered_full_rank": 3,
+      "uncentered_full_rank": 3,
+      "rank_two_discarded_variance_fraction": 0.0007116640680882791
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "result_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/baseline_linear_iterative_n10_lamg0_v2/waypoint_comparison/terminal/seed277_control_results.npz",
+  "video_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/baseline_linear_iterative_n10_lamg0_v2/waypoint_comparison/videos/terminal_seed277_replay.mp4",
+  "seed": 277,
+  "actions": 320,
+  "warmup_zeros": 2,
+  "fps": 20,
+  "frame_stride": 4,
+  "maximum_replay_output_error": 0.0,
+  "environment": "Reacher-v5",
+  "source_result_sha256": "a97fc9052c31cf2ef62e155c94789fc2e6dcc3924d2c73a2d120f27ca46cd675",
+  "lam_g": 0,
+  "reference_mode": "terminal",
+  "baseline_version": "linear_iterative_n10_lamg0_v2"
+}

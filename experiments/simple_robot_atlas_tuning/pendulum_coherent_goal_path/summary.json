@@ -1,0 +1,113 @@
+{
+  "config": {
+    "t_ini": 2,
+    "t_f": 20,
+    "offline_episodes": 80,
+    "offline_steps": 400,
+    "offline_seed_start": 2026,
+    "offline_reset_mode": "task_default",
+    "offline_input_mode": "uniform_ar",
+    "offline_input_momentum": 0.9,
+    "offline_input_scale": 0.5,
+    "offline_input_hold": 1,
+    "offline_input_period": 100.0,
+    "clusters": 48,
+    "contextual_clusters": 128,
+    "contextual_architecture": "global",
+    "contextual_modes_per_chart": 4,
+    "contextual_support": 200,
+    "contextual_goal_pool": 4000,
+    "contextual_frame": "absolute",
+    "transition_support": 200,
+    "cluster_seed": 11,
+    "contextual_seed": 73,
+    "svd_rank": 60,
+    "svd_bound_scale": 3.0,
+    "edge_count_threshold": 1,
+    "graph_direction": "directed",
+    "waypoint_mode": "edge_transition",
+    "physical_feature_mode": "state",
+    "physical_goal_weight": 1.0,
+    "physical_matrix_mode": "current",
+    "reference_mode": "goal_path",
+    "route_dwell_steps": 1,
+    "goal_construction_mode": "exact",
+    "control_steps": 500,
+    "evaluation_seed_start": 501,
+    "evaluation_seeds": 1,
+    "lam_g": 0.05,
+    "lam_ini": 100000.0,
+    "lam_du": 0.5,
+    "r": 1e-06,
+    "velocity_weight_scale": 1.0,
+    "latch_threshold_override": null,
+    "trigger_window": 15,
+    "trigger_minimum_progress": 0.001,
+    "contextual_activation": "triggered",
+    "terminal_lock_steps": 0,
+    "terminal_matrix_mode": "selected"
+  },
+  "tasks": [
+    {
+      "task": "pendulum_swingup",
+      "offline_atlas": {
+        "hankel_shape": [
+          88,
+          30320
+        ],
+        "windows_per_episode": 379,
+        "chart_count": 48,
+        "chart_size_min": 90,
+        "chart_size_median": 496.0,
+        "retained_edges": 179,
+        "edge_conditioned_matrices": 0,
+        "charts_with_coherent_goal_paths": 1,
+        "transition_support": 200,
+        "contextual_prototypes": 0,
+        "contextual_architecture": null,
+        "contextual_support": null,
+        "rank_cap": 60,
+        "physical_rank_min": 60,
+        "physical_rank_median": 60.0,
+        "physical_rank_max": 60
+      },
+      "preprocessing_timing_ms": {
+        "library_load_or_collection": 4015.276417005225,
+        "hankel_construction": 109.52237500168849,
+        "physical_clustering_and_svd": 372.2354589990573,
+        "contextual_clustering_and_svd": 0.0
+      },
+      "atlas": {
+        "successes": 0,
+        "trials": 1,
+        "median_last_100": 1.992406998073146,
+        "median_solve_ms": 54.86654150445247,
+        "median_routing_ms": 0.7558545039501041,
+        "median_selection_ms": 0.00100000761449337,
+        "median_environment_ms": 0.12572899868246168,
+        "median_control_step_ms": 55.80058349733008,
+        "triggered_rollouts": 0
+      },
+      "contextual_atlas": null,
+      "offline_audit": {
+        "collection_policy": "reset=task_default, uniform_ar: a=0.9, b=0.5, hold=1, period=100",
+        "accepted_episode_count": 80,
+        "accepted_seed_range": [
+          2026,
+          2105
+        ],
+        "rejected_stabilized_episode_count": 0,
+        "rejected_stabilized_seeds": [],
+        "stabilized_episodes_in_offline_data": 0,
+        "online_eval_seed_range": [
+          501,
+          501
+        ],
+        "online_offline_seed_disjoint": true,
+        "best_instantaneous_offline_error": 0.034712336927024155,
+        "offline_samples_below_success_threshold": 128,
+        "offline_error_first_percentile": 0.5714969551035323
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "data_seed_range": [
+    2026,
+    2225
+  ],
+  "offline_stabilized_episode_count": 0,
+  "offline_transient_within_1cm_count": 62,
+  "offline_best_tail_mean": 0.02933142624102928,
+  "held_out_targets": {
+    "1": {
+      "target": [
+        -0.07526741919580582,
+        -0.030669420410969733
+      ],
+      "nearest_offline_target_distance": 0.006990531566865091,
+      "nearest_offline_seed": 2191
+    }
+  }
+}

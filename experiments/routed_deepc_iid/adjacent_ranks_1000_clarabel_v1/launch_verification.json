@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "first_seed": 311,
+  "ranks": [
+    58,
+    61,
+    63
+  ],
+  "first_three_full_rollouts_validated": true,
+  "targets_match_previous_rank59": true,
+  "atlas_arrays_identical_to_previous_1000_study": true,
+  "unchanged_numerical_dependency_files": [
+    "stitched_atlas_mpc_experiment.py",
+    "baseline_atlas_deepc.py",
+    "candidate_goal_routing_experiment.py",
+    "baseline_1000_benchmark.py",
+    "routed_deepc_experiment.py",
+    "local_affine_atlas_experiment.py",
+    "expert_pipeline_search.py",
+    "linear_subspace_rank_ablation.py"
+  ],
+  "lock_held": true,
+  "previous_notebook_sha256": "74635db718d3479551ffa2e3d97184db4e2a7b0f66327c3120b738d7dd3df83c"
+}

@@ -1,0 +1,64 @@
+{
+  "seed": 265,
+  "updated": "2026-09-17T03:20:44-05:00",
+  "plan_sha256": "7e7b86cb056324fad4fd2637fc646d9a1010c2609b7b0400420822712a06f020",
+  "waypoints_xy": [
+    [
+      0.1806424983976792,
+      -0.053779057161169465
+    ],
+    [
+      0.15213458014167613,
+      -0.09076825121448694
+    ]
+  ],
+  "final_target_xy": [
+    0.12362666188567306,
+    -0.12775744526780441
+  ],
+  "waypoint_events": [
+    {
+      "step": 40,
+      "waypoint": 0,
+      "reason": "timeout",
+      "distance_mm": 22.098164168029555
+    },
+    {
+      "step": 80,
+      "waypoint": 1,
+      "reason": "timeout",
+      "distance_mm": 37.262018090444904
+    }
+  ],
+  "step": 200,
+  "requested_steps": 200,
+  "current_error_mm": 13.471979441556076,
+  "last30_mean_error_mm": 10.645840688933943,
+  "last30_max_error_mm": 13.471979441556076,
+  "last_diagnostic": {
+    "prediction_error_mm": 1.3947049829957734,
+    "objective_terms": {
+      "tracking": 0.27960460592218284,
+      "effort": 0.002181081302320724,
+      "slack": 0.02410656296837179,
+      "coefficient_l1": 0.24620014949768612,
+      "projection": 0.0024741388567250558
+    },
+    "past_xy_slack_mm": 0.003136437734701418,
+    "past_posture_slack": 3.1947104071660507e-07
+  },
+  "success": false,
+  "success_30": false,
+  "success_100": false,
+  "final100_mm": 21.620486450143268,
+  "common_task_cost": 91924.92447707191,
+  "unsolved_subproblems": 135,
+  "subproblems": 1000,
+  "median_compute_ms": 3021.690458059311,
+  "p99_compute_ms": 5373.931760024279,
+  "max_compute_ms": 5489.671790972352,
+  "input_bound_violations": 0,
+  "active_reference_task_cost": 20891.275143993218,
+  "complete": true,
+  "development_only": true
+}

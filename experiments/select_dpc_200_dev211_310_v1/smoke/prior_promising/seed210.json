@@ -1,0 +1,33 @@
+{
+  "candidate": "prior_promising",
+  "seed": 210,
+  "steps": 10,
+  "parameters": {
+    "past": 2,
+    "horizon": 15,
+    "columns": 200,
+    "iterations": 5,
+    "q_xy": 40000.0,
+    "q_velocity": 10.0,
+    "r": 10.0,
+    "lambda_g1": 10.0,
+    "lambda_projection": 1000000.0,
+    "lambda_slack": 50000.0,
+    "input_limit": 1.0
+  },
+  "phase": "smoke",
+  "completed": "2026-09-16T21:41:03-05:00",
+  "wall_time_s": 26.245260040974244,
+  "trace_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/select_dpc_200_dev211_310_v1/smoke/prior_promising/seed210.npz",
+  "success": false,
+  "success_30": false,
+  "success_100": false,
+  "final100_mm": 391.812910001218,
+  "common_task_cost": 153667.48829972857,
+  "unsolved_subproblems": 0,
+  "subproblems": 50,
+  "median_compute_ms": 2371.7652910854667,
+  "p99_compute_ms": 3258.099791444838,
+  "max_compute_ms": 4051.739834016189,
+  "input_bound_violations": 0
+}

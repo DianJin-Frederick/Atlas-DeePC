@@ -1,0 +1,81 @@
+{
+  "condition": {
+    "displacement_m": 0.1,
+    "step": 160
+  },
+  "development_seeds": [
+    51001,
+    51002
+  ],
+  "provenance": {
+    "artifacts_sha256": {
+      "experiments/pusher_atlas/rebuild_300_routed/behavioral_atlas.npz": "902c223c4ae7b44dd85f78057e3819737b9a4ab74f84146d6ec1f38bdff5b9f5",
+      "experiments/pusher_atlas/rebuild_300_routed/heldout_coverage_probe_data.npz": "bbafe2c70c5f7c5807819795d3e1bbab50eac86114e853dc743753f918c6bd32",
+      "experiments/pusher_atlas/rebuild_300_routed/offline_behavior_policy_regional.joblib": "d4c5c77502c49431afba68a1f98b6038d06028f7437819f364bee7bd52fe568d",
+      "experiments/pusher_atlas/rebuild_300_routed/offline_teacher_data.npz": "eaef12c86b6c6aef53cbbcd217a841a6294d10376a33713c70020c000a395f68",
+      "experiments/pusher_atlas/rebuild_300_standard/heldout_coverage_probe_data.npz": "ad239ce912486860dc010475d1f26ba647b3f9c5303b8cbdd95e04c7d1c5f2c7",
+      "experiments/pusher_atlas/rebuild_300_standard/offline_teacher_data.npz": "899b8250f9e197823cb4e436422a3123287993002ad6edf104cb901d9e07cd1b"
+    },
+    "machine": "arm64",
+    "numerical_threads": [
+      {
+        "architecture": "armv8",
+        "filepath": "/Users/kumiko/miniconda3/envs/gym-robotics-mujoco/lib/python3.10/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.23.dev"
+      },
+      {
+        "architecture": "neoversen1",
+        "filepath": "/Users/kumiko/miniconda3/envs/gym-robotics-mujoco/lib/python3.10/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.27"
+      },
+      {
+        "filepath": "/Users/kumiko/miniconda3/envs/gym-robotics-mujoco/lib/libomp.dylib",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "packages": {
+      "clarabel": "0.11.1",
+      "cvxpy": "1.6.5",
+      "gymnasium": "1.2.3",
+      "imageio": "2.37.3",
+      "joblib": "1.5.3",
+      "mujoco": "3.12.0",
+      "numpy": "1.26.4",
+      "osqp": "1.0.4",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.13.1",
+      "threadpoolctl": "3.5.0"
+    },
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 17:06:34) [Clang 19.1.7 ]",
+    "source_sha256": {
+      "src/pusher_atlas/__init__.py": "defb1eae228a191ce070c9c4460e8c403cd25d93d75880e14245b4ec2c2f1256",
+      "src/pusher_atlas/atlas.py": "6d500d7cd34fe2d3ccfd0c6e8fc233145c31ff6c3c0e96fb97d17a8206d207b1",
+      "src/pusher_atlas/config.py": "5e8bcba3b10f3918c89a160a4a596efaf694e33428d854b617c2d73d0e0c9135",
+      "src/pusher_atlas/controller.py": "efcb61be83dc1654b79a759679a7d5ea63a17686a6b5b02c329b0ebd4acf2286",
+      "src/pusher_atlas/coverage.py": "6530284f63bc4f8b2163133ad0a76f06068c8386080ca31c8dca0d793ad38e89",
+      "src/pusher_atlas/data.py": "95080a0db9aacc9d20c5cc557b1a459fcf34d6b6fbe894f871ecb639e96c89fe",
+      "src/pusher_atlas/environment.py": "131ddb7a9d78d51b3c29629676e41056af1ff8431863dd3ac3db512bea49e559",
+      "src/pusher_atlas/experiment.py": "41a423327dafd80c53f6603464631506918682f07082eaaa3e42b04855d65a96",
+      "src/pusher_atlas/plotting.py": "d0155c77e383c55dd6b9371e8e4ea2e4465b61532fae4148b99d6e7db8904016",
+      "src/pusher_atlas/policy.py": "0324054f4ea7f3618f54e31bf8cdb63783750270bcec0cc02ef6621aaa783ad8",
+      "src/pusher_atlas/video.py": "90c233353688dc01ac8a0fb8a03bc03c19aaac2e3559d6f3e028e082fa3d4aca",
+      "src/pusher_contribution_study.py": "85323c093bb52c47bbf8ec4c70153743d18e1c8b2b593a93f38b0f2cca820ace"
+    }
+  },
+  "reason": "Original 6-second pilot had zero pre-disturbance sustained successes. Check 8 seconds without altering controller or remaining horizon."
+}

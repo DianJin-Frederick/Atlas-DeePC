@@ -1,0 +1,42 @@
+[
+  {
+    "Waypoints":"Without",
+    "Solver":"Clarabel",
+    "Successes":850,
+    "Seeds":1000,
+    "Success rate (%)":85.0,
+    "Median final-100 mean (mm)":2.1993861908,
+    "P90 final-100 mean (mm)":212.6973273428,
+    "Unsolved QPs":0
+  },
+  {
+    "Waypoints":"Without",
+    "Solver":"OSQP",
+    "Successes":850,
+    "Seeds":1000,
+    "Success rate (%)":85.0,
+    "Median final-100 mean (mm)":2.1994128866,
+    "P90 final-100 mean (mm)":212.6973216226,
+    "Unsolved QPs":0
+  },
+  {
+    "Waypoints":"With",
+    "Solver":"Clarabel",
+    "Successes":928,
+    "Seeds":1000,
+    "Success rate (%)":92.8,
+    "Median final-100 mean (mm)":2.031711937,
+    "P90 final-100 mean (mm)":5.5860848379,
+    "Unsolved QPs":0
+  },
+  {
+    "Waypoints":"With",
+    "Solver":"OSQP",
+    "Successes":928,
+    "Seeds":1000,
+    "Success rate (%)":92.8,
+    "Median final-100 mean (mm)":2.0317311448,
+    "P90 final-100 mean (mm)":5.5861557036,
+    "Unsolved QPs":0
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "plan_sha256": "b3fca7d90d3e73bbafc93406ce5f40ea7eaa2705c634b7e943583129af453a47",
+  "source_sha256": {
+    "three_method_benchmark.py": "5556dcfdff5bdf9fb3183e231eb69dec9aae7ff1fbd613ef37951a862cf3bbcf",
+    "faithful_dpc_controllers.py": "7bf24ec47fce62d03f1b06d90c74009850ac02905a475571a297e30a37ec576e",
+    "baseline_atlas_deepc.py": "477d666a6b1fd5ee1f19d34bf6c394a271d4e3483ec053d3cd78210102d83be2",
+    "routed_deepc_experiment.py": "b14625214a35cb84c3b4377d5398e98bf7f3e2673c8cb95c97759d9f91f3deee",
+    "expert_pipeline_search.py": "af755ae96e68ee2fddd54b70b2dde203d80c802b62c808edac26f2f6e0042d98",
+    "candidate_goal_routing_experiment.py": "c6206d3a431ab97d74687606947ab5118f674575425ccba23018d0c577e47da5",
+    "stitched_atlas_mpc_experiment.py": "a00e8af0ee444e8c1456ad4be4fc06a9597acec2f75b65c480eb8dd32d3361be",
+    "local_affine_atlas_experiment.py": "965eed33b4fc31cbb2721dd278afcb3e25edf20da5b3a80163102711b1647efc"
+  },
+  "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+  "atlas_sha256": "b8641b1c376a2f4af5dcf9415a5d591a36e99bb223b1c0f7c17390de16803007",
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "cvxpy": "1.6.5",
+  "gymnasium": "1.2.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "baseline_version": "linear_iterative_n10_v1"
+}

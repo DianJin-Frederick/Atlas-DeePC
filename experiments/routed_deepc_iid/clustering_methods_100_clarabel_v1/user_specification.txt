@@ -1,0 +1,84 @@
+Create a new notebook comparing six alternative chart-construction methods against our baseline K-means Atlas-DeePC. Implement and run all methods on the same **100 evaluation seeds: 211–310**.
+
+## Baseline and Fixed Settings
+
+Use the method documented in `notebooks/baselines/baseline_graph_routed_atlas_deepc.ipynb`:
+
+- Clarabel solver and **lambda_g = 0.05**, explicitly configured. Do not inherit the newer lambda_g=0 default.
+- 48 charts; rank-60 uncentered linear-subspace controller bases.
+- Iterative N=10 terminal-reference selection and graph waypoint routing.
+- Same output channels, Q/R weights, constraints, horizon, initialization, and 320-step rollouts.
+- No contextual rescue, fitted dynamics, expert data, or early termination.
+
+Inspect the code to confirm the precise baseline configuration before starting.
+
+## Invariant Offline Data
+
+Every method must use exactly the same existing dataset:
+`data/select_iid_offline_hankel.npy`
+
+Do not recollect data, add noise, filter episodes, reorder columns, or generate trajectories. Record and verify the dataset SHA-256 for every method.
+
+Use the same baseline clustering features: the six periodic joint-configuration channels from the latest Y_p sample:
+`[cos(q1), cos(q2), sin(q1), sin(q2), cos(q1+q2), sin(q1+q2)]`.
+
+Keep feature preprocessing identical. Do not use online targets, evaluation outcomes, or future online measurements during training.
+
+## Methods
+
+Include baseline K-means plus:
+
+1. Affine K-subspaces / K-flats.
+2. Mixture of probabilistic PCA, using hard posterior assignments.
+3. Spectral clustering on a sparse neighborhood graph.
+4. Diffusion maps followed by K-means.
+5. Isomap followed by K-means.
+6. UMAP followed by K-means.
+
+Use proven implementations where available. Choose and document modest hyperparameters before evaluation. Distinguish clustering/embedding dimension from the controller’s rank of 60.
+
+For expensive methods, a fixed, reproducible offline landmark set is acceptable if necessary. Apply the fitted model to assign **every original Hankel column**, and disclose the approximation. Do not silently reduce the data available to the controller.
+
+## Constructing Controllers
+
+For each method, map cluster memberships back to the original full input-output Hankel columns. Construct each chart’s rank-60 **uncentered linear SVD basis** using the same baseline routine.
+
+Nonlinear embeddings are for chart assignment only; do not feed embedding coordinates or nonlinear decoder predictions into DeePC.
+
+Rebuild medoids and the directed empirical transition graph using the baseline rules and the new labels. Keep routing costs, thresholds, reference construction, and controller logic unchanged.
+
+Provide a deterministic online chart-assignment rule for every method. Preserve its native geometry where possible. Document and time any out-of-sample extension or approximate assignment. Do not silently replace a method with nearest-centroid assignment or a full-library trajectory search.
+
+Report undersized, degenerate, or disconnected charts explicitly. Do not silently change controller rank, chart count, or add fallback control to conceal these issues.
+
+## Saved Artifacts
+
+Use a separate experiment folder for each method. Save:
+
+- Original-column indices and cluster labels for every Hankel column.
+- Feature definition, preprocessing, and any embedding coordinates.
+- Fitted centroids, local subspaces, probabilistic parameters, or embedding model.
+- Landmark indices, random seeds, and hyperparameters where applicable.
+- Chart support indices, medoids, behavioral bases, actual ranks, singular values, coefficient bounds, and transition graph.
+- Dataset hashes, configuration, source/version provenance, and package versions.
+
+Save clustered data primarily as **column-index sets referencing the immutable Hankel file**, rather than duplicating the large dataset seven times. Make each atlas reloadable without reclustering.
+
+Save every rollout and its per-step module timings. Resume compatible completed work; reject incompatible caches.
+
+## Evaluation and Notebook
+
+Run the same 100 seeds for all seven methods. Reuse baseline outcomes only after verifying matching settings and data provenance. Do not present reused historical timings as a controlled fresh timing comparison.
+
+Use one rollout worker and one numerical thread for timing. Report offline fitting/cache construction separately from online chart localization, terminal-reference selection, graph routing, basis retrieval, QP construction/solve, and total control time.
+
+Show:
+- Strict success counts and rates using the existing final-30 AND final-100 mean/max criteria.
+- Final-100 fingertip-error distributions and paired changes against K-means.
+- Mean, median, and P99 online/module timings.
+- Offline training time, chart sizes/ranks, graph connectivity, and unsolved QPs.
+- Representative arm-configuration clouds for each atlas.
+
+Treat these 100 seeds as an exploratory panel, not untouched validation. Do not repeatedly tune against their results and then label the selected settings as held-out performance.
+
+Preserve existing notebooks and experiments. Run the experiments, populate the new notebook with actual results, and finish with a concise comparison and any methodological caveats. If a method cannot be completed reliably, report the specific failure rather than silently substituting another algorithm.

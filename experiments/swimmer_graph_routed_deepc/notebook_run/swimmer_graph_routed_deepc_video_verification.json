@@ -1,0 +1,11 @@
+{
+  "result_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/swimmer_graph_routed_deepc/notebook_run/rollout.npz",
+  "video_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/swimmer_graph_routed_deepc/notebook_run/swimmer_graph_routed_deepc.mp4",
+  "environment": "Swimmer-v5",
+  "seed": 7,
+  "actions": 60,
+  "frames": 60,
+  "fps": 25,
+  "rendered_from_saved_rollout": true,
+  "renderer": "headless_kinematic_dashboard"
+}

@@ -1,0 +1,21 @@
+{
+  "T_ini": 1,
+  "T_f": 1,
+  "L": 2,
+  "inputs_per_window": 2,
+  "outputs_per_window": 2,
+  "ambient_dimension": 4,
+  "selected_linear_subspace_dimension": 3,
+  "intrinsic_dimension_of_selected_family": 2,
+  "empirical_affine_span_rank": 3,
+  "train_windows": 1200,
+  "test_windows": 500,
+  "local_charts": 16,
+  "global_rank_two_window_rms": 0.22681873882640913,
+  "local_rank_two_window_rms": 0.013117647516372368,
+  "max_full_window_reconstruction_error": 4.440892098500626e-16,
+  "max_pairwise_squared_distance_error": 2.220446049250313e-15,
+  "max_surface_residual": 2.220446049250313e-16,
+  "max_dynamics_residual": 1.1102230246251565e-16,
+  "linear_system_control_affine_rank": 2
+}

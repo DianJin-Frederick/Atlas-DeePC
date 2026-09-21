@@ -1,0 +1,20 @@
+{
+  "executed_utc": "2026-09-15T12:34:45.137317+00:00",
+  "notebook": "/Users/kumiko/Projects/atlas_deepc_reacher/notebooks/ablations/ablation_linear_subspace_rank_lamg0_osqp.ipynb",
+  "executed_code_cells": 6,
+  "saved_inline_figures": 7,
+  "rollouts": 6100,
+  "visual_inspection": "passed",
+  "visual_inspection_utc": "2026-09-15T12:35:38.224626+00:00",
+  "visual_inspection_notes": "All seven figures inspected: readable axes and legends, complete rank/seed coverage, zero-based linear timing axes, and correctly labeled two-setting comparison.",
+  "figure_sha256": {
+    "rank_error_distributions.png": "ae08920fcca506a8f549aa98dfc019d6cddd7d2cf52342545fd52e684b68894e",
+    "rank_module_timings.png": "3bd8e8837740403751b11d8ffea4d54dd7396284264b8659cf2012e1bbb035b1",
+    "rank_paired_changes.png": "83c251ad83d7d2a1c7d5d1d421a47868e7ebb4fca06282235b90951aa4c7d4b2",
+    "rank_seed_heatmaps.png": "2ab3d709c16e9d2cb564cddfa9eab9e38a735c066bc78c9e2bf90a44121200ba",
+    "rank_setup_comparison.png": "845fe343b25cca78f8c69d6b62b08464927d417441a84e81c3b0deb6cdfe838c",
+    "rank_success_errors.png": "90e276b1e953b2e3500b23a6f436bf0128d265b59102bded4f8c7d300d600321",
+    "rank_total_timings.png": "a6d7e50400eb4e0e82a1747b8f81081cdd7490821ac49012b44bbc4875a54132"
+  },
+  "notebook_sha256": "2f3f255b964040b2e489faed384ab374d3ceb2ac2827066d0ed6ce355c5796f2"
+}

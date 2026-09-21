@@ -1,0 +1,32 @@
+{
+  "source_result": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/contextual_cluster_eval211_710_global128_triggered/seed247_control_results.npz",
+  "source_result_sha256": "0e7ac8710e807cd1f58084ee43799b83a4f224a31e7ae89bbf7b50b7c9a733a9",
+  "source_atlas": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/clustering_jointconfig48_fresh211_310/behavioral_atlas.npz",
+  "source_atlas_sha256": "b8641b1c376a2f4af5dcf9415a5d591a36e99bb223b1c0f7c17390de16803007",
+  "output_video": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/contextual_cluster_dashboard_videos/contextual128_seed247_rescued_025x.mp4",
+  "poster": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/contextual_cluster_dashboard_videos/contextual128_seed247_rescued_025x_poster.png",
+  "seed": 247,
+  "saved_control_steps": 320,
+  "displayed_control_steps": 100,
+  "rendered_frames": 417,
+  "fps": 20,
+  "frame_stride": 1,
+  "play_speed": 0.25,
+  "target_xy_m": [
+    -0.028811706280353844,
+    -0.06821733536142133
+  ],
+  "final_error_mm": 1.3803905609331313,
+  "success_30": true,
+  "success_100": true,
+  "chart_semantics": {
+    "current": "chart selected from the pre-action measured history",
+    "requested_next": "next chart on the graph route toward the goal chart",
+    "measured_next": "chart selected at the following control step after applying the action"
+  },
+  "contextual_run": true,
+  "contextual_trigger_step": 59,
+  "contextual_usage_fraction_displayed": 0.41,
+  "controller": "DeePC with offline contextual-cluster rank-60 basis",
+  "fitted_dynamics_model": false
+}

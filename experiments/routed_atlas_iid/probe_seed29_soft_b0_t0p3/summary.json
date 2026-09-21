@@ -1,0 +1,111 @@
+{
+  "method": "offline_chart_transition_graph_with_local_atlas_control",
+  "config": {
+    "clusters": 64,
+    "route_mode": "waypoint_mpc",
+    "edge_count_threshold": 3,
+    "route_horizon": 10,
+    "target_horizon": 12,
+    "near_horizon": 3,
+    "target_switch_distance": 0.1,
+    "goal_chart_handoff": true,
+    "latch_local_controller": true,
+    "goal_chart_override": 0,
+    "goal_chart_candidates": 400,
+    "goal_charts": 2,
+    "local_controller_mode": "soft",
+    "soft_temperature": 0.3,
+    "soft_top_charts": 4,
+    "edge_action_scale": 1.0,
+    "hybrid_edge_blend": 0.35,
+    "schedule_iterations": 3,
+    "q_xy": 100000.0,
+    "q_dq": 20.0,
+    "q_data_goal_joint": 5000.0,
+    "r": 0.0001,
+    "lam_du": 5.0,
+    "u_limit": 1.0,
+    "steps": 240,
+    "seed": 1
+  },
+  "fairness_audit": {
+    "data_seed_range": [
+      2026,
+      2225
+    ],
+    "offline_stabilized_episode_count": 0,
+    "offline_transient_within_1cm_count": 62,
+    "offline_best_tail_mean": 0.02933142624102928,
+    "held_out_targets": {
+      "29": {
+        "target": [
+          -0.0424688156305367,
+          -0.047908559249368154
+        ],
+        "nearest_offline_target_distance": 0.014199332246758376,
+        "nearest_offline_seed": 2142
+      }
+    }
+  },
+  "graph_edge_count": 623,
+  "results": [
+    {
+      "clusters": 64,
+      "route_mode": "waypoint_mpc",
+      "edge_count_threshold": 3,
+      "route_horizon": 10,
+      "target_horizon": 12,
+      "near_horizon": 3,
+      "target_switch_distance": 0.1,
+      "goal_chart_handoff": true,
+      "latch_local_controller": true,
+      "goal_chart_override": 0,
+      "goal_chart_candidates": 400,
+      "goal_charts": 2,
+      "local_controller_mode": "soft",
+      "soft_temperature": 0.3,
+      "soft_top_charts": 4,
+      "edge_action_scale": 1.0,
+      "hybrid_edge_blend": 0.35,
+      "schedule_iterations": 3,
+      "q_xy": 100000.0,
+      "q_dq": 20.0,
+      "q_data_goal_joint": 5000.0,
+      "r": 0.0001,
+      "lam_du": 5.0,
+      "u_limit": 1.0,
+      "steps": 240,
+      "seed": 29,
+      "minimum": 0.061845875200896384,
+      "minimum_step": 22,
+      "last": 0.0777270380265087,
+      "mean_last_30": 0.07772703802650867,
+      "max_last_30": 0.0777270380265087,
+      "mean_last_100": 0.0777270380265087,
+      "max_last_100": 0.0777270380265087,
+      "success_30": false,
+      "success_100": false,
+      "mean_prediction_error_xy": 0.003956802674661452,
+      "charts_visited": 10,
+      "goal_chart": 29,
+      "statuses": {
+        "optimal": 240
+      },
+      "action_sources": {
+        "near_target_mpc": 229,
+        "route_mpc": 11
+      },
+      "online_trajectory_retrieval": false,
+      "use_ik_ref": false,
+      "feedback_blend": 0.0,
+      "feedback_fallback": false,
+      "data_goal_index": 13076,
+      "data_goal_xy_error": 0.0022105211981324987,
+      "data_goal_source_seed": 2095,
+      "data_goal_source_target_distance": 0.1826146033669907,
+      "data_goal_chart": 0,
+      "data_goal_chart_count": 2,
+      "result_path": "experiments/routed_atlas_iid/probe_seed29_soft_b0_t0p3/seed29_control_results.npz"
+    }
+  ]
+}

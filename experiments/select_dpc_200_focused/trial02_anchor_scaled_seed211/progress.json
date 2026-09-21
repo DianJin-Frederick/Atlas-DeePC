@@ -1,0 +1,32 @@
+{
+  "updated": "2026-09-16T22:10:44-05:00",
+  "seed": 211,
+  "step": 200,
+  "requested_steps": 320,
+  "current_error_mm": 9.274828659128053,
+  "last30_mean_error_mm": 9.826234520672921,
+  "last30_max_error_mm": 10.592882743442104,
+  "last_diagnostic": {
+    "prediction_error_mm": 0.373052969503984,
+    "objective_terms": {
+      "tracking": 0.31035135987838003,
+      "effort": 0.0013430871420581018,
+      "slack": 5.891921439579682e-10,
+      "coefficient_l1": 0.177281674527634,
+      "projection": 0.0010232858508711445
+    },
+    "past_xy_slack_mm": 7.055806845102391e-11,
+    "past_posture_slack": 4.115439302395592e-15
+  },
+  "success": null,
+  "success_30": true,
+  "success_100": false,
+  "final100_mm": 12.774799987360696,
+  "common_task_cost": 10832.660152187955,
+  "unsolved_subproblems": 7,
+  "subproblems": 1000,
+  "median_compute_ms": 2764.163250103593,
+  "p99_compute_ms": 6432.373870066368,
+  "max_compute_ms": 6663.017417071387,
+  "input_bound_violations": 0
+}

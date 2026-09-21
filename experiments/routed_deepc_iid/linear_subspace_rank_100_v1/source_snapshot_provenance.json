@@ -1,0 +1,17 @@
+{
+  "reason": "Live baseline changed in shared workspace after sweep launch; preserve original protocol without reverting current baseline.",
+  "snapshot_src": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/linear_subspace_rank_100_v1/frozen_protocol/src",
+  "all_manifest_source_hashes_match": true,
+  "source_sha256": {
+    "linear_subspace_rank_ablation.py": "d51c70dfa72e04dd655a1fe8fe5f8aa11c6014fd10a2057fe3de1f78b20d5c61",
+    "baseline_atlas_deepc.py": "477d666a6b1fd5ee1f19d34bf6c394a271d4e3483ec053d3cd78210102d83be2",
+    "routed_deepc_experiment.py": "e645d6d4d5580b1c1b89d6fc7d39f83540930c16a5c618a512262ee2657d364e",
+    "candidate_goal_routing_experiment.py": "c6206d3a431ab97d74687606947ab5118f674575425ccba23018d0c577e47da5",
+    "expert_pipeline_search.py": "af755ae96e68ee2fddd54b70b2dde203d80c802b62c808edac26f2f6e0042d98",
+    "stitched_atlas_mpc_experiment.py": "a00e8af0ee444e8c1456ad4be4fc06a9597acec2f75b65c480eb8dd32d3361be",
+    "baseline_1000_benchmark.py": "07b19ca4619c0a96321c5a0824adcc2a5b6dbda30a0a5a15c784448182180f6a"
+  },
+  "original_baseline_version": "linear_iterative_n10_v1",
+  "original_lambda_g": 0.05,
+  "rank34_checkpoints_revalidated": 100
+}
