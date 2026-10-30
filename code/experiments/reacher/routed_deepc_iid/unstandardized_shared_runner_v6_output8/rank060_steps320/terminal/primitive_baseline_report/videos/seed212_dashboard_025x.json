@@ -1,0 +1,43 @@
+{
+  "renderer_sha256": "113b31780741bc766de8ed5af1d71be15f3d9b045c67fab539712429c3d1b243",
+  "source_result": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/seed212_control_results.npz",
+  "source_result_sha256": "2ada6d45f58dd68769830470dd689712fd0bfbfe7177eecd8ab715cbc9ac8f98",
+  "source_atlas": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/behavioral_atlas.npz",
+  "source_atlas_sha256": "9792dc5347344e63db29a1e1582d9e9c1fa3d9c7c908267fff4d2e4661715d96",
+  "output_video": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/primitive_baseline_report/videos/seed212_dashboard_025x.mp4",
+  "poster": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/primitive_baseline_report/videos/seed212_dashboard_025x_poster.png",
+  "seed": 212,
+  "saved_control_steps": 320,
+  "displayed_control_steps": 96,
+  "rendered_frames": 431,
+  "fps": 50,
+  "frame_stride": 1,
+  "play_speed": 0.25,
+  "target_xy_m": [
+    -0.13065893533013578,
+    -0.14404517964643176
+  ],
+  "final_error_mm": 2.625491654218329,
+  "success_30": true,
+  "success_100": true,
+  "chart_semantics": {
+    "current": "chart selected from the pre-action measured history",
+    "requested_next": "unused: terminal-reference-only mode",
+    "measured_next": "chart selected at the following control step after applying the action"
+  },
+  "contextual_run": false,
+  "graph_waypoints_used": false,
+  "arm_legend_location": "lower left",
+  "noise_sd_ratio": null,
+  "lam_g": 0.05,
+  "true_arm_displayed": false,
+  "noisy_fingertip_displayed": false,
+  "error_panel_limit_mm": null,
+  "contextual_trigger_step": -1,
+  "contextual_usage_fraction_displayed": 0.0,
+  "controller": "DeePC behavioral column combination",
+  "fitted_dynamics_model": false,
+  "physical_control_dt_s": 0.02,
+  "physical_play_speed": 0.25,
+  "clip_rule": "Settled successes only; all failures retain 320 steps."
+}

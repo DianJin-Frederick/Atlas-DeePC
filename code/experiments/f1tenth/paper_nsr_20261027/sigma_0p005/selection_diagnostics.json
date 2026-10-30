@@ -1,0 +1,48 @@
+[
+  {
+    "method": "atlas_k14_d60",
+    "config": {
+      "clusters": 14,
+      "rank": 60,
+      "lam_ini": 100.0,
+      "weights": "position"
+    },
+    "past_ranks": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "chart_counts": [
+      4405,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tie_fraction": 1.0,
+    "switch_fraction": 0.0,
+    "maximum_residual": 2.840334326305124e-14,
+    "partial_history_success": 18,
+    "median_rmse_cm": 5.352476795503499
+  }
+]

@@ -1,0 +1,31 @@
+\documentclass[10pt]{article}
+\usepackage[landscape,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{times}
+\pagestyle{empty}
+\begin{document}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Graph guidance & No & Yes & No & Yes \\
+\midrule
+Success rate $\uparrow$ & $76\%$ & $82\%$ & $72\%$ & $\mathbf{92\%}$ \\
+Median error (mm) $\downarrow$ & 2.20 & 2.43 & 1.96 & \textbf{1.91} \\
+90th-percentile error (mm) $\downarrow$ & 53.199 & 51.572 & 320.623 & \textbf{4.157} \\
+95th-percentile error (mm) $\downarrow$ & 191.910 & 81.643 & 341.097 & \textbf{22.439} \\
+99th-percentile error (mm) $\downarrow$ & 261.885 & 119.857 & 363.462 & \textbf{59.764} \\
+\midrule
+\multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+Median & 27.99 & 26.67 & 27.61 & 27.09 \\
+95th percentile & 44.23 & 34.06 & 35.63 & 35.61 \\
+99th percentile & 62.99 & 52.36 & 53.85 & 52.83 \\
+\bottomrule
+\end{tabular}
+\caption{Four basic Reacher cases with $\lambda_g=0$ and CLARABEL, evaluated on 100 seeds (211--310). Errors summarize the final-100 mean error across seeds. Timings pool online steps after discarding the first five per rollout. Unguided cases use one fixed nearest terminal configuration; guided cases retain iterative $N=10$ terminal selection. Graph edge costs use chordal subspace distance divided by the square root of the transition count.}
+\label{tab:basic-cases-clarabel-lamg0}
+\end{table}
+\end{document}

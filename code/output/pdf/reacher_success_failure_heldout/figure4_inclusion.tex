@@ -1,0 +1,18 @@
+% Copy the accompanying PDF into the manuscript's figures directory.
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/reacher_success10413_failure10415_p8_rank53.pdf}
+    \caption{Successful (seed~10024) and failed (seed~10061)
+    held-out Atlas-DeePC rollouts with $p=8$, rank-53 behavioral charts,
+    $K=64$, and no graph guidance over 300 controlled steps.
+    (a) Fingertip path and arm configurations
+    at chart switches; each visited chart is labeled at its first appearance.
+    (b) Initial and final measured configurations and three predicted
+    configurations from the optimization at $t=100$; predicted configurations
+    need not satisfy the arm's kinematic constraints.
+    (c) Selected chart indices. (d) Fingertip tracking errors on a logarithmic scale.
+    Orange solid and blue dashed curves denote success and failure, respectively;
+    ellipses indicate omitted steps between 100 and 297. Both seeds belong to the held-out
+    set 10001--10500.}
+    \label{fig:reacher-heldout-success-failure}
+\end{figure}

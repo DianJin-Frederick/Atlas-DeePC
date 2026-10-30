@@ -1,0 +1,85 @@
+{
+  "regions": [
+    {
+      "region": 0,
+      "q1_circular_resultant": 0.9832214652324568,
+      "xy_std_mm": [
+        75.71087083900454,
+        65.80681259424847
+      ],
+      "source_episode_min": 0,
+      "source_episode_max": 93
+    },
+    {
+      "region": 1,
+      "q1_circular_resultant": 0.9831217841275811,
+      "xy_std_mm": [
+        78.73722287194303,
+        80.29277657923168
+      ],
+      "source_episode_min": 3,
+      "source_episode_max": 63
+    },
+    {
+      "region": 2,
+      "q1_circular_resultant": 0.9838449415035434,
+      "xy_std_mm": [
+        68.84527873680459,
+        78.89401053710179
+      ],
+      "source_episode_min": 2,
+      "source_episode_max": 87
+    },
+    {
+      "region": 3,
+      "q1_circular_resultant": 0.9831381736161532,
+      "xy_std_mm": [
+        85.73006394498638,
+        61.13421582958844
+      ],
+      "source_episode_min": 3,
+      "source_episode_max": 46
+    },
+    {
+      "region": 4,
+      "q1_circular_resultant": 0.9795391246080196,
+      "xy_std_mm": [
+        85.87643707479053,
+        65.57630933303149
+      ],
+      "source_episode_min": 0,
+      "source_episode_max": 66
+    },
+    {
+      "region": 5,
+      "q1_circular_resultant": 0.9825464472578813,
+      "xy_std_mm": [
+        74.19391179612595,
+        86.22430075764085
+      ],
+      "source_episode_min": 0,
+      "source_episode_max": 102
+    },
+    {
+      "region": 6,
+      "q1_circular_resultant": 0.9827887818589798,
+      "xy_std_mm": [
+        64.73735240228159,
+        74.14833580492368
+      ],
+      "source_episode_min": 2,
+      "source_episode_max": 94
+    },
+    {
+      "region": 7,
+      "q1_circular_resultant": 0.9864559441248208,
+      "xy_std_mm": [
+        87.9410380816684,
+        67.52757908654455
+      ],
+      "source_episode_min": 3,
+      "source_episode_max": 172
+    }
+  ],
+  "caveat": "Broad geometry is a diagnostic, not proof of predictive invalidity. Overlapping windows are not independent samples."
+}

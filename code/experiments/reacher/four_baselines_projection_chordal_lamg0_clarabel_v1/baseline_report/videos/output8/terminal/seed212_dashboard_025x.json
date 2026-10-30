@@ -1,0 +1,43 @@
+{
+  "renderer_sha256": "312127e12b8a6725aa577d04edab912e6380a61fe62651af4307643833ab61ff",
+  "source_result": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_projection_chordal_lamg0_clarabel_v1/output8/terminal/seed212_control_results.npz",
+  "source_result_sha256": "53e123d28a1636fea061de3ee4c4146b9dc875a6ba44d8976e17e8c391c89dcc",
+  "source_atlas": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_projection_chordal_lamg0_clarabel_v1/output8/behavioral_atlas.npz",
+  "source_atlas_sha256": "9792dc5347344e63db29a1e1582d9e9c1fa3d9c7c908267fff4d2e4661715d96",
+  "source_graph_geometry_sha256": null,
+  "graph_cost_method": "not_used",
+  "chart_selection_method": "full_window_projection",
+  "output_video": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_projection_chordal_lamg0_clarabel_v1/baseline_report/videos/output8/terminal/seed212_dashboard_025x.mp4",
+  "poster": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_projection_chordal_lamg0_clarabel_v1/baseline_report/videos/output8/terminal/seed212_dashboard_025x_poster.png",
+  "seed": 212,
+  "saved_control_steps": 320,
+  "displayed_control_steps": 101,
+  "rendered_frames": 226,
+  "fps": 25,
+  "frame_stride": 2,
+  "play_speed": 0.25,
+  "target_xy_m": [
+    -0.13065893533013578,
+    -0.14404517964643176
+  ],
+  "final_error_mm": 2.179408917971497,
+  "success_30": true,
+  "success_100": true,
+  "chart_semantics": {
+    "current": "chart selected from the pre-action measured history",
+    "requested_next": "unused: terminal-reference-only mode",
+    "measured_next": "chart selected at the following control step after applying the action"
+  },
+  "contextual_run": false,
+  "graph_waypoints_used": false,
+  "arm_legend_location": "lower left",
+  "noise_sd_ratio": null,
+  "lam_g": 0.0,
+  "true_arm_displayed": false,
+  "noisy_fingertip_displayed": false,
+  "error_panel_limit_mm": null,
+  "contextual_trigger_step": -1,
+  "contextual_usage_fraction_displayed": 0.0,
+  "controller": "DeePC behavioral column combination",
+  "fitted_dynamics_model": false
+}

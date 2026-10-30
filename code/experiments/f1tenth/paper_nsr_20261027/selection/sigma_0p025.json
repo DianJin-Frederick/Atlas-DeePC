@@ -1,0 +1,68 @@
+{
+  "sigma": 0.025,
+  "method": "atlas_k3_d68",
+  "config": {
+    "clusters": 3,
+    "rank": 68,
+    "lam_ini": 100.0,
+    "weights": "position"
+  },
+  "development_result": {
+    "method": "atlas_k3_d68",
+    "label": "Atlas-DeePC (K=3, d=68)",
+    "evaluated": 20,
+    "collision_free_laps": 0,
+    "geometric_laps": 16,
+    "median_rmse_cm": null,
+    "geometric_median_rmse_cm": 38.0510881404327,
+    "median_speed_rmse_mps": null,
+    "median_lap_fraction": 1.001918771985929,
+    "terminations": {
+      "lap_completed": 16,
+      "track_corridor_exit": 4
+    },
+    "timing": {
+      "median_ms": 3.6133750109001994,
+      "p99_ms": 7.271838027518247,
+      "max_ms": 25.321625056676567,
+      "calls": 4167
+    },
+    "config": {
+      "clusters": 3,
+      "rank": 68,
+      "lam_ini": 100.0,
+      "weights": "position"
+    },
+    "development_source": "paper_nsr_20261027/development/sigma_0p025/coarse/final20"
+  },
+  "development_reference": {
+    "method": "contextual90",
+    "label": "Contextual-DPC (90 columns)",
+    "evaluated": 20,
+    "collision_free_laps": 0,
+    "geometric_laps": 20,
+    "median_rmse_cm": null,
+    "geometric_median_rmse_cm": 24.571761862972266,
+    "median_speed_rmse_mps": null,
+    "median_lap_fraction": 1.001918771985929,
+    "terminations": {
+      "lap_completed": 20
+    },
+    "timing": {
+      "median_ms": 13.837167003657669,
+      "p99_ms": 20.871262507280356,
+      "max_ms": 83.33883399609476,
+      "calls": 4254
+    },
+    "config": {
+      "columns": 90,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    }
+  },
+  "development_target_reached": false,
+  "target_interpretable": false,
+  "frozen_before_paper_seeds": true
+}

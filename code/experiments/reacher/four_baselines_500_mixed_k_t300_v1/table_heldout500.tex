@@ -1,0 +1,57 @@
+% Requires graphicx, booktabs, caption, and xcolor, plus preamble declarations:
+% \usepackage{xcolor}
+% \newlength{\tabw}
+% \newlength{\colgap}
+% \newsavebox{\reachertabbox}
+\begin{table*}[t]
+    \setlength{\tabw}{0.55\textwidth}
+    \setlength{\colgap}{1.5em}
+    \sbox{\reachertabbox}{%
+        \resizebox{\tabw}{!}{%
+        \small
+        \setlength{\tabcolsep}{3pt}%
+        \setlength{\fboxsep}{5pt}%
+        \renewcommand{\arraystretch}{1.08}%
+        \colorbox{black!4}{%
+        \begin{tabular}{@{}lrrrr@{}}
+        \toprule
+        Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+        \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+        Graph guidance & No & Yes & No & Yes \\
+        \midrule
+        Charts $K$ & 64 & 96 & 80 & 64 \\
+        Selected rank & 53 & 57 & 64 & 62 \\
+        Successes / 500 & 450 & 471 & 419 & \textbf{494} \\
+        Success rate & 90.0\% & 94.2\% & 83.8\% & \textbf{98.8\%} \\
+        Median error (mm) & 1.81 & 1.86 & \textbf{1.51} & 1.92 \\
+        90th percentile error (mm) & 10.05 & 4.61 & 232.29 & \textbf{3.81} \\
+        95th percentile error (mm) & 218.27 & 12.12 & 296.36 & \textbf{4.63} \\
+        99th percentile error (mm) & 299.30 & 48.23 & 371.37 & \textbf{10.62} \\
+        Median rollout RMSE (mm) & \textbf{55.81} & 76.66 & 57.18 & 62.64 \\
+        \midrule
+        \multicolumn{5}{@{}l}{\textit{Median online computation time (ms/step)}} \\
+        Chart selection & 0.16 & 0.21 & 0.22 & 0.19 \\
+        Graph guidance & --- & 0.02 & --- & 0.02 \\
+        QP construction and solve & 19.81 & 19.65 & 22.77 & 22.41 \\
+        Other control-loop work & 0.03 & 0.03 & 0.03 & 0.03 \\
+        Total & 20.01 & 19.92 & 23.03 & 22.65 \\
+        \bottomrule
+        \end{tabular}}}}%
+    \centering
+    \begin{minipage}[t]{\tabw}
+        \vspace{0pt}
+        \usebox{\reachertabbox}
+        \caption{Atlas-DeePC performance and computational cost on 500 test rollouts comparing output dimensions and graph guidance. Error statistics summarize final-30 mean fingertip errors; rollout RMSE uses all 300 steps. Chart selection measures the time spent computing projection residuals and selecting the active behavioral chart.}
+        \label{tab:reacher-heldout500}
+    \end{minipage}\hspace{\colgap}%
+    \begin{minipage}[t]{\dimexpr\textwidth-\tabw-\colgap\relax}
+        \vspace{0pt}
+        \centering
+        \includegraphics
+            [height=\dimexpr\ht\reachertabbox+\dp\reachertabbox\relax,
+             width=\linewidth, keepaspectratio]
+            {figures/recursive_term_ref.pdf}
+        \captionof{figure}{Graph-guided reference selection. Intermediate and terminal poses are updated as the current chart changes.}
+        \label{fig:recursive-term-ref}
+    \end{minipage}
+\end{table*}

@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrrr}
+        \toprule
+        Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+        \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+        Graph guidance & No & Yes & No & Yes \\
+        \midrule
+        Selected rank & 57 & 57 & 54 & 45 \\
+        Success rate $\uparrow$ & 89\% & 95\% & 85\% & \textbf{96\%} \\
+        Median error (mm) $\downarrow$ & \textbf{1.67} & 2.18 & 2.54 & 3.17 \\
+        90th-percentile error (mm) $\downarrow$ & 15.535 & \textbf{4.675} & 206.489 & 6.984 \\
+        95th-percentile error (mm) $\downarrow$ & 114.062 & \textbf{5.961} & 274.268 & 8.886 \\
+        99th-percentile error (mm) $\downarrow$ & 302.095 & \textbf{43.118} & 382.830 & 57.782 \\
+        Median rollout RMSE (mm) $\downarrow$ & 61.07 & 79.66 & \textbf{54.83} & 66.13 \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+        Median & 20.49 & 20.33 & 21.61 & 19.43 \\
+        95th percentile & 23.60 & 23.16 & 25.16 & 22.51 \\
+        99th percentile & 45.50 & 44.66 & 47.70 & 45.39 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Best observed ranks with $K=96$ on 100 development seeds. Ranks maximize success, then minimize median rollout RMSE, then rank. Detailed data and serial timings come from fresh selected-rank reruns. Selection and reporting share exploratory seeds, not a held-out test set.}
+    \label{tab:best-ranks-k96-compact}
+\end{table}

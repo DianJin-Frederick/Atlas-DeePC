@@ -1,0 +1,162 @@
+{
+  "seeds": [
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550
+  ],
+  "methods": [
+    "atlas_k10_d44",
+    "contextual",
+    "contextual60",
+    "contextual90"
+  ],
+  "configurations": {
+    "atlas_k10_d44": {
+      "clusters": 10,
+      "rank": 44,
+      "lam_ini": 100.0,
+      "weights": "position"
+    },
+    "contextual": {
+      "columns": 30,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    },
+    "contextual60": {
+      "columns": 60,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    },
+    "contextual90": {
+      "columns": 90,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    }
+  },
+  "t_ini": 5,
+  "t_f": 10,
+  "dt": 0.1,
+  "Q_physical": [
+    100.0,
+    100.0,
+    1.0,
+    1.0
+  ],
+  "R_physical": [
+    0.1,
+    10.0
+  ],
+  "chart_selection_method": "past_window_projection",
+  "selection_window": 5,
+  "warmup_steps": 15,
+  "warmup": "Shared 1.5 m lookahead reference follower for L observed history pairs only; identical noisy measurements/actions for each seed across methods. Excluded from controller metrics; included in collision replay. No fallback after handoff.",
+  "selection_coordinates": "Latest T_ini observed inputs/outputs, aligned to latest output pose; Euclidean projection onto the past rows [Up; Yp] of each unchanged full chart basis. Remove exact zero anchor x/y/yaw rows before SVD and embed the orthonormal basis back into 30 rows with exact zero anchor rows, for selection only. Fixed relative rank tolerance 1e-10. Explicit residual; smallest chart ID breaks numerical ties. Same 15-step initializer as full-window baseline. Full bases and QP unchanged.",
+  "hashes": {
+    "src/atlas_deepc/f1tenth/task.py": "6e4af020d328d13e206451d2df3e4af4d7aba5cf82df2968dbcb1b01aa7be0f6",
+    "src/atlas_deepc/f1tenth/runner.py": "26e535b6bad460b2f719208280678fb2d82df8c9dd8b342c0577f94248fbe04f",
+    "src/atlas_deepc/f1tenth/controller.py": "e6a68bf25c992127f8ad7d3906c87afbc8b31a9ae765740e1b9ca5d9997417a6",
+    "src/atlas_deepc/f1tenth/raceline.py": "ce8e2a7b9f6cee56e2de8d8ee6bb614eed0f7efd14116eadcac5b5de6bc2b6b6",
+    "src/atlas_deepc/f1tenth/config.py": "8d2cc6149a14a12fa58319073fc4defbf9c8a74d7c7fdd621a0dba8b59530ba5",
+    "src/atlas_deepc/f1tenth/paths.py": "9f71d93b84965b43a1b1e234947459ecbd5e7f01b2f0eeb04843999662a95adc",
+    "src/atlas_deepc/f1tenth/contextual.py": "252dcc8fcc8bdb060c2722cd40ffa32eae711317aa3a45c189b660e3a8458b21",
+    "src/atlas_deepc/f1tenth/__init__.py": "86d29309398c6f7fa625d6233c7159f0763acebc1c4f3d5d74c3e8ae5d582c87",
+    "src/atlas_deepc/f1tenth/replay.py": "7e48165958a00d016af844f9aa2e3a88d5892d5358cfc888846c3ee107267843",
+    "src/atlas_deepc/f1tenth/noise_sweep.py": "c1bb4d5d591fb9f52f8991e741205ab9c76259d27a17337ee41eccf4b67a6ad1",
+    "src/atlas_deepc/f1tenth/partial_selection.py": "b60205c4d58891a4a8d62fd9b759bae31fe7c27a5ddb08925d679297449bddd5",
+    "src/atlas_deepc/f1tenth/atlas.py": "e846863562648afef21010316ed2ea61585b71f6af0d8bb2ea687115997b6895",
+    "src/atlas_deepc/f1tenth/partial_experiment.py": "0272d13606363746e00a208731b749438609c6f71b5692277fa7d197e8de3134",
+    "src/atlas_deepc/f1tenth/__main__.py": "320e01bc7e7228a4c49c0ab99dbf2fcda85452ab9597c72b24f15c92cbc48da0",
+    "src/atlas_deepc/f1tenth/data.py": "2627cc64e58ecede3a5e22c3bdc91a98a47e2150b850fbb41816ac7f7d925311",
+    "src/atlas_deepc/f1tenth/reporting.py": "1159754e21e5c585ce8b79625bfd9e03abb1bb740c4a30aac4190678b5b724a0",
+    "src/atlas_deepc/f1tenth/outputs.py": "10415f38a8e9295dc9d95ea47dc5449f8db0c7e79d2c10f46304e41f13392e5a",
+    "src/atlas_deepc/f1tenth/validation.py": "68e860998cd3becac25a10f9e58540f5a810f7891637d202b1a5830c22e80e00",
+    "src/atlas_deepc/atlas/kmeans.py": "b72338d8cc4aaec4b629ab14d90abc1901314131873ac2d98f5998c60b6b170e",
+    "src/atlas_deepc/atlas/chart_selection.py": "5e2bece4d1a979266ef6736d2e62266bf3e450a20411c9c82ff5b8d2793d18f1",
+    "src/atlas_deepc/control/expert_pipeline_search.py": "f5f98819452e8cfd506683d3b8118ce201ae9278020cb8d5d715ca520267d019",
+    "src/atlas_deepc/benchmarks/contextual_dpc_reacher.py": "ff0976540a029f506cf72e3766fc3cf645388b14b8b488c40e62e4366da6feb7",
+    "data/f1tenth/offline_300_seconds_sigma_0p01_seed3408.npz": "bfd364778d5e986fe8744ee696af08c5fcab2e8ae0f1a6d9e6c7c48c046c50cf",
+    "data/f1tenth/offline_300_seconds.npz": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146",
+    "data/f1tenth/example_waypoints.csv": "ff8b4cf0317009661b2a09046823b199fc85deae4a47b5b1da8ac620d994de0d",
+    "data/f1tenth/maps/example_map.png": "7b77de5e7aff40c35172db9b57a78ece8e468b167b8edd2082e7b13ba4c980e4",
+    "data/f1tenth/maps/example_map.yaml": "11d7fb0ffe281e22ba9e6607c8571048de5ff5bc92c09fa78fe6deb332aa605c"
+  },
+  "noise_model": {
+    "sigma": 0.01,
+    "signal_scale": [
+      15.231811167469669,
+      16.198279997774737,
+      1.6326426790134136,
+      1.594176059123707
+    ],
+    "std": [
+      0.1523181116746967,
+      0.16198279997774737,
+      0.016326426790134137,
+      0.015941760591237072
+    ],
+    "definition": "sigma = noise standard deviation / clean offline channel standard deviation (population std, global x/y/speed/unwrapped yaw); same fixed physical std offline and online",
+    "noise_to_signal_power_ratio": 0.0001,
+    "snr_db": 40.0,
+    "offline_seed": 3408,
+    "clean_source_sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146"
+  },
+  "offline_data_file": "data/f1tenth/offline_300_seconds_sigma_0p01_seed3408.npz",
+  "reference": "Official unscaled varying-speed Sao Paulo raceline; example_waypoints.csv.",
+  "data": "Local contextual-DPC reconstruction: 300 s, 20 random-excitation episodes. Output measurements receive the online Gaussian noise model before alignment, clustering and window extraction; both methods share the same noisy observations. Not the authors recorded dataset.",
+  "offline_measurement_noise": {
+    "seed": 3408,
+    "std": [
+      0.1523181116746967,
+      0.16198279997774737,
+      0.016326426790134137,
+      0.015941760591237072
+    ],
+    "distribution": "independent zero-mean Gaussian",
+    "application": "Once per original sample in global coordinates, before alignment and clustering; overlapping windows reuse the same noisy sample; inputs unchanged"
+  },
+  "online_measurement_noise": {
+    "std": [
+      0.1523181116746967,
+      0.16198279997774737,
+      0.016326426790134137,
+      0.015941760591237072
+    ],
+    "distribution": "independent zero-mean Gaussian"
+  },
+  "atlas": "K and rank from configurations; shared raw speed clustering and nested uncentered SVD bases within each K. Fixed lambda_ini=100 and physical Q/R; squared tracking/input/history-slack QP, no g regularization or coefficient constraints. No K/rank-specific retuning.",
+  "contextual": "Selected column count from configurations; fixed effective lambda_g=10, lambda_sigma=1, literal unsquared g norm, L1 augmented-output history slack, affine constraint, input-difference penalty and standardized coordinates; local reconstruction. No count-specific retuning.",
+  "plant": "Single-track dynamics; ideal steering-angle actuator assumption; RK4 at .01 s, controls at .1 s.",
+  "timing": "One numerical thread; reference, selection, assembly, solver setup and solve; first five calls excluded. Offline preprocessing, plant, logging and replay excluded.",
+  "collision": "Simulator collision flag at every .01 s substep with replay-state agreement <1e-9; a full geometric lap is also required.",
+  "partial_rank_relative_tolerance": 1e-10,
+  "requested_methods": [
+    "atlas_k10_d44",
+    "contextual",
+    "contextual60",
+    "contextual90"
+  ],
+  "skipped_configurations": []
+}

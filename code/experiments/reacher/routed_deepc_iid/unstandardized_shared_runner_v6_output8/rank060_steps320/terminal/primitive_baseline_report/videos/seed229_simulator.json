@@ -1,0 +1,13 @@
+{
+  "result_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/seed229_control_results.npz",
+  "video_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/primitive_baseline_report/videos/seed229_simulator.mp4",
+  "seed": 229,
+  "actions": 320,
+  "warmup_zeros": 2,
+  "fps": 50,
+  "frame_stride": 1,
+  "maximum_replay_output_error": 0.0,
+  "environment": "Reacher-v5",
+  "source_result_sha256": "09b1c3c63f3ab2a047dd1033fa72d88cc8869f937bfd23d1d26e0506d0bca162",
+  "physical_play_speed": 1.0
+}

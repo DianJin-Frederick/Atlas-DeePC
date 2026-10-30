@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "seed": 10024,
+      "p": 8,
+      "rank": 53,
+      "K": 64,
+      "steps": 300,
+      "graph_guidance": false,
+      "strict_success": true,
+      "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10024_control_results.npz",
+      "sha256": "6c651edab224973e8d55ccb948b846057381c44ae8aadfe25538c5a8b2cd9aeb",
+      "chart_sequence": [
+        38,
+        17,
+        59,
+        57,
+        54
+      ],
+      "switch_control_steps": [
+        13,
+        19,
+        25,
+        37
+      ],
+      "replay_verified": true,
+      "mean_error_last_30_mm": 0.6759533634675168,
+      "max_error_last_30_mm": 0.6759533640158921,
+      "mean_error_last_100_mm": 0.6759534939331153,
+      "max_error_last_100_mm": 0.6759546640405527,
+      "time_axis_omitted_interval": [
+        100,
+        297
+      ]
+    },
+    {
+      "seed": 10061,
+      "p": 8,
+      "rank": 53,
+      "K": 64,
+      "steps": 300,
+      "graph_guidance": false,
+      "strict_success": false,
+      "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10061_control_results.npz",
+      "sha256": "2abe195042dbaad0a8d3438336ff0f419605e6b0d5a831e1b5b4c6d58bc9d40e",
+      "chart_sequence": [
+        38
+      ],
+      "switch_control_steps": [],
+      "replay_verified": true,
+      "mean_error_last_30_mm": 294.5056421148614,
+      "max_error_last_30_mm": 294.50564211486153,
+      "mean_error_last_100_mm": 294.50564211487944,
+      "max_error_last_100_mm": 294.5056421150635,
+      "prediction_panel": {
+        "solve_time": 100,
+        "horizon_indices": [
+          0,
+          1,
+          4
+        ],
+        "predicted_times": [
+          100,
+          101,
+          104
+        ],
+        "predicted_fingertip_errors_mm": [
+          190.04447832783865,
+          124.75770780044293,
+          4.468774075593349
+        ],
+        "first_input_match_max_abs": 1.8954228017815358e-13,
+        "first_output_match_max_abs": 7.491953021507292e-13,
+        "geometry": "Raw predicted outputs: elbow=10*(y(1),y(3)) cm, fingertip=100*(y(7),y(8)) cm. No normalization or kinematic projection. Not necessarily physically valid."
+      },
+      "time_axis_omitted_interval": [
+        100,
+        297
+      ]
+    }
+  ],
+  "selection": "Illustrative held-out examples selected after inspecting outcomes; not a random sample. Success seed 10024 was chosen for a long curved fingertip path with four chart switches and no revisits.",
+  "plotted_data": "Both cases: p=8, rank=53, K=64, no graph guidance.",
+  "layout": "Success pose, smaller failure pose, shared chart and log-error panels.",
+  "time_axis": "Post-action errors 0,...,299; chart-switch poses are pre-action measurements. Shared time panels omit (100,297)."
+}

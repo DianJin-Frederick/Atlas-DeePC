@@ -1,0 +1,55 @@
+\documentclass[10pt]{article}
+\usepackage[landscape,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{times}
+\begin{document}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Number of charts $K$ & 1 & 2 & 4 & 8 & 16 \\
+\midrule
+Selected rank & 53 & 64 & 58 & 54 & 54 \\
+Success rate $\uparrow$ & 4\% & 9\% & 19\% & 47\% & 83\% \\
+Median error (mm) $\downarrow$ & 172.32 & 179.10 & 246.11 & 12.35 & 3.02 \\
+90th-percentile error (mm) $\downarrow$ & 290.311 & 271.550 & 349.654 & 195.878 & 37.029 \\
+95th-percentile error (mm) $\downarrow$ & 318.130 & 373.192 & 361.885 & 219.500 & 42.859 \\
+99th-percentile error (mm) $\downarrow$ & 366.962 & 381.039 & 382.127 & 244.271 & 56.262 \\
+Median rollout RMSE (mm) $\downarrow$ & 182.93 & 198.32 & 246.11 & 113.20 & 60.09 \\
+\midrule
+\multicolumn{6}{l}{\textit{Total online computation time (ms)}} \\
+Median & 31.19 & 33.19 & 32.76 & 31.28 & 29.59 \\
+95th percentile & 45.02 & 43.12 & 43.79 & 41.16 & 39.90 \\
+99th percentile & 65.21 & 64.00 & 64.32 & 62.87 & 58.92 \\
+\bottomrule
+\end{tabular}
+\caption{Chart-count ablation (part 1) for ten-output Atlas-DeePC with graph guidance, $\lambda_g=\lambda_{\Delta u}=0$, $\lambda_{\mathrm{ini}}=10^5$, and Clarabel. The offline dataset and seeds 211--310 are fixed. Each $K$ is reclustered without standardization; ranks use a coarse search and local refinement. Ranks maximize success, breaking ties by lower median rollout RMSE and then lower rank. Selection and reporting use the same exploratory 100 seeds. Errors summarize final-100 mean fingertip error; each rollout RMSE includes all 320 controlled steps. Timings are serial, single-thread reruns, excluding the first five steps. For $K=1$, no inter-chart waypoints exist.}
+\label{tab:chart-count-rank-1}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Number of charts $K$ & 24 & 32 & 48 & 64 \\
+\midrule
+Selected rank & 55 & 60 & 60 & 62 \\
+Success rate $\uparrow$ & 90\% & 90\% & 93\% & 96\% \\
+Median error (mm) $\downarrow$ & 2.47 & 2.26 & 2.09 & 2.19 \\
+90th-percentile error (mm) $\downarrow$ & 7.762 & 10.085 & 5.251 & 4.445 \\
+95th-percentile error (mm) $\downarrow$ & 31.786 & 79.811 & 15.345 & 5.248 \\
+99th-percentile error (mm) $\downarrow$ & 73.465 & 121.519 & 45.576 & 48.879 \\
+Median rollout RMSE (mm) $\downarrow$ & 56.08 & 71.69 & 65.37 & 64.11 \\
+\midrule
+\multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+Median & 29.49 & 30.53 & 29.83 & 30.10 \\
+95th percentile & 37.58 & 42.99 & 41.06 & 40.64 \\
+99th percentile & 57.60 & 59.95 & 58.60 & 59.18 \\
+\bottomrule
+\end{tabular}
+\caption{Chart-count ablation (part 2) for ten-output Atlas-DeePC with graph guidance, $\lambda_g=\lambda_{\Delta u}=0$, $\lambda_{\mathrm{ini}}=10^5$, and Clarabel. The offline dataset and seeds 211--310 are fixed. Each $K$ is reclustered without standardization; ranks use a coarse search and local refinement. Ranks maximize success, breaking ties by lower median rollout RMSE and then lower rank. Selection and reporting use the same exploratory 100 seeds. Errors summarize final-100 mean fingertip error; each rollout RMSE includes all 320 controlled steps. Timings are serial, single-thread reruns, excluding the first five steps. For $K=1$, no inter-chart waypoints exist.}
+\label{tab:chart-count-rank-2}
+\end{table}
+\end{document}

@@ -1,0 +1,34 @@
+{
+  "signature": {
+    "version": "unstandardized_shared_runner_v7",
+    "standardize": false,
+    "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+    "output_dimension": 8,
+    "retained_output_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "runner_sha256": "4c9d5f22316ff1f315e66c3f2b547247dedb2e88e2517d717f54b0511d800c64",
+    "clustering_config": {
+      "clusters": 8,
+      "cluster_seed": 11,
+      "clustering_input_weight": 0.0,
+      "clustering_method": "minibatch_kmeans",
+      "clustering_feature_mode": "plant_joint_configuration",
+      "clustering_subspace_rank": 6,
+      "clustering_max_iter": 20,
+      "clustering_configuration_weight": 1.0,
+      "clustering_velocity_weight": 1.0,
+      "clustering_fingertip_weight": 1.0
+    },
+    "feature_code_sha256": "a8262f7a0865249709e687a0b423dd6b18ff6fefe255bc54ce177ed3ca254720"
+  },
+  "atlas_sha256": "86a15559a3d32080e24caf73a50053732dfd12fe0866cde2184ed68a9c4f9c51",
+  "offline_clustering_and_graph_seconds": 0.02880820799327921
+}

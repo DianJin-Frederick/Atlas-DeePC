@@ -1,0 +1,53 @@
+\begin{table}[htbp]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Metric & Atlas-DeePC & Select-DPC & Contextual DPC ($p=8$ ref.) \\
+\midrule
+Physical output dimension & 8 & 8 & 8 (+2 input augmentation) \\
+Graph guidance & No & No & No \\
+Trajectory representation & Rank 53 (offline) & 200 raw columns & 200 raw columns \\
+Solves per control step & 1 & 5 & 1 \\
+Success rate $\uparrow$ & 88\% & 80\% & 85\% \\
+Median error (mm) $\downarrow$ & 1.99 & 3.34 & 5.91 \\
+90th-percentile error (mm) $\downarrow$ & 28.565 & 34.228 & 10.929 \\
+95th-percentile error (mm) $\downarrow$ & 49.279 & 52.977 & 12.831 \\
+99th-percentile error (mm) $\downarrow$ & 212.037 & 69.981 & 85.311 \\
+Median rollout RMSE (mm) $\downarrow$ & 61.22 & 42.59 & 31.99 \\
+\midrule
+\multicolumn{4}{l}{\textit{Total online computation (ms/step)}} \\
+Mean & 29.55 & 1878.82 & 96.16 \\
+Median & 27.89 & 1599.32 & 92.45 \\
+95th percentile & 37.16 & 3635.38 & 123.17 \\
+99th percentile & 58.42 & 5141.25 & 145.73 \\
+Maximum & 347.18 & 58595.58 & 2752.18 \\
+\midrule
+\multicolumn{4}{l}{\textit{Modular mean computation (ms/step)}} \\
+Data/chart selection & 0.143 & 104.197 & 5.823 \\
+Problem preparation + solve & 29.370 & 1763.872 & 89.762 \\
+Other online work & 0.040 & 10.750 & 0.571 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Reacher comparison on 100 development seeds (211--310), with
+320 control steps per rollout and no graph guidance. Atlas-DeePC uses
+$p=8$ and rank 53; both competing methods use 200 raw trajectory columns.
+Contextual DPC is supplied with the same fixed eight-output terminal
+reference as unguided Atlas-DeePC, with separately tuned normalized-output
+weights $Q=\operatorname{diag}(0.01,0.01,0.01,0.01,0.0001,0.0001,100,100)$;
+posture weights are therefore weak relative to fingertip tracking.
+Success requires mean fingertip error below 10 mm and maximum error below
+20 mm in both the final-30 and final-100 windows. Error quantiles summarize
+per-rollout final-100 mean errors; rollout RMSE includes all 320 steps.
+All rollouts, including failures, are included. Timings pool steps 6--320
+from serial, single-thread runs. Select-DPC timings include all five
+refinements; preparation and solve include modeling and solver setup.
+Offline processing and simulation are excluded; contextual timings also
+exclude loading and construction of the externally supplied reference.
+These are development-set
+results under method-specific data, horizons, initialization, references,
+constraints, and objectives, not a controlled ablation or held-out evaluation.}
+\label{tab:reacher-three-methods-no-graph}
+\end{table}

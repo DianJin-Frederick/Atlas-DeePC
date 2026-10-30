@@ -1,0 +1,83 @@
+{
+  "episodes": 200,
+  "samples_per_episode": 200,
+  "valid_columns_per_region": [
+    5703,
+    1272,
+    991,
+    1437,
+    1598,
+    1009,
+    1052,
+    4600
+  ],
+  "retained_per_region": 200,
+  "active_columns": 400,
+  "composite_regions": 7,
+  "edges_rad": [
+    -3.141592653589793,
+    -2.356194490192345,
+    -1.5707963267948966,
+    -0.7853981633974483,
+    0.0,
+    0.7853981633974483,
+    1.5707963267948966,
+    2.356194490192345,
+    3.141592653589793
+  ],
+  "no_svd_reduction": true,
+  "input_rank_required_at_L": 14,
+  "regions": [
+    {
+      "region": 0,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 5.462232879073777,
+      "unique_source_episodes": 8
+    },
+    {
+      "region": 1,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 6.742322769546338,
+      "unique_source_episodes": 20
+    },
+    {
+      "region": 2,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 5.940962508977863,
+      "unique_source_episodes": 14
+    },
+    {
+      "region": 3,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 5.553950406806088,
+      "unique_source_episodes": 17
+    },
+    {
+      "region": 4,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 5.97005902576257,
+      "unique_source_episodes": 17
+    },
+    {
+      "region": 5,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 6.947800726184294,
+      "unique_source_episodes": 24
+    },
+    {
+      "region": 6,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 6.0096606079603445,
+      "unique_source_episodes": 27
+    },
+    {
+      "region": 7,
+      "input_rank_at_L": 14,
+      "input_min_singular_value": 6.304857265653712,
+      "unique_source_episodes": 9
+    }
+  ],
+  "excitation_caveat": "Full input rank at L is only a necessary diagnostic, not PE at L+n or proof of local LTI validity.",
+  "offline_setup_s": 0.1710451670223847,
+  "problem_construction_s": 0.0025767500046640635
+}

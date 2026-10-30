@@ -1,0 +1,41 @@
+{
+  "seed": 252,
+  "prediction_time": 100,
+  "prediction_times": [
+    101,
+    103,
+    110
+  ],
+  "selected_predicted_errors_mm": [
+    137.01120403056737,
+    45.42174837695053,
+    2.8098432101921165
+  ],
+  "initial_measured_time": 0,
+  "final_measured_time": 320,
+  "initial_pose": [
+    0.9999202101263917,
+    0.9999897492629618,
+    0.012632235779655727,
+    0.004527843747160533,
+    0.0025240648516249974,
+    -0.00269280978783464,
+    0.20997582498831935,
+    0.003150778361381147
+  ],
+  "final_pose": [
+    0.9913631547650581,
+    0.990757617870847,
+    0.1311453215874343,
+    -0.135644176546156,
+    8.524795541759704e-12,
+    -1.3865342969727228e-11,
+    0.209135182126108,
+    0.012615196797445787
+  ],
+  "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/seed252_control_results.npz",
+  "source_sha256": "57549f09d64ed1b89252f78dd0373990e0eab54f807adcae9adb6acc9da7db57",
+  "geometry": "Raw output coordinates, no normalization or projection. Elbow=10*(y0,y2) cm, tip=100*y[6:8] cm.",
+  "reference_pose_shown": false,
+  "measurement_replay_max_error": 0.0
+}

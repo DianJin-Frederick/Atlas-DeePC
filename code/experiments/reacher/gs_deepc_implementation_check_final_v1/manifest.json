@@ -1,0 +1,53 @@
+{
+  "version": "gs_deepc_composite_xy_v1",
+  "paper": "https://arxiv.org/abs/2512.02797v2",
+  "upstream_commit": "8738264c101c6e2942735ada3dc6bfb24ee5a101",
+  "source_sha256": "751a5c05034ac4da6e235811b792ed8a109042ebc9cbbbdfaddb61b70673d54f",
+  "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+  "utilities_sha256": "ae5f36825c767c6c71a85d854398d25604ccb9b5d5d200fece9fa7a567439f61",
+  "metrics_sha256": "0a211f1fd2234a89b8dab2e708c81dbb0e2cf6e67973ba790f26b21c661865c5",
+  "config": {
+    "tini": 2,
+    "horizon": 5,
+    "regions": 8,
+    "columns_per_region": 200,
+    "warmup": 12,
+    "q_xy": 100.0,
+    "r": 0.05,
+    "lambda_ini": 1000000.0,
+    "lambda_g": 1000.0,
+    "xy_bound": 0.22,
+    "tolerance": 1e-08,
+    "max_iter": 1000,
+    "accept_residual": 0.0001
+  },
+  "seeds": [
+    211
+  ],
+  "steps": 20,
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "cvxpy": "1.6.5",
+    "clarabel": "0.11.1",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.12.0"
+  },
+  "solver": "CLARABEL",
+  "threads": 1,
+  "environment": "Reacher-v5",
+  "reference": "fixed final fingertip xy; no posture or waypoints",
+  "scheduler": "atan2(sin(q2),cos(q2)), uniform [-pi,pi], 1D non-circular bins",
+  "representation": "raw unnormalized physical u/xy; first c within-region windows; composite 2c columns",
+  "terminal_equality": true,
+  "affine_constraint": false,
+  "svd_reduction": false,
+  "fallback": "zero physical input on failed/rejected solve, as upstream; no retries",
+  "weights_status": "paper's disc weights, NOT tuned for Reacher",
+  "timing": "selection + parameter assignment + solve call (includes canonicalization/setup) + diagnostics; excludes simulation/logging/offline; first solve compilation INCLUDED",
+  "adaptations": [
+    "Reacher plant/offline episodes/XY output/q2 scheduler/8 bins/physical bounds/warmup/seeds",
+    "Python CVXPY Clarabel rather than MATLAB YALMIP MOSEK",
+    "safe multi-boundary switching and inclusive final endpoint"
+  ]
+}

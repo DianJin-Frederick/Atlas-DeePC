@@ -1,0 +1,43 @@
+\documentclass[10pt]{article}
+\usepackage[landscape,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{times}
+\pagestyle{empty}
+\begin{document}
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrrr}
+        \toprule
+        Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+        \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+        Graph guidance & No & Yes & No & Yes \\
+        \midrule
+        Success rate $\uparrow$ & 74\% & 77\% & 77\% & \textbf{93\%} \\
+        Median error (mm) $\downarrow$ & 2.24 & 2.36 & 2.12 & \textbf{2.09} \\
+        90th-percentile error (mm) $\downarrow$ & 86.660 & 44.113 & 293.188 & \textbf{5.251} \\
+        95th-percentile error (mm) $\downarrow$ & 212.843 & 93.852 & 336.585 & \textbf{15.345} \\
+        99th-percentile error (mm) $\downarrow$ & 282.420 & 166.020 & 388.855 & \textbf{45.576} \\
+        Median rollout RMSE (mm) $\downarrow$ & 75.97 & 79.78 & \textbf{59.36} & 65.37 \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+        Median & 29.41 & 29.77 & 31.69 & 29.44 \\
+        95th percentile & 46.27 & 48.74 & 53.23 & 48.30 \\
+        99th percentile & 64.55 & 66.71 & 79.98 & 64.98 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Four Atlas-DeePC baselines on 100 seeds (211--310), with
+    $\lambda_g=\lambda_{\Delta u}=0$, $\lambda_{\mathrm{ini}}=10^5$, rank 60,
+    and Clarabel. Charts are selected by full-window projection residual.
+    Unguided cases use one fixed nearest eligible terminal configuration;
+    guided cases use chordal graph costs and iterative $N=10$ terminal selection.
+    Median and percentile errors summarize the final-100 mean fingertip error
+    across seeds. Median rollout RMSE is the median across 100 seeds of
+    each rollout's fingertip-distance RMSE relative to the final target,
+    computed over all 320 controlled steps, excluding warmup.
+    Timings pool online steps after discarding the first
+    five per rollout. Bold indicates the best observed control-performance value.}
+    \label{tab:four-baselines-no-input-smoothing}
+\end{table}
+
+\end{document}

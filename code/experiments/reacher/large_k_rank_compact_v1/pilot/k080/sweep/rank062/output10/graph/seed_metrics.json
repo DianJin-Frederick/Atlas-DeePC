@@ -1,0 +1,13 @@
+{
+  "seeds": [
+    {
+      "seed": 211,
+      "success": true,
+      "final100_mean_error_mm": 0.6867506811376789,
+      "rollout_rmse_mm": 6.505056162011372,
+      "unsolved_steps": 0
+    }
+  ],
+  "summary_sha256": "86d544f625645b9a306a6f9680e15392060e5125f46546b017ce47ba27a9e1eb",
+  "storage_policy": "Validate full panel, retain per-seed metrics, discard sweep traces; fully rerun selected ranks."
+}

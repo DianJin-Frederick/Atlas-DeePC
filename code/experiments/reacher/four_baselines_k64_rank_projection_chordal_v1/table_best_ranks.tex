@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrrr}
+        \toprule
+        Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+        \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+        Graph guidance & No & Yes & No & Yes \\
+        \midrule
+        Selected rank & 53 & 54 & 65 & 62 \\
+        Success rate $\uparrow$ & 90\% & 92\% & 81\% & \textbf{96\%} \\
+        Median error (mm) $\downarrow$ & \textbf{1.78} & 2.08 & 1.88 & 2.19 \\
+        90th-percentile error (mm) $\downarrow$ & 10.066 & 6.578 & 255.670 & \textbf{4.445} \\
+        95th-percentile error (mm) $\downarrow$ & 151.325 & 17.793 & 308.355 & \textbf{5.248} \\
+        99th-percentile error (mm) $\downarrow$ & 244.993 & 72.195 & 339.561 & \textbf{48.879} \\
+        Median rollout RMSE (mm) $\downarrow$ & \textbf{59.72} & 72.98 & 65.69 & 64.11 \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+        Median & 19.73 & 19.66 & 23.34 & 22.10 \\
+        95th percentile & 22.19 & 22.40 & 27.15 & 25.16 \\
+        99th percentile & 58.19 & 57.25 & 60.34 & 58.67 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Best observed ranks among 28--70 with $K=64$ charts on seeds 211--310. Ranks maximize strict success, breaking ties by lower median rollout RMSE and then lower rank. Errors summarize final-100 mean error; rollout RMSE includes all 320 controlled steps. Timings use serial one-thread reruns, discarding the first five steps. Selection and reporting share exploratory seeds, not an independent test set.}
+    \label{tab:best-ranks-k64}
+\end{table}

@@ -1,0 +1,22 @@
+{
+  "summary_sha256": "86d544f625645b9a306a6f9680e15392060e5125f46546b017ce47ba27a9e1eb",
+  "metrics_sha256": "6cae7ca404a5fd2eef021e7845cf74142d057b08e23fa251f39ffd5522335f61",
+  "files": [
+    {
+      "name": "seed211_control_results.npz",
+      "bytes": 248944,
+      "sha256": "40a1557ab1cede28272a30675bcc4ba965e417aba5caadadcc71e349a76e28a7"
+    },
+    {
+      "name": "selection_geometry.npz",
+      "bytes": 5474948,
+      "sha256": "6deaf1295d1a778e91cf648a21f001fee83c3e2120cc2ecb4b690669e0b85324"
+    },
+    {
+      "name": "graph_geometry.npz",
+      "bytes": 5542057,
+      "sha256": "569a7fef8e6492dcf643266ac14388eaf8396b90a531f6afbf1fe6ed108d3274"
+    }
+  ],
+  "note": "Original summary trace paths are provenance only; traces intentionally discarded."
+}

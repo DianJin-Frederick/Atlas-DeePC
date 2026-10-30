@@ -1,0 +1,220 @@
+{
+  "fingerprints": {
+    "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+    "controller_sha256": "8a4a5c365d753853ffc8d5c0b16e0cf8b204e9cb1902e8e8775e05e72d1b2626",
+    "adapter_sha256": "1803c55c2e0b3a2a29b028dde9eac9181eea0123951c22b8bf4864278f82f892",
+    "source_sha256": "86b973aa6b7b484d72ef4ebdbe898eb4dd049705d92e00c3855e3d12ca493400",
+    "utilities_sha256": "ae5f36825c767c6c71a85d854398d25604ccb9b5d5d200fece9fa7a567439f61",
+    "metrics_sha256": "0a211f1fd2234a89b8dab2e708c81dbb0e2cf6e67973ba790f26b21c661865c5"
+  },
+  "horizon": 10,
+  "configs": [
+    {
+      "tini": 2,
+      "horizon": 10,
+      "regions": 8,
+      "columns_per_region": 200,
+      "warmup": 12,
+      "q_xy": 1000.0,
+      "r": 5.0,
+      "lambda_ini": 1000000.0,
+      "lambda_g": 10.0,
+      "xy_bound": 0.22,
+      "tolerance": 1e-08,
+      "max_iter": 1000,
+      "accept_residual": 0.0001
+    },
+    {
+      "tini": 3,
+      "horizon": 10,
+      "regions": 8,
+      "columns_per_region": 200,
+      "warmup": 12,
+      "q_xy": 1000.0,
+      "r": 5.0,
+      "lambda_ini": 1000000.0,
+      "lambda_g": 10.0,
+      "xy_bound": 0.22,
+      "tolerance": 1e-08,
+      "max_iter": 1000,
+      "accept_residual": 0.0001
+    },
+    {
+      "tini": 4,
+      "horizon": 10,
+      "regions": 8,
+      "columns_per_region": 200,
+      "warmup": 12,
+      "q_xy": 1000.0,
+      "r": 5.0,
+      "lambda_ini": 1000000.0,
+      "lambda_g": 10.0,
+      "xy_bound": 0.22,
+      "tolerance": 1e-08,
+      "max_iter": 1000,
+      "accept_residual": 0.0001
+    }
+  ],
+  "paired_unused_episodes_zero_based": [
+    35,
+    59,
+    111,
+    131,
+    134,
+    140,
+    141,
+    146,
+    147,
+    152,
+    159,
+    165,
+    166,
+    168,
+    170,
+    171,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    181,
+    182,
+    183,
+    185,
+    187,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199
+  ],
+  "windows": 532,
+  "results": [
+    {
+      "scheduler": "q2",
+      "tini": 2,
+      "mean_one_step_mm": 11.362134760939325,
+      "mean_horizon_rmse_mm": 94.76501405483711,
+      "median_horizon_rmse_mm": 84.89872604106347,
+      "max_input_residual": 1.1879386363489175e-14,
+      "valid_columns_per_region": [
+        4066,
+        567,
+        407,
+        634,
+        770,
+        421,
+        439,
+        3079
+      ]
+    },
+    {
+      "scheduler": "q2",
+      "tini": 3,
+      "mean_one_step_mm": 6.980909230488686,
+      "mean_horizon_rmse_mm": 92.6968084435152,
+      "median_horizon_rmse_mm": 77.85943833041729,
+      "max_input_residual": 9.43689570931383e-15,
+      "valid_columns_per_region": [
+        3778,
+        490,
+        341,
+        539,
+        666,
+        355,
+        371,
+        2825
+      ]
+    },
+    {
+      "scheduler": "q2",
+      "tini": 4,
+      "mean_one_step_mm": 6.3142107433019685,
+      "mean_horizon_rmse_mm": 90.54319130950789,
+      "median_horizon_rmse_mm": 77.80209826419996,
+      "max_input_residual": 2.4702462297909733e-14,
+      "valid_columns_per_region": [
+        3511,
+        425,
+        282,
+        454,
+        576,
+        297,
+        312,
+        2590
+      ]
+    },
+    {
+      "scheduler": "link2",
+      "tini": 2,
+      "mean_one_step_mm": 9.874513176536261,
+      "mean_horizon_rmse_mm": 107.95199962360522,
+      "median_horizon_rmse_mm": 79.313361482371,
+      "max_input_residual": 1.354472090042691e-14,
+      "valid_columns_per_region": [
+        360,
+        327,
+        310,
+        466,
+        337,
+        318,
+        303,
+        250
+      ]
+    },
+    {
+      "scheduler": "link2",
+      "tini": 3,
+      "mean_one_step_mm": 6.732979072355092,
+      "mean_horizon_rmse_mm": 104.57568155094324,
+      "median_horizon_rmse_mm": 75.40842802659233,
+      "max_input_residual": 1.9539925233402755e-14,
+      "valid_columns_per_region": [
+        293,
+        277,
+        255,
+        388,
+        273,
+        259,
+        246,
+        204
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "scheduler": "q2",
+      "tini": 6,
+      "reason": "Insufficient regional data: [3032, 314, 191, 321, 432, 206, 221, 2180]; need 200 each. Use fewer regions/a shorter horizon, or collect suitable data; no global fallback."
+    },
+    {
+      "scheduler": "q2",
+      "tini": 8,
+      "reason": "Insufficient regional data: [2624, 223, 128, 225, 329, 136, 154, 1844]; need 200 each. Use fewer regions/a shorter horizon, or collect suitable data; no global fallback."
+    },
+    {
+      "scheduler": "link2",
+      "tini": 4,
+      "reason": "Insufficient regional data: [241, 240, 209, 323, 218, 205, 201, 171]; need 200 each. Use fewer regions/a shorter horizon, or collect suitable data; no global fallback."
+    },
+    {
+      "scheduler": "link2",
+      "tini": 6,
+      "reason": "Insufficient regional data: [160, 182, 137, 237, 135, 129, 132, 121]; need 200 each. Use fewer regions/a shorter horizon, or collect suitable data; no global fallback."
+    },
+    {
+      "scheduler": "link2",
+      "tini": 8,
+      "reason": "Insufficient regional data: [95, 133, 89, 175, 79, 80, 96, 86]; need 200 each. Use fewer regions/a shorter horizon, or collect suitable data; no global fallback."
+    }
+  ],
+  "diagnostic": "Known-input regularized predictor diagnostic, NOT the tracking QP.\n\n    IDs specify (episode, first FUTURE sample), identical across histories.\n    Minimize lambda_g ||g||\u00b2 + lambda_ini ||Yp g - yp||\u00b2 subject to Hu g = u.\n    Do not use target, terminal equality, output bounds, or future-output cost.\n    ",
+  "caveat": "History length changes retained windows as well as past information; not a pure observability test. No raw-column reduction or fallback bank."
+}

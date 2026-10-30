@@ -1,0 +1,36 @@
+{
+  "first_test_episode_zero_based": 181,
+  "episodes": 19,
+  "windows": 304,
+  "nonoverlapping_windows": true,
+  "description": "Ridge/slack predictor with all future inputs given, not a control QP.\n\n    min lambda_g ||g||^2 + lambda_ini ||Yp g - yp||^2, Hu g = u.\n    No target, terminal equality or future-output penalty: this isolates bank\n    predictive information, and is explicitly NOT a modified rollout controller.\n    ",
+  "schedulers": {
+    "q2": {
+      "mean_one_step_mm": 10.810080348817756,
+      "median_one_step_mm": 7.717986346110219,
+      "mean_horizon_rmse_mm": 89.22297441055204,
+      "mean_persistence_one_step_mm": 22.526901493755815,
+      "windows_staying_in_composite": 163,
+      "mean_one_step_staying_mm": 8.92592739315596,
+      "max_input_constraint_residual": 1.572353358625378e-14
+    },
+    "q1": {
+      "mean_one_step_mm": 9.094361686504636,
+      "median_one_step_mm": 5.93651365514076,
+      "mean_horizon_rmse_mm": 89.05675084945557,
+      "mean_persistence_one_step_mm": 22.52690149375582,
+      "windows_staying_in_composite": 94,
+      "mean_one_step_staying_mm": 5.3148877030500525,
+      "max_input_constraint_residual": 1.457167719820518e-14
+    },
+    "link2": {
+      "mean_one_step_mm": 8.560259205478737,
+      "median_one_step_mm": 5.190743006156913,
+      "mean_horizon_rmse_mm": 92.70366961880595,
+      "mean_persistence_one_step_mm": 22.526901493755815,
+      "windows_staying_in_composite": 64,
+      "mean_one_step_staying_mm": 4.284178264117715,
+      "max_input_constraint_residual": 1.0269562977782698e-14
+    }
+  }
+}

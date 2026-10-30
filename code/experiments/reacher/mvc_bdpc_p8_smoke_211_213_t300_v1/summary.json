@@ -1,0 +1,139 @@
+{
+  "finished_seeds": 3,
+  "requested_seeds": 3,
+  "panel_finished": true,
+  "full_rollouts": 3,
+  "failed_rollouts": 0,
+  "results": [
+    {
+      "seed": 211,
+      "requested_steps": 300,
+      "completed_steps": 300,
+      "complete": true,
+      "failure": null,
+      "success_evaluable": true,
+      "strict_success": false,
+      "minimum": 0.029662448043873912,
+      "minimum_step": 188,
+      "last": 0.22169892440112238,
+      "mean_last_30": 0.1750323349696187,
+      "max_last_30": 0.22169892440112238,
+      "success_30": false,
+      "mean_last_100": 0.17962712759767935,
+      "max_last_100": 0.29263581133265704,
+      "success_100": false,
+      "saturated_steps": 200,
+      "closed_loop_control_cost": 20506.0856737778,
+      "rollout_rmse_mm": 200.25704840449535,
+      "wall_seconds": 8.111909540995839
+    },
+    {
+      "seed": 212,
+      "requested_steps": 300,
+      "completed_steps": 300,
+      "complete": true,
+      "failure": null,
+      "success_evaluable": true,
+      "strict_success": false,
+      "minimum": 0.12865036755141557,
+      "minimum_step": 162,
+      "last": 0.2330916722141327,
+      "mean_last_30": 0.2088483968329745,
+      "max_last_30": 0.2944202619677234,
+      "success_30": false,
+      "mean_last_100": 0.21001690012047664,
+      "max_last_100": 0.31046930423486235,
+      "success_100": false,
+      "saturated_steps": 200,
+      "closed_loop_control_cost": 24362.987617651394,
+      "rollout_rmse_mm": 242.3858530279698,
+      "wall_seconds": 7.507308249987545
+    },
+    {
+      "seed": 213,
+      "requested_steps": 300,
+      "completed_steps": 300,
+      "complete": true,
+      "failure": null,
+      "success_evaluable": true,
+      "strict_success": false,
+      "minimum": 0.005258644646338597,
+      "minimum_step": 84,
+      "last": 0.13091317774612887,
+      "mean_last_30": 0.15298603160801802,
+      "max_last_30": 0.24915592976317355,
+      "success_30": false,
+      "mean_last_100": 0.1501003860493309,
+      "max_last_100": 0.24915592976317355,
+      "success_100": false,
+      "saturated_steps": 204,
+      "closed_loop_control_cost": 21747.18625651653,
+      "rollout_rmse_mm": 183.43000672532733,
+      "wall_seconds": 7.972712582995882
+    }
+  ],
+  "successes": 0,
+  "success_rate": 0.0,
+  "metric_note": "Early aborted rollouts count as unsuccessful; error/RMSE aggregates below require full rollouts and list their count.",
+  "median_final100_error_mm_full_rollouts": 179.62712759767936,
+  "timing_all_steps": {
+    "selection_time_s": {
+      "mean_ms": 0.2449057678394537,
+      "median_ms": 0.2260624969494529,
+      "p95_ms": 0.36539585271384567,
+      "p99_ms": 0.5960812472039831,
+      "max_ms": 1.1474579951027408
+    },
+    "matrix_preparation_time_s": {
+      "mean_ms": 0.4676538888048122,
+      "median_ms": 0.43068750528618693,
+      "p95_ms": 0.6384755943145137,
+      "p99_ms": 1.0253937511879476,
+      "max_ms": 1.8326249992242083
+    },
+    "solve_time_s": {
+      "mean_ms": 25.05075297546379,
+      "median_ms": 24.034312002186198,
+      "p95_ms": 31.03893574443645,
+      "p99_ms": 49.40721116494386,
+      "max_ms": 190.53995900321752
+    },
+    "control_compute_time_s": {
+      "mean_ms": 25.85210772017793,
+      "median_ms": 24.83897950151004,
+      "p95_ms": 32.06166249656234,
+      "p99_ms": 50.36073725874302,
+      "max_ms": 191.38674999703653
+    }
+  },
+  "timing_discard_first5": {
+    "selection_time_s": {
+      "mean_ms": 0.24517860799951552,
+      "median_ms": 0.22608299332205206,
+      "p95_ms": 0.36570860247593373,
+      "p99_ms": 0.5991749989334487,
+      "max_ms": 1.1474579951027408
+    },
+    "matrix_preparation_time_s": {
+      "mean_ms": 0.4660241061158605,
+      "median_ms": 0.43083299533464015,
+      "p95_ms": 0.6358084006933493,
+      "p99_ms": 0.9963599947514001,
+      "max_ms": 1.7728749953676015
+    },
+    "solve_time_s": {
+      "mean_ms": 25.02149907216998,
+      "median_ms": 23.996082993107848,
+      "p95_ms": 31.030850394745357,
+      "p99_ms": 45.271566154551536,
+      "max_ms": 190.53995900321752
+    },
+    "control_compute_time_s": {
+      "mean_ms": 25.821650692799107,
+      "median_ms": 24.815583004965447,
+      "p95_ms": 32.0427831960842,
+      "p99_ms": 47.97391099564256,
+      "max_ms": 191.38674999703653
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "clusters": 10,
+    "rank": 44,
+    "lam_ini": 100.0,
+    "weights": "position"
+  },
+  "seed": 548,
+  "noise": true,
+  "steps": 221,
+  "lap_completed": true,
+  "termination": "lap_completed",
+  "lap_fraction": 1.0006395906619763,
+  "rmse_cm": 9.698136253778225,
+  "speed_rmse_mps": 0.1548052210720261,
+  "timing": {
+    "median_ms": 3.1893544364720583,
+    "p99_ms": 7.266781188081947,
+    "max_ms": 11.779375025071204,
+    "calls": 216
+  },
+  "all_calls_timing": {
+    "median_ms": 3.1993339071050286,
+    "p99_ms": 7.241833233274525,
+    "max_ms": 11.779375025071204,
+    "calls": 221
+  },
+  "solve_failures": 0,
+  "collision_verified": false,
+  "warmup_steps": 15,
+  "chart_selection_method": "past_window_projection",
+  "noise_sigma": 0.01,
+  "measurement_noise_std": [
+    0.1523181116746967,
+    0.16198279997774737,
+    0.016326426790134137,
+    0.015941760591237072
+  ],
+  "verified_success": false
+}

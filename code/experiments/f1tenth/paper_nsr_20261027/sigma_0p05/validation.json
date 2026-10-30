@@ -1,0 +1,34 @@
+{
+  "complete": true,
+  "rollouts": 80,
+  "configurations": 4,
+  "unsupported_configurations": 0,
+  "projection_decisions_checked": 2472,
+  "identical_warmup_pairings": 60,
+  "maximum_replay_state_mismatch": 0.0,
+  "chart_selection_method": "past_window_projection",
+  "warmup_steps": 15,
+  "offline_and_online_noise_verified": true,
+  "clustering_uses_noisy_speed_verified": true,
+  "noise_model": {
+    "sigma": 0.05,
+    "signal_scale": [
+      15.231811167469669,
+      16.198279997774737,
+      1.6326426790134136,
+      1.594176059123707
+    ],
+    "std": [
+      0.7615905583734834,
+      0.8099139998887369,
+      0.08163213395067069,
+      0.07970880295618536
+    ],
+    "definition": "sigma = noise standard deviation / clean offline channel standard deviation (population std, global x/y/speed/unwrapped yaw); same fixed physical std offline and online",
+    "noise_to_signal_power_ratio": 0.0025000000000000005,
+    "snr_db": 26.020599913279625,
+    "offline_seed": 3408,
+    "clean_source_sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146"
+  },
+  "physical_constraints_checked": true
+}

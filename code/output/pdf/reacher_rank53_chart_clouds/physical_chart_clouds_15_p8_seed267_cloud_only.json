@@ -1,0 +1,308 @@
+{
+  "data": "/Users/kumiko/Projects/atlas_deepc_reacher/data/reacher/select_iid_offline_hankel.npy",
+  "atlas": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/routed_deepc_iid/unstandardized_shared_runner_v6_output8/behavioral_atlas.npz",
+  "manifest": {
+    "signature": {
+      "version": "unstandardized_shared_runner_v6",
+      "standardize": false,
+      "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+      "output_dimension": 8,
+      "retained_output_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "runner_sha256": "130be950061cef30fe2370f1c2455fc44a27c6361473feee0049bb1ba7583cd1",
+      "clustering_config": {
+        "clusters": 48,
+        "cluster_seed": 11,
+        "clustering_input_weight": 0.0,
+        "clustering_method": "minibatch_kmeans",
+        "clustering_feature_mode": "plant_joint_configuration",
+        "clustering_subspace_rank": 6,
+        "clustering_max_iter": 20,
+        "clustering_configuration_weight": 1.0,
+        "clustering_velocity_weight": 1.0,
+        "clustering_fingertip_weight": 1.0
+      },
+      "feature_code_sha256": "20f43ae84de1d63443aa1dd326fd3aac3d27588db67be1dc10f6919060decbb7"
+    },
+    "atlas_sha256": "9792dc5347344e63db29a1e1582d9e9c1fa3d9c7c908267fff4d2e4661715d96",
+    "offline_clustering_and_graph_seconds": 0.09705945895984769
+  },
+  "baseline_manifest": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/manifest.json",
+  "baseline_atlas_sha256_verified": "9792dc5347344e63db29a1e1582d9e9c1fa3d9c7c908267fff4d2e4661715d96",
+  "rollout_seed": 267,
+  "rollout_rank": 53,
+  "first_row_chart_sequence": [
+    23,
+    34,
+    25,
+    6,
+    29
+  ],
+  "required_charts_one_based": [
+    6,
+    23,
+    25,
+    29,
+    34
+  ],
+  "chart_ids_one_based": [
+    23,
+    34,
+    25,
+    6,
+    29,
+    12,
+    14,
+    18,
+    22,
+    24,
+    26,
+    30,
+    33,
+    40,
+    43
+  ],
+  "standardized": false,
+  "output_dimension": 8,
+  "features": "Raw first four outputs at last past step; four zero input features",
+  "offline_assignment": "Nearest raw-feature centroid",
+  "online_chart_selection": "Full-window orthogonal projection residual",
+  "displayed_trajectories_per_chart": 8,
+  "representative_pose_displayed": false,
+  "past_time_indices": [
+    0,
+    1
+  ],
+  "future_time_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "charts": {
+    "23": {
+      "size": 1367,
+      "sampled_columns_zero_based": [
+        33455,
+        29798,
+        13230,
+        23828,
+        17581,
+        20575,
+        21357,
+        26467
+      ],
+      "nearest_centroid_column_zero_based": 26462
+    },
+    "34": {
+      "size": 759,
+      "sampled_columns_zero_based": [
+        31041,
+        20580,
+        28277,
+        4154,
+        25725,
+        6875,
+        27782,
+        10887
+      ],
+      "nearest_centroid_column_zero_based": 35869
+    },
+    "25": {
+      "size": 684,
+      "sampled_columns_zero_based": [
+        2805,
+        35872,
+        31113,
+        26288,
+        20583,
+        10182,
+        34385,
+        8873
+      ],
+      "nearest_centroid_column_zero_based": 32874
+    },
+    "6": {
+      "size": 677,
+      "sampled_columns_zero_based": [
+        9696,
+        29768,
+        8875,
+        11080,
+        12974,
+        10766,
+        18799,
+        7277
+      ],
+      "nearest_centroid_column_zero_based": 9194
+    },
+    "29": {
+      "size": 696,
+      "sampled_columns_zero_based": [
+        6511,
+        12160,
+        9633,
+        6764,
+        34272,
+        14725,
+        16544,
+        11077
+      ],
+      "nearest_centroid_column_zero_based": 30471
+    },
+    "12": {
+      "size": 684,
+      "sampled_columns_zero_based": [
+        6605,
+        28010,
+        13865,
+        25462,
+        2576,
+        19565,
+        8489,
+        26584
+      ],
+      "nearest_centroid_column_zero_based": 37181
+    },
+    "14": {
+      "size": 656,
+      "sampled_columns_zero_based": [
+        26801,
+        510,
+        5434,
+        1364,
+        12253,
+        34250,
+        216,
+        4953
+      ],
+      "nearest_centroid_column_zero_based": 24892
+    },
+    "18": {
+      "size": 1110,
+      "sampled_columns_zero_based": [
+        10156,
+        34034,
+        16275,
+        37465,
+        15259,
+        6184,
+        12815,
+        12179
+      ],
+      "nearest_centroid_column_zero_based": 10582
+    },
+    "22": {
+      "size": 769,
+      "sampled_columns_zero_based": [
+        3752,
+        33746,
+        87,
+        32591,
+        23256,
+        19890,
+        15432,
+        10950
+      ],
+      "nearest_centroid_column_zero_based": 2101
+    },
+    "24": {
+      "size": 871,
+      "sampled_columns_zero_based": [
+        19148,
+        33716,
+        13257,
+        27863,
+        6296,
+        12437,
+        25240,
+        36756
+      ],
+      "nearest_centroid_column_zero_based": 32348
+    },
+    "26": {
+      "size": 632,
+      "sampled_columns_zero_based": [
+        9752,
+        5222,
+        37319,
+        19901,
+        14828,
+        19071,
+        36053,
+        23971
+      ],
+      "nearest_centroid_column_zero_based": 18755
+    },
+    "30": {
+      "size": 738,
+      "sampled_columns_zero_based": [
+        27551,
+        5390,
+        17864,
+        18317,
+        25311,
+        28099,
+        30781,
+        9865
+      ],
+      "nearest_centroid_column_zero_based": 754
+    },
+    "33": {
+      "size": 916,
+      "sampled_columns_zero_based": [
+        28394,
+        486,
+        10125,
+        11082,
+        32456,
+        15510,
+        4640,
+        33401
+      ],
+      "nearest_centroid_column_zero_based": 17306
+    },
+    "40": {
+      "size": 1040,
+      "sampled_columns_zero_based": [
+        30706,
+        12384,
+        20870,
+        31677,
+        17067,
+        24547,
+        22867,
+        24781
+      ],
+      "nearest_centroid_column_zero_based": 29967
+    },
+    "43": {
+      "size": 633,
+      "sampled_columns_zero_based": [
+        31108,
+        5174,
+        27415,
+        10490,
+        8706,
+        3374,
+        14269,
+        21447
+      ],
+      "nearest_centroid_column_zero_based": 10730
+    }
+  }
+}

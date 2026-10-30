@@ -1,0 +1,117 @@
+{
+  "finished_seeds": 2,
+  "requested_seeds": 2,
+  "panel_finished": true,
+  "full_rollouts": 2,
+  "failed_rollouts": 0,
+  "results": [
+    {
+      "seed": 211,
+      "requested_steps": 150,
+      "completed_steps": 150,
+      "complete": true,
+      "failure": null,
+      "success_evaluable": true,
+      "strict_success": false,
+      "minimum": 0.04899918478505922,
+      "minimum_step": 0,
+      "last": 0.04930564975584524,
+      "mean_last_30": 0.0492997674761786,
+      "max_last_30": 0.04930564975584524,
+      "success_30": false,
+      "mean_last_100": 0.049270021686448756,
+      "max_last_100": 0.04930564975584524,
+      "success_100": false,
+      "saturated_steps": 0,
+      "closed_loop_control_cost": 6162.162200232021,
+      "rollout_rmse_mm": 49.21862044383305,
+      "wall_seconds": 2.8903581670019776
+    },
+    {
+      "seed": 222,
+      "requested_steps": 150,
+      "completed_steps": 150,
+      "complete": true,
+      "failure": null,
+      "success_evaluable": true,
+      "strict_success": false,
+      "minimum": 0.18827399471057615,
+      "minimum_step": 149,
+      "last": 0.18827399471057615,
+      "mean_last_30": 0.1882740768784566,
+      "max_last_30": 0.18827417595298682,
+      "success_30": false,
+      "mean_last_100": 0.18827449416435812,
+      "max_last_100": 0.18827543734030808,
+      "success_100": false,
+      "saturated_steps": 0,
+      "closed_loop_control_cost": 12512.582075579674,
+      "rollout_rmse_mm": 188.27521904402062,
+      "wall_seconds": 4.357957124942914
+    }
+  ],
+  "successes": 0,
+  "success_rate": 0.0,
+  "metric_note": "Early aborted rollouts count as unsuccessful; error/RMSE aggregates below require full rollouts and list their count.",
+  "median_final100_error_mm_full_rollouts": 118.77225792540344,
+  "timing_all_steps": {
+    "selection_time_s": {
+      "mean_ms": 0.35635277900534373,
+      "median_ms": 0.22645806893706322,
+      "p95_ms": 0.4905589972622697,
+      "p99_ms": 3.677195301279419,
+      "max_ms": 13.170833000913262
+    },
+    "matrix_preparation_time_s": {
+      "mean_ms": 0.6131761233943204,
+      "median_ms": 0.4356664721854031,
+      "p95_ms": 0.8508190221618863,
+      "p99_ms": 3.3602394978515697,
+      "max_ms": 18.42866698279977
+    },
+    "solve_time_s": {
+      "mean_ms": 22.18396180231745,
+      "median_ms": 18.063041556160897,
+      "p95_ms": 48.78524020896293,
+      "p99_ms": 88.26696388539845,
+      "max_ms": 155.82637500483543
+    },
+    "control_compute_time_s": {
+      "mean_ms": 23.2588358669697,
+      "median_ms": 18.819750053808093,
+      "p95_ms": 51.6010026971344,
+      "p99_ms": 103.75698118237774,
+      "max_ms": 156.63166693411767
+    }
+  },
+  "timing_discard_first5": {
+    "selection_time_s": {
+      "mean_ms": 0.36108176392535196,
+      "median_ms": 0.22666656877845526,
+      "p95_ms": 0.5103085073642437,
+      "p99_ms": 3.751228600740443,
+      "max_ms": 13.170833000913262
+    },
+    "matrix_preparation_time_s": {
+      "mean_ms": 0.6196406758229794,
+      "median_ms": 0.4360209568403661,
+      "p95_ms": 0.8610900549683722,
+      "p99_ms": 3.478464495856331,
+      "max_ms": 18.42866698279977
+    },
+    "solve_time_s": {
+      "mean_ms": 22.337833467614033,
+      "median_ms": 18.081146059557796,
+      "p95_ms": 48.863052733941004,
+      "p99_ms": 89.677443088731,
+      "max_ms": 155.82637500483543
+    },
+    "control_compute_time_s": {
+      "mean_ms": 23.42482014832183,
+      "median_ms": 18.826270999852568,
+      "p95_ms": 51.793940196512274,
+      "p99_ms": 104.16137287626049,
+      "max_ms": 156.63166693411767
+    }
+  }
+}

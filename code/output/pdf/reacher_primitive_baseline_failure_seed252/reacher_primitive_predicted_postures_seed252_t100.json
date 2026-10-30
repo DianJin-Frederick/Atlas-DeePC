@@ -1,0 +1,67 @@
+{
+  "seed": 252,
+  "prediction_time": 100,
+  "geometry": "Origin, 10*(predicted cos q1, predicted sin q1), 100*predicted fingertip. No projection or normalization.",
+  "snapshots": [
+    {
+      "time": 101,
+      "predicted_sin_cos_norms": [
+        0.8523968913817853,
+        0.3294126551219958
+      ],
+      "raw_predicted_link_lengths_cm": [
+        8.523968913817852,
+        3.726098899617008
+      ],
+      "measured_link_lengths_cm": [
+        10.0,
+        10.999999999928939
+      ]
+    },
+    {
+      "time": 103,
+      "predicted_sin_cos_norms": [
+        0.8486533848314596,
+        1.0716545058487952
+      ],
+      "raw_predicted_link_lengths_cm": [
+        8.486533848314595,
+        10.837868167058424
+      ],
+      "measured_link_lengths_cm": [
+        10.0,
+        10.999999999939098
+      ]
+    },
+    {
+      "time": 105,
+      "predicted_sin_cos_norms": [
+        1.1084287580134247,
+        1.1986725523590311
+      ],
+      "raw_predicted_link_lengths_cm": [
+        11.084287580134246,
+        12.381080241990498
+      ],
+      "measured_link_lengths_cm": [
+        10.0,
+        10.999999999947804
+      ]
+    },
+    {
+      "time": 110,
+      "predicted_sin_cos_norms": [
+        0.9954275441546099,
+        0.886534829832681
+      ],
+      "raw_predicted_link_lengths_cm": [
+        9.954275441546098,
+        10.73344878845551
+      ],
+      "measured_link_lengths_cm": [
+        10.0,
+        10.999999999964496
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "selection_rule": "Highest success count, then lowest rank; success-rate-only storage",
+  "tested_ranks": [
+    60
+  ],
+  "evaluated_rollouts": 1,
+  "winner": {
+    "clusters": 1,
+    "rank": 60,
+    "output_dimension": 10,
+    "reference_mode": "terminal",
+    "controlled_steps": 300,
+    "seeds": 1,
+    "successes": 0,
+    "success_rate": 0.0
+  }
+}

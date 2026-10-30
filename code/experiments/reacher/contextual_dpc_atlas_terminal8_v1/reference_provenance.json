@@ -1,0 +1,608 @@
+{
+  "atlas_manifest_sha256": "bf7aa993daef1e716eb79007318fd41bd9c7a6bbdfeaf8cb4cc5a15981d759cc",
+  "source_manifest": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/manifest.json",
+  "sources": [
+    {
+      "seed": 211,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed211_control_results.npz",
+      "sha256": "ebaf7b0e848dde5ef00bf020c5c9c27b9c5ff9089b953bd9dadf4588783e5de3",
+      "original_atlas_goal_setup_ms": 4.3590409914031625
+    },
+    {
+      "seed": 212,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed212_control_results.npz",
+      "sha256": "33d6f5d32cac7139831ff6d3ba0f474dd58b65134fcbc3b73bc229d7b1257750",
+      "original_atlas_goal_setup_ms": 3.9105829782783985
+    },
+    {
+      "seed": 213,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed213_control_results.npz",
+      "sha256": "48d860be4741d8d42ed7b0d8281e92848145c3062e16c00a49eca735f4682eb5",
+      "original_atlas_goal_setup_ms": 3.7845830083824694
+    },
+    {
+      "seed": 214,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed214_control_results.npz",
+      "sha256": "7b0274fb14b40ae67c16b46eb3c7f23ec2e9ad67bd54f915025b649463e30282",
+      "original_atlas_goal_setup_ms": 3.8265830371528864
+    },
+    {
+      "seed": 215,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed215_control_results.npz",
+      "sha256": "e2a9cebe40f5065a0354804d692232fac0751aa3c1541de015207121076f7fa1",
+      "original_atlas_goal_setup_ms": 3.8075409829616547
+    },
+    {
+      "seed": 216,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed216_control_results.npz",
+      "sha256": "ea62828eef7f1c743a8081b5acdfd29d6f32a621c77e0eb7a045b7dfa7d52bf7",
+      "original_atlas_goal_setup_ms": 4.131958005018532
+    },
+    {
+      "seed": 217,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed217_control_results.npz",
+      "sha256": "681809301ba9965a1f1070bc26bb65330d7d02c1cdab99302511a1fdd03065d9",
+      "original_atlas_goal_setup_ms": 3.953374980483204
+    },
+    {
+      "seed": 218,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed218_control_results.npz",
+      "sha256": "d59b7ffc880284a846f088f7ff60d4e59d0f8225412569756b320dbf7f6d4e03",
+      "original_atlas_goal_setup_ms": 3.9634170243516564
+    },
+    {
+      "seed": 219,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed219_control_results.npz",
+      "sha256": "ee776fb6dbe6df9c472ed1f3a00e9f94d90017b323db1485964b11304018f0eb",
+      "original_atlas_goal_setup_ms": 4.107333021238446
+    },
+    {
+      "seed": 220,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed220_control_results.npz",
+      "sha256": "fdd8a34de39c7f7439ed87c08285552de5aa698aa0cf6dbda1288c085d903911",
+      "original_atlas_goal_setup_ms": 3.7777500110678375
+    },
+    {
+      "seed": 221,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed221_control_results.npz",
+      "sha256": "cf4fdc55a609eb7f2f3b2cc35fb096e9cecabe68dae0200365f7ceb4ab7d2fe6",
+      "original_atlas_goal_setup_ms": 3.882999997586012
+    },
+    {
+      "seed": 222,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed222_control_results.npz",
+      "sha256": "7e09bd0edefe9c82a9cc145a155b6a38ca8c7014e107dec51c847399a6686195",
+      "original_atlas_goal_setup_ms": 3.876207978464663
+    },
+    {
+      "seed": 223,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed223_control_results.npz",
+      "sha256": "c59b8068c181d37bf21da085c8f8f686b0448344e870cc8ee85ea65c4d2dbebd",
+      "original_atlas_goal_setup_ms": 3.89654200989753
+    },
+    {
+      "seed": 224,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed224_control_results.npz",
+      "sha256": "9cd9d108623410ebe813383030b443aec5884d44a568ddf99b594fb9ae564bae",
+      "original_atlas_goal_setup_ms": 3.749165975023061
+    },
+    {
+      "seed": 225,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed225_control_results.npz",
+      "sha256": "9f5932f0a184309204b8c4528545fb359c8e8dd93f59e4ed9267553ce6a55140",
+      "original_atlas_goal_setup_ms": 4.009583033621311
+    },
+    {
+      "seed": 226,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed226_control_results.npz",
+      "sha256": "e406b59d0bdcb57b84da305c3acf235c98bf46d97bab1e9b60137962c153dfba",
+      "original_atlas_goal_setup_ms": 3.723750007338822
+    },
+    {
+      "seed": 227,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed227_control_results.npz",
+      "sha256": "591f39f2fddc8e75f4af86c89ce8a0a39e9880aec1bb376ac6dfbf6da4aa0e47",
+      "original_atlas_goal_setup_ms": 3.9082089788280427
+    },
+    {
+      "seed": 228,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed228_control_results.npz",
+      "sha256": "8fba17cf80ca8e826b9b77f016398f4b9cbc64e9009383593fc7e717f4f240f2",
+      "original_atlas_goal_setup_ms": 3.9959580171853304
+    },
+    {
+      "seed": 229,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed229_control_results.npz",
+      "sha256": "d474060c6dd461b54621aa7902ea2b1b1d7f10a062ffb1352c7fafbec3417b50",
+      "original_atlas_goal_setup_ms": 3.726791008375585
+    },
+    {
+      "seed": 230,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed230_control_results.npz",
+      "sha256": "2c1a2b4fc08b83f0e8495fb7f62caac53d8bdf5dec79cdf7dbb58ad68b74a799",
+      "original_atlas_goal_setup_ms": 3.707040974404663
+    },
+    {
+      "seed": 231,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed231_control_results.npz",
+      "sha256": "9375cdd384dcaa0198f29928a697730274d8eda855e157936f4832a5b848222c",
+      "original_atlas_goal_setup_ms": 4.0017919964157045
+    },
+    {
+      "seed": 232,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed232_control_results.npz",
+      "sha256": "8f39a0601e5103a74394bfa974a89fe984a2013c1183f26d5ea1c7e917797a63",
+      "original_atlas_goal_setup_ms": 3.784583997912705
+    },
+    {
+      "seed": 233,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed233_control_results.npz",
+      "sha256": "6a73de7adbb2e2f852c67902d2115aee868b09d0dc4cb2f1f501e7a65848b176",
+      "original_atlas_goal_setup_ms": 4.117583972401917
+    },
+    {
+      "seed": 234,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed234_control_results.npz",
+      "sha256": "183881cd9c59034a92aa8f0fa003231f59afe90b2b43bba753c9f1618d7c5040",
+      "original_atlas_goal_setup_ms": 3.950459009502083
+    },
+    {
+      "seed": 235,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed235_control_results.npz",
+      "sha256": "b9ce507625cfc2a43287721d1982637a44f44a68e955b23c9f4a3b06ac8742a3",
+      "original_atlas_goal_setup_ms": 3.9872920024208724
+    },
+    {
+      "seed": 236,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed236_control_results.npz",
+      "sha256": "1102eb9877a07988b5f98cbac61da0eddab3ebd5971c4bfe351a181a1b8af624",
+      "original_atlas_goal_setup_ms": 3.6152919637970626
+    },
+    {
+      "seed": 237,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed237_control_results.npz",
+      "sha256": "783cffe1d6615f32d21dd2dd85f053e9386a434c229229c77201560d47f51412",
+      "original_atlas_goal_setup_ms": 3.662291041109711
+    },
+    {
+      "seed": 238,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed238_control_results.npz",
+      "sha256": "b27e18cb01678ca21455f4b219c5d315e3f6b8a7173dd45439d8ac064b9bc4e5",
+      "original_atlas_goal_setup_ms": 3.868166997563094
+    },
+    {
+      "seed": 239,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed239_control_results.npz",
+      "sha256": "878cb3db087ea6a5156a711fcb068cdfbd5095aca946f7298e22cb01ca0d6144",
+      "original_atlas_goal_setup_ms": 4.004749993328005
+    },
+    {
+      "seed": 240,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed240_control_results.npz",
+      "sha256": "408140dfaa234ea6a2450cbfe0a774520aa526949b87ae24c136096db8fb05a0",
+      "original_atlas_goal_setup_ms": 3.8102910039015114
+    },
+    {
+      "seed": 241,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed241_control_results.npz",
+      "sha256": "3474d7299713d74bdac54e8241971cef590dd56259903bfa8e7aff40275876ed",
+      "original_atlas_goal_setup_ms": 3.7263749982230365
+    },
+    {
+      "seed": 242,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed242_control_results.npz",
+      "sha256": "c66b39b4693a273f42c58d1d42a899b3db8ac3c39589fd443007bbde8fc4d022",
+      "original_atlas_goal_setup_ms": 3.813207964412868
+    },
+    {
+      "seed": 243,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed243_control_results.npz",
+      "sha256": "4050360f703fbb73401883ccbeff689bf2b612059978df1d5df289629919c049",
+      "original_atlas_goal_setup_ms": 3.8630420458503067
+    },
+    {
+      "seed": 244,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed244_control_results.npz",
+      "sha256": "97cd3963f2ff731f66d0b0762591c157aa8b7aebb9eed78fe05f0c40889e4c8c",
+      "original_atlas_goal_setup_ms": 3.9528750348836184
+    },
+    {
+      "seed": 245,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed245_control_results.npz",
+      "sha256": "8d2af6059dd1c2bf234dede9e12ef721c07685f24c3107f262dd8aaaec98d4b1",
+      "original_atlas_goal_setup_ms": 3.931708983145654
+    },
+    {
+      "seed": 246,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed246_control_results.npz",
+      "sha256": "0a3d4e712cebedff9105064ef1923ecd08d9d7ab2cc6e1454a77548bc2e273f0",
+      "original_atlas_goal_setup_ms": 3.9042499847710133
+    },
+    {
+      "seed": 247,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed247_control_results.npz",
+      "sha256": "58e73fc3e372caa7207114664aace515691d9af6235f16df5ea899567c4cd687",
+      "original_atlas_goal_setup_ms": 3.6248749820515513
+    },
+    {
+      "seed": 248,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed248_control_results.npz",
+      "sha256": "8b069ce6939826c9694d4cb40d1a2c45610ebbe61bc73a6ddf5b81b1f7ce95ab",
+      "original_atlas_goal_setup_ms": 4.049165989272296
+    },
+    {
+      "seed": 249,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed249_control_results.npz",
+      "sha256": "714c99c92ccb451b2c3d4c112b27ec23e675b7f34942b4f3bfb9ecd2937225e9",
+      "original_atlas_goal_setup_ms": 4.052832955494523
+    },
+    {
+      "seed": 250,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed250_control_results.npz",
+      "sha256": "9bb7f6b841f5e7b6d24f785290f036d03828e54aaa10ffefcdbd8c87f6dae4c5",
+      "original_atlas_goal_setup_ms": 3.9920000126585364
+    },
+    {
+      "seed": 251,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed251_control_results.npz",
+      "sha256": "68d180dee9902fe3d73552766b32d2c4e6a8955770f2c61be34acfe8ef715ca7",
+      "original_atlas_goal_setup_ms": 3.6966250045225024
+    },
+    {
+      "seed": 252,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed252_control_results.npz",
+      "sha256": "12d76b2bd9870b7e93522989483052cfea890a0fc534ed940e923e2f50b1c06e",
+      "original_atlas_goal_setup_ms": 3.916667017620057
+    },
+    {
+      "seed": 253,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed253_control_results.npz",
+      "sha256": "c1f4d1b98c1d4cf568ed7a639bf13c2c98bc09ababda29c1008d324291b5fcea",
+      "original_atlas_goal_setup_ms": 3.8118750089779496
+    },
+    {
+      "seed": 254,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed254_control_results.npz",
+      "sha256": "967731e5302aa280440faede50873d5bb55905061e624605128cadd3c9be7ed6",
+      "original_atlas_goal_setup_ms": 3.8092080503702164
+    },
+    {
+      "seed": 255,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed255_control_results.npz",
+      "sha256": "3fb0dc806994fb2f11395f7bcd2d70cc5c2523b4c378e2c88fb7ba09774b57cc",
+      "original_atlas_goal_setup_ms": 3.8014999590814114
+    },
+    {
+      "seed": 256,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed256_control_results.npz",
+      "sha256": "99e5c0f809e9ce65b5463dc3befd8d71f53bf6991ff2267ac4171f41a4cc3722",
+      "original_atlas_goal_setup_ms": 3.9006670122034848
+    },
+    {
+      "seed": 257,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed257_control_results.npz",
+      "sha256": "7846f0f755834ffe9494271c1b1e4e08aedc9f0ea30ba84ce5232001383eee96",
+      "original_atlas_goal_setup_ms": 3.8558749947696924
+    },
+    {
+      "seed": 258,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed258_control_results.npz",
+      "sha256": "7ddbbfcfef181354a7e7f9160028545ccd616fb919349cd6bdff01c94b714cd6",
+      "original_atlas_goal_setup_ms": 3.699166001752019
+    },
+    {
+      "seed": 259,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed259_control_results.npz",
+      "sha256": "459053208650463fe3a8ed55daaa565bd1254e2ac9911180386cf332a75ee630",
+      "original_atlas_goal_setup_ms": 3.74120898777619
+    },
+    {
+      "seed": 260,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed260_control_results.npz",
+      "sha256": "3e47d9070bba1a53458f00ec11841189de83974630b977ce56a89b1386c55322",
+      "original_atlas_goal_setup_ms": 3.921625029761344
+    },
+    {
+      "seed": 261,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed261_control_results.npz",
+      "sha256": "f1b3ccd7462e54e258614029521bf89863ed78bf14dea0d1d48c8865b54d6991",
+      "original_atlas_goal_setup_ms": 3.8248340133577585
+    },
+    {
+      "seed": 262,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed262_control_results.npz",
+      "sha256": "90ea9a887eec474a4e213f92f2beff7e04fe2b3b0a89a879dbb527d705483963",
+      "original_atlas_goal_setup_ms": 3.846040985081345
+    },
+    {
+      "seed": 263,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed263_control_results.npz",
+      "sha256": "766b73815e5911e3054392c5cfe048952d31aa237ce3c1f0b3d17ea37293f1c5",
+      "original_atlas_goal_setup_ms": 3.89037502463907
+    },
+    {
+      "seed": 264,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed264_control_results.npz",
+      "sha256": "eb0f13357e2b44d746fa08cf2626c13b9da23a7350d322dba20a759dea148baf",
+      "original_atlas_goal_setup_ms": 3.812125010881573
+    },
+    {
+      "seed": 265,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed265_control_results.npz",
+      "sha256": "f4c9443f9ba36e58980b43e56d5e71310632fcb98a1f993eee9c26bd4f6d037a",
+      "original_atlas_goal_setup_ms": 3.9065410383045673
+    },
+    {
+      "seed": 266,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed266_control_results.npz",
+      "sha256": "c3e1181e24f1540a96711f8c3471e0c317a1e474d4795fb732730f25423e8cf8",
+      "original_atlas_goal_setup_ms": 3.6210829857736826
+    },
+    {
+      "seed": 267,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed267_control_results.npz",
+      "sha256": "187bb6b9dd18d7ae42a600649d747d3eca2d7db77d327da47b41b91e2faf98ac",
+      "original_atlas_goal_setup_ms": 3.791708033531904
+    },
+    {
+      "seed": 268,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed268_control_results.npz",
+      "sha256": "4a6de0eea10c16f42904314ee39efb24ab6b3c842beece36311a11740235aa4e",
+      "original_atlas_goal_setup_ms": 3.8281669840216637
+    },
+    {
+      "seed": 269,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed269_control_results.npz",
+      "sha256": "f8e5bd508c7c7d28b6656080e5e382ff713a7c2bc48e6fad119afa85329ead38",
+      "original_atlas_goal_setup_ms": 4.056417034007609
+    },
+    {
+      "seed": 270,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed270_control_results.npz",
+      "sha256": "a324204deb077b84353ac93adcc1e92154745266d930a1f01976d158b77f5c0f",
+      "original_atlas_goal_setup_ms": 4.3192500015720725
+    },
+    {
+      "seed": 271,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed271_control_results.npz",
+      "sha256": "77a440c20702498eacd06e4d54f55f6414719434487284192c2e848df934e831",
+      "original_atlas_goal_setup_ms": 4.017833038233221
+    },
+    {
+      "seed": 272,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed272_control_results.npz",
+      "sha256": "8fe70549ada6de095406bd1395e505694269d063c28fd2777da3dab399302569",
+      "original_atlas_goal_setup_ms": 3.964749979786575
+    },
+    {
+      "seed": 273,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed273_control_results.npz",
+      "sha256": "ae908451f8b6790a131fb64f1c561b85aff51dd0b6cec9add435645e210be019",
+      "original_atlas_goal_setup_ms": 3.7806250038556755
+    },
+    {
+      "seed": 274,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed274_control_results.npz",
+      "sha256": "f4c4e49722572c59d3da7bac061060a348d55e6848982e27ba321af4334701ec",
+      "original_atlas_goal_setup_ms": 3.902000025846064
+    },
+    {
+      "seed": 275,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed275_control_results.npz",
+      "sha256": "dacf4ae5b0bc03e8e9a790dfdb00f75540e4881cf02109af890ca44aabd77808",
+      "original_atlas_goal_setup_ms": 3.9179580053314567
+    },
+    {
+      "seed": 276,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed276_control_results.npz",
+      "sha256": "aebc1d29214186d97e58f91db561ea736d8ba9d45de9305111e8fb6e61aa6059",
+      "original_atlas_goal_setup_ms": 3.6923749721609056
+    },
+    {
+      "seed": 277,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed277_control_results.npz",
+      "sha256": "bdca39d556ce09ff488a7a9f06783ba341b81f46c742844b2093b6ce3f97a0b2",
+      "original_atlas_goal_setup_ms": 3.8565839640796185
+    },
+    {
+      "seed": 278,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed278_control_results.npz",
+      "sha256": "204cc28d024178c1b663f3196f0a521b624c4c541cf8c41b80869da11e5cca7e",
+      "original_atlas_goal_setup_ms": 3.6819999804720283
+    },
+    {
+      "seed": 279,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed279_control_results.npz",
+      "sha256": "2eeef46988ff9e677d6b0cf07a2f72fd2369ab8f85b9336fb007c6b5abd248b5",
+      "original_atlas_goal_setup_ms": 3.833124996162951
+    },
+    {
+      "seed": 280,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed280_control_results.npz",
+      "sha256": "b770a29c68fc18ef746b8d45a7b097bff1bc2ba0b30787852d52128afcfd75dd",
+      "original_atlas_goal_setup_ms": 3.8150830077938735
+    },
+    {
+      "seed": 281,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed281_control_results.npz",
+      "sha256": "bf5a5357830ff3cc1fd47204139fdb811288fa8d49e15959aa21cb36cf651def",
+      "original_atlas_goal_setup_ms": 3.6651669652201235
+    },
+    {
+      "seed": 282,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed282_control_results.npz",
+      "sha256": "6c9afe79ed36b23310dba8ccd36fdf2143bf56a46caf5a7876fb9c8f5c96c1db",
+      "original_atlas_goal_setup_ms": 4.044375033117831
+    },
+    {
+      "seed": 283,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed283_control_results.npz",
+      "sha256": "3cba24d17f684510d080a93d1bc2c0b53fb279f517c8467d56b352ede74d7c95",
+      "original_atlas_goal_setup_ms": 3.7524999934248626
+    },
+    {
+      "seed": 284,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed284_control_results.npz",
+      "sha256": "b6ec09ab80260e038d5b3cc9d2f00c2e20415efa7fd9f93fa987470cad00039c",
+      "original_atlas_goal_setup_ms": 3.8377909804694355
+    },
+    {
+      "seed": 285,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed285_control_results.npz",
+      "sha256": "e11ff6fac765c499744cd20cf8f6b8c35ae7e86200e960419b683f8834fb1081",
+      "original_atlas_goal_setup_ms": 3.967125026974827
+    },
+    {
+      "seed": 286,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed286_control_results.npz",
+      "sha256": "efccd8b746b3f3ee72e1199ed56f7a374e6715500478309ca19c6baa78cd102b",
+      "original_atlas_goal_setup_ms": 3.997708030510694
+    },
+    {
+      "seed": 287,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed287_control_results.npz",
+      "sha256": "cde9875d02944cdf6dce63a431fa1ead16666271cc8618434bd4c8df4ba979e5",
+      "original_atlas_goal_setup_ms": 4.630249983165413
+    },
+    {
+      "seed": 288,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed288_control_results.npz",
+      "sha256": "b32c56ea9ab3034928e8f7548ade039af29f6a546fef70938e55b3343b123d2c",
+      "original_atlas_goal_setup_ms": 3.7171249859966338
+    },
+    {
+      "seed": 289,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed289_control_results.npz",
+      "sha256": "abbbe06229e6c64aab5a9fd8d4831b046267772d199999396ee53569a2f33cff",
+      "original_atlas_goal_setup_ms": 3.796833974774927
+    },
+    {
+      "seed": 290,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed290_control_results.npz",
+      "sha256": "8ba1b590d0bd470b326e280984f0bfded4f58d916ff9e1615ab66430f7d988fc",
+      "original_atlas_goal_setup_ms": 3.771708987187594
+    },
+    {
+      "seed": 291,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed291_control_results.npz",
+      "sha256": "654f681f922dbefa3fdae5a4235385fe4e2c3c3ba9f115bfcf7eb2d78ca75a82",
+      "original_atlas_goal_setup_ms": 3.911874955520034
+    },
+    {
+      "seed": 292,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed292_control_results.npz",
+      "sha256": "28dcb619a0e0aed65f002634a106baf2bdec34fd15c0e21bb482216f123ed9a2",
+      "original_atlas_goal_setup_ms": 3.696959000080824
+    },
+    {
+      "seed": 293,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed293_control_results.npz",
+      "sha256": "f71dd1833b3fb5bf415481282176ae6c4e815d6b2e9fe4a7a8872999ad63c3e5",
+      "original_atlas_goal_setup_ms": 3.9185420027934015
+    },
+    {
+      "seed": 294,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed294_control_results.npz",
+      "sha256": "581962395c18922bf134f1fc0dd51019a710ce4b6c13f1433bb011b7fc739336",
+      "original_atlas_goal_setup_ms": 3.686040989123285
+    },
+    {
+      "seed": 295,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed295_control_results.npz",
+      "sha256": "f125a3a1053e53e94da18b901c51997a0cbbb6162e200416dd3dbf576aa4b354",
+      "original_atlas_goal_setup_ms": 3.7728750030510128
+    },
+    {
+      "seed": 296,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed296_control_results.npz",
+      "sha256": "2838ca252212d48d97ff24b261166823f43d644dff907fedecf920eca240caf3",
+      "original_atlas_goal_setup_ms": 4.170707950834185
+    },
+    {
+      "seed": 297,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed297_control_results.npz",
+      "sha256": "523ebe8865056da578dd649fa450a7e0c325ef250da6a2838631bd395544b2f1",
+      "original_atlas_goal_setup_ms": 3.8805000367574394
+    },
+    {
+      "seed": 298,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed298_control_results.npz",
+      "sha256": "7793f5f31f43da7138025d66c205ec072963e05905d5b6f9af99f606b45df7ab",
+      "original_atlas_goal_setup_ms": 3.872667031828314
+    },
+    {
+      "seed": 299,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed299_control_results.npz",
+      "sha256": "4a23db2828ba4ce82607dcb7eb4f2705cad754202aa13098955a8cc0b988888e",
+      "original_atlas_goal_setup_ms": 3.85854096384719
+    },
+    {
+      "seed": 300,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed300_control_results.npz",
+      "sha256": "0f81bc035641d4c2944ccebfc948873f449ef13febc9a2f2a1ae9d3992e6916c",
+      "original_atlas_goal_setup_ms": 4.064250038936734
+    },
+    {
+      "seed": 301,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed301_control_results.npz",
+      "sha256": "20246843456ed8099747704b782ac5941092ebf533561580f5a230853f696493",
+      "original_atlas_goal_setup_ms": 3.9120420115068555
+    },
+    {
+      "seed": 302,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed302_control_results.npz",
+      "sha256": "482c3974bdab7e6e3db3f0cc0ce4bba70aed540d96fc23a92d3cae28ff7d03df",
+      "original_atlas_goal_setup_ms": 3.822042024694383
+    },
+    {
+      "seed": 303,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed303_control_results.npz",
+      "sha256": "3cc53bde83b15e8aaa6769e663ab3c85e850dcc234515297cb3ef12762c28346",
+      "original_atlas_goal_setup_ms": 3.865916980430484
+    },
+    {
+      "seed": 304,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed304_control_results.npz",
+      "sha256": "a68c5e30bea736bc75739c46228e52e30289307ec29177e93ea7e16670c565b4",
+      "original_atlas_goal_setup_ms": 3.7812500377185643
+    },
+    {
+      "seed": 305,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed305_control_results.npz",
+      "sha256": "1a2da763638f2a4bbb9afcb893bf5cb798bbe62c456806d308ce2157de2ba0e5",
+      "original_atlas_goal_setup_ms": 4.405709041748196
+    },
+    {
+      "seed": 306,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed306_control_results.npz",
+      "sha256": "552577836ccf94bcfeaa6340108c48ef55093c5aba554642f3f4fb7b499c7913",
+      "original_atlas_goal_setup_ms": 4.176416958216578
+    },
+    {
+      "seed": 307,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed307_control_results.npz",
+      "sha256": "4165c14f606b399b1f50622797c96b07605f5cdb5cbaf66dc44f9ff800a192b2",
+      "original_atlas_goal_setup_ms": 3.873625013511628
+    },
+    {
+      "seed": 308,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed308_control_results.npz",
+      "sha256": "993c0c9834ca7eaae209cecaac156139d19529ee57cd491820ccb55f7aada001",
+      "original_atlas_goal_setup_ms": 3.9398749941028655
+    },
+    {
+      "seed": 309,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed309_control_results.npz",
+      "sha256": "7bcd84fde459660a340769c9ee9f401e1faf2259a36859eb8239db0541afcb9a",
+      "original_atlas_goal_setup_ms": 3.824375045951456
+    },
+    {
+      "seed": 310,
+      "file": "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/selected_serial/rank053/output8/terminal/seed310_control_results.npz",
+      "sha256": "a0c7f9ee0d1cf99d9e81f47b83f9d58edb1010ee7446804832b67332e1d408d1",
+      "original_atlas_goal_setup_ms": 4.055499972309917
+    }
+  ],
+  "reference": "Fixed supplied final_goal; no graph, no Atlas actions, no rollout-dependent updates",
+  "timing": "Supplied reference loading excluded from per-step control time and recorded separately. Atlas original goal-setup time is provenance only, not remeasured contextual latency."
+}

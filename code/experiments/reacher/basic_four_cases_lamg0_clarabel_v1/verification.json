@@ -1,0 +1,35 @@
+{
+  "verified_rollouts": 400,
+  "qp_statuses": {
+    "optimal": 128000
+  },
+  "paired_checks": [
+    {
+      "dimension": 8,
+      "mode": "terminal",
+      "same_failed_seeds_as_osqp_lamg0": true,
+      "same_failed_seeds_as_clarabel_lamg005": true
+    },
+    {
+      "dimension": 8,
+      "mode": "graph",
+      "same_failed_seeds_as_osqp_lamg0": true,
+      "same_failed_seeds_as_clarabel_lamg005": true
+    },
+    {
+      "dimension": 10,
+      "mode": "terminal",
+      "same_failed_seeds_as_osqp_lamg0": true,
+      "same_failed_seeds_as_clarabel_lamg005": true
+    },
+    {
+      "dimension": 10,
+      "mode": "graph",
+      "same_failed_seeds_as_osqp_lamg0": true,
+      "same_failed_seeds_as_clarabel_lamg005": true
+    }
+  ],
+  "frozen_atlases_verified": true,
+  "original_manifests_unchanged": true,
+  "old_osqp_runner_snapshot_verified": true
+}

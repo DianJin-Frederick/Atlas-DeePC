@@ -1,0 +1,104 @@
+{
+  "completed": 2,
+  "requested": 2,
+  "complete": true,
+  "success_evaluable_rollouts": 2,
+  "successes": 0,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "seed": 211,
+      "steps": 320,
+      "minimum": 0.01997301017905105,
+      "minimum_step": 199,
+      "last": 0.18992414395659865,
+      "mean_last_30": 0.17252529958291948,
+      "max_last_30": 0.19061841640661398,
+      "success_30": false,
+      "mean_last_100": 0.17822424657788488,
+      "max_last_100": 0.201950580500198,
+      "success_100": false,
+      "success_evaluable": true,
+      "strict_success": false,
+      "rollout_rmse_mm": 164.11978831983393,
+      "fallback_steps": 0,
+      "region_switches": 8,
+      "closed_loop_control_cost": 862.7827648944018,
+      "xy_squared_error_sum_m2": 8.61929757380707,
+      "input_squared_sum": 0.8530075136947165
+    },
+    {
+      "seed": 222,
+      "steps": 320,
+      "minimum": 0.15090960372073306,
+      "minimum_step": 234,
+      "last": 0.1846160067545953,
+      "mean_last_30": 0.19027786125328594,
+      "max_last_30": 0.19394444795018215,
+      "success_30": false,
+      "mean_last_100": 0.17437889626986888,
+      "max_last_100": 0.19394444795018215,
+      "success_100": false,
+      "success_evaluable": true,
+      "strict_success": false,
+      "rollout_rmse_mm": 175.79995567830923,
+      "fallback_steps": 0,
+      "region_switches": 4,
+      "closed_loop_control_cost": 989.2753754882496,
+      "xy_squared_error_sum_m2": 9.889799813278557,
+      "input_squared_sum": 0.29539416039376676
+    }
+  ],
+  "error_quantiles_mm": {
+    "median": 176.30157142387688,
+    "p90": 177.83971154708328,
+    "p95": 178.03197906248408,
+    "p99": 178.18579307480474
+  },
+  "median_rollout_rmse_mm": 169.9598719990716,
+  "median_closed_loop_control_cost": 926.0290701913257,
+  "fallback_steps": 0,
+  "timing_all_steps": {
+    "mean_ms": 15.778062387107639,
+    "median_ms": 13.487895485013723,
+    "p95_ms": 16.11915417597629,
+    "p99_ms": 23.60821673762991,
+    "max_ms": 1259.6022080397233
+  },
+  "modular_timing_steps6_onwards": {
+    "control_compute_time_s": {
+      "mean_ms": 13.835843472320231,
+      "median_ms": 13.47777049522847,
+      "p95_ms": 16.114456503419206,
+      "p99_ms": 20.662635799963027,
+      "max_ms": 71.63529098033905
+    },
+    "selection_time_s": {
+      "mean_ms": 0.024761316285187764,
+      "median_ms": 0.0239795190282166,
+      "p95_ms": 0.030401826370507472,
+      "p99_ms": 0.0489453785121441,
+      "max_ms": 0.10437506716698408
+    },
+    "matrix_preparation_time_s": {
+      "mean_ms": 0.9637555563896303,
+      "median_ms": 1.0769795044325292,
+      "p95_ms": 2.455595694482326,
+      "p99_ms": 3.2271322805900167,
+      "max_ms": 9.155834093689919
+    },
+    "solve_time_s": {
+      "mean_ms": 12.574585482832932,
+      "median_ms": 12.120833504013717,
+      "p95_ms": 14.259670930914579,
+      "p99_ms": 18.154931095195945,
+      "max_ms": 65.97154203336686
+    }
+  },
+  "note": "All completed rollouts, including unsuccessful ones, included. Smoke runs <100 steps have no success-rate estimate.",
+  "mean_final100_mm": 176.30157142387688,
+  "median_final100_mm": 176.30157142387688,
+  "mean_prediction_mm": 31.539181329173413,
+  "saturation_fraction": 0.0,
+  "selection_rule": "Strict success count, then mean final-100 error; never compare differently weighted native costs"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "method": "atlas_k12_d40",
+    "config": {
+      "clusters": 12,
+      "rank": 40,
+      "lam_ini": 100.0,
+      "weights": "position"
+    },
+    "past_ranks": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "chart_counts": [
+      4420,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tie_fraction": 1.0,
+    "switch_fraction": 0.0,
+    "maximum_residual": 3.639718551181466e-14,
+    "partial_history_success": 20,
+    "median_rmse_cm": 1.7447608919006066
+  }
+]

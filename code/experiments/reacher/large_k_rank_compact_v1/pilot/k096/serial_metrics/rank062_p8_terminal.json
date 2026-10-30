@@ -1,0 +1,90 @@
+{
+  "rank": 62,
+  "output_dimension": 8,
+  "reference_mode": "terminal",
+  "graph_guidance": false,
+  "seeds": 1,
+  "successes": 1,
+  "success_rate": 100.0,
+  "median_error_mm": 0.679831341899279,
+  "p90_error_mm": 0.679831341899279,
+  "p95_error_mm": 0.679831341899279,
+  "p99_error_mm": 0.679831341899279,
+  "median_rollout_rmse_mm": 10.164336333686151,
+  "pooled_rmse_mm": 10.164336333686151,
+  "per_seed_rmse_mm": {
+    "211": 10.164336333686151
+  },
+  "unsolved_steps": 0,
+  "solver_status_counts": {
+    "optimal": 320
+  },
+  "failed_seeds": [],
+  "median_time_ms": 21.316083963029087,
+  "p95_time_ms": 23.49757889751345,
+  "p99_time_ms": 45.18263402860612,
+  "timing_modules": {
+    "Chart localization": {
+      "module": "Chart localization",
+      "mean_ms": 0.22424878146026342,
+      "median_ms": 0.21845800802111626,
+      "p95_ms": 0.2646874403581023,
+      "p99_ms": 0.30942687299102556,
+      "share_of_mean_total": 0.010237702532112236
+    },
+    "Terminal-reference selection": {
+      "module": "Terminal-reference selection",
+      "mean_ms": 0.0016079679693257998,
+      "median_ms": 0.0015830155462026596,
+      "p95_ms": 0.002137338742613793,
+      "p99_ms": 0.005214989650994543,
+      "share_of_mean_total": 7.340908451731826e-05
+    },
+    "Graph routing": {
+      "module": "Graph routing",
+      "mean_ms": 0.004749989048356102,
+      "median_ms": 0.004292000085115433,
+      "p95_ms": 0.006958306767046452,
+      "p99_ms": 0.008690478280186655,
+      "share_of_mean_total": 0.00021685279443303302
+    },
+    "Linear subspace retrieval": {
+      "module": "Linear subspace retrieval",
+      "mean_ms": 0.0006099176105289232,
+      "median_ms": 0.000583939254283905,
+      "p95_ms": 0.0008750124834477901,
+      "p99_ms": 0.0010352488607168204,
+      "share_of_mean_total": 2.7844766981702673e-05
+    },
+    "QP construction and solve": {
+      "module": "QP construction and solve",
+      "mean_ms": 21.641105821075303,
+      "median_ms": 21.060874918475747,
+      "p95_ms": 23.21284197969362,
+      "p99_ms": 44.93709598435089,
+      "share_of_mean_total": 0.9879884404249963
+    },
+    "Other control-loop work": {
+      "module": "Other control-loop work",
+      "mean_ms": 0.0318870617313281,
+      "median_ms": 0.03020884469151497,
+      "p95_ms": 0.04074333701282741,
+      "p99_ms": 0.06509257713332779,
+      "share_of_mean_total": 0.0014557503969593849
+    },
+    "Total online control": {
+      "module": "Total online control",
+      "mean_ms": 21.904209538895106,
+      "median_ms": 21.316083963029087,
+      "p95_ms": 23.49757889751345,
+      "p99_ms": 45.18263402860612,
+      "share_of_mean_total": 1.0
+    }
+  },
+  "timing_workers": 1,
+  "summary_sha256": "ca27e76f3aec6396b6ad640264f658553c2f1bf69c4bd2435b6a2bccd7d8943a",
+  "source_directory": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/large_k_rank_compact_v1/pilot/k096/selected_serial/rank062/output8/terminal",
+  "rank60_reused": false,
+  "clusters": 96,
+  "serial": true
+}

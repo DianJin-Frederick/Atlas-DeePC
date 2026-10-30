@@ -1,0 +1,41 @@
+{
+  "config": {
+    "columns": 60,
+    "lambda_g": 10.0,
+    "lambda_sigma": 1.0,
+    "mode": "clarabel_written_g",
+    "weights": "position"
+  },
+  "seed": 541,
+  "noise": true,
+  "steps": 218,
+  "lap_completed": true,
+  "termination": "lap_completed",
+  "lap_fraction": 1.0003197953309881,
+  "rmse_cm": 3.903034335193135,
+  "speed_rmse_mps": 0.24592524542121455,
+  "timing": {
+    "median_ms": 10.077332961373031,
+    "p99_ms": 17.2134219808504,
+    "max_ms": 19.1163340350613,
+    "calls": 213
+  },
+  "all_calls_timing": {
+    "median_ms": 10.060687432996929,
+    "p99_ms": 17.203528226818886,
+    "max_ms": 19.1163340350613,
+    "calls": 218
+  },
+  "solve_failures": 0,
+  "collision_verified": true,
+  "warmup_steps": 15,
+  "chart_selection_method": "contextual_trajectory_selection",
+  "noise_sigma": 0.0025,
+  "measurement_noise_std": [
+    0.03807952791867417,
+    0.04049569999443684,
+    0.004081606697533534,
+    0.003985440147809268
+  ],
+  "verified_success": true
+}

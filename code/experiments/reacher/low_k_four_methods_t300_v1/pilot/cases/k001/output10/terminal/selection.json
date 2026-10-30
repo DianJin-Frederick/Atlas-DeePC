@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "selection_rule": "Highest strict success count, then lowest median rollout RMSE, then lowest rank",
+  "tested_ranks": [
+    60
+  ],
+  "winner": {
+    "clusters": 1,
+    "rank": 60,
+    "output_dimension": 10,
+    "reference_mode": "terminal",
+    "controlled_steps": 300,
+    "seeds": 1,
+    "successes": 0,
+    "success_rate": 0.0,
+    "median_error_mm": 43.2474687377314,
+    "p90_error_mm": 43.2474687377314,
+    "p95_error_mm": 43.2474687377314,
+    "p99_error_mm": 43.2474687377314,
+    "median_rollout_rmse_mm": 79.25946557662702,
+    "failed_seeds": [
+      211
+    ],
+    "unsolved_steps": 0
+  },
+  "records": [
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "median_error_mm": 43.2474687377314,
+      "p90_error_mm": 43.2474687377314,
+      "p95_error_mm": 43.2474687377314,
+      "p99_error_mm": 43.2474687377314,
+      "median_rollout_rmse_mm": 79.25946557662702,
+      "failed_seeds": [
+        211
+      ],
+      "unsolved_steps": 0
+    }
+  ]
+}

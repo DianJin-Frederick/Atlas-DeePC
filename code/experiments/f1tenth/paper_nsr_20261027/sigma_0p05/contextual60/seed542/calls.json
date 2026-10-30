@@ -1,0 +1,35 @@
+[
+  {
+    "status": "Solved",
+    "accepted": true,
+    "selection_assembly_s": 0.0005750410491600633,
+    "solver_setup_s": 0.0022205000277608633,
+    "solve_s": 0.007857082993723452,
+    "solver_reported_s": 0.008541001,
+    "iterations": 11,
+    "constraint_violation": 1.1102230246251565e-15,
+    "total_s": 0.010886457981541753
+  },
+  {
+    "status": "Solved",
+    "accepted": true,
+    "selection_assembly_s": 0.000597667065449059,
+    "solver_setup_s": 0.001777208992280066,
+    "solve_s": 0.008934416924603283,
+    "solver_reported_s": 0.009438917,
+    "iterations": 11,
+    "constraint_violation": 9.992007221626409e-16,
+    "total_s": 0.01154904195573181
+  },
+  {
+    "status": "Solved",
+    "accepted": true,
+    "selection_assembly_s": 0.0008596250554546714,
+    "solver_setup_s": 0.001977749983780086,
+    "solve_s": 0.007691791979596019,
+    "solver_reported_s": 0.008222165,
+    "iterations": 12,
+    "constraint_violation": 1.3322676295501878e-15,
+    "total_s": 0.01074904203414917
+  }
+]

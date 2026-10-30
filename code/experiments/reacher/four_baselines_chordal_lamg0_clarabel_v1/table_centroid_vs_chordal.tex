@@ -1,0 +1,31 @@
+\documentclass[10pt]{article}
+\usepackage[landscape,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{times}
+\pagestyle{empty}
+\begin{document}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Graph distance & Centroid & Chordal & Centroid & Chordal \\
+\midrule
+Success rate $\uparrow$ & $79\%$ & $\mathbf{82\%}$ & $\mathbf{94\%}$ & $92\%$ \\
+Median error (mm) $\downarrow$ & 2.61 & \textbf{2.43} & 1.94 & \textbf{1.91} \\
+90th-percentile error (mm) $\downarrow$ & 51.572 & 51.572 & \textbf{3.829} & 4.157 \\
+95th-percentile error (mm) $\downarrow$ & 81.643 & 81.643 & \textbf{12.608} & 22.439 \\
+99th-percentile error (mm) $\downarrow$ & 119.857 & 119.857 & \textbf{45.730} & 59.764 \\
+\midrule
+\multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+Median & 27.61 & 26.67 & 26.71 & 27.09 \\
+95th percentile & 32.17 & 34.06 & 32.62 & 35.61 \\
+99th percentile & 51.94 & 52.36 & 50.31 & 52.83 \\
+\bottomrule
+\end{tabular}
+\caption{Graph-distance ablation for Atlas-DeePC on 100 Reacher seeds (211--310), with rank 60, $\lambda_g=0$, and Clarabel. All cases use graph waypoints and iterative $N=10$ terminal-reference selection. Edge costs divide either Euclidean centroid distance or chordal subspace distance by the square root of the transition count. Errors summarize the final-100 mean fingertip error across seeds. Bold indicates the better control-performance value within each output dimension; ties are not highlighted. Timings pool online steps after discarding the first five per rollout, using serial execution with one numerical thread; the two distance variants were timed in separate sessions. The no-graph controls are unchanged at 76\% ($p=8$) and 72\% ($p=10$).}
+\label{tab:reacher-centroid-chordal}
+\end{table}
+\end{document}

@@ -1,0 +1,112 @@
+[
+  {
+    "method": "atlas_k8_d72",
+    "label": "Atlas-DeePC (K=8, d=72)",
+    "evaluated": 20,
+    "collision_free_laps": 0,
+    "geometric_laps": 7,
+    "median_rmse_cm": null,
+    "geometric_median_rmse_cm": 43.53959089062414,
+    "median_speed_rmse_mps": null,
+    "median_lap_fraction": 0.4339622641509434,
+    "terminations": {
+      "lap_completed": 7,
+      "track_corridor_exit": 13
+    },
+    "timing": {
+      "median_ms": 3.7939579924568534,
+      "p99_ms": 11.714349993271753,
+      "max_ms": 51.33816692978144,
+      "calls": 2374
+    },
+    "config": {
+      "clusters": 8,
+      "rank": 72,
+      "lam_ini": 100.0,
+      "weights": "position"
+    }
+  },
+  {
+    "method": "contextual",
+    "label": "Contextual-DPC (30 columns)",
+    "evaluated": 20,
+    "collision_free_laps": 0,
+    "geometric_laps": 0,
+    "median_rmse_cm": null,
+    "geometric_median_rmse_cm": null,
+    "median_speed_rmse_mps": null,
+    "median_lap_fraction": 0.02734250079948833,
+    "terminations": {
+      "track_corridor_exit": 20
+    },
+    "timing": {
+      "median_ms": 4.043187538627535,
+      "p99_ms": 7.210657018003983,
+      "max_ms": 8.145666099153459,
+      "calls": 118
+    },
+    "config": {
+      "columns": 30,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    }
+  },
+  {
+    "method": "contextual60",
+    "label": "Contextual-DPC (60 columns)",
+    "evaluated": 20,
+    "collision_free_laps": 0,
+    "geometric_laps": 3,
+    "median_rmse_cm": null,
+    "geometric_median_rmse_cm": 40.835210445309734,
+    "median_speed_rmse_mps": null,
+    "median_lap_fraction": 0.25567636712503994,
+    "terminations": {
+      "lap_completed": 3,
+      "track_corridor_exit": 17
+    },
+    "timing": {
+      "median_ms": 9.984000469557941,
+      "p99_ms": 14.622072484344246,
+      "max_ms": 30.80533293541521,
+      "calls": 1454
+    },
+    "config": {
+      "columns": 60,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    }
+  },
+  {
+    "method": "contextual90",
+    "label": "Contextual-DPC (90 columns)",
+    "evaluated": 20,
+    "collision_free_laps": 0,
+    "geometric_laps": 11,
+    "median_rmse_cm": null,
+    "geometric_median_rmse_cm": 37.71568223023039,
+    "median_speed_rmse_mps": null,
+    "median_lap_fraction": 1.0004796929964823,
+    "terminations": {
+      "lap_completed": 11,
+      "track_corridor_exit": 9
+    },
+    "timing": {
+      "median_ms": 13.567791902460158,
+      "p99_ms": 22.05083284061402,
+      "max_ms": 46.644165995530784,
+      "calls": 2821
+    },
+    "config": {
+      "columns": 90,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    }
+  }
+]

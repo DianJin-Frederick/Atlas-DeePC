@@ -1,0 +1,599 @@
+{
+  "complete": true,
+  "completed_rollouts": 90300,
+  "records": [
+    {
+      "clusters": 1,
+      "rank": 69,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 3,
+      "success_rate": 3.0
+    },
+    {
+      "clusters": 1,
+      "rank": 69,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 3,
+      "success_rate": 3.0
+    },
+    {
+      "clusters": 1,
+      "rank": 54,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 4,
+      "success_rate": 4.0
+    },
+    {
+      "clusters": 2,
+      "rank": 55,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 5,
+      "success_rate": 5.0
+    },
+    {
+      "clusters": 2,
+      "rank": 55,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 5,
+      "success_rate": 5.0
+    },
+    {
+      "clusters": 2,
+      "rank": 46,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 5,
+      "success_rate": 5.0
+    },
+    {
+      "clusters": 4,
+      "rank": 58,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 17,
+      "success_rate": 17.0
+    },
+    {
+      "clusters": 4,
+      "rank": 55,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 22,
+      "success_rate": 22.0
+    },
+    {
+      "clusters": 4,
+      "rank": 58,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 19,
+      "success_rate": 19.0
+    },
+    {
+      "clusters": 8,
+      "rank": 62,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 37,
+      "success_rate": 37.0
+    },
+    {
+      "clusters": 8,
+      "rank": 59,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 39,
+      "success_rate": 39.0
+    },
+    {
+      "clusters": 8,
+      "rank": 67,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 33,
+      "success_rate": 33.0
+    },
+    {
+      "clusters": 16,
+      "rank": 59,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 56,
+      "success_rate": 56.0
+    },
+    {
+      "clusters": 16,
+      "rank": 51,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 80,
+      "success_rate": 80.0
+    },
+    {
+      "clusters": 16,
+      "rank": 57,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 48,
+      "success_rate": 48.0
+    },
+    {
+      "clusters": 24,
+      "rank": 52,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 73,
+      "success_rate": 73.0
+    },
+    {
+      "clusters": 24,
+      "rank": 49,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 80,
+      "success_rate": 80.0
+    },
+    {
+      "clusters": 24,
+      "rank": 54,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 66,
+      "success_rate": 66.0
+    },
+    {
+      "clusters": 32,
+      "rank": 48,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 73,
+      "success_rate": 73.0
+    },
+    {
+      "clusters": 32,
+      "rank": 57,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 89,
+      "success_rate": 89.0
+    },
+    {
+      "clusters": 32,
+      "rank": 69,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 69,
+      "success_rate": 69.0
+    }
+  ],
+  "selected": [
+    {
+      "clusters": 1,
+      "rank": 69,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 3,
+      "success_rate": 3.0
+    },
+    {
+      "clusters": 1,
+      "rank": 69,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 3,
+      "success_rate": 3.0
+    },
+    {
+      "clusters": 1,
+      "rank": 54,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 4,
+      "success_rate": 4.0
+    },
+    {
+      "clusters": 2,
+      "rank": 55,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 5,
+      "success_rate": 5.0
+    },
+    {
+      "clusters": 2,
+      "rank": 55,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 5,
+      "success_rate": 5.0
+    },
+    {
+      "clusters": 2,
+      "rank": 46,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 5,
+      "success_rate": 5.0
+    },
+    {
+      "clusters": 4,
+      "rank": 58,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 17,
+      "success_rate": 17.0
+    },
+    {
+      "clusters": 4,
+      "rank": 55,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 22,
+      "success_rate": 22.0
+    },
+    {
+      "clusters": 4,
+      "rank": 58,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 19,
+      "success_rate": 19.0
+    },
+    {
+      "clusters": 8,
+      "rank": 62,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 37,
+      "success_rate": 37.0
+    },
+    {
+      "clusters": 8,
+      "rank": 59,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 39,
+      "success_rate": 39.0
+    },
+    {
+      "clusters": 8,
+      "rank": 67,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 33,
+      "success_rate": 33.0
+    },
+    {
+      "clusters": 16,
+      "rank": 59,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 56,
+      "success_rate": 56.0
+    },
+    {
+      "clusters": 16,
+      "rank": 51,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 80,
+      "success_rate": 80.0
+    },
+    {
+      "clusters": 16,
+      "rank": 57,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 48,
+      "success_rate": 48.0
+    },
+    {
+      "clusters": 24,
+      "rank": 52,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 73,
+      "success_rate": 73.0
+    },
+    {
+      "clusters": 24,
+      "rank": 49,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 80,
+      "success_rate": 80.0
+    },
+    {
+      "clusters": 24,
+      "rank": 54,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 66,
+      "success_rate": 66.0
+    },
+    {
+      "clusters": 32,
+      "rank": 48,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 73,
+      "success_rate": 73.0
+    },
+    {
+      "clusters": 32,
+      "rank": 57,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 89,
+      "success_rate": 89.0
+    },
+    {
+      "clusters": 32,
+      "rank": 69,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 100,
+      "successes": 69,
+      "success_rate": 69.0
+    }
+  ],
+  "progress": [
+    {
+      "clusters": 1,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 1,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 1,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 2,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 2,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 2,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 4,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 4,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 4,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 8,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 8,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 8,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 16,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 16,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 16,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 24,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 24,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 24,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 32,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 32,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    },
+    {
+      "clusters": 32,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 4300,
+      "complete": true,
+      "completed_ranks": 43
+    }
+  ],
+  "controlled_steps": 300
+}

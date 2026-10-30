@@ -1,0 +1,46 @@
+{
+  "baseline": {
+    "weights": {
+      "lambda_epsilon": 1400.0,
+      "q_dq": 400.0,
+      "q_joint": 400.0,
+      "q_xy": 400.0,
+      "r": 1.0
+    },
+    "finished": 1,
+    "requested": 1,
+    "full_rollouts": 1,
+    "aborted": 0,
+    "successes": 0,
+    "mean_last100_mm": 179.62712759767936,
+    "mean_last30_mm": 175.03233496961872,
+    "mean_final_mm": 221.69892440112238,
+    "clip_fraction": 0.6666666666666666,
+    "mean_action_norm": 0.9881179792611359,
+    "mean_prediction_mm": 21.22191029727782,
+    "results": [
+      {
+        "seed": 211,
+        "requested_steps": 300,
+        "completed_steps": 300,
+        "complete": true,
+        "failure": null,
+        "success_evaluable": true,
+        "strict_success": false,
+        "minimum": 0.029662448043873912,
+        "minimum_step": 188,
+        "last": 0.22169892440112238,
+        "mean_last_30": 0.1750323349696187,
+        "max_last_30": 0.22169892440112238,
+        "success_30": false,
+        "mean_last_100": 0.17962712759767935,
+        "max_last_100": 0.29263581133265704,
+        "success_100": false,
+        "saturated_steps": 200,
+        "closed_loop_control_cost": 20506.0856737778,
+        "rollout_rmse_mm": 200.25704840449535,
+        "wall_seconds": 7.549235792015679
+      }
+    ]
+  }
+}

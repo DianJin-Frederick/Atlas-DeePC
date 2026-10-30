@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Metric & Atlas-DeePC & Select-DPC & Contextual-DPC \\
+\midrule
+Trajectory representation & Rank 53 (offline) & 200 columns & 200 columns \\
+Success rate & \textbf{90\%} & 80\% & 85\% \\
+Median error (mm) & \textbf{1.78} & 3.32 & 5.89 \\
+90th-percentile error (mm) & \textbf{10.837} & 34.227 & 10.927 \\
+95th-percentile error (mm) & 151.325 & 52.977 & \textbf{12.821} \\
+99th-percentile error (mm) & 244.993 & \textbf{69.982} & 85.325 \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Total online computation (ms/step)}} \\
+Median & \textbf{20.49} & 1598.83 & 92.51 \\
+95th percentile & \textbf{27.45} & 3637.84 & 123.09 \\
+99th percentile & \textbf{49.87} & 5158.92 & 145.83 \\
+\bottomrule
+\end{tabular}
+\caption{Reacher comparison on 100 development rollouts with $T_{\mathrm{sim}}=300$. Atlas-DeePC uses $p=8$, $K=64$, rank-53 charts, and no graph guidance. Contextual-DPC uses the same fixed eight-output terminal references. Error statistics summarize final-100 mean fingertip errors across rollouts; timings pool steps 6--300. Timings were measured in separate sessions, with possible concurrent workload during the Atlas run.}
+\label{tab:reacher-three-methods-no-graph}
+\end{table}

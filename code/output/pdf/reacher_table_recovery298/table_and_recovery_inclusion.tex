@@ -1,0 +1,54 @@
+% Requires booktabs, graphicx, caption. Copy the companion rollout PDF into figures/.
+% Native table text: use the same font-size command as your other tables.
+\begin{figure}[tbp]
+\centering
+\begin{minipage}[t]{0.56\textwidth}
+\vspace{0pt}
+\centering
+\small
+\setlength{\tabcolsep}{2pt}
+\begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}rrrr@{}}
+\toprule
+Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Graph guidance & No & Yes & No & Yes \\
+\midrule
+Selected rank & 53 & 53 & 57 & 60 \\
+Successes / 500 & 442 & 462 & 391 & \textbf{468} \\
+Success rate $\uparrow$ & 88.4\% & 92.4\% & 78.2\% & \textbf{93.6\%} \\
+Median error (mm) $\downarrow$ & 2.091 & 2.341 & 2.054 & \textbf{2.038} \\
+P90 error (mm) $\downarrow$ & 21.965 & 5.709 & 279.811 & \textbf{4.973} \\
+P95 error (mm) $\downarrow$ & 215.823 & 20.326 & 325.522 & \textbf{18.010} \\
+P99 error (mm) $\downarrow$ & 316.435 & \textbf{46.744} & 386.917 & 49.691 \\
+Median RMSE (mm) $\downarrow$ & 54.45 & 58.98 & \textbf{49.15} & 62.43 \\
+\midrule
+\multicolumn{5}{l}{\textit{Online computation (ms/step)}} \\
+Median & 21.16 & 20.85 & 24.68 & 23.22 \\
+P95 & 32.91 & 30.07 & 37.88 & 31.11 \\
+P99 & 61.07 & 55.18 & 60.12 & 55.34 \\
+\bottomrule
+\end{tabular*}
+\captionof{table}{Output augmentation and graph guidance over 500 held-out
+seeds (10001--10500), with $K=48$. Ranks were selected using development
+seeds 211--310 and fixed before evaluation. Error statistics summarize
+$\operatorname{mean}_{220\le t\le319}e_t$ across rollouts;
+RMSE uses all 320 steps. P90, P95, and P99 denote percentiles.
+Timings pool steps $t=5,\ldots,319$, including failed rollouts.}
+\label{tab:reacher-output-graph}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.42\textwidth}
+\vspace{0pt}
+\centering
+\includegraphics[width=\linewidth]{figures/reacher_recovery298_p8_graph.pdf}
+\captionof{figure}{Successful rollout for development seed 298 using $p=8$,
+rank-$53$ charts, and graph guidance. Panel (a) shows the fingertip
+path and measured configurations at the first visit to each chart.
+The dashed reference pose is the offline configuration used for the
+final terminal reference. Panel (b) retains every chart switch;
+ellipses omit a constant segment.
+The mean error over $220\le t\le319$ is $0.321$\,mm.
+The output dimension and rank are unchanged from the failed
+unguided rollout.}
+\label{fig:reacher-recovery298}
+\end{minipage}
+\end{figure}

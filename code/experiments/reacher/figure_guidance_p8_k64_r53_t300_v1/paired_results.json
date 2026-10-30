@@ -1,0 +1,65 @@
+[
+  {
+    "seed": 10206,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10206_control_results.npz",
+    "unguided_success": false,
+    "unguided_final100_mm": 377.34411870116077,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10206_control_results.npz",
+    "guided_success": true,
+    "guided_final100_mm": 1.8453105253623336
+  },
+  {
+    "seed": 10349,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10349_control_results.npz",
+    "unguided_success": false,
+    "unguided_final100_mm": 375.4994371894743,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10349_control_results.npz",
+    "guided_success": true,
+    "guided_final100_mm": 0.42439372864946595
+  },
+  {
+    "seed": 10144,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10144_control_results.npz",
+    "unguided_success": false,
+    "unguided_final100_mm": 216.76101706430913,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10144_control_results.npz",
+    "guided_success": false,
+    "guided_final100_mm": 16.94115382140085
+  },
+  {
+    "seed": 10445,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10445_control_results.npz",
+    "unguided_success": false,
+    "unguided_final100_mm": 191.07219086384742,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10445_control_results.npz",
+    "guided_success": true,
+    "guided_final100_mm": 1.4240705778816045
+  },
+  {
+    "seed": 10330,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10330_control_results.npz",
+    "unguided_success": true,
+    "unguided_final100_mm": 0.8182197208154832,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10330_control_results.npz",
+    "guided_success": true,
+    "guided_final100_mm": 0.8182182461414748
+  },
+  {
+    "seed": 10255,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10255_control_results.npz",
+    "unguided_success": true,
+    "unguided_final100_mm": 1.865329659999916,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10255_control_results.npz",
+    "guided_success": true,
+    "guided_final100_mm": 3.0389142510489506
+  },
+  {
+    "seed": 10449,
+    "unguided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10449_control_results.npz",
+    "unguided_success": true,
+    "unguided_final100_mm": 2.258557891561966,
+    "guided_path": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/figure_guidance_p8_k64_r53_t300_v1/output8/graph/seed10449_control_results.npz",
+    "guided_success": false,
+    "guided_final100_mm": 60.80785328552702
+  }
+]

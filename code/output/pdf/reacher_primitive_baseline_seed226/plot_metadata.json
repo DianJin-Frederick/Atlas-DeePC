@@ -1,0 +1,51 @@
+{
+  "seed": 226,
+  "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/seed226_control_results.npz",
+  "selection_reason": "Selected from successful primitive baseline runs for low steady error and minimal late oscillation",
+  "source_sha256": "2c27a907522af5f645438b9534842fe67f7ce244b36c1cddb8473d9fae1c7223",
+  "protocol": "8 outputs, raw features, nearest centroid, fixed nearest eligible reference, no graph, no g bounds",
+  "strict_success": true,
+  "display_steps": 320,
+  "warmup_zero_steps": 2,
+  "error_at_step100_mm": 0.45663804294228494,
+  "error_at_step320_mm": 0.2117180338257237,
+  "final100_mean_error_mm": 0.21172861292911033,
+  "chart_ids_one_based": [
+    23,
+    10,
+    48
+  ],
+  "chart_changes": [
+    0,
+    11,
+    53
+  ],
+  "chart_axis_visible_intervals": [
+    [
+      0,
+      102
+    ],
+    [
+      318,
+      320
+    ]
+  ],
+  "chart_omitted_interval_constant": true,
+  "snapshot_steps": [
+    2,
+    4,
+    6,
+    8,
+    12,
+    15,
+    20,
+    29
+  ],
+  "figure_inches": [
+    6.8,
+    1.85
+  ],
+  "max_replay_error": 0.0,
+  "time_convention": "0 is immediately after two warmup actions; saved outputs occupy steps 1..320; chart at t chooses control on [t,t+1)",
+  "trajectory_curve": "Natural cubic spline through saved measurements for display only"
+}

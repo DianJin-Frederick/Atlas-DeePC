@@ -1,0 +1,34 @@
+\documentclass[10pt]{article}
+\usepackage[landscape,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{times}
+\pagestyle{empty}
+\begin{document}
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrrr}
+        \toprule
+        Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+        \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+        Graph guidance & No & Yes & No & Yes \\
+        \midrule
+        Selected rank & 53 & 53 & 57 & 60 \\
+        Success rate $\uparrow$ & 88\% & 89\% & 82\% & \textbf{93\%} \\
+        Median error (mm) $\downarrow$ & \textbf{1.99} & 2.28 & 2.01 & 2.09 \\
+        90th-percentile error (mm) $\downarrow$ & 28.565 & 16.393 & 235.958 & \textbf{5.251} \\
+        95th-percentile error (mm) $\downarrow$ & 49.279 & 30.175 & 317.468 & \textbf{15.345} \\
+        99th-percentile error (mm) $\downarrow$ & 212.037 & 48.130 & 362.379 & \textbf{45.576} \\
+        Median rollout RMSE (mm) $\downarrow$ & 61.22 & 61.11 & \textbf{58.15} & 65.37 \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+        Median & 27.89 & 27.85 & 30.18 & 30.38 \\
+        95th percentile & 37.16 & 42.93 & 45.56 & 45.82 \\
+        99th percentile & 58.42 & 60.01 & 64.21 & 63.89 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Best observed ranks among 43 tested ranks (28--70) for four Atlas-DeePC baselines on seeds 211--310. Each method's rank maximizes strict success; ties are broken by lower median rollout RMSE, then lower rank. Rank selection and performance reporting use the same exploratory 100 seeds, not an independent test set. All cases use $\lambda_g=\lambda_{\Delta u}=0$, $\lambda_{\mathrm{ini}}=10^5$, Clarabel, 48 unstandardized linear charts, and full-window projection-residual chart selection. Unguided cases use a fixed nearest eligible terminal configuration; guided cases use rank-dependent chordal graph costs and iterative $N=10$ terminal selection. Median and percentile errors summarize the final-100 mean fingertip error across seeds. Median rollout RMSE is the median of individual rollout RMSEs over all 320 controlled steps, excluding warmup. Timings are from separate serial, single-thread reruns of the selected ranks on all 100 seeds, excluding the first five controlled steps per rollout. Bold indicates the best observed control-performance value.}
+    \label{tab:four-baselines-selected-ranks}
+\end{table}
+
+\end{document}

@@ -1,0 +1,599 @@
+{
+  "sigma": 0.0,
+  "target": {
+    "method": "contextual90",
+    "label": "Contextual-DPC (90 columns)",
+    "evaluated": 20,
+    "collision_free_laps": 20,
+    "geometric_laps": 20,
+    "median_rmse_cm": 1.9346608503845517,
+    "geometric_median_rmse_cm": 1.9346608503845517,
+    "median_speed_rmse_mps": 0.18510982476456483,
+    "median_lap_fraction": 1.0012791813239528,
+    "terminations": {
+      "lap_completed": 20
+    },
+    "timing": {
+      "median_ms": 13.917417032644153,
+      "p99_ms": 24.482901451410733,
+      "max_ms": 161.03579197078943,
+      "calls": 4280
+    },
+    "config": {
+      "columns": 90,
+      "lambda_g": 10.0,
+      "lambda_sigma": 1.0,
+      "mode": "clarabel_written_g",
+      "weights": "position"
+    }
+  },
+  "initial_candidates": [
+    {
+      "method": "atlas24",
+      "label": "Atlas-DeePC (K=2, d=24)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.1036136872401663,
+      "terminations": {
+        "PrimalInfeasible": 1,
+        "track_corridor_exit": 19
+      },
+      "timing": {
+        "median_ms": 1.4504999271593988,
+        "p99_ms": 13.270217460812988,
+        "max_ms": 25.792333064600825,
+        "calls": 392
+      },
+      "config": {
+        "clusters": 2,
+        "rank": 24,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas26",
+      "label": "Atlas-DeePC (K=2, d=26)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.09913655260633195,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 1.466665999032557,
+        "p99_ms": 1.8828492285683758,
+        "max_ms": 2.6145000010728836,
+        "calls": 359
+      },
+      "config": {
+        "clusters": 2,
+        "rank": 26,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas28",
+      "label": "Atlas-DeePC (K=2, d=28)",
+      "evaluated": 20,
+      "collision_free_laps": 14,
+      "geometric_laps": 14,
+      "median_rmse_cm": 4.247295298382146,
+      "geometric_median_rmse_cm": 4.247295298382146,
+      "median_speed_rmse_mps": 0.13281119480525022,
+      "median_lap_fraction": 1.0028781579788935,
+      "terminations": {
+        "lap_completed": 14,
+        "track_corridor_exit": 6
+      },
+      "timing": {
+        "median_ms": 1.4203329337760806,
+        "p99_ms": 5.209272964857501,
+        "max_ms": 115.37695908918977,
+        "calls": 3937
+      },
+      "config": {
+        "clusters": 2,
+        "rank": 28,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k5_d24",
+      "label": "Atlas-DeePC (K=5, d=24)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.3541733290693956,
+      "terminations": {
+        "PrimalInfeasible": 1,
+        "track_corridor_exit": 19
+      },
+      "timing": {
+        "median_ms": 1.340958522632718,
+        "p99_ms": 3.3395722939167167,
+        "max_ms": 10.028667049482465,
+        "calls": 1598
+      },
+      "config": {
+        "clusters": 5,
+        "rank": 24,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k5_d26",
+      "label": "Atlas-DeePC (K=5, d=26)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 2,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 9.769232472469287,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.34617844579469137,
+      "terminations": {
+        "lap_completed": 2,
+        "track_corridor_exit": 18
+      },
+      "timing": {
+        "median_ms": 1.3713955413550138,
+        "p99_ms": 3.815175179624933,
+        "max_ms": 13.546249945648015,
+        "calls": 2278
+      },
+      "config": {
+        "clusters": 5,
+        "rank": 26,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k5_d28",
+      "label": "Atlas-DeePC (K=5, d=28)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.4603453789574672,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 1.4862704556435347,
+        "p99_ms": 3.980823572492226,
+        "max_ms": 7.608416955918074,
+        "calls": 1974
+      },
+      "config": {
+        "clusters": 5,
+        "rank": 28,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k10_d24",
+      "label": "Atlas-DeePC (K=10, d=24)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.0967380876239207,
+      "terminations": {
+        "PrimalInfeasible": 1,
+        "track_corridor_exit": 19
+      },
+      "timing": {
+        "median_ms": 1.46454107016325,
+        "p99_ms": 2.4629712128080388,
+        "max_ms": 9.673291933722794,
+        "calls": 435
+      },
+      "config": {
+        "clusters": 10,
+        "rank": 24,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k10_d26",
+      "label": "Atlas-DeePC (K=10, d=26)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 1,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 17.55517797573391,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.14678605692356891,
+      "terminations": {
+        "lap_completed": 1,
+        "track_corridor_exit": 19
+      },
+      "timing": {
+        "median_ms": 1.5564999775961041,
+        "p99_ms": 3.6386233905795957,
+        "max_ms": 7.132624974474311,
+        "calls": 1024
+      },
+      "config": {
+        "clusters": 10,
+        "rank": 26,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k10_d28",
+      "label": "Atlas-DeePC (K=10, d=28)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 8.176775553114915,
+      "geometric_median_rmse_cm": 8.176775553114915,
+      "median_speed_rmse_mps": 0.33340777693801904,
+      "median_lap_fraction": 1.0028781579788935,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 1.4894170453771949,
+        "p99_ms": 2.6556416891981,
+        "max_ms": 12.040166067890823,
+        "calls": 4300
+      },
+      "config": {
+        "clusters": 10,
+        "rank": 28,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k12_d24",
+      "label": "Atlas-DeePC (K=12, d=24)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.21937959705788296,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 1.4692499535158277,
+        "p99_ms": 2.43250996340066,
+        "max_ms": 4.90045896731317,
+        "calls": 757
+      },
+      "config": {
+        "clusters": 12,
+        "rank": 24,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k12_d26",
+      "label": "Atlas-DeePC (K=12, d=26)",
+      "evaluated": 20,
+      "collision_free_laps": 12,
+      "geometric_laps": 13,
+      "median_rmse_cm": 7.252966406643654,
+      "geometric_median_rmse_cm": 7.255064896970076,
+      "median_speed_rmse_mps": 0.12529965845330965,
+      "median_lap_fraction": 1.0017588743204349,
+      "terminations": {
+        "PrimalInfeasible": 1,
+        "lap_completed": 13,
+        "track_corridor_exit": 6
+      },
+      "timing": {
+        "median_ms": 1.4485839055851102,
+        "p99_ms": 2.5242644734680657,
+        "max_ms": 11.814917088486254,
+        "calls": 3819
+      },
+      "config": {
+        "clusters": 12,
+        "rank": 26,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k12_d28",
+      "label": "Atlas-DeePC (K=12, d=28)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.14982411256795652,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 1.643666997551918,
+        "p99_ms": 2.855980463791624,
+        "max_ms": 6.133500020951033,
+        "calls": 795
+      },
+      "config": {
+        "clusters": 12,
+        "rank": 28,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas",
+      "label": "Atlas-DeePC (K=2, d=40)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 1.7722079359881966,
+      "geometric_median_rmse_cm": 1.7722079359881966,
+      "median_speed_rmse_mps": 0.2976103003459515,
+      "median_lap_fraction": 1.0,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.2458540624938905,
+        "p99_ms": 3.038893394405029,
+        "max_ms": 29.48324999306351,
+        "calls": 4300
+      },
+      "config": {
+        "clusters": 2,
+        "rank": 40,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas42",
+      "label": "Atlas-DeePC (K=2, d=42)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 1.7521302786354995,
+      "geometric_median_rmse_cm": 1.7521302786354995,
+      "median_speed_rmse_mps": 0.36111681534313256,
+      "median_lap_fraction": 1.0011192836584586,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.4160415050573647,
+        "p99_ms": 3.572057572891937,
+        "max_ms": 17.985416925512254,
+        "calls": 4300
+      },
+      "config": {
+        "clusters": 2,
+        "rank": 42,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k5_d40",
+      "label": "Atlas-DeePC (K=5, d=40)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.24768148385033578,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 3.002709010615945,
+        "p99_ms": 12.279321113601299,
+        "max_ms": 110.57895806152374,
+        "calls": 1011
+      },
+      "config": {
+        "clusters": 5,
+        "rank": 40,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k10_d42",
+      "label": "Atlas-DeePC (K=10, d=42)",
+      "evaluated": 20,
+      "collision_free_laps": 4,
+      "geometric_laps": 20,
+      "median_rmse_cm": 21.800557347595216,
+      "geometric_median_rmse_cm": 26.414858447500055,
+      "median_speed_rmse_mps": 0.49156802190048415,
+      "median_lap_fraction": 1.0027182603133995,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.775958040729165,
+        "p99_ms": 4.1641540825366885,
+        "max_ms": 25.955624994821846,
+        "calls": 4211
+      },
+      "config": {
+        "clusters": 10,
+        "rank": 42,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k12_d40",
+      "label": "Atlas-DeePC (K=12, d=40)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 2.362951236656991,
+      "geometric_median_rmse_cm": 2.362951236656991,
+      "median_speed_rmse_mps": 0.16336599967904564,
+      "median_lap_fraction": 1.0035177486408697,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.3171454668045044,
+        "p99_ms": 3.5801866534165923,
+        "max_ms": 29.03304190840572,
+        "calls": 4314
+      },
+      "config": {
+        "clusters": 12,
+        "rank": 40,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    },
+    {
+      "method": "atlas_k1_d40",
+      "label": "Atlas-DeePC (K=1, d=40)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.019187719859290055,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": null,
+      "config": {
+        "clusters": 1,
+        "rank": 40,
+        "lam_ini": 100.0,
+        "weights": "position"
+      },
+      "development_source": "noise_ratio_sweep_20261027/sigma_0"
+    }
+  ],
+  "stages": [],
+  "seed_roles": {
+    "development": [
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530
+    ],
+    "paper": [
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550
+    ]
+  },
+  "selected": {
+    "method": "atlas42",
+    "label": "Atlas-DeePC (K=2, d=42)",
+    "evaluated": 20,
+    "collision_free_laps": 20,
+    "geometric_laps": 20,
+    "median_rmse_cm": 1.7521302786354995,
+    "geometric_median_rmse_cm": 1.7521302786354995,
+    "median_speed_rmse_mps": 0.36111681534313256,
+    "median_lap_fraction": 1.0011192836584586,
+    "terminations": {
+      "lap_completed": 20
+    },
+    "timing": {
+      "median_ms": 2.4160415050573647,
+      "p99_ms": 3.572057572891937,
+      "max_ms": 17.985416925512254,
+      "calls": 4300
+    },
+    "config": {
+      "clusters": 2,
+      "rank": 42,
+      "lam_ini": 100.0,
+      "weights": "position"
+    },
+    "development_source": "noise_ratio_sweep_20261027/sigma_0"
+  },
+  "development_target_reached": true,
+  "target_interpretable": true,
+  "selection_rule": "Maximize collision-free count, then minimize successful-lap RMSE; if no successes, use geometric laps and progress as tie breakers.",
+  "search_limit": "Coarse K=1..24, d=16,20,...,84,86; rank limited by chart sample count. Then local integer ranks/K around the four best development settings. No guarantee that K/rank alone reaches the benchmark."
+}

@@ -1,0 +1,140 @@
+{
+  "equal_e400_r0p0001": {
+    "lambda_epsilon": 400,
+    "r": 0.0001
+  },
+  "equal_e400_r0p01": {
+    "lambda_epsilon": 400,
+    "r": 0.01
+  },
+  "equal_e400_r1": {
+    "lambda_epsilon": 400,
+    "r": 1
+  },
+  "equal_e700_r0p0001": {
+    "lambda_epsilon": 700,
+    "r": 0.0001
+  },
+  "equal_e700_r0p01": {
+    "lambda_epsilon": 700,
+    "r": 0.01
+  },
+  "equal_e700_r1": {
+    "lambda_epsilon": 700,
+    "r": 1
+  },
+  "equal_e1000_r0p0001": {
+    "lambda_epsilon": 1000,
+    "r": 0.0001
+  },
+  "equal_e1000_r0p01": {
+    "lambda_epsilon": 1000,
+    "r": 0.01
+  },
+  "equal_e1000_r1": {
+    "lambda_epsilon": 1000,
+    "r": 1
+  },
+  "xy_d4_e200": {
+    "q_joint": 0.04,
+    "q_dq": 4,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 200
+  },
+  "xy_d4_e700": {
+    "q_joint": 0.04,
+    "q_dq": 4,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 700
+  },
+  "xy_d4_e1400": {
+    "q_joint": 0.04,
+    "q_dq": 4,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 1400
+  },
+  "xy_d40_e200": {
+    "q_joint": 0.04,
+    "q_dq": 40,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 200
+  },
+  "xy_d40_e700": {
+    "q_joint": 0.04,
+    "q_dq": 40,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 700
+  },
+  "xy_d40_e1400": {
+    "q_joint": 0.04,
+    "q_dq": 40,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 1400
+  },
+  "xy_d400_e200": {
+    "q_joint": 0.04,
+    "q_dq": 400,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 200
+  },
+  "xy_d400_e700": {
+    "q_joint": 0.04,
+    "q_dq": 400,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 700
+  },
+  "xy_d400_e1400": {
+    "q_joint": 0.04,
+    "q_dq": 400,
+    "q_xy": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 1400
+  },
+  "posture_e400": {
+    "q_joint": 40000,
+    "q_dq": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 400
+  },
+  "posture_e700": {
+    "q_joint": 40000,
+    "q_dq": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 700
+  },
+  "posture_e1400": {
+    "q_joint": 40000,
+    "q_dq": 400,
+    "r": 0.0001,
+    "lambda_epsilon": 1400
+  },
+  "tracking_damped_e200": {
+    "q_joint": 4,
+    "q_dq": 4000,
+    "q_xy": 40000,
+    "r": 0.0001,
+    "lambda_epsilon": 200
+  },
+  "tracking_damped_e700": {
+    "q_joint": 4,
+    "q_dq": 4000,
+    "q_xy": 40000,
+    "r": 0.0001,
+    "lambda_epsilon": 700
+  },
+  "tracking_damped_e1400": {
+    "q_joint": 4,
+    "q_dq": 4000,
+    "q_xy": 40000,
+    "r": 0.0001,
+    "lambda_epsilon": 1400
+  }
+}

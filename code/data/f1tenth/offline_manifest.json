@@ -1,0 +1,13 @@
+{
+  "sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146",
+  "seconds": 300,
+  "samples": 3000,
+  "episodes": 20,
+  "episode_steps": 150,
+  "seed": 3407,
+  "collection": "free-space random uniform acceleration [-3,3], OU steering std .12 rad clipped +/-.3; initial speed uniform [4,8]; clean training data",
+  "speed_range": [
+    0.35520546747998705,
+    8.012566279092953
+  ]
+}

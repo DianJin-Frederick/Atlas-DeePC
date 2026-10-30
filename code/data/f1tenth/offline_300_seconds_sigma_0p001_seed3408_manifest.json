@@ -1,0 +1,38 @@
+{
+  "sha256": "a51284e2ea3722c6cf6f156fb7a0069377457ddf2ed6496c52a832e004be9595",
+  "clean_source": "/Users/kumiko/Projects/atlas_deepc_reacher/data/f1tenth/offline_300_seconds.npz",
+  "clean_source_sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146",
+  "seconds": 300,
+  "samples": 3000,
+  "episodes": 20,
+  "episode_steps": 150,
+  "collection_seed": 3407,
+  "measurement_noise_seed": 3408,
+  "measurement_noise_std": [
+    0.01523181116746967,
+    0.016198279997774737,
+    0.0016326426790134138,
+    0.0015941760591237071
+  ],
+  "noise_model": {
+    "sigma": 0.001,
+    "signal_scale": [
+      15.231811167469669,
+      16.198279997774737,
+      1.6326426790134136,
+      1.594176059123707
+    ],
+    "std": [
+      0.01523181116746967,
+      0.016198279997774737,
+      0.0016326426790134138,
+      0.0015941760591237071
+    ],
+    "definition": "sigma = noise standard deviation / clean offline channel standard deviation (population std, global x/y/speed/unwrapped yaw); same fixed physical std offline and online",
+    "noise_to_signal_power_ratio": 1e-06,
+    "snr_db": 60.0,
+    "offline_seed": 3408,
+    "clean_source_sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146"
+  },
+  "noise_description": "Independent additive zero-mean Gaussian output noise, identical standard deviations to online measurements. Added once per sample in global x/y/speed/yaw coordinates before alignment, clustering and overlapping window extraction. Commanded inputs and true states unchanged."
+}

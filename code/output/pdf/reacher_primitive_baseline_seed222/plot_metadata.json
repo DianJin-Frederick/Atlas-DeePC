@@ -1,0 +1,60 @@
+{
+  "seed": 222,
+  "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/routed_deepc_iid/unstandardized_shared_runner_v6_output8/rank060_steps320/terminal/seed222_control_results.npz",
+  "source_sha256": "43fb33384ad5a15e4c46aa8d9e66078c835d9255b7c15c8a956b334daa8a8e66",
+  "protocol": "8 outputs, raw features, nearest centroid, fixed nearest eligible reference, no graph, no g bounds",
+  "strict_success": true,
+  "display_steps": 320,
+  "warmup_zero_steps": 2,
+  "error_at_step100_mm": 11.575191332421793,
+  "error_at_step320_mm": 10.382578996143307,
+  "final100_mean_error_mm": 4.880395036001291,
+  "chart_ids_one_based": [
+    23,
+    34,
+    14,
+    33,
+    46,
+    6,
+    46,
+    40
+  ],
+  "chart_changes": [
+    0,
+    46,
+    57,
+    68,
+    72,
+    77,
+    83,
+    90
+  ],
+  "chart_axis_visible_intervals": [
+    [
+      0,
+      102
+    ],
+    [
+      318,
+      320
+    ]
+  ],
+  "chart_omitted_interval_constant": true,
+  "snapshot_steps": [
+    64,
+    72,
+    82,
+    106,
+    205,
+    242,
+    269,
+    294
+  ],
+  "figure_inches": [
+    6.8,
+    1.85
+  ],
+  "max_replay_error": 0.0,
+  "time_convention": "0 is immediately after two warmup actions; saved outputs occupy steps 1..320; chart at t chooses control on [t,t+1)",
+  "trajectory_curve": "Natural cubic spline through saved measurements for display only"
+}

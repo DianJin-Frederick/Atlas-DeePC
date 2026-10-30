@@ -1,0 +1,28 @@
+{
+  "signature": {
+    "manifest_sha256": "636feb58cc194bc9d2c36f873b29199952e4d0dfda454d8878c48287e8de5024",
+    "clusters": 1,
+    "rank": 60,
+    "output_dimension": 10,
+    "reference_mode": "graph"
+  },
+  "results": [
+    {
+      "seed": 211,
+      "minimum": 0.03132614450646292,
+      "minimum_step": 299,
+      "last": 0.03132614450646292,
+      "mean_last_30": 0.0352577472878818,
+      "max_last_30": 0.038523994493810394,
+      "success_30": false,
+      "mean_last_100": 0.0432474687377314,
+      "max_last_100": 0.055434341609165924,
+      "success_100": false,
+      "success": false,
+      "rollout_rmse_mm": 79.25946557662702,
+      "unsolved_steps": 0
+    }
+  ],
+  "complete": true,
+  "updated_utc": "2026-10-21T01:23:19.333929+00:00"
+}

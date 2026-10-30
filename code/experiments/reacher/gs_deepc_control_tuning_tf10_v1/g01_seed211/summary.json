@@ -1,0 +1,78 @@
+{
+  "completed": 1,
+  "requested": 1,
+  "complete": true,
+  "success_evaluable_rollouts": 1,
+  "successes": 0,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "seed": 211,
+      "steps": 200,
+      "minimum": 0.03610593352191459,
+      "minimum_step": 42,
+      "last": 0.1149041938863316,
+      "mean_last_30": 0.10620801873956998,
+      "max_last_30": 0.1149041938863316,
+      "success_30": false,
+      "mean_last_100": 0.1253750203293575,
+      "max_last_100": 0.16546599083078628,
+      "success_100": false,
+      "success_evaluable": true,
+      "strict_success": false,
+      "rollout_rmse_mm": 109.56614750320742,
+      "fallback_steps": 0,
+      "region_switches": 1,
+      "closed_loop_control_cost": 240.0950634704151,
+      "xy_squared_error_sum_m2": 2.400948135738921,
+      "input_squared_sum": 0.004997930461069263
+    }
+  ],
+  "error_quantiles_mm": {
+    "median": 125.37502032935748,
+    "p90": 125.37502032935748,
+    "p95": 125.37502032935748,
+    "p99": 125.37502032935748
+  },
+  "median_rollout_rmse_mm": 109.56614750320742,
+  "median_closed_loop_control_cost": 240.0950634704151,
+  "fallback_steps": 0,
+  "timing_all_steps": {
+    "mean_ms": 22.564976046560332,
+    "median_ms": 13.771145429927856,
+    "p95_ms": 24.12835173308846,
+    "p99_ms": 40.92613721732031,
+    "max_ms": 1428.7160000531003
+  },
+  "modular_timing_steps6_onwards": {
+    "control_compute_time_s": {
+      "mean_ms": 15.582155775374327,
+      "median_ms": 13.80104199051857,
+      "p95_ms": 24.020341830328107,
+      "p99_ms": 39.90781752858311,
+      "max_ms": 61.758624971844256
+    },
+    "selection_time_s": {
+      "mean_ms": 0.03226540314081388,
+      "median_ms": 0.02704199869185686,
+      "p95_ms": 0.06875006947666405,
+      "p99_ms": 0.13671107590198536,
+      "max_ms": 0.22895797155797482
+    },
+    "matrix_preparation_time_s": {
+      "mean_ms": 0.6605694183888726,
+      "median_ms": 0.3322500269860029,
+      "p95_ms": 1.8779292469844204,
+      "p99_ms": 2.8202525316737623,
+      "max_ms": 4.300166969187558
+    },
+    "solve_time_s": {
+      "mean_ms": 14.481039492723843,
+      "median_ms": 12.86195800639689,
+      "p95_ms": 21.959399990737435,
+      "p99_ms": 38.08672243962065,
+      "max_ms": 54.77216700091958
+    }
+  },
+  "note": "All completed rollouts, including unsuccessful ones, included. Smoke runs <100 steps have no success-rate estimate."
+}

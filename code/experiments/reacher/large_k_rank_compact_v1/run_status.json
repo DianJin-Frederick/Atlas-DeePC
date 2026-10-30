@@ -1,0 +1,10 @@
+{
+  "pid": 24908,
+  "status": "complete",
+  "started_utc": "2026-10-17T17:36:53.877716+00:00",
+  "workers": 4,
+  "requested_sweep_rollouts": 34400,
+  "selected_serial_rollouts": 800,
+  "storage_policy": "Validate full panel, retain per-seed metrics, discard sweep traces; fully rerun selected ranks.",
+  "updated_utc": "2026-10-18T15:03:13.857739+00:00"
+}

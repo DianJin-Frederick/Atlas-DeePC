@@ -1,0 +1,123 @@
+{
+  "complete": true,
+  "completed_rollouts": 4,
+  "records": [
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 10,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    }
+  ],
+  "selected": [
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "clusters": 1,
+      "rank": 60,
+      "output_dimension": 10,
+      "reference_mode": "graph",
+      "controlled_steps": 300,
+      "seeds": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    }
+  ],
+  "progress": [
+    {
+      "clusters": 1,
+      "output_dimension": 8,
+      "reference_mode": "terminal",
+      "completed_rollouts": 1,
+      "complete": true,
+      "completed_ranks": 1
+    },
+    {
+      "clusters": 1,
+      "output_dimension": 8,
+      "reference_mode": "graph",
+      "completed_rollouts": 1,
+      "complete": true,
+      "completed_ranks": 1
+    },
+    {
+      "clusters": 1,
+      "output_dimension": 10,
+      "reference_mode": "terminal",
+      "completed_rollouts": 1,
+      "complete": true,
+      "completed_ranks": 1
+    },
+    {
+      "clusters": 1,
+      "output_dimension": 10,
+      "reference_mode": "graph",
+      "completed_rollouts": 1,
+      "complete": true,
+      "completed_ranks": 1
+    }
+  ],
+  "controlled_steps": 300
+}

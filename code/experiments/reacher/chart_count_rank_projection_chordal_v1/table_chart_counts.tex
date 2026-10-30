@@ -1,0 +1,31 @@
+\begin{table*}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}l*{9}{c}@{}}
+\toprule
+Charts $K$ & 1 & 2 & 4 & 8 & 16 & 24 & 32 & 48 & 64 \\
+\midrule
+Selected rank & 53 & 64 & 58 & 54 & 54 & 55 & 60 & 60 & 62 \\
+Success rate $\uparrow$ & 4\% & 9\% & 19\% & 47\% & 83\% & 90\% & 90\% & 93\% & \textbf{96\%} \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{Final-100 mean fingertip error (mm)} $\downarrow$} \\
+Median & 172.32 & 179.10 & 246.11 & 12.35 & 3.02 & 2.47 & 2.26 & 2.09 & 2.19 \\
+P90 & 290.311 & 271.550 & 349.654 & 195.878 & 37.029 & 7.762 & 10.085 & 5.251 & 4.445 \\
+P95 & 318.130 & 373.192 & 361.885 & 219.500 & 42.859 & 31.786 & 79.811 & 15.345 & 5.248 \\
+P99 & 366.962 & 381.039 & 382.127 & 244.271 & 56.262 & 73.465 & 121.519 & 45.576 & 48.879 \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{Full-rollout RMSE (mm)} $\downarrow$} \\
+Median & 182.93 & 198.32 & 246.11 & 113.20 & 60.09 & 56.08 & 71.69 & 65.37 & 64.11 \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{Total online computation time (ms)}} \\
+Median & 31.19 & 33.19 & 32.76 & 31.28 & 29.59 & 29.49 & 30.53 & 29.83 & 30.10 \\
+P95 & 45.02 & 43.12 & 43.79 & 41.16 & 39.90 & 37.58 & 42.99 & 41.06 & 40.64 \\
+P99 & 65.21 & 64.00 & 64.32 & 62.87 & 58.92 & 57.60 & 59.95 & 58.60 & 59.18 \\
+\bottomrule
+\end{tabular}
+\caption{Chart-count ablation for ten-output Atlas-DeePC with graph guidance, $\lambda_g=\lambda_{\Delta u}=0$, $\lambda_{\mathrm{ini}}=10^5$, and Clarabel. The highest observed success rate is \textbf{96\%}, attained with $K=64$ and rank $62$. The offline dataset and seeds 211--310 are fixed. Each $K$ is reclustered without standardization. Ranks are selected from a coarse search and local refinement by highest success rate, then lowest median rollout RMSE, then lowest rank. Selection and reporting use the same exploratory 100 seeds, not a held-out test set. Error quantiles summarize final-100 mean fingertip error across rollouts; rollout RMSE includes all 320 controlled steps. Timings pool serial, single-thread online steps, excluding the first five per rollout. For $K=1$, no inter-chart waypoints exist.}
+\label{tab:chart-count-rank}
+\label{tab:chart-count-rank-1}
+\label{tab:chart-count-rank-2}
+\end{table*}

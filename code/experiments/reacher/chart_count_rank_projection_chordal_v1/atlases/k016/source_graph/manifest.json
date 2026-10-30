@@ -1,0 +1,27 @@
+{
+  "kind": "frozen_offline_atlas_for_chart_count_ablation",
+  "clusters": 16,
+  "atlas_sha256": "5574f723bcfd9243f5d91b083f79b038b627e9c220bd1c670bc6fb1e826cf61e",
+  "data_sha256": "75c6e2e8376c00ac1fc032ecaaa31b9a3eb830b671f68a18e559b22f9263c45b",
+  "terminal_reference_policy": "iterative_minimum_route_cost",
+  "chart_sizes": [
+    3612,
+    2061,
+    2644,
+    1910,
+    2139,
+    2254,
+    1852,
+    2094,
+    1845,
+    3054,
+    2220,
+    3262,
+    2021,
+    2292,
+    2140,
+    2400
+  ],
+  "directed_edges": 97,
+  "strongly_connected_components": 1
+}

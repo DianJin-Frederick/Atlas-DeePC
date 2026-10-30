@@ -1,0 +1,65 @@
+{
+  "episodes": 200,
+  "samples_per_episode": 200,
+  "valid_columns_per_region": [
+    804,
+    660,
+    897,
+    667,
+    652,
+    631
+  ],
+  "retained_per_region": 200,
+  "active_columns": 400,
+  "composite_regions": 5,
+  "edges_rad": [
+    -3.141592653589793,
+    -2.0943951023931957,
+    -1.0471975511965979,
+    0.0,
+    1.0471975511965974,
+    2.094395102393195,
+    3.141592653589793
+  ],
+  "no_svd_reduction": true,
+  "input_rank_required_at_L": 24,
+  "regions": [
+    {
+      "region": 0,
+      "input_rank_at_L": 24,
+      "input_min_singular_value": 4.869299212078221,
+      "unique_source_episodes": 29
+    },
+    {
+      "region": 1,
+      "input_rank_at_L": 24,
+      "input_min_singular_value": 5.389381758454287,
+      "unique_source_episodes": 31
+    },
+    {
+      "region": 2,
+      "input_rank_at_L": 24,
+      "input_min_singular_value": 5.107927239384885,
+      "unique_source_episodes": 21
+    },
+    {
+      "region": 3,
+      "input_rank_at_L": 24,
+      "input_min_singular_value": 5.180823769782357,
+      "unique_source_episodes": 18
+    },
+    {
+      "region": 4,
+      "input_rank_at_L": 24,
+      "input_min_singular_value": 5.426879470653017,
+      "unique_source_episodes": 32
+    },
+    {
+      "region": 5,
+      "input_rank_at_L": 24,
+      "input_min_singular_value": 5.507641002313763,
+      "unique_source_episodes": 31
+    }
+  ],
+  "excitation_caveat": "Full input rank at L is only a necessary diagnostic, not PE at L+n or proof of local LTI validity."
+}

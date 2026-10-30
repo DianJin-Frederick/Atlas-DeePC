@@ -1,0 +1,6 @@
+# Optional F1TENTH task dependencies, in addition to the project's scientific stack.
+# Use the existing environment; do not create a project-local virtualenv.
+gym
+numba
+Pillow
+PyYAML

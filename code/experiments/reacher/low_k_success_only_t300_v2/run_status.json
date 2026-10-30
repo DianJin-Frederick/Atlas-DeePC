@@ -1,0 +1,28 @@
+{
+  "pid": 91686,
+  "status": "paused",
+  "started_utc": "2026-10-21T01:43:58.890264+00:00",
+  "workers": 4,
+  "cases": [
+    [
+      8,
+      "terminal"
+    ],
+    [
+      8,
+      "graph"
+    ],
+    [
+      10,
+      "terminal"
+    ],
+    [
+      10,
+      "graph"
+    ]
+  ],
+  "controlled_steps": 300,
+  "updated_utc": "2026-10-21T02:27:23.816339+00:00",
+  "pause_reason": "User requested pausing to avoid interference with Select-DPC computation-time measurements",
+  "completed_rollouts_at_pause": 2014
+}

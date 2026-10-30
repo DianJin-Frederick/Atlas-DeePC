@@ -1,0 +1,792 @@
+{
+  "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/f1tenth/paper_nsr_20261027/report.json",
+  "rows": [
+    {
+      "sigma": 0.0,
+      "method": "atlas42",
+      "label": "Atlas-DeePC (K=2, d=42)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 1.754183315730402,
+      "geometric_median_rmse_cm": 1.754183315730402,
+      "median_speed_rmse_mps": 0.36115998363952584,
+      "median_lap_fraction": 1.0009593859929644,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.447729464620352,
+        "p99_ms": 21.24270770116717,
+        "max_ms": 100.91108293272555,
+        "calls": 4300
+      },
+      "config": {
+        "clusters": 2,
+        "rank": 42,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 5.200646084389083,
+      "geometric_median_rmse_cm": 5.200646084389083,
+      "median_speed_rmse_mps": 0.36433670371026194,
+      "median_lap_fraction": 1.0020786696514232,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 3.87225003214553,
+        "p99_ms": 12.139901391929005,
+        "max_ms": 126.05025002267212,
+        "calls": 4218
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 2.6106498566279157,
+      "geometric_median_rmse_cm": 2.6106498566279157,
+      "median_speed_rmse_mps": 0.21861953945040621,
+      "median_lap_fraction": 1.0028781579788935,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 9.764625574462116,
+        "p99_ms": 18.289243567269292,
+        "max_ms": 46.51424998883158,
+        "calls": 4272
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 1.9432529270016565,
+      "geometric_median_rmse_cm": 1.9432529270016565,
+      "median_speed_rmse_mps": 0.18546331358911114,
+      "median_lap_fraction": 1.0012791813239528,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 13.699916540645063,
+        "p99_ms": 44.997838049894206,
+        "max_ms": 341.965917032212,
+        "calls": 4280
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.001,
+      "method": "atlas_k12_d40",
+      "label": "Atlas-DeePC (K=12, d=40)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 1.7447608919006066,
+      "geometric_median_rmse_cm": 1.7447608919006066,
+      "median_speed_rmse_mps": 0.10953405633004965,
+      "median_lap_fraction": 1.0025583626479053,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.4271250003948808,
+        "p99_ms": 14.485126341460314,
+        "max_ms": 84.82154202647507,
+        "calls": 4320
+      },
+      "config": {
+        "clusters": 12,
+        "rank": 40,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.001,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 4.874354776978034,
+      "geometric_median_rmse_cm": 4.874354776978034,
+      "median_speed_rmse_mps": 0.38054447569155125,
+      "median_lap_fraction": 1.0022385673169172,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 3.8841249770484865,
+        "p99_ms": 11.815461135702206,
+        "max_ms": 94.10354204010218,
+        "calls": 4222
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.001,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 2.675247082994469,
+      "geometric_median_rmse_cm": 2.675247082994469,
+      "median_speed_rmse_mps": 0.22556196452269217,
+      "median_lap_fraction": 1.0006395906619763,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 9.956625057384372,
+        "p99_ms": 42.637827978469026,
+        "max_ms": 343.25395803898573,
+        "calls": 4265
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.001,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 2.0634663529527364,
+      "geometric_median_rmse_cm": 2.0634663529527364,
+      "median_speed_rmse_mps": 0.18576939551936558,
+      "median_lap_fraction": 1.001439078989447,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 13.763875002041459,
+        "p99_ms": 47.61645262129605,
+        "max_ms": 264.3542500445619,
+        "calls": 4280
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0025,
+      "method": "atlas_k13_d42",
+      "label": "Atlas-DeePC (K=13, d=42)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 3.4132950692940645,
+      "geometric_median_rmse_cm": 3.4132950692940645,
+      "median_speed_rmse_mps": 0.12231212767365218,
+      "median_lap_fraction": 1.0027182603133995,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 2.7106255292892456,
+        "p99_ms": 15.03734136931595,
+        "max_ms": 158.57016597874463,
+        "calls": 4306
+      },
+      "config": {
+        "clusters": 13,
+        "rank": 42,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0025,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 6.098994605701563,
+      "geometric_median_rmse_cm": 6.098994605701563,
+      "median_speed_rmse_mps": 0.43579066009221434,
+      "median_lap_fraction": 1.001598976654941,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 3.89708299189806,
+        "p99_ms": 9.872025134973208,
+        "max_ms": 72.01687502674758,
+        "calls": 4231
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0025,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 3.813388948772001,
+      "geometric_median_rmse_cm": 3.813388948772001,
+      "median_speed_rmse_mps": 0.24275620347963917,
+      "median_lap_fraction": 1.0011192836584586,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 9.831666538957506,
+        "p99_ms": 34.20488623785801,
+        "max_ms": 216.0400829743594,
+        "calls": 4262
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.0025,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 3.026772562874343,
+      "geometric_median_rmse_cm": 3.026772562874343,
+      "median_speed_rmse_mps": 0.19459828643069385,
+      "median_lap_fraction": 1.001598976654941,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 13.675270951353014,
+        "p99_ms": 29.61905920994471,
+        "max_ms": 150.28191695455462,
+        "calls": 4280
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.005,
+      "method": "atlas_k14_d60",
+      "label": "Atlas-DeePC (K=14, d=60)",
+      "evaluated": 20,
+      "collision_free_laps": 18,
+      "geometric_laps": 20,
+      "median_rmse_cm": 5.352476795503499,
+      "geometric_median_rmse_cm": 5.515334904268451,
+      "median_speed_rmse_mps": 0.11536707786308259,
+      "median_lap_fraction": 1.0009593859929644,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 4.359374986961484,
+        "p99_ms": 15.568330278620126,
+        "max_ms": 151.4648749725893,
+        "calls": 4305
+      },
+      "config": {
+        "clusters": 14,
+        "rank": 60,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.005,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 7,
+      "geometric_laps": 20,
+      "median_rmse_cm": 9.792513395942517,
+      "geometric_median_rmse_cm": 11.169099201847615,
+      "median_speed_rmse_mps": 0.44418379499751526,
+      "median_lap_fraction": 1.0012791813239528,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 4.004916991107166,
+        "p99_ms": 12.021206015488119,
+        "max_ms": 35.68566602189094,
+        "calls": 4232
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.005,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 5.812861278867894,
+      "geometric_median_rmse_cm": 5.812861278867894,
+      "median_speed_rmse_mps": 0.26977602892597236,
+      "median_lap_fraction": 1.0025583626479053,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 9.92543698521331,
+        "p99_ms": 26.252165299374678,
+        "max_ms": 154.25954200327396,
+        "calls": 4254
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.005,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 20,
+      "geometric_laps": 20,
+      "median_rmse_cm": 4.665495879635428,
+      "geometric_median_rmse_cm": 4.665495879635428,
+      "median_speed_rmse_mps": 0.2109572134821451,
+      "median_lap_fraction": 1.0023984649824111,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 13.618229480925947,
+        "p99_ms": 32.69828874850623,
+        "max_ms": 225.51433404441923,
+        "calls": 4278
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.01,
+      "method": "atlas_k10_d44",
+      "label": "Atlas-DeePC (K=10, d=44)",
+      "evaluated": 20,
+      "collision_free_laps": 12,
+      "geometric_laps": 20,
+      "median_rmse_cm": 8.7981655855844,
+      "geometric_median_rmse_cm": 8.802413843887885,
+      "median_speed_rmse_mps": 0.149964440391058,
+      "median_lap_fraction": 1.0020786696514232,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 3.2303750049322844,
+        "p99_ms": 17.019015435362206,
+        "max_ms": 136.83166599366814,
+        "calls": 4314
+      },
+      "config": {
+        "clusters": 10,
+        "rank": 44,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.01,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 4,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 22.948608579147667,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.37751838823153183,
+      "terminations": {
+        "lap_completed": 4,
+        "track_corridor_exit": 16
+      },
+      "timing": {
+        "median_ms": 3.946896002162248,
+        "p99_ms": 6.5564109676051885,
+        "max_ms": 11.574791045859456,
+        "calls": 2284
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.01,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 7,
+      "geometric_laps": 20,
+      "median_rmse_cm": 10.702922700895416,
+      "geometric_median_rmse_cm": 11.556340704081826,
+      "median_speed_rmse_mps": 0.3006369015347094,
+      "median_lap_fraction": 1.0012791813239528,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 9.588124928995967,
+        "p99_ms": 13.165479525923729,
+        "max_ms": 29.04533303808421,
+        "calls": 4251
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.01,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 11,
+      "geometric_laps": 20,
+      "median_rmse_cm": 8.139588247008046,
+      "geometric_median_rmse_cm": 8.757732579669186,
+      "median_speed_rmse_mps": 0.2271478793296153,
+      "median_lap_fraction": 1.0022385673169172,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 13.342083489988,
+        "p99_ms": 23.46589527558541,
+        "max_ms": 103.00833301153034,
+        "calls": 4270
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.025,
+      "method": "atlas_k3_d68",
+      "label": "Atlas-DeePC (K=3, d=68)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 12,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 36.90585527927507,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 1.0011192836584586,
+      "terminations": {
+        "lap_completed": 12,
+        "track_corridor_exit": 8
+      },
+      "timing": {
+        "median_ms": 3.6217084852978587,
+        "p99_ms": 17.65947298845274,
+        "max_ms": 60.60920900199562,
+        "calls": 3956
+      },
+      "config": {
+        "clusters": 3,
+        "rank": 68,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.025,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.046690118324272466,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 3.8550005410797894,
+        "p99_ms": 7.302292011445388,
+        "max_ms": 11.079082963988185,
+        "calls": 276
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.025,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 20,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 27.882634589423652,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 1.0022385673169172,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 9.874333045445383,
+        "p99_ms": 15.343770559411496,
+        "max_ms": 28.846916975453496,
+        "calls": 4251
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.025,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 20,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 24.87238249639868,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 1.001918771985929,
+      "terminations": {
+        "lap_completed": 20
+      },
+      "timing": {
+        "median_ms": 13.505375012755394,
+        "p99_ms": 21.264761001802988,
+        "max_ms": 89.16204108390957,
+        "calls": 4254
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.05,
+      "method": "atlas_k8_d72",
+      "label": "Atlas-DeePC (K=8, d=72)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 7,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 43.53959089062414,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.4339622641509434,
+      "terminations": {
+        "lap_completed": 7,
+        "track_corridor_exit": 13
+      },
+      "timing": {
+        "median_ms": 3.7939579924568534,
+        "p99_ms": 11.714349993271753,
+        "max_ms": 51.33816692978144,
+        "calls": 2374
+      },
+      "config": {
+        "clusters": 8,
+        "rank": 72,
+        "lam_ini": 100.0,
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.05,
+      "method": "contextual",
+      "label": "Contextual-DPC (30 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 0,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": null,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.02734250079948833,
+      "terminations": {
+        "track_corridor_exit": 20
+      },
+      "timing": {
+        "median_ms": 4.043187538627535,
+        "p99_ms": 7.210657018003983,
+        "max_ms": 8.145666099153459,
+        "calls": 118
+      },
+      "config": {
+        "columns": 30,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.05,
+      "method": "contextual60",
+      "label": "Contextual-DPC (60 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 3,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 40.835210445309734,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 0.25567636712503994,
+      "terminations": {
+        "lap_completed": 3,
+        "track_corridor_exit": 17
+      },
+      "timing": {
+        "median_ms": 9.984000469557941,
+        "p99_ms": 14.622072484344246,
+        "max_ms": 30.80533293541521,
+        "calls": 1454
+      },
+      "config": {
+        "columns": 60,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    },
+    {
+      "sigma": 0.05,
+      "method": "contextual90",
+      "label": "Contextual-DPC (90 columns)",
+      "evaluated": 20,
+      "collision_free_laps": 0,
+      "geometric_laps": 11,
+      "median_rmse_cm": null,
+      "geometric_median_rmse_cm": 37.71568223023039,
+      "median_speed_rmse_mps": null,
+      "median_lap_fraction": 1.0004796929964823,
+      "terminations": {
+        "lap_completed": 11,
+        "track_corridor_exit": 9
+      },
+      "timing": {
+        "median_ms": 13.567791902460158,
+        "p99_ms": 22.05083284061402,
+        "max_ms": 46.644165995530784,
+        "calls": 2821
+      },
+      "config": {
+        "columns": 90,
+        "lambda_g": 10.0,
+        "lambda_sigma": 1.0,
+        "mode": "clarabel_written_g",
+        "weights": "position"
+      }
+    }
+  ],
+  "noise_axis": "equally spaced labeled categories",
+  "text_font": "Times New Roman",
+  "math_font": "Computer Modern",
+  "rmse_scope": "successful rollouts only; no successes -> omitted",
+  "caption_embedded": false
+}

@@ -1,0 +1,5 @@
+{
+  "baseline": {},
+  "tracking_damped": {"q_joint": 4, "q_dq": 4000, "q_xy": 40000, "r": 0.0001, "lambda_epsilon": 700},
+  "low_input_penalty": {"q_joint": 0.04, "q_dq": 400, "q_xy": 400, "r": 0.0001, "lambda_epsilon": 200}
+}

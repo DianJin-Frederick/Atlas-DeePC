@@ -1,0 +1,58 @@
+% Requires booktabs, graphicx, and xcolor in the manuscript preamble.
+% Override this command with the plot's manuscript-relative path if needed.
+\providecommand{\reachercomparisonplot}{/Users/kumiko/Projects/atlas_deepc_reacher/output/pdf/reacher_comparison_500/success_vs_compute_500.pdf}
+\ifdefined\reachercomparisonbox\else
+    \newsavebox{\reachercomparisonbox}
+    \newlength{\reachercomparisonwidth}
+\fi
+\begin{table*}[t]
+\centering
+\setlength{\fboxsep}{5pt}%
+% Measure at footnotesize; the final resize may enlarge but never shrink it.
+\sbox{\reachercomparisonbox}{%
+\footnotesize
+\setlength{\tabcolsep}{4pt}%
+% All columns verified from 500 saved traces, seeds 10001--10500.
+% Atlas sources: ../four_baselines_500_mixed_k_t300_v1/output8/{terminal,graph}/
+% Select source: ../select_dpc_upstream_final_clarabel_10001_10500_t300_v1/
+% Contextual source: ../contextual_dpc_k64_rank53_terminal8_10001_10500_t300_v1/
+% Error: final-30 mean distance in mm (steps indexed 270--299).
+% Quantiles computed across all 500 rollouts, including failures.
+% Timing: pooled steps 6--300 in ms.
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Method & \multicolumn{2}{c}{Atlas-DeePC} & Select & Contextual \\
+\cmidrule(lr){2-3}
+Reference planning & No & Yes & No & No \\
+\midrule
+Coefficient dimension & 53 & 57 & 200 & 200 \\
+Success rate & 90.0\% & \textbf{94.2\%} & 83.0\% & 84.0\% \\
+Median error (mm) & \textbf{1.81} & 1.86 & 2.97 & 6.16 \\
+90th-percentile (mm) & 10.05 & \textbf{4.61} & 29.95 & 11.66 \\
+95th-percentile (mm) & 218.27 & \textbf{12.12} & 58.58 & 13.49 \\
+99th-percentile (mm) & 299.30 & \textbf{48.23} & 83.48 & 91.92 \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Total online computation (ms per step)}} \\
+Median & 20.01 & \textbf{19.92} & 1330.85 & 79.77 \\
+95th percentile & 27.36 & \textbf{23.15} & 3345.22 & 95.36 \\
+99th percentile & 53.85 & \textbf{43.17} & 4838.75 & 111.84 \\
+\bottomrule
+\end{tabular}}%
+\setlength{\reachercomparisonwidth}{0.60\textwidth}%
+\ifdim\dimexpr\wd\reachercomparisonbox+2\fboxsep\relax>\reachercomparisonwidth
+    \setlength{\reachercomparisonwidth}{\dimexpr\wd\reachercomparisonbox+2\fboxsep\relax}%
+\fi
+\begin{minipage}[t]{\reachercomparisonwidth}
+\vspace{0pt}
+\centering
+\colorbox[gray]{0.96}{%
+\resizebox{\dimexpr\linewidth-2\fboxsep\relax}{!}{\usebox{\reachercomparisonbox}}}%
+\end{minipage}\hfill
+\begin{minipage}[t]{\dimexpr\textwidth-\reachercomparisonwidth-0.02\textwidth\relax}
+\vspace{0pt}
+\centering
+\includegraphics[width=\linewidth]{\reachercomparisonplot}
+\end{minipage}
+\caption{Reacher controller comparison on 500 test rollouts (seeds 10001--10500) per configuration, with $T_{\mathrm{sim}}=300$. Atlas-DeePC uses $p=8$, with $K=64$ and $d=53$ without guidance, and $K=96$ and $d=57$ with guidance. Select and Contextual denote Select-DPC and Contextual-DPC, respectively. Contextual-DPC uses the same fixed terminal references as unguided Atlas-DeePC. Error statistics summarize final-30 mean fingertip errors across rollouts; timings pool steps 6--300 and were measured in separate sessions. Select timings include all five refinements. Right: success rate versus median online computation time on a logarithmic horizontal axis; Atlas denotes Atlas-DeePC without planning.}
+\label{tab:reacher-three-methods-no-graph}
+\end{table*}

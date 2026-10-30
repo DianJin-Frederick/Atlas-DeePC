@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Output dimension & \multicolumn{2}{c}{$p=8$} & \multicolumn{2}{c}{$p=10$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Graph guidance & No & Yes & No & Yes \\
+\midrule
+Success rate $\uparrow$ & $77\%$ & $83\%$ & $75\%$ & $\mathbf{92\%}$ \\
+Median error (mm) $\downarrow$ & 2.02 & 2.22 & 1.93 & \textbf{1.91} \\
+90th-percentile error (mm) $\downarrow$ & 60.564 & 48.282 & 293.165 & \textbf{4.438} \\
+95th-percentile error (mm) $\downarrow$ & 212.832 & 82.732 & 336.467 & \textbf{28.714} \\
+99th-percentile error (mm) $\downarrow$ & 282.501 & 172.965 & 388.488 & \textbf{45.628} \\
+\midrule
+\multicolumn{5}{l}{\textit{Total online computation time (ms)}} \\
+Median & 28.25 & 28.87 & 29.84 & 27.96 \\
+95th percentile & 48.34 & 49.03 & 50.05 & 45.43 \\
+99th percentile & 64.62 & 66.12 & 70.32 & 61.59 \\
+\bottomrule
+\end{tabular}
+\caption{Four basic Reacher cases with $\lambda_g=0$ and CLARABEL, evaluated on 100 seeds (211--310). Errors summarize the final-100 mean error across seeds. Timings pool online steps after discarding the first five per rollout. Unguided cases use one fixed nearest terminal configuration; guided cases retain iterative $N=10$ terminal selection. Graph edge costs use chordal subspace distance divided by the square root of the transition count. All cases select charts by the minimum full-window input-output projection residual, using 12 measured samples and a 12-step zero-input warmup.}
+\label{tab:basic-cases-clarabel-lamg0}
+\end{table}

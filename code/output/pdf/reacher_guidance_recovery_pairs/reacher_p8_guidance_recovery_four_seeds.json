@@ -1,0 +1,233 @@
+{
+  "caption": "Illustrative paired $p=8$ test rollouts that fail without guidance (left) and succeed with guidance (right). Each row uses the same initial state and target. The two configurations use separately tuned atlases: $(K,r)=(64,53)$ and $(96,57)$, respectively; this is not a guidance-only ablation. Orange curves show interpolated measured fingertip paths; green arms show selected measured chart-switch poses, labeled by chart ID. Red dotted arms show the offline pose of the final selected terminal candidate. Nearly coincident switch poses are omitted for clarity. These four examples were selected from 35 failure-to-success pairs among 500 test seeds.",
+  "seeds": [
+    10206,
+    10349,
+    10144,
+    10445
+  ],
+  "rows": [
+    [
+      {
+        "seed": 10206,
+        "mode": "terminal",
+        "charts": 64,
+        "rank": 53,
+        "success": false,
+        "mean_final30_mm": 377.3441187011535,
+        "mean_final100_mm": 377.34411870116077,
+        "switch_steps": [
+          29,
+          31,
+          32
+        ],
+        "shown_switch_steps": [
+          29
+        ],
+        "chart_ids": [
+          38,
+          63,
+          38,
+          63
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10206_control_results.npz",
+        "sha256": "79937768bbadcd9c94484ae0c99dffbfe9fd8461546175369b7f68f8ef4d2056",
+        "replay_verified": true
+      },
+      {
+        "seed": 10206,
+        "mode": "graph",
+        "charts": 96,
+        "rank": 57,
+        "success": true,
+        "mean_final30_mm": 1.2552257193650422,
+        "mean_final100_mm": 1.2552082911615376,
+        "switch_steps": [
+          13,
+          29,
+          46,
+          64
+        ],
+        "shown_switch_steps": [
+          13,
+          29,
+          46,
+          64
+        ],
+        "chart_ids": [
+          20,
+          63,
+          1,
+          44,
+          17
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/graph/seed10206_control_results.npz",
+        "sha256": "b850522bda3594a458a63a03a39968c05724c1579b1c10908b88d26977660e41",
+        "replay_verified": true
+      }
+    ],
+    [
+      {
+        "seed": 10349,
+        "mode": "terminal",
+        "charts": 64,
+        "rank": 53,
+        "success": false,
+        "mean_final30_mm": 375.49943718947196,
+        "mean_final100_mm": 375.4994371894741,
+        "switch_steps": [
+          18
+        ],
+        "shown_switch_steps": [
+          18
+        ],
+        "chart_ids": [
+          38,
+          63
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10349_control_results.npz",
+        "sha256": "155a404c294003b9d4ee1c84cccff95287d8e508f7e88c14a1669db9b2cc776d",
+        "replay_verified": true
+      },
+      {
+        "seed": 10349,
+        "mode": "graph",
+        "charts": 96,
+        "rank": 57,
+        "success": true,
+        "mean_final30_mm": 1.669446123910894,
+        "mean_final100_mm": 1.6697366395782804,
+        "switch_steps": [
+          14,
+          30,
+          47,
+          64
+        ],
+        "shown_switch_steps": [
+          14,
+          30,
+          47,
+          64
+        ],
+        "chart_ids": [
+          20,
+          63,
+          1,
+          44,
+          17
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/graph/seed10349_control_results.npz",
+        "sha256": "01aeeb16d31ac9babd999ac0d78df41447f9e335667e90fda5e6243c0a34e8bf",
+        "replay_verified": true
+      }
+    ],
+    [
+      {
+        "seed": 10144,
+        "mode": "terminal",
+        "charts": 64,
+        "rank": 53,
+        "success": false,
+        "mean_final30_mm": 216.761017064305,
+        "mean_final100_mm": 216.76101706430904,
+        "switch_steps": [],
+        "shown_switch_steps": [],
+        "chart_ids": [
+          38
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10144_control_results.npz",
+        "sha256": "0225bb50fe38c4f9be68b3903011fa8c97d2b556d37bcb2d1bd31bfe94dad4f7",
+        "replay_verified": true
+      },
+      {
+        "seed": 10144,
+        "mode": "graph",
+        "charts": 96,
+        "rank": 57,
+        "success": true,
+        "mean_final30_mm": 1.5208780535867097,
+        "mean_final100_mm": 1.5208231876676928,
+        "switch_steps": [
+          19,
+          36,
+          56,
+          73,
+          86
+        ],
+        "shown_switch_steps": [
+          19,
+          36,
+          56,
+          73
+        ],
+        "chart_ids": [
+          20,
+          64,
+          83,
+          12,
+          75,
+          7
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/graph/seed10144_control_results.npz",
+        "sha256": "d4a8e4936e4e12a6223260c0fd15555c35f3d9d519dadbc432ad9f11d13b59b9",
+        "replay_verified": true
+      }
+    ],
+    [
+      {
+        "seed": 10445,
+        "mode": "terminal",
+        "charts": 64,
+        "rank": 53,
+        "success": false,
+        "mean_final30_mm": 191.07219086379058,
+        "mean_final100_mm": 191.07219086384745,
+        "switch_steps": [],
+        "shown_switch_steps": [],
+        "chart_ids": [
+          38
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/terminal/seed10445_control_results.npz",
+        "sha256": "d6137da759fcd0a0de7c8fb118305387f73e2a2cb3f1c77eb1868014d4013f9a",
+        "replay_verified": true
+      },
+      {
+        "seed": 10445,
+        "mode": "graph",
+        "charts": 96,
+        "rank": 57,
+        "success": true,
+        "mean_final30_mm": 1.2577316007977244,
+        "mean_final100_mm": 1.2577432702811724,
+        "switch_steps": [
+          18,
+          42,
+          43,
+          44,
+          62,
+          83
+        ],
+        "shown_switch_steps": [
+          18,
+          42,
+          62,
+          83
+        ],
+        "chart_ids": [
+          20,
+          30,
+          71,
+          30,
+          71,
+          80,
+          37
+        ],
+        "source": "/Users/kumiko/Projects/atlas_deepc_reacher/experiments/reacher/four_baselines_500_mixed_k_t300_v1/output8/graph/seed10445_control_results.npz",
+        "sha256": "370637e8ea15ac80e8da33e70f13d390ab3b7b561f80aeb8bcc4163ca77e5a74",
+        "replay_verified": true
+      }
+    ]
+  ],
+  "selection": "Illustrative, non-random examples chosen for clear trajectories and few chart switches.",
+  "svg_text": "Outlined to preserve Computer Modern math in Illustrator."
+}

@@ -1,0 +1,32 @@
+{
+  "reason": "User requested deletion of obsolete nearest-centroid F1TENTH experiments and rerun with projection residual. Shared offline data and all Reacher results are retained.",
+  "deleted": [
+    {
+      "directory": "experiments/f1tenth/paper",
+      "files": 171,
+      "bytes": 5503688
+    },
+    {
+      "directory": "experiments/f1tenth/contextual_columns_20261027",
+      "files": 328,
+      "bytes": 10114970
+    },
+    {
+      "directory": "experiments/f1tenth/atlas_ranks_contextual_columns_20261027",
+      "files": 971,
+      "bytes": 14719969
+    },
+    {
+      "directory": "experiments/f1tenth/atlas_k_rank_comparison_20261027",
+      "files": 4905,
+      "bytes": 43510653
+    }
+  ],
+  "offline_data_sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146",
+  "rerun_directory": "experiments/f1tenth/projection_residual_20261027",
+  "completed_rollouts": 2680,
+  "projection_decisions_verified": 156048,
+  "reacher_results_modified": false,
+  "notebook_run_all_passed": true,
+  "result_retention_status": "Full-history Atlas results deleted; contextual rollouts preserved separately. See full_history_results_cleanup_20261027.json."
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "method": "atlas_k13_d42",
+    "config": {
+      "clusters": 13,
+      "rank": 42,
+      "lam_ini": 100.0,
+      "weights": "position"
+    },
+    "past_ranks": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "chart_counts": [
+      4406,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tie_fraction": 1.0,
+    "switch_fraction": 0.0,
+    "maximum_residual": 3.532795493632585e-14,
+    "partial_history_success": 20,
+    "median_rmse_cm": 3.4132950692940645
+  }
+]
