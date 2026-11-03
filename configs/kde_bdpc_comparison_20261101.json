@@ -1,0 +1,5 @@
+{
+  "default": {},
+  "radius5": {"beta_bound": 5.0},
+  "moderate": {"beta_bound": 2.0, "lambda_epsilon": 1000.0, "q_dq": 1000.0, "r": 1.0}
+}

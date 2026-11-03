@@ -1,8 +1,0 @@
-{
-  "reason": "Initial 5% screening seed 512 begins outside the 1 m corridor; this makes the screening results uninformative. Restart this level with the first collision-free warmup whose handoff is inside the corridor. Paper seeds stay fixed and retain all initialization failures.",
-  "sigma": 0.05,
-  "rejected_screen_seed": 512,
-  "handoff_distance_m": 1.23,
-  "previous_levels": "Locked before correction; their screening handoffs are already within 1 m.",
-  "paper_evaluation_started": false
-}

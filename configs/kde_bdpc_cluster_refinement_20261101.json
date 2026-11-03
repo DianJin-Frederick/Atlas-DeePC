@@ -1,0 +1,8 @@
+{
+  "k4_seed7": {"clusters": 4, "beta_bound": 5.0, "nmf_seed": 7},
+  "k8_seed7": {"clusters": 8, "beta_bound": 5.0, "nmf_seed": 7},
+  "k4_subspace_consensus": {"clusters": 4, "beta_bound": 5.0, "lambda_view1": 0.01, "lambda_view2": 1.0},
+  "k8_subspace_consensus": {"clusters": 8, "beta_bound": 5.0, "lambda_view1": 0.01, "lambda_view2": 1.0},
+  "k4_rank03_eps1e4": {"clusters": 4, "beta_bound": 5.0, "svd_rtol": 0.03, "lambda_epsilon": 10000.0},
+  "k8_rank03_eps1e4": {"clusters": 8, "beta_bound": 5.0, "svd_rtol": 0.03, "lambda_epsilon": 10000.0}
+}

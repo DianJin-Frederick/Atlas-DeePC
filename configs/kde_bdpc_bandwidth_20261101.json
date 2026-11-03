@@ -1,0 +1,6 @@
+{
+  "kde03_radius5": {"beta_bound": 5.0, "beta_kde": 0.3},
+  "kde5_radius5": {"beta_bound": 5.0, "beta_kde": 5.0},
+  "kde20_radius5": {"beta_bound": 5.0, "beta_kde": 20.0},
+  "moderate": {"beta_bound": 2.0, "lambda_epsilon": 1000.0, "q_dq": 1000.0, "r": 1.0}
+}

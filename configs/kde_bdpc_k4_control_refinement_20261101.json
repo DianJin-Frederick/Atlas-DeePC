@@ -1,0 +1,6 @@
+{
+  "k4_consensus_radius2": {"clusters": 4, "beta_bound": 2.0, "lambda_view1": 0.01, "lambda_view2": 1.0},
+  "k4_consensus_xy": {"clusters": 4, "beta_bound": 5.0, "lambda_view1": 0.01, "lambda_view2": 1.0, "q_joint": 40.0, "lambda_epsilon": 1000.0},
+  "k4_consensus_xy4000": {"clusters": 4, "beta_bound": 5.0, "lambda_view1": 0.01, "lambda_view2": 1.0, "q_xy": 4000.0, "lambda_epsilon": 1000.0},
+  "k4_consensus_damped": {"clusters": 4, "beta_bound": 5.0, "lambda_view1": 0.01, "lambda_view2": 1.0, "q_dq": 1000.0, "lambda_epsilon": 1000.0}
+}

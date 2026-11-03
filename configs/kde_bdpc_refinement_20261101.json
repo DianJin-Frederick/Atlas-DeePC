@@ -1,0 +1,10 @@
+{
+  "small_step_eps1e5": {"beta_bound": 1.0, "lambda_epsilon": 100000.0},
+  "small_step_eps1e6": {"beta_bound": 1.0, "lambda_epsilon": 1000000.0},
+  "damped": {"beta_bound": 5.0, "lambda_epsilon": 100000.0, "q_dq": 10000.0, "r": 10.0},
+  "damped_small": {"beta_bound": 1.0, "lambda_epsilon": 100000.0, "q_dq": 10000.0, "r": 10.0},
+  "svd01": {"beta_bound": 5.0, "lambda_epsilon": 100000.0, "svd_rtol": 0.1},
+  "svd02": {"beta_bound": 5.0, "lambda_epsilon": 100000.0, "svd_rtol": 0.2},
+  "svd03_small": {"beta_bound": 1.0, "lambda_epsilon": 100000.0, "svd_rtol": 0.03},
+  "svd01_small": {"beta_bound": 1.0, "lambda_epsilon": 100000.0, "svd_rtol": 0.1}
+}

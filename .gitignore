@@ -1,42 +1,12 @@
 .cache/
 .matplotlib/
 .DS_Store
-**/__pycache__/
-*.pyc
+__pycache__/
+*.py[cod]
 .ipynb_checkpoints/
-
-# Large, reproducible Pusher training caches.
-/code/experiments/pusher_atlas/**/offline_teacher_data.npz
-/code/experiments/pusher_atlas/**/heldout_coverage_probe_data.npz
-/code/experiments/pusher_atlas/**/behavioral_atlas.npz
-/code/experiments/pusher_atlas/**/offline_behavior_policy*.joblib
-
-# Generated arrays and fitted caches (including SSD links) are not versioned.
-# Keep original offline inputs under data/ and experiment code and reports.
-/code/experiments/**/*.npz
-/code/experiments/**/*.npy
-/code/experiments/**/*.joblib
-/code/experiments/**/dependencies/
 *.nbc
 *.nbi
 *.log
-/code/experiments/**/*.lock
-/code/tmp/
-/code/archive/
-/code/exports/
-/code/experiments/**/*.mp4
-/code/experiments/**/*.mov
-/code/experiments/**/*.zip
-/code/experiments/**/frozen_protocol/data
-/code/experiments/**/frozen_protocol/experiments
-/code/experiments/three_method_faithful_v1
-
-# Machine-specific migration inventories; not needed by a GitHub checkout.
-/code/docs/storage_migration_plan.json
-/code/docs/storage_migration_checksums.jsonl
-/code/docs/project_layout_migration.json
-
-# Local environments, credentials, and editor/agent state.
 .venv/
 venv/
 .env
@@ -44,10 +14,24 @@ venv/
 !.env.example
 .codex/
 .agents/
-.external_experiment_data
 *.pem
 *.key
+.external_experiment_data
+/tmp/
+/archive/
+/exports/
+/output/
 
-# Personal documents unrelated to the research repository.
-/code/output/pdf/*Resume.pdf
-/code/output/resume/*Resume.tex
+# Generated results and machine-local SSD links; retain offline data/ inputs.
+/experiments/**/*.npz
+/experiments/**/*.npy
+/experiments/**/*.joblib
+/experiments/**/*.json
+/experiments/**/*.lock
+/experiments/**/*.mp4
+/experiments/**/*.mov
+/experiments/**/*.zip
+/experiments/**/dependencies/
+/experiments/**/frozen_protocol/data
+/experiments/**/frozen_protocol/experiments
+/experiments/three_method_faithful_v1
