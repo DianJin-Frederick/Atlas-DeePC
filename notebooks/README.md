@@ -5,10 +5,10 @@ run switches before using Run All. Saved-result cells may require the experiment
 
 ## Reacher
 
-- [Chart-count and rank ablation](reacher/ablations/ablation_chart_count_and_rank.ipynb)
-- [Rank ablation](reacher/ablations/ablation_linear_subspace_rank.ipynb)
+- [Complete chart-count and rank ablation (all K)](reacher/ablations/ablation_chart_count_and_rank.ipynb)
 - [Effect of graph guidance](reacher/ablations/effect_of_graph_guidance.ipynb)
 - [Main Reacher baseline](reacher/baselines/baseline_graph_routed_atlas_deepc.ipynb)
+- [Slow-motion videos and matched guidance repairs](reacher/baselines/video_display.ipynb)
 - [Full-data Atlas-DeePC comparison](reacher/comparisons/atlas_deepc.ipynb)
 - [Contextual-DPC comparison](reacher/comparisons/contextual_dpc.ipynb)
 - [Historical KDE tuning results (read-only audit)](reacher/comparisons/kde_bdpc_multistep_tuning_audit.ipynb)

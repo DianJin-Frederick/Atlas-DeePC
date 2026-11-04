@@ -8,6 +8,7 @@ separate from Atlas-DeePC controllers.
 ## Baselines
 
 - [Main Reacher baseline](baselines/baseline_graph_routed_atlas_deepc.ipynb)
+- [Slow-motion videos and matched guidance repairs](baselines/video_display.ipynb)
 
 ## Comparisons
 
@@ -20,8 +21,7 @@ separate from Atlas-DeePC controllers.
 
 ## Ablations
 
-- [Chart-count and rank ablation](ablations/ablation_chart_count_and_rank.ipynb)
-- [Rank ablation](ablations/ablation_linear_subspace_rank.ipynb)
+- [Complete chart-count and rank ablation (all K)](ablations/ablation_chart_count_and_rank.ipynb)
 - [Effect of graph guidance](ablations/effect_of_graph_guidance.ipynb)
 
 ## Main Baseline

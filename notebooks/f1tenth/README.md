@@ -5,3 +5,5 @@
 [Protocol](../../docs/f1tenth/README.md) · [Paper table](../../experiments/f1tenth/paper_nsr_20261027/report.md)
 
 The configuration selection is recorded separately from the fresh evaluation. Superseded raw experiments are removed after verification; retained raw records include every successful and failed paper rollout.
+
+[Video notebook](baselines/video_display.ipynb): a retained collision-free Atlas-DeePC lap with the official track, true-scale car close-up, speed reference, and tracking error. Run All displays the saved MP4; regeneration reads saved states without rerunning the controller.

@@ -20,7 +20,7 @@ from atlas_deepc.common.reacher_config import normalize_saved_config
 ROOT = four.ROOT
 CONTROL_ROOT = ROOT / "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1/rank060"
 RESULT_ROOT = ROOT / "experiments/reacher/projection_chordal_rank_lamg0_lamdu0_clarabel_v1"
-NOTEBOOK = ROOT / "notebooks/reacher/ablations/ablation_linear_subspace_rank.ipynb"
+NOTEBOOK = ROOT / "notebooks/reacher/ablations/ablation_chart_count_and_rank.ipynb"
 RANKS = list(range(28, 71))
 SEEDS = list(range(211, 311))
 SELECTION_RULE = "Highest strict success count, then lowest median rollout RMSE, then lowest rank"
