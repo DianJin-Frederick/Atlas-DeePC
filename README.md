@@ -2,8 +2,7 @@
 
 **Dian Jin, Zhiyuan Jin, Jeremy Coulson**
 
-<!-- TODO: add the paper link (e.g. arXiv) when available. -->
-[**Project page**](https://dianjin-frederick.github.io/Atlas-DeePC/) · Paper (coming soon)
+[**Project page**](https://dianjin-frederick.github.io/Atlas-DeePC/) · [**Paper**](https://dianjin-frederick.github.io/Atlas-DeePC/paper/AtlasDeePC_manuscript.pdf)
 
 <p align="center">
   <img src="docs/figures/atlas_deepc_diagram.svg" alt="Atlas-DeePC overview. Offline: cluster the data, take an SVD of each cluster, and collect the subspaces into an atlas. Online, at every step: select a chart from the recent trajectory, apply the local DeePC policy, and feed the measured trajectory back." width="820">
