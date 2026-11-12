@@ -1,0 +1,64 @@
+/* =====================================================================
+   SITE CONFIG: edit the values below to restyle the page.
+   Save, then refresh the browser. You don't need to touch styles.css.
+
+   Format:  --setting-name: value;   (keep the semicolon at the end)
+   Sizes are in px. Colors are hex codes (#rrggbb).
+   ===================================================================== */
+
+:root {
+
+  /* ---------- Fonts ----------------------------------------------------
+     Bundled with the site: "Inter Tight", "Source Sans 3", "Source Serif 4".
+     Any font installed on the viewer's computer also works,
+     e.g. Georgia, "Times New Roman", Helvetica, Arial.
+     The names after the first are fallbacks.                          */
+  --font-heading: "Inter Tight", "Source Sans 3", system-ui, sans-serif;  /* title, section headings, big numbers */
+  --font-body:    "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-code:    ui-monospace, "SF Mono", Menlo, Consolas, monospace;   /* BibTeX box */
+  --font-math:    "Source Serif 4", Georgia, serif;     /* italic math symbols in the text (K, d, p) */
+
+  --weight-heading: 600;        /* 400 = regular, 600 = semibold, 700 = bold */
+
+
+  /* ---------- Text sizes ---------------------------------------------- */
+  --size-body:            18px;   /* normal paragraphs (abstract, method text) */
+  --size-title:           40px;   /* paper title; shrinks automatically on phones */
+  --size-authors:         20px;   /* author names under the title */
+  --size-summary:         22px;   /* one-paragraph summary under the top videos */
+  --size-stat:            25px;   /* the four headline numbers */
+  --size-section-heading: 34px;   /* "Method", "Numerical examples", ... */
+  --size-section-intro:   19.5px; /* paragraph right under each section heading */
+  --size-subheading:      21px;   /* step titles, video-player titles */
+  --size-caption:         15.5px; /* figure and video captions */
+  --size-legend:          18px;   /* legends under the videos (same as body text) */
+  --size-table:           16px;   /* results table */
+  --size-small:           14.5px; /* fine print, table caption, footer */
+  --size-nav:             15.5px; /* top navigation links and buttons */
+  --size-label:           13.5px; /* small accent-colored capitals ("ABSTRACT", tagline) */
+
+
+  /* ---------- Colors (palette: "Crimson & steel") ----------------------- */
+  --color-background:     #fbfbfa;  /* page background */
+  --color-background-alt: #f2f2f0;  /* every other section (Examples, Ablations) */
+  --color-card:           #ffffff;  /* figures, tables, video frames */
+  --color-text:           #16181d;  /* headings and strong text */
+  --color-text-soft:      #3b3f47;  /* body paragraphs */
+  --color-text-muted:     #6b7079;  /* captions and notes */
+  --color-line:           #e5e5e2;  /* thin dividers and borders */
+  --color-line-strong:    #cfcfcb;  /* slightly darker dividers */
+  --color-accent:         #b3242b;  /* highlight color: active tab, best results, tagline */
+  --color-accent-soft:    #f8e2e3;
+  --color-link:           #1f5f8b;  /* links and "Atlas-DeePC" labels */
+  --color-link-soft:      #e1edf6;  /* background of the "Offline/Online" step tags */
+  --color-teal:           #2f7f86;
+
+
+  /* ---------- Layout -------------------------------------------------- */
+  --page-width:       1120px;  /* maximum width of the page content */
+  --text-width:        820px;  /* abstract and citation column */
+  --margin-col:        225px;  /* left margin column: section numbers and "See" reference notes */
+  --hero-video-width: 1064px;  /* the two videos at the top */
+  --section-spacing:    88px;  /* space above and below each section */
+  --corner-radius:      10px;  /* roundness of cards, figures and video frames */
+}
