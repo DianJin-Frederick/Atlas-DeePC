@@ -1,106 +1,183 @@
-# Atlas-DeePC: Reacher and F1TENTH
+# Atlas-DeePC: Learning Behavioral Atlases for Predictive Control
 
-Research code for Atlas-DeePC. Run commands from this repository's root
-(the local `atlas_deepc/code/` directory). The website is maintained separately
-and is not included in this code-only repository.
+**Dian Jin, Zhiyuan Jin, Jeremy Coulson**
 
-## Start Here
+<!-- TODO: replace WEBSITE_URL with the project page address once it is live,
+     and add the paper link (e.g. arXiv) when available. -->
+[**Project page**](https://WEBSITE_URL) · Paper (coming soon)
 
-- [Current notebook index](notebooks/README.md)
-- [Main Reacher baseline](notebooks/reacher/baselines/baseline_graph_routed_atlas_deepc.ipynb)
-- [Reacher comparisons and ablations](notebooks/reacher/README.md)
-- [F1TENTH paper notebook](notebooks/f1tenth/baselines/baseline_f1tenth_atlas_deepc.ipynb)
-- [F1TENTH reproduction protocol](docs/f1tenth/README.md)
-- [Implementation map](src/README.md)
+<p align="center">
+  <img src="docs/figures/atlas_deepc_diagram.svg" alt="Atlas-DeePC overview. Offline: cluster the data, take an SVD of each cluster, and collect the subspaces into an atlas. Online, at every step: select a chart from the recent trajectory, apply the local DeePC policy, and feed the measured trajectory back." width="820">
+</p>
 
-## Project Layout
+Data-enabled Predictive Control (DeePC) predicts with linear combinations of
+recorded input-output trajectories. For nonlinear systems, a single subspace of
+trajectories is only locally accurate, and the optimization grows with the
+dataset. **Atlas-DeePC** clusters the offline trajectories and fits a
+low-dimensional subspace, a *behavioral chart*, to each cluster. Online, it
+selects the chart that best explains the most recent measurements and solves a
+DeePC problem whose size depends on the chart rank, not on the dataset size. A
+graph over the charts supplies intermediate references when the target lies in
+a different operating region.
 
-| Folder | Purpose |
+This repository contains the controller, the two benchmarks from the paper
+(a MuJoCo two-link **Reacher** and **F1TENTH** autonomous racing), the
+comparison methods, and the notebooks that produce the paper's results.
+
+## Results at a glance
+
+Reacher, 500 test simulations (seeds 10001–10500), output dimension p = 8:
+
+| Method | Success rate | Median computation per step |
+|---|---|---|
+| Atlas-DeePC, no guidance (K = 64, d = 53) | 90.0% | 20 ms |
+| Atlas-DeePC, graph guidance (K = 96, d = 57) | 94.2% | 20 ms |
+| Select-DPC | 83.0% | 1331 ms |
+| Contextual-DPC | 84.0% | 80 ms |
+
+With the orientation of the second link added to the output (p = 10, K = 64,
+d = 62, graph guidance), the success rate is 98.8%. Timings are on an Apple M1
+Pro CPU. See the paper for error percentiles, the F1TENTH results, and the
+ablations.
+
+## Repository layout
+
+| Folder | Contents |
 |---|---|
-| `notebooks/` | Current baselines, comparisons, ablations, and illustrations |
-| `src/atlas_deepc/` | Atlas-DeePC controllers, task utilities, and experiment runners |
-| `src/comparison_methods/` | Contextual-DPC, faithful KDE-BDPC, and external Select-DPC adapters |
-| `data/` | Original offline datasets and F1TENTH map assets |
-| `configs/` | Explicit settings and dependency locks |
-| `third_party/` | Licensed simulator dependencies |
-| `experiments/` | Retained results, protocols, source snapshots, and figures |
-| `docs/` | Current reproduction documentation |
-| `scripts/` | Setup, maintenance, and report utilities |
+| `src/atlas_deepc/` | Atlas-DeePC: atlas construction, chart selection, graph guidance, controller, task utilities, experiment runners ([code map](src/README.md)) |
+| `src/comparison_methods/` | Contextual-DPC, KDE-BDPC and adapters for the external Select-DPC code |
+| `notebooks/` | Paper experiments, comparisons and ablations ([index](notebooks/README.md)) |
+| `data/` | Offline datasets: Reacher Hankel data and F1TENTH data at each noise level, plus the track map |
+| `scripts/` | Command-line runners (F1TENTH paper runs, Select-DPC setup) and maintenance tools |
+| `configs/` | Frozen tuning records and dependency locks |
+| `docs/` | Reproduction protocols ([F1TENTH](docs/f1tenth/README.md)) |
+| `third_party/` | F1TENTH simulator (MIT license) |
+| `experiments/` | Result folders written by the runners (saved results are not included; see below) |
 
-## Running Notebooks
+## Installation
 
-Use the scientific Python environment specified by each notebook. Notebooks
-locate `src/` from the project root. Review run/render switches before using
-Run All; enable them deliberately to launch experiments.
-
-The Reacher baseline uses projection-residual chart selection, chordal graph
-costs for guided cases, Clarabel, and a tracking/input/history-slack objective.
-Its mixed-K evaluation settings are documented in the [Reacher index](notebooks/reacher/README.md).
-The [F1TENTH protocol](docs/f1tenth/README.md) documents noise, tuning, and evaluation.
-
-Source/data/protocol hashes protect saved runs. Changed implementations must
-use a fresh result directory, not overwrite the provenance of earlier runs.
-
-## Experiment Storage
-
-Many saved arrays, videos, JSON summaries, and protocol files in `experiments/`
-are local links to `/Volumes/Crucial X10/atlas_deepc_data/`, through
-`.external_experiment_data`. Connect that drive before reading linked results.
-Original offline inputs and current notebooks/code remain on the computer.
-New outputs are local unless their runner explicitly uses the SSD.
-
-The local historical archive and obsolete cleanup/migration records have been
-removed. This does not delete SSD targets or change retained experiment results.
-Historical source snapshots inside retained experiment directories remain
-part of those experiments' provenance. Keep a separate backup of important data.
-
-## Optional Select-DPC Comparison
-
-Select-DPC is an optional external dependency, not part of the Atlas-DeePC
-controller. The setup script downloads the authors' source at commit
-`8afa3b36ca47570400b0b8ff82328ab25ee3fdee` from
-[choose-wisely-paper](https://github.com/naefjo/choose-wisely-paper), retaining
-its license, and creates a separate Python environment outside this project.
-No experiment is launched by setup.
-
-From the repository root, using Python 3.10 and Git:
+The code was developed and tested with Python 3.10 on macOS (Apple Silicon).
 
 ```sh
-python3.10 scripts/setup_select_dpc.py
-python3.10 scripts/setup_select_dpc.py --check
-python3.10 scripts/run_select_dpc.py --help
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-control-parameter.txt   # core: NumPy, CVXPY, Clarabel, MuJoCo/Gymnasium, scikit-learn, Jupyter
+pip install -r requirements-f1tenth.txt             # only for the F1TENTH example
 ```
 
-The default location is `~/.local/share/atlas-deepc/select-dpc/`: `source/`
-contains the pinned upstream checkout and `venv/` contains isolated dependencies.
-To choose another location, set `ATLAS_DEEPC_SELECT_DPC_HOME` before setup and
-before starting your notebook kernel. Do not move an existing virtual environment;
-create it at the final location. This reduces the project/download size, but an
-environment on the internal drive still consumes internal storage.
+The F1TENTH simulator is vendored in `third_party/f1tenth_gym` and found
+automatically. Notebooks add `src/` to the import path; for scripts, run from
+the repository root with `PYTHONPATH=src`.
 
-Use [the original-data comparison](notebooks/reacher/comparisons/select_dpc_original.ipynb)
-or [the Atlas-data comparison](notebooks/reacher/comparisons/select_dpc_our_data_development.ipynb).
-Both default to `RUN_EXPERIMENT = False`. Reading saved reports requires only
-the notebook's usual NumPy/pandas/Matplotlib environment and the saved files,
-not Select-DPC or PyTorch. Detailed trace cells still need the experiment SSD.
-For a new run, select a fresh `RESULT_DIR`, enable `RUN_EXPERIMENT`, and choose
-the batch size. Existing result directories retain their frozen source hashes;
-the adapter path change does not authorize mixing new runs into old protocols.
+## Getting started
 
-The command-line equivalent is `python3.10 scripts/run_select_dpc.py` with the
-runner's seed, step, and output-directory arguments. Add `--our-data` for the
-Atlas-data adapter. Neither launcher imports Select-DPC into the Atlas controller.
+Run everything from the repository root.
 
-`configs/select_dpc_macos_arm64_py310.lock` pins the complete dependency closure
-for the validated Apple Silicon/Python 3.10 environment. Other Unix platforms
-use `requirements-select-dpc.txt` (pinned direct dependencies) and require their
-own validation. Setup records resolved package artifacts in the external
-`pip-install-report.json`. Matching versions do not guarantee identical timings
-on different hardware. Upstream tracked-source edits are rejected; our solver
-and logging adaptations remain visible in the comparison adapters.
+**Reacher.** Open the
+[main Reacher notebook](notebooks/reacher/baselines/baseline_graph_routed_atlas_deepc.ipynb).
+It builds the atlas from `data/reacher/select_iid_offline_hankel.npy` and
+evaluates the four paper configurations (p = 8 or 10, with or without graph
+guidance). Each notebook has run switches at the top; they default to reading
+saved results, so enable them before using Run All to launch new rollouts.
 
-## Retained Data
+**F1TENTH.** Open the
+[F1TENTH notebook](notebooks/f1tenth/baselines/baseline_f1tenth_atlas_deepc.ipynb),
+or rerun the frozen paper configurations from the command line:
 
-The Reacher input is `data/reacher/select_iid_offline_hankel.npy`.
-Consult current notebooks for result paths and the [experiment inventory](experiments/README.md).
-Saved results are not necessarily included with a code-only download.
+```sh
+PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+  python scripts/run_f1tenth_paper.py --output experiments/f1tenth/paper_nsr_rerun
+```
+
+The [F1TENTH protocol](docs/f1tenth/README.md) documents the noise model,
+tuning, success criterion and timing.
+
+**Comparisons and ablations.** The [notebook index](notebooks/README.md) lists
+the Contextual-DPC, KDE-BDPC and Select-DPC comparisons, the chart-count and
+rank ablation, and the graph-guidance study.
+
+## Reproducing the paper results
+
+- **Included:** the offline datasets in `data/`, all controller and runner code,
+  and the notebooks.
+- **Not included:** saved rollouts, videos and summaries under `experiments/`.
+  They are large and are regenerated by the runners. Cells that only read saved
+  results will report missing files until the corresponding experiment has been
+  run.
+  <!-- TODO: if results are archived (e.g. Zenodo), link them here. -->
+- Each runner writes to its own result folder and records hashes of the source,
+  data and protocol. Use a fresh folder for new runs; a folder created with
+  different code or settings is rejected rather than mixed.
+- Keep timing runs serial (one experiment at a time) to reproduce the reported
+  computation times; absolute times depend on the hardware.
+
+## Optional: Select-DPC comparison
+
+Select-DPC is an external method, not part of Atlas-DeePC. The setup script
+downloads the authors' code from
+[choose-wisely-paper](https://github.com/naefjo/choose-wisely-paper) at commit
+`8afa3b36ca47570400b0b8ff82328ab25ee3fdee` (keeping its license) into a
+separate virtual environment. Setup does not launch any experiment.
+
+```sh
+python3.10 scripts/setup_select_dpc.py           # install
+python3.10 scripts/setup_select_dpc.py --check   # verify
+python3.10 scripts/run_select_dpc.py --help      # seeds, steps, output folder; add --our-data for the Atlas dataset
+```
+
+The default location is `~/.local/share/atlas-deepc/select-dpc/`; set
+`ATLAS_DEEPC_SELECT_DPC_HOME` before setup (and before starting a notebook
+kernel) to use another one. Create the environment at its final location rather
+than moving it.
+
+The comparison notebooks are
+[Select-DPC with the original data](notebooks/reacher/comparisons/select_dpc_original.ipynb)
+and [Select-DPC with the Atlas data](notebooks/reacher/comparisons/select_dpc_our_data_development.ipynb).
+Both default to `RUN_EXPERIMENT = False`; reading saved reports needs only the
+usual NumPy/pandas/Matplotlib environment. For a new run, choose a fresh
+`RESULT_DIR`, enable `RUN_EXPERIMENT` and set the batch size.
+
+`configs/select_dpc_macos_arm64_py310.lock` pins the full dependency set for the
+validated Apple Silicon / Python 3.10 environment; other platforms use
+`requirements-select-dpc.txt` and need their own validation. Our solver and
+logging changes live in the comparison adapters; the upstream source is not
+edited.
+
+## License
+
+<!-- TODO: add a LICENSE file for this repository (e.g. MIT or BSD-3-Clause) and name it here. -->
+The vendored F1TENTH simulator in `third_party/f1tenth_gym` is under the MIT
+license (see its `LICENSE`). Select-DPC, when installed, keeps its authors'
+license.
+
+## Citation
+
+```bibtex
+@article{jin2026atlasdeepc,
+  title  = {Atlas-DeePC: Learning Behavioral Atlases for Predictive Control},
+  author = {Jin, Dian and Jin, Zhiyuan and Coulson, Jeremy},
+  year   = {2026}
+}
+```
+
+<details>
+<summary>Notes for the authors' local setup</summary>
+
+On the authors' machine, many saved arrays, videos, JSON summaries and protocol
+files in `experiments/` are links to an external drive
+(`/Volumes/Crucial X10/atlas_deepc_data/`) through `.external_experiment_data`
+(ignored by Git). Connect that drive before reading linked results. Original
+offline inputs and the notebooks/code stay on the computer, and new outputs are
+written locally unless a runner explicitly uses the drive.
+
+The local historical archive and obsolete cleanup/migration records have been
+removed; this did not delete targets on the drive or change retained results.
+Historical source snapshots inside retained experiment folders remain part of
+those experiments' provenance. Keep a separate backup of important data.
+
+Source/data/protocol hashes protect saved runs. Changed implementations must use
+a fresh result directory and must not overwrite the provenance of earlier runs.
+Existing Select-DPC result directories keep their frozen source hashes; moving
+the adapter does not permit mixing new runs into old protocols. Setup records
+resolved package artifacts in the external `pip-install-report.json`.
+</details>
