@@ -4,6 +4,14 @@ The paper table compares one tuned Atlas-DeePC configuration with Contextual-DPC
 
 [Paper table](../../experiments/f1tenth/paper_nsr_20261027/report.md) · [LaTeX table](../../experiments/f1tenth/paper_nsr_20261027/table.tex) · [Notebook](../../notebooks/f1tenth/baselines/baseline_f1tenth_atlas_deepc.ipynb)
 
+## Applied-input update
+
+Current code supplies **applied inputs** to both Atlas-DeePC and Contextual-DPC histories and offline libraries. Acceleration is the RK4-weighted applied derivative, averaged over the ten internal 0.01 s steps; steering is the held angle. The simulator's limiting is state dependent, so using only the limiter value at the start of the interval would be insufficient. This uses simulator actuator telemetry, not noisy output differencing. The interval average gives the exact speed increment, but holding that average need not reproduce every nonlinear lateral state transition.
+
+`U` / `U_applied` and `input_history` contain applied inputs. `U_commanded`, `command_history`, `warmup_commanded_inputs`, and internal applied samples are saved separately. Collision replay always uses commands to reproduce the original plant trajectory. The physical simulator, speed limit, objective and chart-selection rule are unchanged.
+
+The new clean dataset is `offline_300_seconds_applied_v1.npz`; noisy versions also contain `applied_v1` in their names. They retain the original states/outputs and reconstruct applied inputs by exact command replay. The original offline data and historical results are preserved. **The retained paper table and earlier successful longer-history example used commanded inputs and have not been recomputed under this convention.** Current reproduction commands evaluate the frozen configurations with applied inputs and save a separate table.
+
 ## Noise and shared data
 
 For outputs x, y, speed and yaw, `y_meas,j = y_true,j + sigma * s_j * epsilon_j`, with independent standard-normal epsilon. The fixed clean-offline channel standard deviations are approximately (15.2318 m, 16.1983 m, 1.63264 m/s, 1.59418 rad).
@@ -38,12 +46,12 @@ Independent validation reconstructs offline and online noise, verifies clusterin
 
 ## Reproduction
 
-To run only the frozen paper configurations into a fresh folder:
+To evaluate the frozen paper configurations with applied inputs in a fresh folder:
 
 ```bash
 PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
   python scripts/run_f1tenth_paper.py \
-  --output experiments/f1tenth/paper_nsr_rerun
+  --output experiments/f1tenth/paper_applied_input_rerun
 ```
 
-The notebook reads the retained table by default. Set `RUN_ALL_EXPERIMENTS=True` to reproduce the 560 paper rollouts in its designated rerun folder. Reusing a folder with a different protocol is rejected. Reacher code and results are outside this cleanup.
+The notebook reads the retained table by default. Set `RUN_ALL_EXPERIMENTS=True` to reevaluate the 560 paper settings with applied inputs in its designated rerun folder. Reusing a folder with a different protocol is rejected. Reacher code and results are outside this cleanup.

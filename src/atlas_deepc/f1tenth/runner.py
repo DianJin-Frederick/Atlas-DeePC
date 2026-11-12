@@ -48,6 +48,7 @@ def fingerprint(noise_sigma=DEFAULT_NOISE_SIGMA):
 def protocol(seeds, methods, selection_method=SELECTION_METHOD,noise_sigma=DEFAULT_NOISE_SIGMA):
     model=task.noise_model(noise_sigma)
     result=dict(seeds=list(seeds), methods=list(methods), configurations={m: asdict(CONFIGS[m]) for m in methods},
+        input_history_convention=task.INPUT_HISTORY_CONVENTION,
         t_ini=TI, t_f=TF, dt=DT, Q_physical=Q_PHYSICAL.tolist(), R_physical=R_PHYSICAL.tolist(),
         chart_selection_method=SELECTION_METHOD,selection_window=TI+TF,warmup_steps=WARMUP_STEPS,
         warmup='Shared 1.5 m lookahead reference follower for L observed history pairs only; identical noisy measurements/actions for each seed across methods. Excluded from controller metrics; included in collision replay. No fallback after handoff.',
@@ -56,7 +57,7 @@ def protocol(seeds, methods, selection_method=SELECTION_METHOD,noise_sigma=DEFAU
         offline_data_file=str(noisy_data_file(noise_sigma).relative_to(ROOT)),
         reference='Official unscaled varying-speed Sao Paulo raceline; example_waypoints.csv.',
         data='Local contextual-DPC reconstruction: 300 s, 20 random-excitation episodes. Output measurements receive the online Gaussian noise model before alignment, clustering and window extraction; both methods share the same noisy observations. Not the authors recorded dataset.',
-        offline_measurement_noise=dict(seed=OFFLINE_NOISE_SEED,std=model['std'],distribution='independent zero-mean Gaussian',application='Once per original sample in global coordinates, before alignment and clustering; overlapping windows reuse the same noisy sample; inputs unchanged'),
+        offline_measurement_noise=dict(seed=OFFLINE_NOISE_SEED,std=model['std'],distribution='independent zero-mean Gaussian',application='Once per original sample in global coordinates, before alignment and clustering; overlapping windows reuse the same noisy sample; applied inputs shared offline and online; commands saved separately'),
         online_measurement_noise=dict(std=model['std'],distribution='independent zero-mean Gaussian'),
         atlas='K and rank from configurations; shared raw speed clustering and nested uncentered SVD bases within each K. Fixed lambda_ini=100 and physical Q/R; squared tracking/input/history-slack QP, no g regularization or coefficient constraints. No K/rank-specific retuning.',
         contextual='Selected column count from configurations; fixed effective lambda_g=10, lambda_sigma=1, literal unsquared g norm, L1 augmented-output history slack, affine constraint, input-difference penalty and standardized coordinates; local reconstruction. No count-specific retuning.',
@@ -78,6 +79,8 @@ def load_run(directory, method, seed):
         raise ValueError(f'Configuration mismatch: {folder}')
     manifest=json.loads((Path(directory)/'protocol.json').read_text())
     selection_method=manifest['chart_selection_method']
+    if summary.get('input_history_convention','commanded') != manifest.get('input_history_convention','commanded'):
+        raise ValueError(f'Input history convention mismatch: {folder}')
     if 'noise_model' in manifest and (summary.get('noise_sigma')!=manifest['noise_model']['sigma'] or summary.get('measurement_noise_std')!=manifest['noise_model']['std']):
         raise ValueError(f'Noise model mismatch: {folder}')
     if summary.get('warmup_steps')!=WARMUP_STEPS or (method.startswith('atlas') and summary.get('chart_selection_method')!=selection_method):

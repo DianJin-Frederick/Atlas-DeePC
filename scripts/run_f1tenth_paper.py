@@ -1,4 +1,4 @@
-"""Reproduce the frozen NSR comparison without repeating parameter searches."""
+"""Evaluate frozen NSR configurations with the current applied-input pipeline."""
 import argparse
 import json
 from pathlib import Path
@@ -10,7 +10,7 @@ from atlas_deepc.f1tenth.config import NOISE_SIGMAS
 from atlas_deepc.f1tenth.paths import RESULTS_DIR, noise_tag
 
 
-def run_paper(output=RESULTS_DIR/'paper_nsr_rerun',
+def run_paper(output=RESULTS_DIR/'paper_applied_input_rerun',
               selection=RESULTS_DIR/'paper_nsr_20261027'/'selection', seeds=study.TEST):
     output=Path(output);selection=Path(selection);seeds=tuple(seeds)
     if seeds!=study.TEST:
@@ -19,10 +19,10 @@ def run_paper(output=RESULTS_DIR/'paper_nsr_rerun',
     if any(c['sigma']!=s or not c['frozen_before_paper_seeds'] for s,c in choices.items()):
         raise ValueError('Invalid frozen configuration selection.')
     output.mkdir(parents=True,exist_ok=True)
-    plan=dict(sigmas=list(NOISE_SIGMAS),paper_seeds=list(seeds),
+    plan=dict(input_history_convention=task.INPUT_HISTORY_CONVENTION,sigmas=list(NOISE_SIGMAS),paper_seeds=list(seeds),
               selected_methods={noise_tag(s):c['method'] for s,c in choices.items()},
               contextual_columns=[30,60,90],selection_source=str(selection.resolve()),
-              study='Reproduction of frozen configurations; no parameter tuning.')
+              study='New applied-input evaluation of frozen configurations; historical commanded-input results are not reproduced.')
     file=output/'reproduction_protocol.json'
     if file.exists() and study.read(file)!=plan:
         raise ValueError('Output already contains a different reproduction protocol.')
@@ -42,7 +42,7 @@ def run_paper(output=RESULTS_DIR/'paper_nsr_rerun',
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output',type=Path,default=RESULTS_DIR/'paper_nsr_rerun')
+    parser.add_argument('--output',type=Path,default=RESULTS_DIR/'paper_applied_input_rerun')
     parser.add_argument('--selection',type=Path,default=RESULTS_DIR/'paper_nsr_20261027'/'selection')
     args=parser.parse_args()
     run_paper(args.output,args.selection)

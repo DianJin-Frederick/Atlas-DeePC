@@ -8,12 +8,13 @@ NOISE_SWEEP_DIR = RESULTS_DIR / 'noise_ratio_sweep_20261027'
 PAPER_STUDY_DIR = RESULTS_DIR / 'paper_nsr_20261027'
 PAPER_DIR = PAPER_STUDY_DIR / 'sigma_0p01'
 CONTEXTUAL_DIR = PAPER_DIR
-CLEAN_OFFLINE_DATA_FILE = DATA_DIR / 'offline_300_seconds.npz'
+COMMANDED_OFFLINE_DATA_FILE = DATA_DIR / 'offline_300_seconds.npz'
+CLEAN_OFFLINE_DATA_FILE = DATA_DIR / 'offline_300_seconds_applied_v1.npz'
 def noise_tag(sigma):
     return format(float(sigma),'.12g').replace('.','p')
 
 def noisy_data_file(sigma):
-    return DATA_DIR / f'offline_300_seconds_sigma_{noise_tag(sigma)}_seed3408.npz'
+    return DATA_DIR / f'offline_300_seconds_applied_v1_sigma_{noise_tag(sigma)}_seed3408.npz'
 
 OFFLINE_DATA_FILE = noisy_data_file(.01)
 WAYPOINT_FILE = DATA_DIR / 'example_waypoints.csv'

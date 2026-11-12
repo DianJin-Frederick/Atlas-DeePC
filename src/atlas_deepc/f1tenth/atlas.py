@@ -17,15 +17,16 @@ def build_library(record=None):
     record=task.collect() if record is None else record
     columns=[];features=[];meta=[]
     assert float(record['dt'])==DT
-    # Same 2,700 candidate window starts as contextual (sample zero omitted).
+    # Same candidate-window convention as contextual: sample zero omitted.
     for e,(y,u) in enumerate(zip(record['Y'],record['U'])):
         for start in range(1,len(y)-TI-TF+1):
-            aligned=task.frame(y[start:start+TI+TF],y[start+TI-1,[0,1,3]])
+            aligned=task.frame(y[start:start+TI+TF],y[start+TI-1,[0,1,3]],anchor_index=TI-1)
             columns.append(np.r_[u[start:start+TI+TF].ravel(),aligned.ravel()])
             features.append([aligned[TI-1,2]])
             meta.append([e,start])
     H=np.array(columns).T;features=np.array(features);meta=np.array(meta)
-    assert H.shape==(90,2700)
+    expected_columns = sum(max(0, len(y)-TI-TF) for y in record['Y'])
+    assert H.shape==((M+P)*(TI+TF), expected_columns)
     return H,features,meta
 
 
@@ -77,7 +78,7 @@ class Atlas:
     def action(self,uh,yh,ref,_):
         started=perf_counter()
         cfg=self.cfg;pose=yh[-1,[0,1,3]]
-        y=task.frame(yh[-TI:],pose).ravel();u=uh[-TI:].ravel()
+        y=task.frame(yh[-TI:],pose,anchor_index=TI-1).ravel();u=uh[-TI:].ravel()
         target=task.frame(ref,pose).ravel()
         # Use only observed history, with the SAME coordinate convention as
         # each offline L-window (anchor at its TI-th output, not its last).
@@ -86,7 +87,7 @@ class Atlas:
         if len(history)!=length or len(uh)<length:
             raise ValueError('Projection selection requires L observed input/output pairs.' if length==TI+TF
                              else 'Projection selection requires T_ini observed input/output pairs.')
-        aligned=task.frame(history,history[TI-1,[0,1,3]])
+        aligned=task.frame(history,history[TI-1,[0,1,3]],anchor_index=TI-1)
         window=self.selector.pack_history(uh[-length:],aligned)
         chart=self.selector.select(window)
         self.selection_window=window

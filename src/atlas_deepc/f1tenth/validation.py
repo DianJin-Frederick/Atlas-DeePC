@@ -24,7 +24,9 @@ def validate(directory=PAPER_DIR):
     geometry={};checked=0;decisions=0;worst=0.;paired=0
     noisy_record=None
     if 'noise_model' in protocol:
-        model=protocol['noise_model'];clean=task.collect_clean()
+        model=protocol['noise_model']
+        clean=(task.collect_clean() if protocol.get('input_history_convention')==task.INPUT_HISTORY_CONVENTION
+               else task.collect_commanded_clean())
         noisy_record=dict(np.load(ROOT/protocol['offline_data_file']))
         scale=clean['Y'].reshape(-1,4).std(axis=0)
         np.testing.assert_array_equal(scale,model['signal_scale'])
@@ -42,6 +44,14 @@ def validate(directory=PAPER_DIR):
                 replay=json.loads((folder/'collision_replay.json').read_text())
                 worst=max(worst,replay['maximum_state_mismatch'])
                 with np.load(folder/'rollout.npz') as trace:
+                    if protocol.get('input_history_convention')==task.INPUT_HISTORY_CONVENTION:
+                        applied=np.vstack((trace['warmup_inputs'],trace['U'].reshape(-1,2)))
+                        states=np.vstack((trace['warmup_states'],trace['X'].reshape(-1,7)))
+                        np.testing.assert_array_equal(trace['input_history'][1:],applied)
+                        np.testing.assert_array_equal(trace['U'],trace['U_applied'])
+                        np.testing.assert_allclose(np.diff(np.r_[states[:,3],trace['final_state'][3]]),
+                                                   protocol['dt']*applied[:,0],rtol=0,atol=1e-12)
+                        assert 'U_commanded' in trace and 'warmup_commanded_inputs' in trace
                     if noisy_record is not None:
                         rng=np.random.default_rng(seed);rng.normal(0,.05,2);rng.normal(0,np.deg2rad(.6))
                         history=trace['measured_history']
@@ -74,7 +84,7 @@ def validate(directory=PAPER_DIR):
                         for i,w in enumerate(windows):
                             start=i+WARMUP_STEPS-length
                             y=history[start:start+length]
-                            expected=np.r_[inputs[start+1:start+1+length].ravel(),task.frame(y,y[TI-1,[0,1,3]]).ravel()]
+                            expected=np.r_[inputs[start+1:start+1+length].ravel(),task.frame(y,y[TI-1,[0,1,3]],**({'anchor_index':TI-1} if protocol.get('input_history_convention')==task.INPUT_HISTORY_CONVENTION else {})).ravel()]
                             np.testing.assert_array_equal(w,expected)
                         independent=[]
                         for b in bases:

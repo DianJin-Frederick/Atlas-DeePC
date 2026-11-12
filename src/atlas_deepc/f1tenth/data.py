@@ -21,7 +21,7 @@ def dynamics_derivative(state, action):
     )
 
 
-def rk4_step(state: np.ndarray, action: np.ndarray, dt: float):
+def rk4_step(state: np.ndarray, action: np.ndarray, dt: float, *, return_applied=False):
     action = np.clip(np.asarray(action, dtype=float), [-2.0, -3.0], [2.0, 3.0])
     k1 = dynamics_derivative(state, action)
     k2 = dynamics_derivative(state + 0.5 * dt * k1, action)
@@ -29,6 +29,9 @@ def rk4_step(state: np.ndarray, action: np.ndarray, dt: float):
     k4 = dynamics_derivative(state + dt * k3, action)
     nxt = state + dt * (k1 + 2 * k2 + 2 * k3 + k4) / 6.0
     nxt[4] = float(wrap_angle(nxt[4]))
+    if return_applied:
+        # Actual derivative after limiter evaluation at all four RK4 stages.
+        return nxt, float((k1[3] + 2*k2[3] + 2*k3[3] + k4[3]) / 6.0)
     return nxt
 
 

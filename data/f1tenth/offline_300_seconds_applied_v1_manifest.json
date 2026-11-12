@@ -1,0 +1,13 @@
+{
+  "signature": {
+    "input_history_convention": "applied_rk4_average_v1",
+    "source_sha256": "c230b93e913cebf203cb98ee836258e61eab180746ce8218f9f51ba803e98146",
+    "integrator_sha256": "5fdadc058aa8d72817e11e6086d00e3c188036a1a53b622ad91448e2329889ab",
+    "dynamics_sha256": "e9bebc447179163c11d536228c29a5cc155b6d9916f06e5ad2358259d03af6f6"
+  },
+  "sha256": "28679b650a7e566e41b00bf8848059edc4625f1443a6e92a412ae68c0152c5b5",
+  "maximum_state_mismatch": 0.0,
+  "changed_acceleration_samples": 80,
+  "samples": 3000,
+  "description": "Applied acceleration is RK4-weighted at each .01 s substep, averaged over .1 s; steering is the actual held angle. Clean outputs and states unchanged."
+}

@@ -13,7 +13,10 @@ def verify(directory):
     trace=dict(np.load(directory/'rollout.npz'))
     warmup=len(trace['warmup_states'])
     states=np.concatenate([trace['warmup_states'],trace['X'].reshape(-1,7)])
-    commands=np.concatenate([trace['warmup_inputs'],trace['U'].reshape(-1,2)])
+    # New histories store applied inputs, but exact plant replay needs commands.
+    warmup_commands=trace.get('warmup_commanded_inputs',trace['warmup_inputs'])
+    control_commands=trace.get('U_commanded',trace['U'])
+    commands=np.concatenate([warmup_commands,control_commands.reshape(-1,2)])
     if not len(states):
         result=dict(verified=False,collision_free=False,reason='empty rollout',maximum_state_mismatch=0.)
         r.write(directory/'collision_replay.json',result)
