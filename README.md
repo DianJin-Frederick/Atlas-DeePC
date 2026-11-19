@@ -2,7 +2,7 @@
 
 **Dian Jin, Zhiyuan Jin, Jeremy Coulson**
 
-[**Project page**](https://dianjin-frederick.github.io/Atlas-DeePC/) · [**Paper**](https://dianjin-frederick.github.io/Atlas-DeePC/paper/AtlasDeePC_manuscript.pdf)
+[**Project page**](https://dianjin-frederick.github.io/Atlas-DeePC/) · [**Paper (arXiv)**](https://arxiv.org/abs/2611.18266)
 
 <p align="center">
   <img src="docs/figures/atlas_deepc_diagram.svg" alt="Atlas-DeePC overview. Offline: cluster the data, take an SVD of each cluster, and collect the subspaces into an atlas. Online, at every step: select a chart from the recent trajectory, apply the local DeePC policy, and feed the measured trajectory back." width="820">
@@ -150,11 +150,17 @@ license.
 
 ## Citation
 
+If you use Atlas-DeePC in your research, please cite our [arXiv preprint](https://arxiv.org/abs/2611.18266):
+
 ```bibtex
-@article{jin2026atlasdeepc,
-  title  = {Atlas-DeePC: Learning Behavioral Atlases for Predictive Control},
-  author = {Jin, Dian and Jin, Zhiyuan and Coulson, Jeremy},
-  year   = {2026}
+@misc{jin2026atlasdeepc,
+  title         = {Atlas-DeePC: Learning Behavioral Atlases for Predictive Control},
+  author        = {Jin, Dian and Jin, Zhiyuan and Coulson, Jeremy},
+  year          = {2026},
+  eprint        = {2611.18266},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.OC},
+  url           = {https://arxiv.org/abs/2611.18266}
 }
 ```
 
